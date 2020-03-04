@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ng-i18n-date-interval": [
+        "dist/ng-i18n-date-interval/ng-i18n-date-interval",
+        "dist/ng-i18n-date-interval"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
