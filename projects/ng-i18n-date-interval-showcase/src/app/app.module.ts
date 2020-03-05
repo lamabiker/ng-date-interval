@@ -6,14 +6,9 @@ import { DateIntervalPipe } from '../../../ng-i18n-date-interval/src/lib/date-in
 import { AppComponent } from './app.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    DateIntervalPipe
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, DateIntervalPipe],
+  imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

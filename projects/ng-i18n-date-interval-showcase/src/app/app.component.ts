@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-i18n-date-interval-showcase';
+  dates = new Date();
 }
