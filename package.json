@@ -9,7 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "format:check": "prettier --list-different 'projects/**/*.ts'",
-    "format:write": "prettier --write 'projects/**/*.ts'"
+    "format:write": "prettier --write 'projects/**/*.ts'",
+    "test:lib-coverage": "ng test ng-i18n-date-interval --code-coverage --watch=false",
+    "report-coverage:lib": "cat ./coverage/ng-i18n-date-interval/lcov.info | codecov"
   },
   "husky": {
     "hooks": {
@@ -45,6 +47,7 @@
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
+    "codecov": "^3.6.5",
     "codelyzer": "^5.1.2",
     "husky": "^4.2.3",
     "jasmine-core": "~3.5.0",
