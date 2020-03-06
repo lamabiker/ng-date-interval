@@ -1,0 +1,5 @@
+{
+  "default": "Du {startDate} au {endDate}",
+  "forward": "Depuis {startDate}",
+  "backward": "Jusqu'au {endDate}"
+}

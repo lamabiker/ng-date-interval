@@ -1,5 +1,6 @@
 import { Pipe, PipeTransform, LOCALE_ID, Inject } from '@angular/core';
 import { formatDate } from '@angular/common';
+import sentences from '../langs';
 
 type inputDates = Array<string | Date> | string | Date;
 
@@ -15,9 +16,11 @@ export class DateIntervalPipe implements PipeTransform {
   transform(
     input: inputDates,
     format: string = 'mediumDate',
-    singleDateOutlook?: 'backward' | 'forward',
+    singleDateOutlook: 'backward' | 'forward' = 'forward',
     locale: string = this.locale
   ): string {
+    if (Array.isArray(input) && input.length !== 2) input = input[0];
+
     this.input = input;
     this.singleDateOutlook = singleDateOutlook;
 
@@ -30,13 +33,18 @@ export class DateIntervalPipe implements PipeTransform {
 
     let [startDate, endDate] = dateArr.map(item => (item ? formatDate(item, format, locale) : null));
 
-    let sentences = {
-      default: `From ${startDate} to ${endDate}`,
-      forward: `Since ${startDate}`,
-      backward: `Until ${endDate}`
-    };
+    let sentence = sentences[locale.substring(0, 2)][this.sentence];
 
-    return sentences[this.sentence];
+    return this.interpolate(sentence, { startDate, endDate });
+  }
+
+  private interpolate(str: string, args: { [key: string]: string }): string {
+    for (let arg in args) {
+      let regEx = new RegExp(`\{${arg}\}`, 'g');
+      str = str.replace(regEx, args[arg]);
+    }
+
+    return str;
   }
 
   private get sentence(): 'default' | 'forward' | 'backward' {

@@ -23,7 +23,9 @@
         "dist/ng-i18n-date-interval/ng-i18n-date-interval",
         "dist/ng-i18n-date-interval"
       ]
-    }
+    },
+    "resolveJsonModule": true,
+    "esModuleInterop": true
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
