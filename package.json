@@ -1,17 +1,22 @@
 {
   "name": "ng-i18n-date-interval",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "npm run build:lib && npm run build:demo",
+    "copy:readme": "copyfiles ./README.md ./dist/ng-i18n-date-interval",
+    "build:lib": "npm run copy:readme && ng build ng-i18n-date-interval",
+    "build:showcase": "ng build ng-i18n-date-interval-showcase --base-href='https://lamabiker.github.io/ng-i18n-date-interval/'",
+    "publish:demo": "npx angular-cli-ghpages --dir=./dist/ng-i18n-date-interval",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "format:check": "prettier --list-different 'projects/**/*.ts'",
     "format:write": "prettier --write 'projects/**/*.ts'",
     "test:lib-coverage": "ng test ng-i18n-date-interval --code-coverage --watch=false",
-    "report-coverage:lib": "cat ./coverage/ng-i18n-date-interval/lcov.info | codecov"
+    "report-coverage:lib": "cat ./coverage/ng-i18n-date-interval/lcov.info | codecov",
+    "semantic-release": "semantic-release"
   },
   "husky": {
     "hooks": {
@@ -22,6 +27,11 @@
     "projects/**/*.ts": [
       "prettier --write",
       "git add"
+    ]
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
     ]
   },
   "private": true,
@@ -44,11 +54,15 @@
     "@angular/cli": "~9.0.1",
     "@angular/compiler-cli": "~9.0.0",
     "@angular/language-service": "~9.0.0",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@commitlint/prompt": "^8.3.5",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
     "codecov": "^3.6.5",
     "codelyzer": "^5.1.2",
+    "copyfiles": "^2.2.0",
     "husky": "^4.2.3",
     "jasmine-core": "~3.5.0",
     "jasmine-spec-reporter": "~4.2.1",
@@ -63,6 +77,11 @@
     "protractor": "~5.4.3",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
-    "typescript": "~3.7.5"
+    "typescript": "~3.7.5",
+    "semantic-release": "^17.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lamabiker/ng-i18n-date-interval.git"
   }
 }
