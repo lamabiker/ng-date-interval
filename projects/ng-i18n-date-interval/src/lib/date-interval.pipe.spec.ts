@@ -41,6 +41,6 @@ describe('DateIntervalPipe', () => {
     const dates = [new Date('2019-05-06')];
     const format = 'mediumDate';
     const result = sut.transform(dates, format, 'backward', 'fr-FR');
-    expect(result).toEqual("Jusqu'au 6 mai 2019");
+    expect(result).toEqual(`Jusqu'au 6 mai 2019`);
   });
 });
