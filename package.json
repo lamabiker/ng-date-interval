@@ -20,8 +20,7 @@
     "semantic-release": "semantic-release",
     "start": "ng serve",
     "test:lib-coverage": "ng test ng-i18n-date-interval --code-coverage --watch=false",
-    "test": "ng test",
-    "ls": "ls -la dist/"
+    "test": "ng test"
   },
   "husky": {
     "hooks": {
