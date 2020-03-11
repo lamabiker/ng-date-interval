@@ -21,7 +21,7 @@
     "start": "ng serve",
     "test:lib-coverage": "ng test ng-i18n-date-interval --code-coverage --watch=false",
     "test": "ng test",
-    "ls": "ls -la"
+    "ls": "ls -la dist/"
   },
   "husky": {
     "hooks": {

@@ -27,6 +27,7 @@ jobs:
     - npm run ls
     deploy:
       provider: pages
+      cleanup: false
       github_token: $GH_TOKEN
       local-dir: ./dist/ng-i18n-date-interval-showcase
     if: branch = master
