@@ -4,8 +4,7 @@
   "scripts": {
     "adjust-version:lib": "rjp projects/ng-i18n-date-interval/package.json version $VERSION",    
     "adjust-version:main": "rjp package.json version $VERSION",
-    "adjust-version": "npm-run-all adjust-version:*",    
-    "build:demo": "ng build ng-i18n-date-interval-showcase --base-href='https://lamabiker.github.io/ng-i18n-date-interval/'",
+    "adjust-version": "npm-run-all adjust-version:*",
     "build:lib": "npm run copy:readme && ng build ng-i18n-date-interval",
     "build": "npm run build:lib && npm run build:demo",
     "copy:readme": "copyfiles ./README.md ./dist/ng-i18n-date-interval",
@@ -20,8 +19,7 @@
     "semantic-release": "semantic-release",
     "start": "ng serve",
     "test:lib-coverage": "ng test ng-i18n-date-interval --code-coverage --watch=false",
-    "test": "ng test",
-    "ls": "ls -la /home/travis/build/lamabiker/ng-i18n-date-interval"
+    "test": "ng test"
   },
   "husky": {
     "hooks": {
