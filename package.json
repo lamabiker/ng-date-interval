@@ -4,7 +4,7 @@
   "scripts": {
     "adjust-version:lib": "rjp projects/ng-i18n-date-interval/package.json version $VERSION",
     "adjust-version:main": "rjp package.json version $VERSION",
-    "adjust-version": "npm-run-all adjust-version:*",
+    "adjust-version": "npm run adjust-version:main && npm run adjust-version:lib",
     "build:demo": "ng build ng-i18n-date-interval-showcase --base-href='https://lamabiker.github.io/ng-i18n-date-interval/'",
     "build:lib": "npm run copy:readme && ng build ng-i18n-date-interval",
     "build": "npm run build:lib && npm run build:demo",
