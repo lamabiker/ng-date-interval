@@ -1,8 +1,7 @@
 dist: trusty
-sudo: required
 language: node_js
 node_js:
-- "8"
+- "12"
 
 os:
 - linux
@@ -27,7 +26,6 @@ jobs:
     - npm run build:demo
     deploy:
       provider: pages
-      skip_cleanup: true
       github_token: $GH_TOKEN
       local_dir: dist/ng-simple-alert-showcase
     if: branch = master
