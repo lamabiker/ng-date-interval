@@ -21,6 +21,17 @@ jobs:
     script:
     - npm run test:lib-coverage
     - npm run report-coverage:lib
+  - stage: build & publish showcase
+    script:
+    - npm run build:demo
+    - npm run ls
+    deploy:
+      provider: pages
+      skip_cleanup: true
+      github_token: $GH_TOKEN
+      local_dir: dist/ng-i18n-date-interval-showcase
+      on:
+        branch: master
     if: branch = master
   - stage: build & publish lib
     script:
