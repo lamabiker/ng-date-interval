@@ -64,6 +64,7 @@
               "projects/ng-i18n-date-interval-showcase/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/ng-i18n-date-interval-showcase/src/styles.css"
             ],
             "scripts": []
@@ -128,6 +129,7 @@
               "projects/ng-i18n-date-interval-showcase/src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "projects/ng-i18n-date-interval-showcase/src/styles.css"
             ],
             "scripts": []
@@ -159,7 +161,8 @@
           }
         }
       }
-    }},
+    }
+  },
   "cli": {
     "analytics": false
   },

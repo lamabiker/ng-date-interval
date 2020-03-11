@@ -16,7 +16,10 @@
     "format:write": "prettier --write 'projects/**/*.ts'",
     "test:lib-coverage": "ng test ng-i18n-date-interval --code-coverage --watch=false",
     "report-coverage:lib": "cat ./coverage/ng-i18n-date-interval/lcov.info | codecov",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "adjust-version": "npm-run-all adjust-version:*",    
+    "adjust-version:lib": "rjp projects/ng-simple-alert/package.json version $VERSION",    
+    "adjust-version:main": "rjp package.json version $VERSION"
   },
   "husky": {
     "hooks": {
@@ -37,13 +40,16 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "~9.0.0",
+    "@angular/cdk": "^9.1.1",
     "@angular/common": "~9.0.0",
     "@angular/compiler": "~9.0.0",
     "@angular/core": "~9.0.0",
     "@angular/forms": "~9.0.0",
+    "@angular/material": "^9.1.1",
     "@angular/platform-browser": "~9.0.0",
     "@angular/platform-browser-dynamic": "~9.0.0",
     "@angular/router": "~9.0.0",
+    "ngx-highlightjs": "^4.0.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -57,6 +63,7 @@
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
     "@commitlint/prompt": "^8.3.5",
+    "@semantic-release/exec": "^5.0.0",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "^12.11.1",
@@ -75,10 +82,10 @@
     "ng-packagr": "^9.0.0",
     "prettier": "^1.19.1",
     "protractor": "~5.4.3",
+    "semantic-release": "^17.0.4",
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
-    "typescript": "~3.7.5",
-    "semantic-release": "^17.0.4"
+    "typescript": "~3.7.5"
   },
   "repository": {
     "type": "git",
