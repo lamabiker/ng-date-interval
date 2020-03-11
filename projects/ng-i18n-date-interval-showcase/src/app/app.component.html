@@ -1,11 +1,55 @@
-{{dates | dateInterval:'mediumDate':'backward'}}
-<br>
-{{dates | dateInterval}}
-<br>
-{{otherDates | dateInterval}}
-<br>
-{{otherDates | dateInterval:'mediumDate':'forward':'fr-FR'}}
-<br>
-{{dates | dateInterval:'mediumDate':'forward':'ru-RU'}}
-<br>
-{{otherDates | dateInterval:'dd MMMM y':'forward':'ru-RU'}}
+<div class="main-wrapper">
+  <h1><code>dateInterval</code> pipe</h1>
+  <br>
+
+  <mat-card class="example-card">
+    <mat-card-content>
+      With
+      <pre><code [highlight]="demos.dates"></code></pre>
+
+      <br>
+      <mat-divider></mat-divider>
+
+      <br>
+      <pre><code [highlight]="demos.single_options"></code></pre>
+      <div>{{dates.single | dateInterval:'mediumDate':'backward'}}</div>
+
+      <br>
+      <mat-divider></mat-divider>
+
+      <br>
+      <pre><code [highlight]="demos.single"></code></pre>
+      <div>{{dates.single | dateInterval}}</div>
+
+      <br>
+      <mat-divider></mat-divider>
+
+      <br>
+      <pre><code [highlight]="demos.multiple"></code></pre>
+      <div>{{dates.multiple | dateInterval}}</div>
+
+      <br>
+      <mat-divider></mat-divider>
+
+      <br>
+      <pre><code [highlight]="demos.localized.fr_simple"></code></pre>
+      <div>{{dates.multiple | dateInterval:'mediumDate':'forward':'fr-FR'}}</div>
+
+      <br>
+      <mat-divider></mat-divider>
+
+      <br>
+      <pre><code [highlight]="demos.localized.ru_simple"></code></pre>
+      <div>{{dates.multiple | dateInterval:'mediumDate':'forward':'ru-RU'}}</div>
+
+      <br>
+      <mat-divider></mat-divider>
+
+      <br>
+      <pre><code [highlight]="demos.localized.ru_dateFormat"></code></pre>
+      <div>{{dates.multiple | dateInterval:'dd MMMM y':'forward':'ru-RU'}}</div>
+    </mat-card-content>
+  </mat-card>
+
+  <br>
+</div>
