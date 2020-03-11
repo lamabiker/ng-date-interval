@@ -1,5 +1,0 @@
-{
-  "default": "С {startDate} до {endDate}",
-  "forward": "С {startDate}",
-  "backward": "До {endDate}"
-}

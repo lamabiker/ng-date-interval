@@ -1,5 +1,0 @@
-{
-  "default": "From {startDate} to {endDate}",
-  "forward": "Since {startDate}",
-  "backward": "Until {endDate}"
-}
