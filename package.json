@@ -20,7 +20,8 @@
     "semantic-release": "semantic-release",
     "start": "ng serve",
     "test:lib-coverage": "ng test ng-i18n-date-interval --code-coverage --watch=false",
-    "test": "ng test"
+    "test": "ng test",
+    "ls": "ls -la /home/travis/build/lamabiker/ng-i18n-date-interval"
   },
   "husky": {
     "hooks": {

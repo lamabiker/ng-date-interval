@@ -24,11 +24,12 @@ jobs:
   - stage: build & publish showcase
     script:
     - npm run build:demo
+    - npm run ls
     deploy:
       provider: pages
       cleanup: false
       github_token: $GH_TOKEN
-      local-dir: dist
+      local-dir: ng-i18n-date-interval-showcase
     if: branch = master
   - stage: build & publish lib
     script:
