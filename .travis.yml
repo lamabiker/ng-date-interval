@@ -27,7 +27,7 @@ jobs:
     deploy:
       provider: pages
       github_token: $GH_TOKEN
-      local_dir: dist/ng-i18n-date-interval-showcase
+      local-dir: ./dist/ng-i18n-date-interval-showcase
     if: branch = master
   - stage: build & publish lib
     script:
