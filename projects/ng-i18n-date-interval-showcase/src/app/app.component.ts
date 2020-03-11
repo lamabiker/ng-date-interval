@@ -24,11 +24,11 @@ export class AppComponent {
     dates: datesStr,
     single: '{{dates.single | dateInterval}}',
     multiple: '{{dates.multiple | dateInterval}}',
-    single_options: "{{dates.single | dateInterval:'mediumDate':'backward'}}",
+    single_options: `{{dates.single | dateInterval:'mediumDate':'backward'}}`,
     localized: {
-      fr_simple: "{{dates.multiple | dateInterval:'mediumDate':'forward':'fr-FR'}}",
-      ru_simple: "{{dates.multiple | dateInterval:'mediumDate':'forward':'ru-RU'}}",
-      ru_dateFormat: "{{dates.multiple | dateInterval:'dd MMMM y':'forward':'ru-RU'}}"
+      fr_simple: `{{dates.multiple | dateInterval:'mediumDate':'forward':'fr-FR'}}`,
+      ru_simple: `{{dates.multiple | dateInterval:'mediumDate':'forward':'ru-RU'}}`,
+      ru_dateFormat: `{{dates.multiple | dateInterval:'dd MMMM y':'forward':'ru-RU'}}`
     }
   };
 }
