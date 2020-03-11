@@ -14,6 +14,20 @@
   },
 
   /***/
+  "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!../../node_modules/highlight.js/styles/github.css":
+  /*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!/home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/postcss-loader/src??embedded!/home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/styles/github.css ***!
+    \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesAngularDevkitBuildAngularSrcAngularCliFilesPluginsRawCssLoaderJsNode_modulesPostcssLoaderSrcIndexJsNode_modulesHighlightJsStylesGithubCss(module, exports) {
+    module.exports = [[module.i, "/*\n\ngithub.com style (c) Vasily Polovnyov <vast@whiteants.net>\n\n*/\n\n.hljs {\n  display: block;\n  overflow-x: auto;\n  padding: 0.5em;\n  color: #333;\n  background: #f8f8f8;\n}\n\n.hljs-comment,\n.hljs-quote {\n  color: #998;\n  font-style: italic;\n}\n\n.hljs-keyword,\n.hljs-selector-tag,\n.hljs-subst {\n  color: #333;\n  font-weight: bold;\n}\n\n.hljs-number,\n.hljs-literal,\n.hljs-variable,\n.hljs-template-variable,\n.hljs-tag .hljs-attr {\n  color: #008080;\n}\n\n.hljs-string,\n.hljs-doctag {\n  color: #d14;\n}\n\n.hljs-title,\n.hljs-section,\n.hljs-selector-id {\n  color: #900;\n  font-weight: bold;\n}\n\n.hljs-subst {\n  font-weight: normal;\n}\n\n.hljs-type,\n.hljs-class .hljs-title {\n  color: #458;\n  font-weight: bold;\n}\n\n.hljs-tag,\n.hljs-name,\n.hljs-attribute {\n  color: #000080;\n  font-weight: normal;\n}\n\n.hljs-regexp,\n.hljs-link {\n  color: #009926;\n}\n\n.hljs-symbol,\n.hljs-bullet {\n  color: #990073;\n}\n\n.hljs-built_in,\n.hljs-builtin-name {\n  color: #0086b3;\n}\n\n.hljs-meta {\n  color: #999;\n  font-weight: bold;\n}\n\n.hljs-deletion {\n  background: #fdd;\n}\n\n.hljs-addition {\n  background: #dfd;\n}\n\n.hljs-emphasis {\n  font-style: italic;\n}\n\n.hljs-strong {\n  font-weight: bold;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm5vZGVfbW9kdWxlcy9oaWdobGlnaHQuanMvc3R5bGVzL2dpdGh1Yi5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Q0FJQzs7QUFFRDtFQUNFLGNBQWM7RUFDZCxnQkFBZ0I7RUFDaEIsY0FBYztFQUNkLFdBQVc7RUFDWCxtQkFBbUI7QUFDckI7O0FBRUE7O0VBRUUsV0FBVztFQUNYLGtCQUFrQjtBQUNwQjs7QUFFQTs7O0VBR0UsV0FBVztFQUNYLGlCQUFpQjtBQUNuQjs7QUFFQTs7Ozs7RUFLRSxjQUFjO0FBQ2hCOztBQUVBOztFQUVFLFdBQVc7QUFDYjs7QUFFQTs7O0VBR0UsV0FBVztFQUNYLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLG1CQUFtQjtBQUNyQjs7QUFFQTs7RUFFRSxXQUFXO0VBQ1gsaUJBQWlCO0FBQ25COztBQUVBOzs7RUFHRSxjQUFjO0VBQ2QsbUJBQW1CO0FBQ3JCOztBQUVBOztFQUVFLGNBQWM7QUFDaEI7O0FBRUE7O0VBRUUsY0FBYztBQUNoQjs7QUFFQTs7RUFFRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsV0FBVztFQUNYLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQiIsImZpbGUiOiJub2RlX21vZHVsZXMvaGlnaGxpZ2h0LmpzL3N0eWxlcy9naXRodWIuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLypcblxuZ2l0aHViLmNvbSBzdHlsZSAoYykgVmFzaWx5IFBvbG92bnlvdiA8dmFzdEB3aGl0ZWFudHMubmV0PlxuXG4qL1xuXG4uaGxqcyB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBvdmVyZmxvdy14OiBhdXRvO1xuICBwYWRkaW5nOiAwLjVlbTtcbiAgY29sb3I6ICMzMzM7XG4gIGJhY2tncm91bmQ6ICNmOGY4Zjg7XG59XG5cbi5obGpzLWNvbW1lbnQsXG4uaGxqcy1xdW90ZSB7XG4gIGNvbG9yOiAjOTk4O1xuICBmb250LXN0eWxlOiBpdGFsaWM7XG59XG5cbi5obGpzLWtleXdvcmQsXG4uaGxqcy1zZWxlY3Rvci10YWcsXG4uaGxqcy1zdWJzdCB7XG4gIGNvbG9yOiAjMzMzO1xuICBmb250LXdlaWdodDogYm9sZDtcbn1cblxuLmhsanMtbnVtYmVyLFxuLmhsanMtbGl0ZXJhbCxcbi5obGpzLXZhcmlhYmxlLFxuLmhsanMtdGVtcGxhdGUtdmFyaWFibGUsXG4uaGxqcy10YWcgLmhsanMtYXR0ciB7XG4gIGNvbG9yOiAjMDA4MDgwO1xufVxuXG4uaGxqcy1zdHJpbmcsXG4uaGxqcy1kb2N0YWcge1xuICBjb2xvcjogI2QxNDtcbn1cblxuLmhsanMtdGl0bGUsXG4uaGxqcy1zZWN0aW9uLFxuLmhsanMtc2VsZWN0b3ItaWQge1xuICBjb2xvcjogIzkwMDtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5obGpzLXN1YnN0IHtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbn1cblxuLmhsanMtdHlwZSxcbi5obGpzLWNsYXNzIC5obGpzLXRpdGxlIHtcbiAgY29sb3I6ICM0NTg7XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG4uaGxqcy10YWcsXG4uaGxqcy1uYW1lLFxuLmhsanMtYXR0cmlidXRlIHtcbiAgY29sb3I6ICMwMDAwODA7XG4gIGZvbnQtd2VpZ2h0OiBub3JtYWw7XG59XG5cbi5obGpzLXJlZ2V4cCxcbi5obGpzLWxpbmsge1xuICBjb2xvcjogIzAwOTkyNjtcbn1cblxuLmhsanMtc3ltYm9sLFxuLmhsanMtYnVsbGV0IHtcbiAgY29sb3I6ICM5OTAwNzM7XG59XG5cbi5obGpzLWJ1aWx0X2luLFxuLmhsanMtYnVpbHRpbi1uYW1lIHtcbiAgY29sb3I6ICMwMDg2YjM7XG59XG5cbi5obGpzLW1ldGEge1xuICBjb2xvcjogIzk5OTtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG5cbi5obGpzLWRlbGV0aW9uIHtcbiAgYmFja2dyb3VuZDogI2ZkZDtcbn1cblxuLmhsanMtYWRkaXRpb24ge1xuICBiYWNrZ3JvdW5kOiAjZGZkO1xufVxuXG4uaGxqcy1lbXBoYXNpcyB7XG4gIGZvbnQtc3R5bGU6IGl0YWxpYztcbn1cblxuLmhsanMtc3Ryb25nIHtcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XG59XG4iXX0= */", '', '']];
+    /***/
+  },
+
+  /***/
   "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!./src/styles.css":
   /*!*******************************************************************************************************************************************************************************************************************************************************************!*\
     !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!/home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/postcss-loader/src??embedded!./src/styles.css ***!
@@ -23,7 +37,7 @@
 
   /***/
   function node_modulesAngularDevkitBuildAngularSrcAngularCliFilesPluginsRawCssLoaderJsNode_modulesPostcssLoaderSrcIndexJsSrcStylesCss(module, exports) {
-    module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL25nLWkxOG4tZGF0ZS1pbnRlcnZhbC1zaG93Y2FzZS9zcmMvc3R5bGVzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSw4RUFBOEUiLCJmaWxlIjoicHJvamVjdHMvbmctaTE4bi1kYXRlLWludGVydmFsLXNob3djYXNlL3NyYy9zdHlsZXMuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogWW91IGNhbiBhZGQgZ2xvYmFsIHN0eWxlcyB0byB0aGlzIGZpbGUsIGFuZCBhbHNvIGltcG9ydCBvdGhlciBzdHlsZSBmaWxlcyAqL1xuIl19 */", '', '']];
+    module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\nhtml, body { height: 100%; }\n\nbody { margin: 0; font-family: Roboto, \"Helvetica Neue\", sans-serif; }\n\n.main-wrapper {\n  max-width: 700px;\n  margin: 2em auto;\n  padding: 1px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInByb2plY3RzL25nLWkxOG4tZGF0ZS1pbnRlcnZhbC1zaG93Y2FzZS9zcmMvc3R5bGVzLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSw4RUFBOEU7O0FBRTlFLGFBQWEsWUFBWSxFQUFFOztBQUMzQixPQUFPLFNBQVMsRUFBRSxpREFBaUQsRUFBRTs7QUFFckU7RUFDRSxnQkFBZ0I7RUFDaEIsZ0JBQWdCO0VBQ2hCLFlBQVk7QUFDZCIsImZpbGUiOiJwcm9qZWN0cy9uZy1pMThuLWRhdGUtaW50ZXJ2YWwtc2hvd2Nhc2Uvc3JjL3N0eWxlcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKiBZb3UgY2FuIGFkZCBnbG9iYWwgc3R5bGVzIHRvIHRoaXMgZmlsZSwgYW5kIGFsc28gaW1wb3J0IG90aGVyIHN0eWxlIGZpbGVzICovXG5cbmh0bWwsIGJvZHkgeyBoZWlnaHQ6IDEwMCU7IH1cbmJvZHkgeyBtYXJnaW46IDA7IGZvbnQtZmFtaWx5OiBSb2JvdG8sIFwiSGVsdmV0aWNhIE5ldWVcIiwgc2Fucy1zZXJpZjsgfVxuXG4ubWFpbi13cmFwcGVyIHtcbiAgbWF4LXdpZHRoOiA3MDBweDtcbiAgbWFyZ2luOiAyZW0gYXV0bztcbiAgcGFkZGluZzogMXB4O1xufVxuIl19 */", '', '']];
     /***/
   },
 
@@ -51,6 +65,39 @@
 
     var update = __webpack_require__(
     /*! ../../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */
+    "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
+
+    if (content.locals) {
+      module.exports = content.locals;
+    }
+    /***/
+
+  },
+
+  /***/
+  "../../node_modules/highlight.js/styles/github.css":
+  /*!******************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/styles/github.css ***!
+    \******************************************************************************************************/
+
+  /*! no static exports found */
+
+  /***/
+  function node_modulesHighlightJsStylesGithubCss(module, exports, __webpack_require__) {
+    var content = __webpack_require__(
+    /*! !../../@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../postcss-loader/src??embedded!./github.css */
+    "../../node_modules/@angular-devkit/build-angular/src/angular-cli-files/plugins/raw-css-loader.js!../../node_modules/postcss-loader/src/index.js?!../../node_modules/highlight.js/styles/github.css");
+
+    if (typeof content === 'string') {
+      content = [[module.i, content, '']];
+    }
+
+    var options = {};
+    options.insert = "head";
+    options.singleton = false;
+
+    var update = __webpack_require__(
+    /*! ../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */
     "../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
 
     if (content.locals) {
@@ -391,14 +438,18 @@
 
   /***/
   3:
-  /*!************************************************************************************************************************************************!*\
-    !*** multi /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/material/prebuilt-themes/indigo-pink.css ./src/styles.css ***!
-    \************************************************************************************************************************************************/
+  /*!***********************************************************************************************************************************************************************************************************************************************!*\
+    !*** multi /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/styles/github.css /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/material/prebuilt-themes/indigo-pink.css ./src/styles.css ***!
+    \***********************************************************************************************************************************************************************************************************************************************/
 
   /*! no static exports found */
 
   /***/
   function _(module, exports, __webpack_require__) {
+    __webpack_require__(
+    /*! /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/styles/github.css */
+    "../../node_modules/highlight.js/styles/github.css");
+
     __webpack_require__(
     /*! /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/material/prebuilt-themes/indigo-pink.css */
     "../../node_modules/@angular/material/prebuilt-themes/indigo-pink.css");
