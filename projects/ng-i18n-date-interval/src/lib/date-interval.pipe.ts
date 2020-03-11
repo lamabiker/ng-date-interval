@@ -19,7 +19,9 @@ export class DateIntervalPipe implements PipeTransform {
     singleDateOutlook: 'backward' | 'forward' = 'forward',
     locale: string = this.locale
   ): string {
-    if (Array.isArray(input) && input.length !== 2) input = input[0];
+    if (Array.isArray(input) && input.length !== 2) {
+      input = input[0];
+    }
 
     this.input = input;
     this.singleDateOutlook = singleDateOutlook;
@@ -28,19 +30,21 @@ export class DateIntervalPipe implements PipeTransform {
 
     if (typeof input === 'string' || input instanceof Date) {
       dateArr = [input, null];
-      if (singleDateOutlook === 'backward') dateArr.unshift(dateArr.pop());
+      if (singleDateOutlook === 'backward') {
+        dateArr.unshift(dateArr.pop());
+      }
     }
 
-    let [startDate, endDate] = dateArr.map(item => (item ? formatDate(item, format, locale) : null));
+    const [startDate, endDate] = dateArr.map(item => (item ? formatDate(item, format, locale) : null));
 
-    let sentence = sentences[locale.substring(0, 2)][this.sentence];
+    const sentence = sentences[locale.substring(0, 2)][this.sentence];
 
     return this.interpolate(sentence, { startDate, endDate });
   }
 
   private interpolate(str: string, args: { [key: string]: string }): string {
-    for (let arg in args) {
-      let regEx = new RegExp(`\{${arg}\}`, 'g');
+    for (const arg of Object.keys(args)) {
+      const regEx = new RegExp(`\{${arg}\}`, 'g');
       str = str.replace(regEx, args[arg]);
     }
 
@@ -48,7 +52,9 @@ export class DateIntervalPipe implements PipeTransform {
   }
 
   private get sentence(): 'default' | 'forward' | 'backward' {
-    if (Array.isArray(this.input)) return 'default';
+    if (Array.isArray(this.input)) {
+      return 'default';
+    }
 
     return this.singleDateOutlook || 'forward';
   }
