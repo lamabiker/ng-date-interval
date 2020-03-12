@@ -1,45 +1,76 @@
-import { Pipe, PipeTransform, LOCALE_ID, Inject } from '@angular/core';
+import { Pipe, PipeTransform, LOCALE_ID, Inject, Input } from '@angular/core';
+import { ValidInput, InputDatesArray, DateOutlook } from '../types/types';
 import { formatDate } from '@angular/common';
 import sentences from '../langs';
 
-type inputDates = Array<string | Date> | string | Date;
+const defautDateFormat = 'mediumDate';
+const defaultDateOutlook = 'forward';
 
 @Pipe({
   name: 'dateInterval'
 })
 export class DateIntervalPipe implements PipeTransform {
-  input: inputDates;
-  singleDateOutlook: 'backward' | 'forward';
+  // These are set lower down
+  private singleDateOutlook: Readonly<DateOutlook>;
+  private format: Readonly<string>;
+  private normalizedInput: InputDatesArray;
 
-  constructor(@Inject(LOCALE_ID) public locale: string) {}
+  constructor(@Inject(LOCALE_ID) private locale: string) {}
 
   transform(
-    input: inputDates,
-    format: string = 'mediumDate',
-    singleDateOutlook: 'backward' | 'forward' = 'forward',
+    input: ValidInput,
+    singleDateOutlook: DateOutlook = defaultDateOutlook,
+    format: string = defautDateFormat,
     locale: string = this.locale
   ): string {
-    if (Array.isArray(input) && input.length !== 2) {
-      input = input[0];
+    // Set class properties
+    this.singleDateOutlook = singleDateOutlook;
+    this.format = format;
+    this.locale = locale;
+
+    // Get array of dates
+    this.normalizedInput = this.normalizeInput(input);
+
+    const [startDate, endDate] = this.normalizedInput.map(this.formatDates.bind(this));
+
+    return this.interpolate(this.sentence, { startDate, endDate });
+  }
+
+  private formatDates(item: Date | string, index: number): string {
+    if (!item) {
+      return null;
     }
 
-    this.input = input;
-    this.singleDateOutlook = singleDateOutlook;
+    if (this.format !== defautDateFormat) {
+      return formatDate(item, this.format, this.locale);
+    }
 
-    let dateArr = Array.isArray(input) ? input : [];
+    if (this.isSameYear && index === 0) {
+      const options = { month: 'short', day: 'numeric' };
+      if (this.isSameMonth) {
+        delete options.month;
+      }
 
-    if (typeof input === 'string' || input instanceof Date) {
-      dateArr = [input, null];
-      if (singleDateOutlook === 'backward') {
-        dateArr.unshift(dateArr.pop());
+      return new Date(item).toLocaleDateString(this.locale, options);
+    }
+
+    return formatDate(item, this.format, this.locale);
+  }
+
+  private normalizeInput(input: Readonly<ValidInput>): InputDatesArray {
+    // If this input isn't an array, make it so
+    const inputArr = Array.isArray(input) ? input : [input];
+
+    if (inputArr.length === 1) {
+      inputArr.push(null); // [date, null]
+
+      if (this.singleDateOutlook === 'backward') {
+        inputArr.unshift(inputArr.pop()); // [null, date]
       }
     }
 
-    const [startDate, endDate] = dateArr.map(item => (item ? formatDate(item, format, locale) : null));
-
-    const sentence = sentences[locale.substring(0, 2)][this.sentence];
-
-    return this.interpolate(sentence, { startDate, endDate });
+    // Make sure the input isn't longer than 2 elements
+    return inputArr.slice(0, 2);
   }
 
   private interpolate(str: string, args: { [key: string]: string }): string {
@@ -51,11 +82,39 @@ export class DateIntervalPipe implements PipeTransform {
     return str;
   }
 
-  private get sentence(): 'default' | 'forward' | 'backward' {
-    if (Array.isArray(this.input)) {
-      return 'default';
+  // GETTERS
+
+  private get isSameYear(): boolean {
+    const date1 = this.normalizedInput[0];
+    const date2 = this.normalizedInput[1];
+
+    if (!date1 || !date2) {
+      return false;
     }
 
-    return this.singleDateOutlook || 'forward';
+    const year1 = new Date(date1).getFullYear();
+    const year2 = new Date(date2).getFullYear();
+
+    return year1 === year2;
+  }
+
+  private get isSameMonth(): boolean {
+    const date1 = this.normalizedInput[0];
+    const date2 = this.normalizedInput[1];
+
+    const month1 = new Date(date1).getMonth();
+    const month2 = new Date(date2).getMonth();
+
+    return month1 === month2;
+  }
+
+  private get sentence(): string {
+    let type = 'default';
+
+    if (this.normalizedInput.some(el => !el)) {
+      type = this.singleDateOutlook;
+    }
+
+    return sentences[this.locale.substring(0, 2)][type]; // ex: sentences.en.default
   }
 }
