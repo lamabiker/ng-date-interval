@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/lamabiker/ng-i18n-date-interval/compare/v1.0.1...v1.1.0) (2020-03-12)
+
+
+### Features
+
+* **input:** hide month/year if same ([0042f53](https://github.com/lamabiker/ng-i18n-date-interval/commit/0042f5390c51ec25667bd0360b7fc52197b1916e))
+
 ## [1.0.1](https://github.com/lamabiker/ng-i18n-date-interval/compare/v1.0.0...v1.0.1) (2020-03-12)
 
 
