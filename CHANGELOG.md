@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/lamabiker/ng-i18n-date-interval/compare/v1.0.0...v1.0.1) (2020-03-12)
+
+
+### Bug Fixes
+
+* **pkg:** Remove provate from pkg json ([c221101](https://github.com/lamabiker/ng-i18n-date-interval/commit/c221101a5963924f50f1227f0dc4672df292c514))
+
 # 1.0.0 (2020-03-11)
 
 
