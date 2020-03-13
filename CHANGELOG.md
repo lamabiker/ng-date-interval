@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/lamabiker/ng-date-interval/compare/v1.1.0...v1.1.1) (2020-03-13)
+
+
+### Bug Fixes
+
+* handles input array with null value ([b4c6e0f](https://github.com/lamabiker/ng-date-interval/commit/b4c6e0f49718ef4a15f57ed77e44973a59d60fcc))
+
 # [1.1.0](https://github.com/lamabiker/ng-date-interval/compare/v1.0.1...v1.1.0) (2020-03-12)
 
 
