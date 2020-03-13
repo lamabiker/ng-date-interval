@@ -60,13 +60,13 @@ date2 = new Date('2020-03-13');
 {{ value_expression | dateInterval [ : singleDateOutlook [ : format [ : locale ] ] ] }}
 ```
 
-**value_expression** _string_ | _Date_ | _Array<string | date>_ : the input date(s). Can be a date-like string or a Date instance or an array or them. If the array contains more than 2 dates, it will fallback to the first one in the array.
+**value_expression** _string_ | _Date_ | _Array<string | date>_ : the input date(s). Can be a date-like string or a Date instance or an array of them. If the array contains more than 2 dates, it will fallback to the first one in the array.
 
 **singleDateOutlook** _string_ 'backward' | 'forward' (default _'forward'_) : in the case of a single date, defines whether that date is a start or an end date (_i.e_ `Until <date>` or `Since <date>`)
 
 **format** _string_ (default _'mediumDate'_): a date format string as used in Angular's [`formatDate`](https://angular.io/api/common/DatePipe#pre-defined-format-options) method. Setting this will override the default omission of Month/Year if they're the same for both dates.
 
-**locale** _localestring_ (default _the app's locale, e.g 'en-US'_): specify the locale when wanting to display one different from that of the app's. Current locale support: `en`, `fr`, `ru`.
+**locale** _localestring_ (default _the app's locale, e.g `en-US`_): specify the locale when wanting to display one different from that of the app's. Current locale support: `en`, `fr`, `ru`.
 
 ## Contributing
 
