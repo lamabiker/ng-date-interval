@@ -1,6 +1,9 @@
 {
   "name": "ng-date-interval",
   "version": "1.1.0",
+  "author": "Liam Baker (@lamabiker)",
+  "license": "MIT",
+  "description": "Displaying date interval sentences with Angular, i.e 'From 02 March 2020 to 06 April 2020'",
   "scripts": {
     "adjust-version:lib": "rjp projects/ng-date-interval/package.json version $VERSION",
     "adjust-version:main": "rjp package.json version $VERSION",
@@ -92,5 +95,17 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lamabiker/ng-date-interval.git"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/lamabiker/ng-date-interval/issues"
+  },
+  "homepage": "https://lamabiker.github.io/ng-date-interval/",
+  "keywords": [
+    "angular",
+    "javascript",
+    "library",
+    "date interval",
+    "i18n",
+    "pipe"
+  ]
 }
