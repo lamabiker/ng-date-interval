@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/lamabiker/ng-date-interval/compare/v1.1.1...v1.2.0) (2020-03-13)
+
+
+### Features
+
+* **format:** Add formatting feature ([de451fe](https://github.com/lamabiker/ng-date-interval/commit/de451fe65220675c98ba89dbe228c6b2203cf336))
+
 ## [1.1.1](https://github.com/lamabiker/ng-date-interval/compare/v1.1.0...v1.1.1) (2020-03-13)
 
 
