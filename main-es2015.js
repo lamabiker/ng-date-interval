@@ -87,21 +87,27 @@ class DateIntervalPipe {
         // Get array of dates
         this.normalizedInput = this.normalizeInput(input);
         const [startDate, endDate] = this.normalizedInput.map(this.formatDates.bind(this));
-        return !startDate && !endDate ? '' : this.interpolate(this.sentence, { startDate, endDate });
+        // If the specified format omits the days, but the interval is within
+        // the same month and year, return the formatted end date only
+        if (this.isSameYear && this.isSameMonth && !this.showDay) {
+            return endDate;
+        }
+        if (!startDate && !endDate) {
+            return '';
+        }
+        return this.interpolate(this.sentence, { startDate, endDate });
     }
     formatDates(item, index) {
         if (!item) {
             return null;
         }
-        if (this.format !== defautDateFormat) {
-            return Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["formatDate"])(item, this.format, this.locale);
-        }
         if (this.isSameYear && index === 0) {
-            const options = { month: 'short', day: 'numeric' };
+            let format = this.format === 'mediumDate' ? 'MMM d, y' : this.format;
+            format = this.removeDateFragment(format, 'y');
             if (this.isSameMonth) {
-                delete options.month;
+                format = this.removeDateFragment(format, 'm');
             }
-            return new Date(item).toLocaleDateString(this.locale, options);
+            return Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["formatDate"])(item, format, this.locale);
         }
         return Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["formatDate"])(item, this.format, this.locale);
     }
@@ -126,6 +132,14 @@ class DateIntervalPipe {
         }
         return str;
     }
+    removeDateFragment(str, key) {
+        const keyRegExp = new RegExp(`${key}`, 'gi');
+        return (str = str
+            .replace(keyRegExp, '')
+            .trim()
+            .replace(/^,+/, '')
+            .replace(/,+$/, ''));
+    }
     // GETTERS
     get isSameYear() {
         const date1 = this.normalizedInput[0];
@@ -143,6 +157,9 @@ class DateIntervalPipe {
         const month1 = new Date(date1).getMonth();
         const month2 = new Date(date2).getMonth();
         return month1 === month2;
+    }
+    get showDay() {
+        return this.format.toLowerCase().indexOf('d') > -1;
     }
     get sentence() {
         let type = 'default';

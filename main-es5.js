@@ -181,9 +181,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var _this$normalizedInput = this.normalizedInput.map(this.formatDates.bind(this)),
               _this$normalizedInput2 = _slicedToArray(_this$normalizedInput, 2),
               startDate = _this$normalizedInput2[0],
-              endDate = _this$normalizedInput2[1];
+              endDate = _this$normalizedInput2[1]; // If the specified format omits the days, but the interval is within
+          // the same month and year, return the formatted end date only
 
-          return !startDate && !endDate ? '' : this.interpolate(this.sentence, {
+
+          if (this.isSameYear && this.isSameMonth && !this.showDay) {
+            return endDate;
+          }
+
+          if (!startDate && !endDate) {
+            return '';
+          }
+
+          return this.interpolate(this.sentence, {
             startDate: startDate,
             endDate: endDate
           });
@@ -195,21 +205,15 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
             return null;
           }
 
-          if (this.format !== defautDateFormat) {
-            return Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["formatDate"])(item, this.format, this.locale);
-          }
-
           if (this.isSameYear && index === 0) {
-            var options = {
-              month: 'short',
-              day: 'numeric'
-            };
+            var format = this.format === 'mediumDate' ? 'MMM d, y' : this.format;
+            format = this.removeDateFragment(format, 'y');
 
             if (this.isSameMonth) {
-              delete options.month;
+              format = this.removeDateFragment(format, 'm');
             }
 
-            return new Date(item).toLocaleDateString(this.locale, options);
+            return Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["formatDate"])(item, format, this.locale);
           }
 
           return Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["formatDate"])(item, this.format, this.locale);
@@ -245,6 +249,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           return str;
+        }
+      }, {
+        key: "removeDateFragment",
+        value: function removeDateFragment(str, key) {
+          var keyRegExp = new RegExp("".concat(key), 'gi');
+          return str = str.replace(keyRegExp, '').trim().replace(/^,+/, '').replace(/,+$/, '');
         } // GETTERS
 
       }, {
@@ -269,6 +279,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           var month1 = new Date(date1).getMonth();
           var month2 = new Date(date2).getMonth();
           return month1 === month2;
+        }
+      }, {
+        key: "showDay",
+        get: function get() {
+          return this.format.toLowerCase().indexOf('d') > -1;
         }
       }, {
         key: "sentence",
