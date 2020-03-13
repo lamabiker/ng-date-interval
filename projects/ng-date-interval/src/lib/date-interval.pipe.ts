@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform, LOCALE_ID, Inject, Input } from '@angular/core';
-import { ValidInput, InputDatesArray, DateOutlook } from '../types/types';
+import { ValidInput, InputDatesArray, DateOutlook, LocaleDateStringOptions } from '../types/types';
 import { formatDate } from '@angular/common';
 import sentences from '../langs';
 
@@ -33,7 +33,13 @@ export class DateIntervalPipe implements PipeTransform {
 
     const [startDate, endDate] = this.normalizedInput.map(this.formatDates.bind(this));
 
-    return !startDate && !endDate ? '' : this.interpolate(this.sentence, { startDate, endDate });
+    // If the specified format omits the days, but the interval is within
+    // the same month and year, return the formatted end date only
+    if (this.isSameYear && this.isSameMonth && !this.showDay) return endDate;
+
+    if (!startDate && !endDate) return '';
+
+    return this.interpolate(this.sentence, { startDate, endDate });
   }
 
   private formatDates(item: Date | string, index: number): string {
@@ -41,17 +47,16 @@ export class DateIntervalPipe implements PipeTransform {
       return null;
     }
 
-    if (this.format !== defautDateFormat) {
-      return formatDate(item, this.format, this.locale);
-    }
-
     if (this.isSameYear && index === 0) {
-      const options = { month: 'short', day: 'numeric' };
+      let format = this.format === 'mediumDate' ? 'MMM d, y' : this.format;
+
+      format = this.removeDateFragment(format, 'y');
+
       if (this.isSameMonth) {
-        delete options.month;
+        format = this.removeDateFragment(format, 'm');
       }
 
-      return new Date(item).toLocaleDateString(this.locale, options);
+      return formatDate(item, format, this.locale);
     }
 
     return formatDate(item, this.format, this.locale);
@@ -85,6 +90,16 @@ export class DateIntervalPipe implements PipeTransform {
     return str;
   }
 
+  private removeDateFragment(str: string, key: 'd' | 'm' | 'y'): string {
+    const keyRegExp = new RegExp(`${key}`, 'gi');
+
+    return (str = str
+      .replace(keyRegExp, '')
+      .trim()
+      .replace(/^,+/, '')
+      .replace(/,+$/, ''));
+  }
+
   // GETTERS
 
   private get isSameYear(): boolean {
@@ -109,6 +124,10 @@ export class DateIntervalPipe implements PipeTransform {
     const month2 = new Date(date2).getMonth();
 
     return month1 === month2;
+  }
+
+  private get showDay(): boolean {
+    return this.format.toLowerCase().indexOf('d') > -1;
   }
 
   private get sentence(): string {

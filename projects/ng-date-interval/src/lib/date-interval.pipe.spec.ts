@@ -89,15 +89,27 @@ describe('DateIntervalPipe', () => {
     expect(result).toEqual(`From 6 to May 11, 2019`);
   });
 
-  it('should disgard same month/year when format specified', () => {
-    const dates = [new Date('2019-05-06'), new Date('2019-05-11')];
-    const result = sut.transform(dates, 'backward', 'dd MMMM y');
-    expect(result).toEqual(`From 06 May 2019 to 11 May 2019`);
-  });
-
   it('should handle same year with single value', () => {
     const dates = [new Date('2019-05-06')];
     const result = sut.transform(dates);
     expect(result).toEqual(`Since May 6, 2019`);
+  });
+
+  it('should handle same year with specified format (no days)', () => {
+    const dates = [new Date('2019-05-06'), new Date('2019-06-06')];
+    const result = sut.transform(dates, 'forward', 'MMM y');
+    expect(result).toEqual(`From May to Jun 2019`);
+  });
+
+  it('should handle same year with specified format (leading zero days)', () => {
+    const dates = [new Date('2019-05-06'), new Date('2019-06-06')];
+    const result = sut.transform(dates, 'forward', 'dd MMM y');
+    expect(result).toEqual(`From 06 May to 06 Jun 2019`);
+  });
+
+  it('should handle same year and same month with specified format (no days)', () => {
+    const dates = [new Date('2019-05-06'), new Date('2019-05-12')];
+    const result = sut.transform(dates, 'forward', 'MMM y');
+    expect(result).toEqual(`May 2019`);
   });
 });
