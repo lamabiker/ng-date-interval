@@ -33,7 +33,7 @@ export class DateIntervalPipe implements PipeTransform {
 
     const [startDate, endDate] = this.normalizedInput.map(this.formatDates.bind(this));
 
-    return this.interpolate(this.sentence, { startDate, endDate });
+    return !startDate && !endDate ? '' : this.interpolate(this.sentence, { startDate, endDate });
   }
 
   private formatDates(item: Date | string, index: number): string {
@@ -59,7 +59,10 @@ export class DateIntervalPipe implements PipeTransform {
 
   private normalizeInput(input: Readonly<ValidInput>): InputDatesArray {
     // If this input isn't an array, make it so
-    const inputArr = Array.isArray(input) ? input : [input];
+    let inputArr = Array.isArray(input) ? input : [input];
+
+    // Filter out null values
+    inputArr = inputArr.filter(i => i);
 
     if (inputArr.length === 1) {
       inputArr.push(null); // [date, null]

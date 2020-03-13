@@ -32,6 +32,30 @@ describe('DateIntervalPipe', () => {
     expect(result).toEqual('Since May 6, 2019');
   });
 
+  it('should take an array with a date and a null value', () => {
+    const dates = [new Date('2019-05-06'), null];
+    const result = sut.transform(dates);
+    expect(result).toEqual('Since May 6, 2019');
+  });
+
+  it('should take an array with a date, a null value and a backward outlook', () => {
+    const dates = [new Date('2019-05-06'), null];
+    const result = sut.transform(dates, 'backward');
+    expect(result).toEqual('Until May 6, 2019');
+  });
+
+  it('should not fail if given null', () => {
+    const dates = null;
+    const result = sut.transform(dates);
+    expect(result).toEqual('');
+  });
+
+  it('should not fail if given an array with null values', () => {
+    const dates = [null, null];
+    const result = sut.transform(dates);
+    expect(result).toEqual('');
+  });
+
   it('should take a single date and accept default direction option', () => {
     const dates = [new Date('2019-05-06')];
 
