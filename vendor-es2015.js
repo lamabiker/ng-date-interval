@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendor"],{
 
 /***/ "../../node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js":
-/*!*******************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js ***!
-  \*******************************************************************************************************************************/
+/*!**************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js ***!
+  \**************************************************************************************************************************/
 /*! exports provided: AUTO_STYLE, AnimationBuilder, AnimationFactory, NoopAnimationPlayer, animate, animateChild, animation, group, keyframes, query, sequence, stagger, state, style, transition, trigger, useAnimation, ɵAnimationGroupPlayer, ɵPRE_STYLE */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -29,7 +29,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵAnimationGroupPlayer", function() { return AnimationGroupPlayer; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵPRE_STYLE", function() { return ɵPRE_STYLE; });
 /**
- * @license Angular v9.0.4
+ * @license Angular v9.0.6
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -1662,9 +1662,9 @@ const ɵPRE_STYLE = '!';
 /***/ }),
 
 /***/ "../../node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js":
-/*!****************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js ***!
-  \****************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js ***!
+  \***********************************************************************************************************************/
 /*! exports provided: AnimationDriver, ɵAnimation, ɵAnimationEngine, ɵAnimationStyleNormalizer, ɵCssKeyframesDriver, ɵCssKeyframesPlayer, ɵNoopAnimationDriver, ɵNoopAnimationStyleNormalizer, ɵWebAnimationsDriver, ɵWebAnimationsPlayer, ɵWebAnimationsStyleNormalizer, ɵallowPreviousPlayerStylesMerge, ɵangular_packages_animations_browser_browser_a, ɵcontainsElement, ɵinvokeQuery, ɵmatchesElement, ɵsupportsWebAnimations, ɵvalidateStyleProperty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1691,7 +1691,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/animations */ "../../node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /**
- * @license Angular v9.0.4
+ * @license Angular v9.0.6
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -9586,9 +9586,9 @@ function getElementAnimateFn() {
 /***/ }),
 
 /***/ "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/a11y.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/a11y.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/a11y.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: A11yModule, ActiveDescendantKeyManager, AriaDescriber, CDK_DESCRIBEDBY_HOST_ATTRIBUTE, CDK_DESCRIBEDBY_ID_PREFIX, CdkAriaLive, CdkMonitorFocus, CdkTrapFocus, ConfigurableFocusTrap, ConfigurableFocusTrapFactory, EventListenerFocusTrapInertStrategy, FOCUS_TRAP_INERT_STRATEGY, FocusKeyManager, FocusMonitor, FocusTrap, FocusTrapFactory, HighContrastModeDetector, InteractivityChecker, LIVE_ANNOUNCER_DEFAULT_OPTIONS, LIVE_ANNOUNCER_ELEMENT_TOKEN, LIVE_ANNOUNCER_ELEMENT_TOKEN_FACTORY, ListKeyManager, LiveAnnouncer, MESSAGES_CONTAINER_ID, TOUCH_BUFFER_MS, isFakeMousedownFromScreenReader, ɵangular_material_src_cdk_a11y_a11y_a, ɵangular_material_src_cdk_a11y_a11y_b */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12645,9 +12645,9 @@ A11yModule.ctorParameters = () => [
 /***/ }),
 
 /***/ "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/bidi.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/bidi.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/bidi.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: BidiModule, DIR_DOCUMENT, Dir, Directionality, ɵangular_material_src_cdk_bidi_bidi_a */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -12881,9 +12881,9 @@ BidiModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjecto
 /***/ }),
 
 /***/ "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/keycodes.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/keycodes.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/keycodes.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: A, ALT, APOSTROPHE, AT_SIGN, B, BACKSLASH, BACKSPACE, C, CAPS_LOCK, CLOSE_SQUARE_BRACKET, COMMA, CONTEXT_MENU, CONTROL, D, DASH, DELETE, DOWN_ARROW, E, EIGHT, END, ENTER, EQUALS, ESCAPE, F, F1, F10, F11, F12, F2, F3, F4, F5, F6, F7, F8, F9, FF_EQUALS, FF_MINUS, FF_MUTE, FF_SEMICOLON, FF_VOLUME_DOWN, FF_VOLUME_UP, FIRST_MEDIA, FIVE, FOUR, G, H, HOME, I, INSERT, J, K, L, LAST_MEDIA, LEFT_ARROW, M, MAC_ENTER, MAC_META, MAC_WK_CMD_LEFT, MAC_WK_CMD_RIGHT, META, MUTE, N, NINE, NUMPAD_DIVIDE, NUMPAD_EIGHT, NUMPAD_FIVE, NUMPAD_FOUR, NUMPAD_MINUS, NUMPAD_MULTIPLY, NUMPAD_NINE, NUMPAD_ONE, NUMPAD_PERIOD, NUMPAD_PLUS, NUMPAD_SEVEN, NUMPAD_SIX, NUMPAD_THREE, NUMPAD_TWO, NUMPAD_ZERO, NUM_CENTER, NUM_LOCK, O, ONE, OPEN_SQUARE_BRACKET, P, PAGE_DOWN, PAGE_UP, PAUSE, PLUS_SIGN, PRINT_SCREEN, Q, QUESTION_MARK, R, RIGHT_ARROW, S, SCROLL_LOCK, SEMICOLON, SEVEN, SHIFT, SINGLE_QUOTE, SIX, SLASH, SPACE, T, TAB, THREE, TILDE, TWO, U, UP_ARROW, V, VOLUME_DOWN, VOLUME_UP, W, X, Y, Z, ZERO, hasModifierKey */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13312,9 +13312,9 @@ function hasModifierKey(event, ...modifiers) {
 /***/ }),
 
 /***/ "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/observers.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/observers.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/observers.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: CdkObserveContent, ContentObserver, MutationObserverFactory, ObserversModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13634,9 +13634,9 @@ ObserversModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineIn
 /***/ }),
 
 /***/ "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/platform.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/platform.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/platform.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: Platform, PlatformModule, _supportsShadowDom, getRtlScrollAxisType, getSupportedInputTypes, normalizePassiveListenerOptions, supportsPassiveEventListeners, supportsScrollBehavior */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14035,9 +14035,9 @@ function _supportsShadowDom() {
 /***/ }),
 
 /***/ "../../node_modules/@angular/cdk/fesm2015/cdk.js":
-/*!****************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/fesm2015/cdk.js ***!
-  \****************************************************************************************************/
+/*!***********************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/fesm2015/cdk.js ***!
+  \***********************************************************************************************/
 /*! exports provided: VERSION */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14055,7 +14055,7 @@ __webpack_require__.r(__webpack_exports__);
  * found in the LICENSE file at https://angular.io/license
  */
 /** Current version of the Angular Component Development Kit. */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.1');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.2');
 
 /**
  * @license
@@ -14080,9 +14080,9 @@ const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.1
 /***/ }),
 
 /***/ "../../node_modules/@angular/cdk/fesm2015/coercion.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/fesm2015/coercion.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/fesm2015/coercion.js ***!
+  \****************************************************************************************************/
 /*! exports provided: _isNumberValue, coerceArray, coerceBooleanProperty, coerceCssPixelValue, coerceElement, coerceNumberProperty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14195,9 +14195,9 @@ function coerceElement(elementOrRef) {
 /***/ }),
 
 /***/ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: APP_BASE_HREF, AsyncPipe, CommonModule, CurrencyPipe, DOCUMENT, DatePipe, DecimalPipe, FormStyle, FormatWidth, HashLocationStrategy, I18nPluralPipe, I18nSelectPipe, JsonPipe, KeyValuePipe, LOCATION_INITIALIZED, Location, LocationStrategy, LowerCasePipe, NgClass, NgComponentOutlet, NgForOf, NgForOfContext, NgIf, NgIfContext, NgLocaleLocalization, NgLocalization, NgPlural, NgPluralCase, NgStyle, NgSwitch, NgSwitchCase, NgSwitchDefault, NgTemplateOutlet, NumberFormatStyle, NumberSymbol, PathLocationStrategy, PercentPipe, PlatformLocation, Plural, SlicePipe, TitleCasePipe, TranslationWidth, UpperCasePipe, VERSION, ViewportScroller, WeekDay, formatCurrency, formatDate, formatNumber, formatPercent, getCurrencySymbol, getLocaleCurrencyCode, getLocaleCurrencyName, getLocaleCurrencySymbol, getLocaleDateFormat, getLocaleDateTimeFormat, getLocaleDayNames, getLocaleDayPeriods, getLocaleEraNames, getLocaleExtraDayPeriodRules, getLocaleExtraDayPeriods, getLocaleFirstDayOfWeek, getLocaleId, getLocaleMonthNames, getLocaleNumberFormat, getLocaleNumberSymbol, getLocalePluralCase, getLocaleTimeFormat, getLocaleWeekEndRange, getNumberOfCurrencyDigits, isPlatformBrowser, isPlatformServer, isPlatformWorkerApp, isPlatformWorkerUi, registerLocaleData, ɵBrowserPlatformLocation, ɵDomAdapter, ɵNullViewportScroller, ɵPLATFORM_BROWSER_ID, ɵPLATFORM_SERVER_ID, ɵPLATFORM_WORKER_APP_ID, ɵPLATFORM_WORKER_UI_ID, ɵangular_packages_common_common_a, ɵangular_packages_common_common_b, ɵangular_packages_common_common_c, ɵangular_packages_common_common_d, ɵangular_packages_common_common_e, ɵangular_packages_common_common_f, ɵgetDOM, ɵparseCookieValue, ɵsetRootDomAdapter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -14296,7 +14296,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵsetRootDomAdapter", function() { return setRootDomAdapter; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /**
- * @license Angular v9.0.4
+ * @license Angular v9.0.6
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -17893,7 +17893,7 @@ class NgComponentOutlet {
     }
 }
 NgComponentOutlet.ɵfac = function NgComponentOutlet_Factory(t) { return new (t || NgComponentOutlet)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"])); };
-NgComponentOutlet.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NgComponentOutlet, selectors: [["", "ngComponentOutlet", ""]], inputs: { ngComponentOutlet: "ngComponentOutlet", ngComponentOutletInjector: "ngComponentOutletInjector", ngComponentOutletContent: "ngComponentOutletContent", ngComponentOutletNgModuleFactory: "ngComponentOutletNgModuleFactory" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]()] });
+NgComponentOutlet.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NgComponentOutlet, selectors: [["", "ngComponentOutlet", ""]], inputs: { ngComponentOutlet: "ngComponentOutlet", ngComponentOutletInjector: "ngComponentOutletInjector", ngComponentOutletContent: "ngComponentOutletContent", ngComponentOutletNgModuleFactory: "ngComponentOutletNgModuleFactory" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]] });
 /** @nocollapse */
 NgComponentOutlet.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }
@@ -18505,7 +18505,9 @@ class NgIf {
      * @param {?} ctx
      * @return {?}
      */
-    static ngTemplateContextGuard(dir, ctx) { return true; }
+    static ngTemplateContextGuard(dir, ctx) {
+        return true;
+    }
 }
 NgIf.ɵfac = function NgIf_Factory(t) { return new (t || NgIf)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["TemplateRef"])); };
 NgIf.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NgIf, selectors: [["", "ngIf", ""]], inputs: { ngIf: "ngIf", ngIfThen: "ngIfThen", ngIfElse: "ngIfElse" } });
@@ -19266,7 +19268,7 @@ class NgTemplateOutlet {
     }
 }
 NgTemplateOutlet.ɵfac = function NgTemplateOutlet_Factory(t) { return new (t || NgTemplateOutlet)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"])); };
-NgTemplateOutlet.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NgTemplateOutlet, selectors: [["", "ngTemplateOutlet", ""]], inputs: { ngTemplateOutletContext: "ngTemplateOutletContext", ngTemplateOutlet: "ngTemplateOutlet" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]()] });
+NgTemplateOutlet.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: NgTemplateOutlet, selectors: [["", "ngTemplateOutlet", ""]], inputs: { ngTemplateOutletContext: "ngTemplateOutletContext", ngTemplateOutlet: "ngTemplateOutlet" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]] });
 /** @nocollapse */
 NgTemplateOutlet.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewContainerRef"] }
@@ -20668,7 +20670,7 @@ function isPlatformWorkerUi(platformId) {
  * \@publicApi
  * @type {?}
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.0.4');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.0.6');
 
 /**
  * @fileoverview added by tsickle
@@ -20902,9 +20904,9 @@ class NullViewportScroller {
 /***/ }),
 
 /***/ "../../node_modules/@angular/common/locales/fr.js":
-/*!*****************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/common/locales/fr.js ***!
-  \*****************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/common/locales/fr.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21025,9 +21027,9 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /***/ }),
 
 /***/ "../../node_modules/@angular/common/locales/ru.js":
-/*!*****************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/common/locales/ru.js ***!
-  \*****************************************************************************************************/
+/*!************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/common/locales/ru.js ***!
+  \************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -21146,10 +21148,10 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 /***/ }),
 
 /***/ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js ***!
-  \*******************************************************************************************************************/
-/*! exports provided: ANALYZE_FOR_ENTRY_COMPONENTS, APP_BOOTSTRAP_LISTENER, APP_ID, APP_INITIALIZER, ApplicationInitStatus, ApplicationModule, ApplicationRef, Attribute, COMPILER_OPTIONS, CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, ChangeDetectorRef, Compiler, CompilerFactory, Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, ContentChild, ContentChildren, DEFAULT_CURRENCY_CODE, DebugElement, DebugEventListener, DebugNode, DefaultIterableDiffer, Directive, ElementRef, EmbeddedViewRef, ErrorHandler, EventEmitter, Host, HostBinding, HostListener, INJECTOR, Inject, InjectFlags, Injectable, InjectionToken, Injector, Input, IterableDiffers, KeyValueDiffers, LOCALE_ID, MissingTranslationStrategy, ModuleWithComponentFactories, NO_ERRORS_SCHEMA, NgModule, NgModuleFactory, NgModuleFactoryLoader, NgModuleRef, NgProbeToken, NgZone, Optional, Output, PACKAGE_ROOT_URL, PLATFORM_ID, PLATFORM_INITIALIZER, Pipe, PlatformRef, Query, QueryList, ReflectiveInjector, ReflectiveKey, Renderer2, RendererFactory2, RendererStyleFlags2, ResolvedReflectiveFactory, Sanitizer, SecurityContext, Self, SimpleChange, SkipSelf, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TRANSLATIONS, TRANSLATIONS_FORMAT, TemplateRef, Testability, TestabilityRegistry, Type, VERSION, Version, ViewChild, ViewChildren, ViewContainerRef, ViewEncapsulation, ViewRef, WrappedValue, asNativeElements, assertPlatform, createPlatform, createPlatformFactory, defineInjectable, destroyPlatform, enableProdMode, forwardRef, getDebugNode, getModuleFactory, getPlatform, inject, isDevMode, platformCore, resolveForwardRef, setTestabilityGetter, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵChangeDetectorStatus, ɵCodegenComponentFactoryResolver, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵComponentFactory, ɵConsole, ɵDEFAULT_LOCALE_ID, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵINJECTOR_IMPL__POST_R3__, ɵINJECTOR_SCOPE, ɵLifecycleHooksFeature, ɵLocaleDataIndex, ɵNG_COMP_DEF, ɵNG_DIR_DEF, ɵNG_ELEMENT_ID, ɵNG_INJ_DEF, ɵNG_MOD_DEF, ɵNG_PIPE_DEF, ɵNG_PROV_DEF, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵNO_CHANGE, ɵNgModuleFactory, ɵNoopNgZone, ɵReflectionCapabilities, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵRender3NgModuleRef, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵ_sanitizeHtml, ɵ_sanitizeStyle, ɵ_sanitizeUrl, ɵallowSanitizationBypassAndThrow, ɵand, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bg, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bk, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_bn, ɵangular_packages_core_core_bp, ɵangular_packages_core_core_bq, ɵangular_packages_core_core_c, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_l, ɵangular_packages_core_core_m, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_t, ɵangular_packages_core_core_u, ɵangular_packages_core_core_v, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_z, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustResourceUrl, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustUrl, ɵccf, ɵclearOverrides, ɵclearResolutionOfComponentResourcesQueue, ɵcmf, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵcompileNgModuleFactory__POST_R3__, ɵcompilePipe, ɵcreateInjector, ɵcrt, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdetectChanges, ɵdevModeEqual, ɵdid, ɵeld, ɵfindLocaleData, ɵflushModuleScopingQueueAsMuchAsPossible, ɵgetComponentViewDefinitionFactory, ɵgetDebugNodeR2, ɵgetDebugNode__POST_R3__, ɵgetDirectives, ɵgetHostElement, ɵgetInjectableDef, ɵgetLContext, ɵgetLocaleCurrencyCode, ɵgetLocalePluralCase, ɵgetModuleFactory__POST_R3__, ɵgetSanitizationBypassType, ɵglobal, ɵinitServicesIfNeeded, ɵinlineInterpolate, ɵinterpolate, ɵisBoundToModule__POST_R3__, ɵisDefaultChangeDetectionStrategy, ɵisListLikeIterable, ɵisObservable, ɵisPromise, ɵivyEnabled, ɵlooseIdentical, ɵmakeDecorator, ɵmarkDirty, ɵmod, ɵmpd, ɵncd, ɵnov, ɵoverrideComponentView, ɵoverrideProvider, ɵpad, ɵpatchComponentDefWithScope, ɵpid, ɵpod, ɵppd, ɵprd, ɵpublishDefaultGlobalUtils, ɵpublishGlobalUtil, ɵqud, ɵregisterLocaleData, ɵregisterModuleFactory, ɵregisterNgModuleType, ɵrenderComponent, ɵresetCompiledComponents, ɵresolveComponentResources, ɵsetClassMetadata, ɵsetCurrentInjector, ɵsetDocument, ɵsetLocaleId, ɵstore, ɵstringify, ɵted, ɵtransitiveScopesFor, ɵunregisterLocaleData, ɵunv, ɵunwrapSafeValue, ɵvid, ɵwhenRendered, ɵɵCopyDefinitionFeature, ɵɵInheritDefinitionFeature, ɵɵNgOnChangesFeature, ɵɵProvidersFeature, ɵɵadvance, ɵɵattribute, ɵɵattributeInterpolate1, ɵɵattributeInterpolate2, ɵɵattributeInterpolate3, ɵɵattributeInterpolate4, ɵɵattributeInterpolate5, ɵɵattributeInterpolate6, ɵɵattributeInterpolate7, ɵɵattributeInterpolate8, ɵɵattributeInterpolateV, ɵɵclassMap, ɵɵclassMapInterpolate1, ɵɵclassMapInterpolate2, ɵɵclassMapInterpolate3, ɵɵclassMapInterpolate4, ɵɵclassMapInterpolate5, ɵɵclassMapInterpolate6, ɵɵclassMapInterpolate7, ɵɵclassMapInterpolate8, ɵɵclassMapInterpolateV, ɵɵclassProp, ɵɵcomponentHostSyntheticListener, ɵɵcontainer, ɵɵcontainerRefreshEnd, ɵɵcontainerRefreshStart, ɵɵcontentQuery, ɵɵdefaultStyleSanitizer, ɵɵdefineComponent, ɵɵdefineDirective, ɵɵdefineInjectable, ɵɵdefineInjector, ɵɵdefineNgModule, ɵɵdefinePipe, ɵɵdirectiveInject, ɵɵdisableBindings, ɵɵelement, ɵɵelementContainer, ɵɵelementContainerEnd, ɵɵelementContainerStart, ɵɵelementEnd, ɵɵelementStart, ɵɵembeddedViewEnd, ɵɵembeddedViewStart, ɵɵenableBindings, ɵɵgetCurrentView, ɵɵgetFactoryOf, ɵɵgetInheritedFactory, ɵɵhostProperty, ɵɵi18n, ɵɵi18nApply, ɵɵi18nAttributes, ɵɵi18nEnd, ɵɵi18nExp, ɵɵi18nPostprocess, ɵɵi18nStart, ɵɵinject, ɵɵinjectAttribute, ɵɵinjectPipeChangeDetectorRef, ɵɵinvalidFactory, ɵɵinvalidFactoryDep, ɵɵlistener, ɵɵloadQuery, ɵɵnamespaceHTML, ɵɵnamespaceMathML, ɵɵnamespaceSVG, ɵɵnextContext, ɵɵpipe, ɵɵpipeBind1, ɵɵpipeBind2, ɵɵpipeBind3, ɵɵpipeBind4, ɵɵpipeBindV, ɵɵprojection, ɵɵprojectionDef, ɵɵproperty, ɵɵpropertyInterpolate, ɵɵpropertyInterpolate1, ɵɵpropertyInterpolate2, ɵɵpropertyInterpolate3, ɵɵpropertyInterpolate4, ɵɵpropertyInterpolate5, ɵɵpropertyInterpolate6, ɵɵpropertyInterpolate7, ɵɵpropertyInterpolate8, ɵɵpropertyInterpolateV, ɵɵpureFunction0, ɵɵpureFunction1, ɵɵpureFunction2, ɵɵpureFunction3, ɵɵpureFunction4, ɵɵpureFunction5, ɵɵpureFunction6, ɵɵpureFunction7, ɵɵpureFunction8, ɵɵpureFunctionV, ɵɵqueryRefresh, ɵɵreference, ɵɵresolveBody, ɵɵresolveDocument, ɵɵresolveWindow, ɵɵrestoreView, ɵɵsanitizeHtml, ɵɵsanitizeResourceUrl, ɵɵsanitizeScript, ɵɵsanitizeStyle, ɵɵsanitizeUrl, ɵɵsanitizeUrlOrResourceUrl, ɵɵselect, ɵɵsetComponentScope, ɵɵsetNgModuleScope, ɵɵstaticContentQuery, ɵɵstaticViewQuery, ɵɵstyleMap, ɵɵstyleMapInterpolate1, ɵɵstyleMapInterpolate2, ɵɵstyleMapInterpolate3, ɵɵstyleMapInterpolate4, ɵɵstyleMapInterpolate5, ɵɵstyleMapInterpolate6, ɵɵstyleMapInterpolate7, ɵɵstyleMapInterpolate8, ɵɵstyleMapInterpolateV, ɵɵstyleProp, ɵɵstylePropInterpolate1, ɵɵstylePropInterpolate2, ɵɵstylePropInterpolate3, ɵɵstylePropInterpolate4, ɵɵstylePropInterpolate5, ɵɵstylePropInterpolate6, ɵɵstylePropInterpolate7, ɵɵstylePropInterpolate8, ɵɵstylePropInterpolateV, ɵɵstyleSanitizer, ɵɵtemplate, ɵɵtemplateRefExtractor, ɵɵtext, ɵɵtextInterpolate, ɵɵtextInterpolate1, ɵɵtextInterpolate2, ɵɵtextInterpolate3, ɵɵtextInterpolate4, ɵɵtextInterpolate5, ɵɵtextInterpolate6, ɵɵtextInterpolate7, ɵɵtextInterpolate8, ɵɵtextInterpolateV, ɵɵupdateSyntheticHostBinding, ɵɵviewQuery */
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js ***!
+  \**************************************************************************************************************/
+/*! exports provided: ANALYZE_FOR_ENTRY_COMPONENTS, APP_BOOTSTRAP_LISTENER, APP_ID, APP_INITIALIZER, ApplicationInitStatus, ApplicationModule, ApplicationRef, Attribute, COMPILER_OPTIONS, CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, ChangeDetectorRef, Compiler, CompilerFactory, Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, ContentChild, ContentChildren, DEFAULT_CURRENCY_CODE, DebugElement, DebugEventListener, DebugNode, DefaultIterableDiffer, Directive, ElementRef, EmbeddedViewRef, ErrorHandler, EventEmitter, Host, HostBinding, HostListener, INJECTOR, Inject, InjectFlags, Injectable, InjectionToken, Injector, Input, IterableDiffers, KeyValueDiffers, LOCALE_ID, MissingTranslationStrategy, ModuleWithComponentFactories, NO_ERRORS_SCHEMA, NgModule, NgModuleFactory, NgModuleFactoryLoader, NgModuleRef, NgProbeToken, NgZone, Optional, Output, PACKAGE_ROOT_URL, PLATFORM_ID, PLATFORM_INITIALIZER, Pipe, PlatformRef, Query, QueryList, ReflectiveInjector, ReflectiveKey, Renderer2, RendererFactory2, RendererStyleFlags2, ResolvedReflectiveFactory, Sanitizer, SecurityContext, Self, SimpleChange, SkipSelf, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TRANSLATIONS, TRANSLATIONS_FORMAT, TemplateRef, Testability, TestabilityRegistry, Type, VERSION, Version, ViewChild, ViewChildren, ViewContainerRef, ViewEncapsulation, ViewRef, WrappedValue, asNativeElements, assertPlatform, createPlatform, createPlatformFactory, defineInjectable, destroyPlatform, enableProdMode, forwardRef, getDebugNode, getModuleFactory, getPlatform, inject, isDevMode, platformCore, resolveForwardRef, setTestabilityGetter, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵChangeDetectorStatus, ɵCodegenComponentFactoryResolver, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵComponentFactory, ɵConsole, ɵDEFAULT_LOCALE_ID, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵINJECTOR_IMPL__POST_R3__, ɵINJECTOR_SCOPE, ɵLifecycleHooksFeature, ɵLocaleDataIndex, ɵNG_COMP_DEF, ɵNG_DIR_DEF, ɵNG_ELEMENT_ID, ɵNG_INJ_DEF, ɵNG_MOD_DEF, ɵNG_PIPE_DEF, ɵNG_PROV_DEF, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵNO_CHANGE, ɵNgModuleFactory, ɵNoopNgZone, ɵReflectionCapabilities, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵRender3NgModuleRef, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵ_sanitizeHtml, ɵ_sanitizeStyle, ɵ_sanitizeUrl, ɵallowSanitizationBypassAndThrow, ɵand, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bg, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bk, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_bn, ɵangular_packages_core_core_bo, ɵangular_packages_core_core_bq, ɵangular_packages_core_core_c, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_l, ɵangular_packages_core_core_m, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_t, ɵangular_packages_core_core_u, ɵangular_packages_core_core_v, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_z, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustResourceUrl, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustUrl, ɵccf, ɵclearOverrides, ɵclearResolutionOfComponentResourcesQueue, ɵcmf, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵcompileNgModuleFactory__POST_R3__, ɵcompilePipe, ɵcreateInjector, ɵcrt, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdetectChanges, ɵdevModeEqual, ɵdid, ɵeld, ɵfindLocaleData, ɵflushModuleScopingQueueAsMuchAsPossible, ɵgetComponentViewDefinitionFactory, ɵgetDebugNodeR2, ɵgetDebugNode__POST_R3__, ɵgetDirectives, ɵgetHostElement, ɵgetInjectableDef, ɵgetLContext, ɵgetLocaleCurrencyCode, ɵgetLocalePluralCase, ɵgetModuleFactory__POST_R3__, ɵgetSanitizationBypassType, ɵglobal, ɵinitServicesIfNeeded, ɵinlineInterpolate, ɵinterpolate, ɵisBoundToModule__POST_R3__, ɵisDefaultChangeDetectionStrategy, ɵisListLikeIterable, ɵisObservable, ɵisPromise, ɵivyEnabled, ɵlooseIdentical, ɵmakeDecorator, ɵmarkDirty, ɵmod, ɵmpd, ɵncd, ɵnov, ɵoverrideComponentView, ɵoverrideProvider, ɵpad, ɵpatchComponentDefWithScope, ɵpid, ɵpod, ɵppd, ɵprd, ɵpublishDefaultGlobalUtils, ɵpublishGlobalUtil, ɵqud, ɵregisterLocaleData, ɵregisterModuleFactory, ɵregisterNgModuleType, ɵrenderComponent, ɵresetCompiledComponents, ɵresolveComponentResources, ɵsetClassMetadata, ɵsetCurrentInjector, ɵsetDocument, ɵsetLocaleId, ɵstore, ɵstringify, ɵted, ɵtransitiveScopesFor, ɵunregisterLocaleData, ɵunv, ɵunwrapSafeValue, ɵvid, ɵwhenRendered, ɵɵCopyDefinitionFeature, ɵɵInheritDefinitionFeature, ɵɵNgOnChangesFeature, ɵɵProvidersFeature, ɵɵadvance, ɵɵattribute, ɵɵattributeInterpolate1, ɵɵattributeInterpolate2, ɵɵattributeInterpolate3, ɵɵattributeInterpolate4, ɵɵattributeInterpolate5, ɵɵattributeInterpolate6, ɵɵattributeInterpolate7, ɵɵattributeInterpolate8, ɵɵattributeInterpolateV, ɵɵclassMap, ɵɵclassMapInterpolate1, ɵɵclassMapInterpolate2, ɵɵclassMapInterpolate3, ɵɵclassMapInterpolate4, ɵɵclassMapInterpolate5, ɵɵclassMapInterpolate6, ɵɵclassMapInterpolate7, ɵɵclassMapInterpolate8, ɵɵclassMapInterpolateV, ɵɵclassProp, ɵɵcomponentHostSyntheticListener, ɵɵcontainer, ɵɵcontainerRefreshEnd, ɵɵcontainerRefreshStart, ɵɵcontentQuery, ɵɵdefaultStyleSanitizer, ɵɵdefineComponent, ɵɵdefineDirective, ɵɵdefineInjectable, ɵɵdefineInjector, ɵɵdefineNgModule, ɵɵdefinePipe, ɵɵdirectiveInject, ɵɵdisableBindings, ɵɵelement, ɵɵelementContainer, ɵɵelementContainerEnd, ɵɵelementContainerStart, ɵɵelementEnd, ɵɵelementStart, ɵɵembeddedViewEnd, ɵɵembeddedViewStart, ɵɵenableBindings, ɵɵgetCurrentView, ɵɵgetFactoryOf, ɵɵgetInheritedFactory, ɵɵhostProperty, ɵɵi18n, ɵɵi18nApply, ɵɵi18nAttributes, ɵɵi18nEnd, ɵɵi18nExp, ɵɵi18nPostprocess, ɵɵi18nStart, ɵɵinject, ɵɵinjectAttribute, ɵɵinjectPipeChangeDetectorRef, ɵɵinvalidFactory, ɵɵinvalidFactoryDep, ɵɵlistener, ɵɵloadQuery, ɵɵnamespaceHTML, ɵɵnamespaceMathML, ɵɵnamespaceSVG, ɵɵnextContext, ɵɵpipe, ɵɵpipeBind1, ɵɵpipeBind2, ɵɵpipeBind3, ɵɵpipeBind4, ɵɵpipeBindV, ɵɵprojection, ɵɵprojectionDef, ɵɵproperty, ɵɵpropertyInterpolate, ɵɵpropertyInterpolate1, ɵɵpropertyInterpolate2, ɵɵpropertyInterpolate3, ɵɵpropertyInterpolate4, ɵɵpropertyInterpolate5, ɵɵpropertyInterpolate6, ɵɵpropertyInterpolate7, ɵɵpropertyInterpolate8, ɵɵpropertyInterpolateV, ɵɵpureFunction0, ɵɵpureFunction1, ɵɵpureFunction2, ɵɵpureFunction3, ɵɵpureFunction4, ɵɵpureFunction5, ɵɵpureFunction6, ɵɵpureFunction7, ɵɵpureFunction8, ɵɵpureFunctionV, ɵɵqueryRefresh, ɵɵreference, ɵɵresolveBody, ɵɵresolveDocument, ɵɵresolveWindow, ɵɵrestoreView, ɵɵsanitizeHtml, ɵɵsanitizeResourceUrl, ɵɵsanitizeScript, ɵɵsanitizeStyle, ɵɵsanitizeUrl, ɵɵsanitizeUrlOrResourceUrl, ɵɵselect, ɵɵsetComponentScope, ɵɵsetNgModuleScope, ɵɵstaticContentQuery, ɵɵstaticViewQuery, ɵɵstyleMap, ɵɵstyleMapInterpolate1, ɵɵstyleMapInterpolate2, ɵɵstyleMapInterpolate3, ɵɵstyleMapInterpolate4, ɵɵstyleMapInterpolate5, ɵɵstyleMapInterpolate6, ɵɵstyleMapInterpolate7, ɵɵstyleMapInterpolate8, ɵɵstyleMapInterpolateV, ɵɵstyleProp, ɵɵstylePropInterpolate1, ɵɵstylePropInterpolate2, ɵɵstylePropInterpolate3, ɵɵstylePropInterpolate4, ɵɵstylePropInterpolate5, ɵɵstylePropInterpolate6, ɵɵstylePropInterpolate7, ɵɵstylePropInterpolate8, ɵɵstylePropInterpolateV, ɵɵstyleSanitizer, ɵɵtemplate, ɵɵtemplateRefExtractor, ɵɵtext, ɵɵtextInterpolate, ɵɵtextInterpolate1, ɵɵtextInterpolate2, ɵɵtextInterpolate3, ɵɵtextInterpolate4, ɵɵtextInterpolate5, ɵɵtextInterpolate6, ɵɵtextInterpolate7, ɵɵtextInterpolate8, ɵɵtextInterpolateV, ɵɵupdateSyntheticHostBinding, ɵɵviewQuery */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -21321,7 +21323,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bl", function() { return makeParamDecorator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bm", function() { return makePropDecorator; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bn", function() { return getClosureSafeProperty; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bp", function() { return noSideEffects; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bo", function() { return noSideEffects; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bq", function() { return getRootContext; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_c", function() { return NullInjector; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_d", function() { return ReflectiveInjector_; });
@@ -21586,13 +21588,33 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs */ "../../node_modules/rxjs/_esm2015/index.js");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs/operators */ "../../node_modules/rxjs/_esm2015/operators/index.js");
 /**
- * @license Angular v9.0.4
+ * @license Angular v9.0.6
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
 
 
 
+
+/**
+ * @license
+ * Copyright Google Inc. All Rights Reserved.
+ *
+ * Use of this source code is governed by an MIT-style license that can be
+ * found in the LICENSE file at https://angular.io/license
+ */
+/**
+ * Convince closure compiler that the wrapped function has no side-effects.
+ *
+ * Closure compiler always assumes that `toString` has no side-effects. We use this quirk to
+ * allow us to execute a function but have closure compiler mark the call as no-side-effects.
+ * It is important that the return value for the `noSideEffects` function be assigned
+ * to something which is retained otherwise the call to `noSideEffects` will be removed by closure
+ * compiler.
+ */
+function noSideEffects(fn) {
+    return { toString: fn }.toString();
+}
 
 /**
  * @license
@@ -21608,33 +21630,35 @@ const PROP_METADATA = '__prop__metadata__';
  * @suppress {globalThis}
  */
 function makeDecorator(name, props, parentClass, additionalProcessing, typeFn) {
-    const metaCtor = makeMetadataCtor(props);
-    function DecoratorFactory(...args) {
-        if (this instanceof DecoratorFactory) {
-            metaCtor.call(this, ...args);
-            return this;
+    return noSideEffects(() => {
+        const metaCtor = makeMetadataCtor(props);
+        function DecoratorFactory(...args) {
+            if (this instanceof DecoratorFactory) {
+                metaCtor.call(this, ...args);
+                return this;
+            }
+            const annotationInstance = new DecoratorFactory(...args);
+            return function TypeDecorator(cls) {
+                if (typeFn)
+                    typeFn(cls, ...args);
+                // Use of Object.defineProperty is important since it creates non-enumerable property which
+                // prevents the property is copied during subclassing.
+                const annotations = cls.hasOwnProperty(ANNOTATIONS) ?
+                    cls[ANNOTATIONS] :
+                    Object.defineProperty(cls, ANNOTATIONS, { value: [] })[ANNOTATIONS];
+                annotations.push(annotationInstance);
+                if (additionalProcessing)
+                    additionalProcessing(cls);
+                return cls;
+            };
         }
-        const annotationInstance = new DecoratorFactory(...args);
-        return function TypeDecorator(cls) {
-            if (typeFn)
-                typeFn(cls, ...args);
-            // Use of Object.defineProperty is important since it creates non-enumerable property which
-            // prevents the property is copied during subclassing.
-            const annotations = cls.hasOwnProperty(ANNOTATIONS) ?
-                cls[ANNOTATIONS] :
-                Object.defineProperty(cls, ANNOTATIONS, { value: [] })[ANNOTATIONS];
-            annotations.push(annotationInstance);
-            if (additionalProcessing)
-                additionalProcessing(cls);
-            return cls;
-        };
-    }
-    if (parentClass) {
-        DecoratorFactory.prototype = Object.create(parentClass.prototype);
-    }
-    DecoratorFactory.prototype.ngMetadataName = name;
-    DecoratorFactory.annotationCls = DecoratorFactory;
-    return DecoratorFactory;
+        if (parentClass) {
+            DecoratorFactory.prototype = Object.create(parentClass.prototype);
+        }
+        DecoratorFactory.prototype.ngMetadataName = name;
+        DecoratorFactory.annotationCls = DecoratorFactory;
+        return DecoratorFactory;
+    });
 }
 function makeMetadataCtor(props) {
     return function ctor(...args) {
@@ -21647,65 +21671,69 @@ function makeMetadataCtor(props) {
     };
 }
 function makeParamDecorator(name, props, parentClass) {
-    const metaCtor = makeMetadataCtor(props);
-    function ParamDecoratorFactory(...args) {
-        if (this instanceof ParamDecoratorFactory) {
-            metaCtor.apply(this, args);
-            return this;
-        }
-        const annotationInstance = new ParamDecoratorFactory(...args);
-        ParamDecorator.annotation = annotationInstance;
-        return ParamDecorator;
-        function ParamDecorator(cls, unusedKey, index) {
-            // Use of Object.defineProperty is important since it creates non-enumerable property which
-            // prevents the property is copied during subclassing.
-            const parameters = cls.hasOwnProperty(PARAMETERS) ?
-                cls[PARAMETERS] :
-                Object.defineProperty(cls, PARAMETERS, { value: [] })[PARAMETERS];
-            // there might be gaps if some in between parameters do not have annotations.
-            // we pad with nulls.
-            while (parameters.length <= index) {
-                parameters.push(null);
+    return noSideEffects(() => {
+        const metaCtor = makeMetadataCtor(props);
+        function ParamDecoratorFactory(...args) {
+            if (this instanceof ParamDecoratorFactory) {
+                metaCtor.apply(this, args);
+                return this;
             }
-            (parameters[index] = parameters[index] || []).push(annotationInstance);
-            return cls;
+            const annotationInstance = new ParamDecoratorFactory(...args);
+            ParamDecorator.annotation = annotationInstance;
+            return ParamDecorator;
+            function ParamDecorator(cls, unusedKey, index) {
+                // Use of Object.defineProperty is important since it creates non-enumerable property which
+                // prevents the property is copied during subclassing.
+                const parameters = cls.hasOwnProperty(PARAMETERS) ?
+                    cls[PARAMETERS] :
+                    Object.defineProperty(cls, PARAMETERS, { value: [] })[PARAMETERS];
+                // there might be gaps if some in between parameters do not have annotations.
+                // we pad with nulls.
+                while (parameters.length <= index) {
+                    parameters.push(null);
+                }
+                (parameters[index] = parameters[index] || []).push(annotationInstance);
+                return cls;
+            }
         }
-    }
-    if (parentClass) {
-        ParamDecoratorFactory.prototype = Object.create(parentClass.prototype);
-    }
-    ParamDecoratorFactory.prototype.ngMetadataName = name;
-    ParamDecoratorFactory.annotationCls = ParamDecoratorFactory;
-    return ParamDecoratorFactory;
+        if (parentClass) {
+            ParamDecoratorFactory.prototype = Object.create(parentClass.prototype);
+        }
+        ParamDecoratorFactory.prototype.ngMetadataName = name;
+        ParamDecoratorFactory.annotationCls = ParamDecoratorFactory;
+        return ParamDecoratorFactory;
+    });
 }
 function makePropDecorator(name, props, parentClass, additionalProcessing) {
-    const metaCtor = makeMetadataCtor(props);
-    function PropDecoratorFactory(...args) {
-        if (this instanceof PropDecoratorFactory) {
-            metaCtor.apply(this, args);
-            return this;
+    return noSideEffects(() => {
+        const metaCtor = makeMetadataCtor(props);
+        function PropDecoratorFactory(...args) {
+            if (this instanceof PropDecoratorFactory) {
+                metaCtor.apply(this, args);
+                return this;
+            }
+            const decoratorInstance = new PropDecoratorFactory(...args);
+            function PropDecorator(target, name) {
+                const constructor = target.constructor;
+                // Use of Object.defineProperty is important since it creates non-enumerable property which
+                // prevents the property is copied during subclassing.
+                const meta = constructor.hasOwnProperty(PROP_METADATA) ?
+                    constructor[PROP_METADATA] :
+                    Object.defineProperty(constructor, PROP_METADATA, { value: {} })[PROP_METADATA];
+                meta[name] = meta.hasOwnProperty(name) && meta[name] || [];
+                meta[name].unshift(decoratorInstance);
+                if (additionalProcessing)
+                    additionalProcessing(target, name, ...args);
+            }
+            return PropDecorator;
         }
-        const decoratorInstance = new PropDecoratorFactory(...args);
-        function PropDecorator(target, name) {
-            const constructor = target.constructor;
-            // Use of Object.defineProperty is important since it creates non-enumerable property which
-            // prevents the property is copied during subclassing.
-            const meta = constructor.hasOwnProperty(PROP_METADATA) ?
-                constructor[PROP_METADATA] :
-                Object.defineProperty(constructor, PROP_METADATA, { value: {} })[PROP_METADATA];
-            meta[name] = meta.hasOwnProperty(name) && meta[name] || [];
-            meta[name].unshift(decoratorInstance);
-            if (additionalProcessing)
-                additionalProcessing(target, name, ...args);
+        if (parentClass) {
+            PropDecoratorFactory.prototype = Object.create(parentClass.prototype);
         }
-        return PropDecorator;
-    }
-    if (parentClass) {
-        PropDecoratorFactory.prototype = Object.create(parentClass.prototype);
-    }
-    PropDecoratorFactory.prototype.ngMetadataName = name;
-    PropDecoratorFactory.annotationCls = PropDecoratorFactory;
-    return PropDecoratorFactory;
+        PropDecoratorFactory.prototype.ngMetadataName = name;
+        PropDecoratorFactory.annotationCls = PropDecoratorFactory;
+        return PropDecoratorFactory;
+    });
 }
 
 /**
@@ -22829,8 +22857,6 @@ function assertDefined(actual, msg) {
     }
 }
 function throwError(msg, actual, expected, comparison) {
-    // tslint:disable-next-line
-    debugger; // Left intentionally for better debugger experience.
     throw new Error(`ASSERTION ERROR: ${msg}` +
         (comparison == null ? '' : ` [Expected=> ${expected} ${comparison} ${actual} <=Actual]`));
 }
@@ -23283,26 +23309,6 @@ ViewEncapsulation$1[ViewEncapsulation$1.None] = 'None';
 ViewEncapsulation$1[ViewEncapsulation$1.ShadowDom] = 'ShadowDom';
 
 /**
- * @license
- * Copyright Google Inc. All Rights Reserved.
- *
- * Use of this source code is governed by an MIT-style license that can be
- * found in the LICENSE file at https://angular.io/license
- */
-/**
- * Convince closure compiler that the wrapped function has no side-effects.
- *
- * Closure compiler always assumes that `toString` has no side-effects. We use this quirk to
- * allow us to execute a function but have closure compiler mark the call as no-side-effects.
- * It is important that the return value for the `noSideEffects` function be assigned
- * to something which is retained otherwise the call to `noSideEffects` will be removed by closure
- * compiler.
- */
-function noSideEffects(fn) {
-    return '' + { toString: fn };
-}
-
-/**
  * @fileoverview added by tsickle
  * Generated from: packages/core/src/render3/empty.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
@@ -23354,66 +23360,66 @@ let _renderCompCount = 0;
  * @return {?}
  */
 function ɵɵdefineComponent(componentDefinition) {
-    // Initialize ngDevMode. This must be the first statement in ɵɵdefineComponent.
-    // See the `initNgDevMode` docstring for more information.
-    (typeof ngDevMode === 'undefined' || ngDevMode) && initNgDevMode();
-    /** @type {?} */
-    const type = componentDefinition.type;
-    /** @type {?} */
-    const typePrototype = type.prototype;
-    /** @type {?} */
-    const declaredInputs = (/** @type {?} */ ({}));
-    /** @type {?} */
-    const def = {
-        type: type,
-        providersResolver: null,
-        decls: componentDefinition.decls,
-        vars: componentDefinition.vars,
-        factory: null,
-        template: componentDefinition.template || (/** @type {?} */ (null)),
-        consts: componentDefinition.consts || null,
-        ngContentSelectors: componentDefinition.ngContentSelectors,
-        hostBindings: componentDefinition.hostBindings || null,
-        hostVars: componentDefinition.hostVars || 0,
-        hostAttrs: componentDefinition.hostAttrs || null,
-        contentQueries: componentDefinition.contentQueries || null,
-        declaredInputs: declaredInputs,
-        inputs: (/** @type {?} */ (null)),
-        // assigned in noSideEffects
-        outputs: (/** @type {?} */ (null)),
-        // assigned in noSideEffects
-        exportAs: componentDefinition.exportAs || null,
-        onChanges: null,
-        onInit: typePrototype.ngOnInit || null,
-        doCheck: typePrototype.ngDoCheck || null,
-        afterContentInit: typePrototype.ngAfterContentInit || null,
-        afterContentChecked: typePrototype.ngAfterContentChecked || null,
-        afterViewInit: typePrototype.ngAfterViewInit || null,
-        afterViewChecked: typePrototype.ngAfterViewChecked || null,
-        onDestroy: typePrototype.ngOnDestroy || null,
-        onPush: componentDefinition.changeDetection === ChangeDetectionStrategy.OnPush,
-        directiveDefs: (/** @type {?} */ (null)),
-        // assigned in noSideEffects
-        pipeDefs: (/** @type {?} */ (null)),
-        // assigned in noSideEffects
-        selectors: componentDefinition.selectors || EMPTY_ARRAY,
-        viewQuery: componentDefinition.viewQuery || null,
-        features: (/** @type {?} */ (componentDefinition.features)) || null,
-        data: componentDefinition.data || {},
-        // TODO(misko): convert ViewEncapsulation into const enum so that it can be used directly in the
-        // next line. Also `None` should be 0 not 2.
-        encapsulation: componentDefinition.encapsulation || ViewEncapsulation$1.Emulated,
-        id: 'c',
-        styles: componentDefinition.styles || EMPTY_ARRAY,
-        _: (/** @type {?} */ (null)),
-        setInput: null,
-        schemas: componentDefinition.schemas || null,
-        tView: null,
-    };
-    def._ = (/** @type {?} */ (noSideEffects((/**
+    return noSideEffects((/**
      * @return {?}
      */
     () => {
+        // Initialize ngDevMode. This must be the first statement in ɵɵdefineComponent.
+        // See the `initNgDevMode` docstring for more information.
+        (typeof ngDevMode === 'undefined' || ngDevMode) && initNgDevMode();
+        /** @type {?} */
+        const type = componentDefinition.type;
+        /** @type {?} */
+        const typePrototype = type.prototype;
+        /** @type {?} */
+        const declaredInputs = (/** @type {?} */ ({}));
+        /** @type {?} */
+        const def = {
+            type: type,
+            providersResolver: null,
+            decls: componentDefinition.decls,
+            vars: componentDefinition.vars,
+            factory: null,
+            template: componentDefinition.template || (/** @type {?} */ (null)),
+            consts: componentDefinition.consts || null,
+            ngContentSelectors: componentDefinition.ngContentSelectors,
+            hostBindings: componentDefinition.hostBindings || null,
+            hostVars: componentDefinition.hostVars || 0,
+            hostAttrs: componentDefinition.hostAttrs || null,
+            contentQueries: componentDefinition.contentQueries || null,
+            declaredInputs: declaredInputs,
+            inputs: (/** @type {?} */ (null)),
+            // assigned in noSideEffects
+            outputs: (/** @type {?} */ (null)),
+            // assigned in noSideEffects
+            exportAs: componentDefinition.exportAs || null,
+            onChanges: null,
+            onInit: typePrototype.ngOnInit || null,
+            doCheck: typePrototype.ngDoCheck || null,
+            afterContentInit: typePrototype.ngAfterContentInit || null,
+            afterContentChecked: typePrototype.ngAfterContentChecked || null,
+            afterViewInit: typePrototype.ngAfterViewInit || null,
+            afterViewChecked: typePrototype.ngAfterViewChecked || null,
+            onDestroy: typePrototype.ngOnDestroy || null,
+            onPush: componentDefinition.changeDetection === ChangeDetectionStrategy.OnPush,
+            directiveDefs: (/** @type {?} */ (null)),
+            // assigned in noSideEffects
+            pipeDefs: (/** @type {?} */ (null)),
+            // assigned in noSideEffects
+            selectors: componentDefinition.selectors || EMPTY_ARRAY,
+            viewQuery: componentDefinition.viewQuery || null,
+            features: (/** @type {?} */ (componentDefinition.features)) || null,
+            data: componentDefinition.data || {},
+            // TODO(misko): convert ViewEncapsulation into const enum so that it can be used directly in
+            // the next line. Also `None` should be 0 not 2.
+            encapsulation: componentDefinition.encapsulation || ViewEncapsulation$1.Emulated,
+            id: 'c',
+            styles: componentDefinition.styles || EMPTY_ARRAY,
+            _: (/** @type {?} */ (null)),
+            setInput: null,
+            schemas: componentDefinition.schemas || null,
+            tView: null,
+        };
         /** @type {?} */
         const directiveTypes = (/** @type {?} */ (componentDefinition.directives));
         /** @type {?} */
@@ -23441,8 +23447,8 @@ function ɵɵdefineComponent(componentDefinition) {
              */
             () => (typeof pipeTypes === 'function' ? pipeTypes() : pipeTypes).map(extractPipeDef)) :
             null;
-    }))));
-    return (/** @type {?} */ (def));
+        return (/** @type {?} */ (def));
+    }));
 }
 /**
  * \@codeGenApi
@@ -26434,24 +26440,29 @@ function ɵɵgetFactoryOf(type) {
  * @return {?}
  */
 function ɵɵgetInheritedFactory(type) {
-    /** @type {?} */
-    const proto = (/** @type {?} */ (Object.getPrototypeOf(type.prototype).constructor));
-    /** @type {?} */
-    const factory = ((/** @type {?} */ (proto)))[NG_FACTORY_DEF] || ɵɵgetFactoryOf(proto);
-    if (factory !== null) {
-        return factory;
-    }
-    else {
-        // There is no factory defined. Either this was improper usage of inheritance
-        // (no Angular decorator on the superclass) or there is no constructor at all
-        // in the inheritance chain. Since the two cases cannot be distinguished, the
-        // latter has to be assumed.
-        return (/**
-         * @param {?} t
-         * @return {?}
-         */
-        (t) => new t());
-    }
+    return noSideEffects((/**
+     * @return {?}
+     */
+    () => {
+        /** @type {?} */
+        const proto = (/** @type {?} */ (Object.getPrototypeOf(type.prototype).constructor));
+        /** @type {?} */
+        const factory = ((/** @type {?} */ (proto)))[NG_FACTORY_DEF] || ɵɵgetFactoryOf(proto);
+        if (factory !== null) {
+            return factory;
+        }
+        else {
+            // There is no factory defined. Either this was improper usage of inheritance
+            // (no Angular decorator on the superclass) or there is no constructor at all
+            // in the inheritance chain. Since the two cases cannot be distinguished, the
+            // latter has to be assumed.
+            return (/**
+             * @param {?} t
+             * @return {?}
+             */
+            (t) => new t());
+        }
+    }));
 }
 
 /**
@@ -28635,8 +28646,6 @@ function throwErrorIfNoChangesMode(creationMode, oldValue, currValue, propName) 
     }
     // TODO: include debug context, see `viewDebugError` function in
     // `packages/core/src/view/errors.ts` for reference.
-    // tslint:disable-next-line
-    debugger; // Left intentionally for better debugger experience.
     throw new Error(msg);
 }
 /**
@@ -32177,7 +32186,7 @@ function initializeInputAndOutputAliases(tView, tNode) {
         outputsStore = generatePropertyAliases(directiveDef.outputs, i, outputsStore);
     }
     if (inputsStore !== null) {
-        if (inputsStore.hasOwnProperty('class') || inputsStore.hasOwnProperty('className')) {
+        if (inputsStore.hasOwnProperty('class')) {
             tNode.flags |= 16 /* hasClassInput */;
         }
         if (inputsStore.hasOwnProperty('style')) {
@@ -35928,7 +35937,7 @@ function compileInjectable(type, srcMeta) {
                         typeArgumentCount: metadata.typeArgumentCount,
                         deps: reflectDependencies(type),
                         injectFn: 'inject',
-                        target: compiler.R3FactoryTarget.Pipe
+                        target: compiler.R3FactoryTarget.Injectable
                     });
                 }
                 return ngFactoryDef;
@@ -36205,8 +36214,23 @@ if (false) {}
  * @return {?}
  */
 function createInjector(defType, parent = null, additionalProviders = null, name) {
-    parent = parent || getNullInjector();
-    return new R3Injector(defType, additionalProviders, parent, name);
+    /** @type {?} */
+    const injector = createInjectorWithoutInjectorInstances(defType, parent, additionalProviders, name);
+    injector._resolveInjectorDefTypes();
+    return injector;
+}
+/**
+ * Creates a new injector without eagerly resolving its injector types. Can be used in places
+ * where resolving the injector types immediately can lead to an infinite loop. The injector types
+ * should be resolved at a later point by calling `_resolveInjectorDefTypes`.
+ * @param {?} defType
+ * @param {?=} parent
+ * @param {?=} additionalProviders
+ * @param {?=} name
+ * @return {?}
+ */
+function createInjectorWithoutInjectorInstances(defType, parent = null, additionalProviders = null, name) {
+    return new R3Injector(defType, additionalProviders, parent || getNullInjector(), name);
 }
 class R3Injector {
     /**
@@ -36254,12 +36278,6 @@ class R3Injector {
         /** @type {?} */
         const record = this.records.get(INJECTOR_SCOPE);
         this.scope = record != null ? record.value : null;
-        // Eagerly instantiate the InjectorType classes themselves.
-        this.injectorDefTypes.forEach((/**
-         * @param {?} defType
-         * @return {?}
-         */
-        defType => this.get(defType)));
         // Source name, used for debugging
         this.source = source || (typeof def === 'object' ? null : stringify(def));
     }
@@ -36366,6 +36384,15 @@ class R3Injector {
             setCurrentInjector(previousInjector);
         }
     }
+    /**
+     * \@internal
+     * @return {?}
+     */
+    _resolveInjectorDefTypes() { this.injectorDefTypes.forEach((/**
+     * @param {?} defType
+     * @return {?}
+     */
+    defType => this.get(defType))); }
     /**
      * @return {?}
      */
@@ -40335,9 +40362,7 @@ function setDirectiveInputsWhichShadowsStyling(tView, tNode, lView, value, isCla
     /** @type {?} */
     const property = isClassBased ? 'class' : 'style';
     // We support both 'class' and `className` hence the fallback.
-    /** @type {?} */
-    const stylingInputs = inputs[property] || (isClassBased && inputs['className']);
-    setInputsForProperty(tView, lView, stylingInputs, property, value);
+    setInputsForProperty(tView, lView, inputs[property], property, value);
 }
 
 /**
@@ -46102,31 +46127,26 @@ const PRIVATE_PREFIX = '__ngOnChanges_';
  * static ɵcmp = defineComponent({
  *   ...
  *   inputs: {name: 'publicName'},
- *   features: [NgOnChangesFeature()]
+ *   features: [NgOnChangesFeature]
  * });
  * ```
  *
  * \@codeGenApi
  * @template T
- * @return {?}
- */
-function ɵɵNgOnChangesFeature() {
-    // This option ensures that the ngOnChanges lifecycle hook will be inherited
-    // from superclasses (in InheritDefinitionFeature).
-    ((/** @type {?} */ (NgOnChangesFeatureImpl))).ngInherit = true;
-    return NgOnChangesFeatureImpl;
-}
-/**
- * @template T
  * @param {?} definition
  * @return {?}
  */
-function NgOnChangesFeatureImpl(definition) {
+function ɵɵNgOnChangesFeature(definition) {
     if (definition.type.prototype.ngOnChanges) {
         definition.setInput = ngOnChangesSetInput;
         ((/** @type {?} */ (definition))).onChanges = wrapOnChanges();
     }
 }
+// This option ensures that the ngOnChanges lifecycle hook will be inherited
+// from superclasses (in InheritDefinitionFeature).
+/** @nocollapse */
+// tslint:disable-next-line:no-toplevel-property-access
+((/** @type {?} */ (ɵɵNgOnChangesFeature))).ngInherit = true;
 /**
  * @return {?}
  */
@@ -46892,7 +46912,7 @@ if (false) {}
  * \@publicApi
  * @type {?}
  */
-const VERSION = new Version('9.0.4');
+const VERSION = new Version('9.0.6');
 
 /**
  * @fileoverview added by tsickle
@@ -52769,7 +52789,8 @@ function i18nEndFirstPass(tView, lView) {
         // Check if an element has any local refs and skip them
         /** @type {?} */
         const tNode = getTNode(tView, index);
-        if (tNode && (tNode.type === 3 /* Element */ || tNode.type === 4 /* ElementContainer */) &&
+        if (tNode && (tNode.type === 0 /* Container */ || tNode.type === 3 /* Element */ ||
+            tNode.type === 4 /* ElementContainer */) &&
             tNode.localNames !== null) {
             // Divide by 2 to get the number of local refs,
             // since they are stored as an array that also includes directive indexes,
@@ -53660,10 +53681,14 @@ class NgModuleRef$1 extends NgModuleRef {
         const ngLocaleIdDef = getNgLocaleIdDef(ngModuleType);
         ngLocaleIdDef && setLocaleId(ngLocaleIdDef);
         this._bootstrapComponents = maybeUnwrapFn((/** @type {?} */ (ngModuleDef)).bootstrap);
-        this._r3Injector = (/** @type {?} */ (createInjector(ngModuleType, _parent, [
+        this._r3Injector = (/** @type {?} */ (createInjectorWithoutInjectorInstances(ngModuleType, _parent, [
             { provide: NgModuleRef, useValue: this },
             { provide: ComponentFactoryResolver, useValue: this.componentFactoryResolver }
         ], stringify(ngModuleType))));
+        // We need to resolve the injector types separately from the injector creation, because
+        // the module might be trying to use this ref in its contructor for DI which will cause a
+        // circular error that will eventually error out, because the injector isn't created yet.
+        this._r3Injector._resolveInjectorDefTypes();
         this.instance = this.get(ngModuleType);
     }
     /**
@@ -55378,10 +55403,7 @@ function collectQueryResults(tView, lView, queryIndex, result) {
             /** @type {?} */
             const tNodeIdx = tQueryMatches[i];
             if (tNodeIdx > 0) {
-                /** @type {?} */
-                const viewResult = lViewResults[i / 2];
-                ngDevMode && assertDefined(viewResult, 'materialized query result should be defined');
-                result.push((/** @type {?} */ (viewResult)));
+                result.push((/** @type {?} */ (lViewResults[i / 2])));
             }
             else {
                 /** @type {?} */
@@ -56380,23 +56402,6 @@ function transitiveScopesFor(moduleType) {
             pipes: new Set(),
         },
     };
-    maybeUnwrapFn(def.declarations).forEach((/**
-     * @param {?} declared
-     * @return {?}
-     */
-    declared => {
-        /** @type {?} */
-        const declaredWithDefs = (/** @type {?} */ (declared));
-        if (getPipeDef(declaredWithDefs)) {
-            scopes.compilation.pipes.add(declared);
-        }
-        else {
-            // Either declared has a ɵcmp or ɵdir, or it's a component which hasn't
-            // had its template compiled yet. In either case, it gets added to the compilation's
-            // directives.
-            scopes.compilation.directives.add(declared);
-        }
-    }));
     maybeUnwrapFn(def.imports).forEach((/**
      * @template I
      * @param {?} imported
@@ -56422,6 +56427,23 @@ function transitiveScopesFor(moduleType) {
          * @return {?}
          */
         entry => scopes.compilation.pipes.add(entry)));
+    }));
+    maybeUnwrapFn(def.declarations).forEach((/**
+     * @param {?} declared
+     * @return {?}
+     */
+    declared => {
+        /** @type {?} */
+        const declaredWithDefs = (/** @type {?} */ (declared));
+        if (getPipeDef(declaredWithDefs)) {
+            scopes.compilation.pipes.add(declared);
+        }
+        else {
+            // Either declared has a ɵcmp or ɵdir, or it's a component which hasn't
+            // had its template compiled yet. In either case, it gets added to the compilation's
+            // directives.
+            scopes.compilation.directives.add(declared);
+        }
     }));
     maybeUnwrapFn(def.exports).forEach((/**
      * @template E
@@ -64409,9 +64431,9 @@ if (ngDevMode) {
 /***/ }),
 
 /***/ "../../node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: MatCard, MatCardActions, MatCardAvatar, MatCardContent, MatCardFooter, MatCardHeader, MatCardImage, MatCardLgImage, MatCardMdImage, MatCardModule, MatCardSmImage, MatCardSubtitle, MatCardTitle, MatCardTitleGroup, MatCardXlImage */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -64829,9 +64851,9 @@ MatCardModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInje
 /***/ }),
 
 /***/ "../../node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: APR, AUG, AnimationCurves, AnimationDurations, DEC, DateAdapter, ErrorStateMatcher, FEB, GestureConfig, JAN, JUL, JUN, MAR, MATERIAL_SANITY_CHECKS, MAT_DATE_FORMATS, MAT_DATE_LOCALE, MAT_DATE_LOCALE_FACTORY, MAT_DATE_LOCALE_PROVIDER, MAT_HAMMER_OPTIONS, MAT_LABEL_GLOBAL_OPTIONS, MAT_NATIVE_DATE_FORMATS, MAT_OPTION_PARENT_COMPONENT, MAT_RIPPLE_GLOBAL_OPTIONS, MAY, MatCommonModule, MatLine, MatLineModule, MatLineSetter, MatNativeDateModule, MatOptgroup, MatOption, MatOptionModule, MatOptionSelectionChange, MatPseudoCheckbox, MatPseudoCheckboxModule, MatRipple, MatRippleModule, NOV, NativeDateAdapter, NativeDateModule, OCT, RippleRef, RippleRenderer, SEP, ShowOnDirtyErrorStateMatcher, VERSION, _countGroupLabelsBeforeOption, _getOptionScrollPosition, defaultRippleAnimationConfig, mixinColor, mixinDisableRipple, mixinDisabled, mixinErrorState, mixinInitialized, mixinTabIndex, setLines, ɵangular_material_src_material_core_core_a */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -64942,7 +64964,7 @@ function MatOption_mat_pseudo_checkbox_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("state", ctx_r0.selected ? "checked" : "unchecked")("disabled", ctx_r0.disabled);
 } }
 const _c2 = ["*"];
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.1');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.2');
 
 /**
  * @fileoverview added by tsickle
@@ -64986,7 +65008,7 @@ if (false) {}
 // Can be removed once the Material primary entry-point no longer
 // re-exports all secondary entry-points
 /** @type {?} */
-const VERSION$1 = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.1');
+const VERSION$1 = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.2');
 /**
  * \@docs-private
  * @return {?}
@@ -67746,9 +67768,9 @@ const DEC = 11;
 /***/ }),
 
 /***/ "../../node_modules/@angular/material/__ivy_ngcc__/fesm2015/divider.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/divider.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/divider.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: MatDivider, MatDividerModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -67866,9 +67888,9 @@ MatDividerModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineI
 /***/ }),
 
 /***/ "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js":
-/*!*************************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js ***!
-  \*************************************************************************************************************************************/
+/*!********************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js ***!
+  \********************************************************************************************************************************/
 /*! exports provided: ANIMATION_MODULE_TYPE, BrowserAnimationsModule, NoopAnimationsModule, ɵAnimationRenderer, ɵAnimationRendererFactory, ɵBrowserAnimationBuilder, ɵBrowserAnimationFactory, ɵInjectableAnimationEngine, ɵangular_packages_platform_browser_animations_animations_a, ɵangular_packages_platform_browser_animations_animations_b, ɵangular_packages_platform_browser_animations_animations_c, ɵangular_packages_platform_browser_animations_animations_d, ɵangular_packages_platform_browser_animations_animations_e, ɵangular_packages_platform_browser_animations_animations_f */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -67894,7 +67916,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_animations_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/animations/browser */ "../../node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
 /**
- * @license Angular v9.0.4
+ * @license Angular v9.0.6
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -68703,9 +68725,9 @@ NoopAnimationsModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
 /***/ }),
 
 /***/ "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js":
-/*!*******************************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js ***!
-  \*******************************************************************************************************************************************/
+/*!**************************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js ***!
+  \**************************************************************************************************************************************/
 /*! exports provided: ɵgetDOM, BrowserModule, BrowserTransferStateModule, By, DomSanitizer, EVENT_MANAGER_PLUGINS, EventManager, HAMMER_GESTURE_CONFIG, HAMMER_LOADER, HammerGestureConfig, HammerModule, Meta, Title, TransferState, VERSION, disableDebugTools, enableDebugTools, makeStateKey, platformBrowser, ɵBROWSER_SANITIZATION_PROVIDERS, ɵBROWSER_SANITIZATION_PROVIDERS__POST_R3__, ɵBrowserDomAdapter, ɵBrowserGetTestability, ɵDomEventsPlugin, ɵDomRendererFactory2, ɵDomSanitizerImpl, ɵDomSharedStylesHost, ɵELEMENT_PROBE_PROVIDERS, ɵELEMENT_PROBE_PROVIDERS__POST_R3__, ɵHAMMER_PROVIDERS__POST_R3__, ɵHammerGesturesPlugin, ɵINTERNAL_BROWSER_PLATFORM_PROVIDERS, ɵKeyEventsPlugin, ɵNAMESPACE_URIS, ɵSharedStylesHost, ɵTRANSITION_ID, ɵangular_packages_platform_browser_platform_browser_a, ɵangular_packages_platform_browser_platform_browser_b, ɵangular_packages_platform_browser_platform_browser_c, ɵangular_packages_platform_browser_platform_browser_d, ɵangular_packages_platform_browser_platform_browser_e, ɵangular_packages_platform_browser_platform_browser_f, ɵangular_packages_platform_browser_platform_browser_g, ɵangular_packages_platform_browser_platform_browser_h, ɵangular_packages_platform_browser_platform_browser_i, ɵangular_packages_platform_browser_platform_browser_j, ɵangular_packages_platform_browser_platform_browser_k, ɵangular_packages_platform_browser_platform_browser_l, ɵangular_packages_platform_browser_platform_browser_m, ɵangular_packages_platform_browser_platform_browser_n, ɵangular_packages_platform_browser_platform_browser_o, ɵescapeHtml, ɵflattenStyles, ɵinitDomAdapter, ɵshimContentAttribute, ɵshimHostAttribute */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -68771,7 +68793,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ɵgetDOM", function() { return _angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"]; });
 
 /**
- * @license Angular v9.0.4
+ * @license Angular v9.0.6
  * (c) 2010-2020 Google LLC. https://angular.io/
  * License: MIT
  */
@@ -71683,7 +71705,7 @@ function elementMatches(n, selector) {
  * \@publicApi
  * @type {?}
  */
-const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('9.0.4');
+const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('9.0.6');
 
 /**
  * @fileoverview added by tsickle
@@ -71714,9 +71736,9 @@ const VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('9.0.4
 /***/ }),
 
 /***/ "../../node_modules/ngx-highlightjs/__ivy_ngcc__/fesm2015/ngx-highlightjs.js":
-/*!********************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/ngx-highlightjs/__ivy_ngcc__/fesm2015/ngx-highlightjs.js ***!
-  \********************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/ngx-highlightjs/__ivy_ngcc__/fesm2015/ngx-highlightjs.js ***!
+  \***************************************************************************************************************************/
 /*! exports provided: HIGHLIGHT_OPTIONS, Highlight, HighlightJS, HighlightLoader, HighlightModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72235,7 +72257,7 @@ class Highlight {
 Highlight.ɵfac = function Highlight_Factory(t) { return new (t || Highlight)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](HighlightJS), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["DomSanitizer"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](HIGHLIGHT_OPTIONS, 8)); };
 Highlight.ɵdir = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineDirective"]({ type: Highlight, selectors: [["", "highlight", ""]], hostVars: 2, hostBindings: function Highlight_HostBindings(rf, ctx) { if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵclassProp"]("hljs", true);
-    } }, inputs: { code: ["highlight", "code"], languages: "languages", lineNumbers: "lineNumbers" }, outputs: { highlighted: "highlighted" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]()] });
+    } }, inputs: { code: ["highlight", "code"], languages: "languages", lineNumbers: "lineNumbers" }, outputs: { highlighted: "highlighted" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]] });
 /** @nocollapse */
 Highlight.ctorParameters = () => [
     { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ElementRef"] },
@@ -72308,9 +72330,9 @@ HighlightModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineIn
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/index.js":
-/*!**********************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/index.js ***!
-  \**********************************************************************************************/
+/*!*****************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/index.js ***!
+  \*****************************************************************************************/
 /*! exports provided: Observable, ConnectableObservable, GroupedObservable, observable, Subject, BehaviorSubject, ReplaySubject, AsyncSubject, asapScheduler, asyncScheduler, queueScheduler, animationFrameScheduler, VirtualTimeScheduler, VirtualAction, Scheduler, Subscription, Subscriber, Notification, NotificationKind, pipe, noop, identity, isObservable, ArgumentOutOfRangeError, EmptyError, ObjectUnsubscribedError, UnsubscriptionError, TimeoutError, bindCallback, bindNodeCallback, combineLatest, concat, defer, empty, forkJoin, from, fromEvent, fromEventPattern, generate, iif, interval, merge, never, of, onErrorResumeNext, pairs, partition, race, range, throwError, timer, using, zip, scheduled, EMPTY, NEVER, config */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72543,9 +72565,9 @@ __webpack_require__.r(__webpack_exports__);
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/AsyncSubject.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/AsyncSubject.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/AsyncSubject.js ***!
+  \*********************************************************************************************************/
 /*! exports provided: AsyncSubject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72599,9 +72621,9 @@ class AsyncSubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"] {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/BehaviorSubject.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/BehaviorSubject.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/BehaviorSubject.js ***!
+  \************************************************************************************************************/
 /*! exports provided: BehaviorSubject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72647,9 +72669,9 @@ class BehaviorSubject extends _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"] {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/InnerSubscriber.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/InnerSubscriber.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/InnerSubscriber.js ***!
+  \************************************************************************************************************/
 /*! exports provided: InnerSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72683,9 +72705,9 @@ class InnerSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscrib
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/Notification.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Notification.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Notification.js ***!
+  \*********************************************************************************************************/
 /*! exports provided: NotificationKind, Notification */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72773,9 +72795,9 @@ Notification.undefinedValueNotification = new Notification('N', undefined);
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/Observable.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Observable.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Observable.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: Observable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72898,9 +72920,9 @@ function getPromiseCtor(promiseCtor) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/Observer.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Observer.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Observer.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: empty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72929,9 +72951,9 @@ const empty = {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/OuterSubscriber.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/OuterSubscriber.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/OuterSubscriber.js ***!
+  \************************************************************************************************************/
 /*! exports provided: OuterSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -72956,9 +72978,9 @@ class OuterSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscrib
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/ReplaySubject.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/ReplaySubject.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/ReplaySubject.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: ReplaySubject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -73079,9 +73101,9 @@ class ReplayEvent {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/Scheduler.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Scheduler.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Scheduler.js ***!
+  \******************************************************************************************************/
 /*! exports provided: Scheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -73103,9 +73125,9 @@ Scheduler.now = () => Date.now();
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/Subject.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Subject.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Subject.js ***!
+  \****************************************************************************************************/
 /*! exports provided: SubjectSubscriber, Subject, AnonymousSubject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -73268,9 +73290,9 @@ class AnonymousSubject extends Subject {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/SubjectSubscription.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/SubjectSubscription.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/SubjectSubscription.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: SubjectSubscription */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -73308,9 +73330,9 @@ class SubjectSubscription extends _Subscription__WEBPACK_IMPORTED_MODULE_0__["Su
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/Subscriber.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Subscriber.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Subscriber.js ***!
+  \*******************************************************************************************************/
 /*! exports provided: Subscriber, SafeSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -73550,9 +73572,9 @@ class SafeSubscriber extends Subscriber {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/Subscription.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Subscription.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Subscription.js ***!
+  \*********************************************************************************************************/
 /*! exports provided: Subscription */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -73700,9 +73722,9 @@ function flattenUnsubscriptionErrors(errors) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/config.js":
-/*!********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/config.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/config.js ***!
+  \***************************************************************************************************/
 /*! exports provided: config */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -73731,9 +73753,9 @@ const config = {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/ConnectableObservable.js":
-/*!**********************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/ConnectableObservable.js ***!
-  \**********************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/ConnectableObservable.js ***!
+  \*****************************************************************************************************************************/
 /*! exports provided: ConnectableObservable, connectableObservableDescriptor */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -73879,9 +73901,9 @@ class RefCountSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_2__["Subsc
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/SubscribeOnObservable.js":
-/*!**********************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/SubscribeOnObservable.js ***!
-  \**********************************************************************************************************************************/
+/*!*****************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/SubscribeOnObservable.js ***!
+  \*****************************************************************************************************************************/
 /*! exports provided: SubscribeOnObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -73928,9 +73950,9 @@ class SubscribeOnObservable extends _Observable__WEBPACK_IMPORTED_MODULE_0__["Ob
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/bindCallback.js":
-/*!*************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/bindCallback.js ***!
-  \*************************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/bindCallback.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: bindCallback */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74032,9 +74054,9 @@ function dispatchError(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/bindNodeCallback.js":
-/*!*****************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/bindNodeCallback.js ***!
-  \*****************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/bindNodeCallback.js ***!
+  \************************************************************************************************************************/
 /*! exports provided: bindNodeCallback */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74144,9 +74166,9 @@ function dispatchError(arg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/combineLatest.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/combineLatest.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/combineLatest.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: combineLatest, CombineLatestOperator, CombineLatestSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74253,9 +74275,9 @@ class CombineLatestSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/concat.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/concat.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/concat.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: concat */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74274,9 +74296,9 @@ function concat(...observables) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/defer.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/defer.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/defer.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: defer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74308,9 +74330,9 @@ function defer(observableFactory) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/empty.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/empty.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/empty.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: EMPTY, empty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74332,9 +74354,9 @@ function emptyScheduled(scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/forkJoin.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/forkJoin.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/forkJoin.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: forkJoin */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74411,9 +74433,9 @@ function forkJoinInternal(sources, keys) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/from.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/from.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/from.js ***!
+  \************************************************************************************************************/
 /*! exports provided: from */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74442,9 +74464,9 @@ function from(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/fromArray.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromArray.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromArray.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: fromArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74470,9 +74492,9 @@ function fromArray(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/fromEvent.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromEvent.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromEvent.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: fromEvent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74549,9 +74571,9 @@ function isEventTarget(sourceObj) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/fromEventPattern.js":
-/*!*****************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromEventPattern.js ***!
-  \*****************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromEventPattern.js ***!
+  \************************************************************************************************************************/
 /*! exports provided: fromEventPattern */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74591,9 +74613,9 @@ function fromEventPattern(addHandler, removeHandler, resultSelector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/generate.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/generate.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/generate.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: generate */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74731,9 +74753,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/iif.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/iif.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/iif.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: iif */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74752,9 +74774,9 @@ function iif(condition, trueResult = _empty__WEBPACK_IMPORTED_MODULE_1__["EMPTY"
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/interval.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/interval.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/interval.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: interval */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74789,9 +74811,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/merge.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/merge.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/merge.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: merge */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74829,9 +74851,9 @@ function merge(...observables) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/never.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/never.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/never.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: NEVER, never */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74852,9 +74874,9 @@ function never() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/of.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/of.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/of.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: of */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74882,9 +74904,9 @@ function of(...args) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/onErrorResumeNext.js":
-/*!******************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/onErrorResumeNext.js ***!
-  \******************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/onErrorResumeNext.js ***!
+  \*************************************************************************************************************************/
 /*! exports provided: onErrorResumeNext */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74921,9 +74943,9 @@ function onErrorResumeNext(...sources) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/pairs.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/pairs.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/pairs.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: pairs, dispatch */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -74975,9 +74997,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/partition.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/partition.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/partition.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: partition */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75003,9 +75025,9 @@ function partition(source, predicate, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/race.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/race.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/race.js ***!
+  \************************************************************************************************************/
 /*! exports provided: race, RaceOperator, RaceSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75086,9 +75108,9 @@ class RaceSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["Oute
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/range.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/range.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/range.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: range, dispatch */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75145,9 +75167,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/throwError.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/throwError.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/throwError.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: throwError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75172,9 +75194,9 @@ function dispatch({ error, subscriber }) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/timer.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/timer.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/timer.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: timer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75226,9 +75248,9 @@ function dispatch(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/using.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/using.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/using.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: using */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75274,9 +75296,9 @@ function using(resourceFactory, observableFactory) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/observable/zip.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/zip.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/zip.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: zip, ZipOperator, ZipSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75493,9 +75515,9 @@ class ZipBufferIterator extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_3__["O
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/audit.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/audit.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/audit.js ***!
+  \************************************************************************************************************/
 /*! exports provided: audit */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75571,9 +75593,9 @@ class AuditSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["Out
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/auditTime.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/auditTime.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/auditTime.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: auditTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75594,9 +75616,9 @@ function auditTime(duration, scheduler = _scheduler_async__WEBPACK_IMPORTED_MODU
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/buffer.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/buffer.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/buffer.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: buffer */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75640,9 +75662,9 @@ class BufferSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["Ou
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/bufferCount.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferCount.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferCount.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: bufferCount */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75732,9 +75754,9 @@ class BufferSkipCountSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/bufferTime.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferTime.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferTime.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: bufferTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -75889,9 +75911,9 @@ function dispatchBufferClose(arg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/bufferToggle.js":
-/*!************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferToggle.js ***!
-  \************************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferToggle.js ***!
+  \*******************************************************************************************************************/
 /*! exports provided: bufferToggle */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76006,9 +76028,9 @@ class BufferToggleSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_2
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/bufferWhen.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferWhen.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferWhen.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: bufferWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76098,9 +76120,9 @@ class BufferWhenSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/catchError.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/catchError.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/catchError.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: catchError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76159,9 +76181,9 @@ class CatchSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["Out
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/combineAll.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/combineAll.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/combineAll.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: combineAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76178,9 +76200,9 @@ function combineAll(project) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/combineLatest.js":
-/*!*************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/combineLatest.js ***!
-  \*************************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/combineLatest.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: combineLatest */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76209,9 +76231,9 @@ function combineLatest(...observables) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/concat.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/concat.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/concat.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: concat */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76228,9 +76250,9 @@ function concat(...observables) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/concatAll.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatAll.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatAll.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: concatAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76247,9 +76269,9 @@ function concatAll() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/concatMap.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatMap.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatMap.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: concatMap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76266,9 +76288,9 @@ function concatMap(project, resultSelector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/concatMapTo.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatMapTo.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatMapTo.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: concatMapTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76285,9 +76307,9 @@ function concatMapTo(innerObservable, resultSelector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/count.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/count.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/count.js ***!
+  \************************************************************************************************************/
 /*! exports provided: count */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76347,9 +76369,9 @@ class CountSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscrib
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/debounce.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/debounce.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/debounce.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: debounce */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76432,9 +76454,9 @@ class DebounceSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/debounceTime.js":
-/*!************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/debounceTime.js ***!
-  \************************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/debounceTime.js ***!
+  \*******************************************************************************************************************/
 /*! exports provided: debounceTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76502,9 +76524,9 @@ function dispatchNext(subscriber) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/defaultIfEmpty.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/defaultIfEmpty.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/defaultIfEmpty.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: defaultIfEmpty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76546,9 +76568,9 @@ class DefaultIfEmptySubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__[
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/delay.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/delay.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/delay.js ***!
+  \************************************************************************************************************/
 /*! exports provided: delay */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76646,9 +76668,9 @@ class DelayMessage {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/delayWhen.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/delayWhen.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/delayWhen.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: delayWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76781,9 +76803,9 @@ class SubscriptionDelaySubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/dematerialize.js":
-/*!*************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/dematerialize.js ***!
-  \*************************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/dematerialize.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: dematerialize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76815,9 +76837,9 @@ class DeMaterializeSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/distinct.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinct.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinct.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: distinct, DistinctSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76889,9 +76911,9 @@ class DistinctSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/distinctUntilChanged.js":
-/*!********************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinctUntilChanged.js ***!
-  \********************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinctUntilChanged.js ***!
+  \***************************************************************************************************************************/
 /*! exports provided: distinctUntilChanged */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76957,9 +76979,9 @@ class DistinctUntilChangedSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODUL
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/distinctUntilKeyChanged.js":
-/*!***********************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinctUntilKeyChanged.js ***!
-  \***********************************************************************************************************************************/
+/*!******************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinctUntilKeyChanged.js ***!
+  \******************************************************************************************************************************/
 /*! exports provided: distinctUntilKeyChanged */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -76976,9 +76998,9 @@ function distinctUntilKeyChanged(key, compare) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/elementAt.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/elementAt.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/elementAt.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: elementAt */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77009,9 +77031,9 @@ function elementAt(index, defaultValue) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/endWith.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/endWith.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/endWith.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: endWith */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77030,9 +77052,9 @@ function endWith(...array) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/every.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/every.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/every.js ***!
+  \************************************************************************************************************/
 /*! exports provided: every */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77089,9 +77111,9 @@ class EverySubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscrib
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/exhaust.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/exhaust.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/exhaust.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: exhaust */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77141,9 +77163,9 @@ class SwitchFirstSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0_
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/exhaustMap.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/exhaustMap.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/exhaustMap.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: exhaustMap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77236,9 +77258,9 @@ class ExhaustMapSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/expand.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/expand.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/expand.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: expand, ExpandOperator, ExpandSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77344,9 +77366,9 @@ class ExpandSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["Ou
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/filter.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/filter.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/filter.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: filter */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77395,9 +77417,9 @@ class FilterSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscri
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/finalize.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/finalize.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/finalize.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: finalize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77430,9 +77452,9 @@ class FinallySubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscr
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/find.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/find.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/find.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: find, FindValueOperator, FindValueSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77497,9 +77519,9 @@ class FindValueSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subs
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/findIndex.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/findIndex.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/findIndex.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: findIndex */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77516,9 +77538,9 @@ function findIndex(predicate, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/first.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/first.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/first.js ***!
+  \************************************************************************************************************/
 /*! exports provided: first */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77546,9 +77568,9 @@ function first(predicate, defaultValue) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/groupBy.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/groupBy.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/groupBy.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: groupBy, GroupedObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77728,9 +77750,9 @@ class InnerRefCountSubscription extends _Subscription__WEBPACK_IMPORTED_MODULE_1
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/ignoreElements.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/ignoreElements.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/ignoreElements.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: ignoreElements */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77758,9 +77780,9 @@ class IgnoreElementsSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__[
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/isEmpty.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/isEmpty.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/isEmpty.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: isEmpty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77798,9 +77820,9 @@ class IsEmptySubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscr
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/last.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/last.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/last.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: last */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77828,9 +77850,9 @@ function last(predicate, defaultValue) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/map.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/map.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/map.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: map, MapOperator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77881,9 +77903,9 @@ class MapSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/mapTo.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mapTo.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mapTo.js ***!
+  \************************************************************************************************************/
 /*! exports provided: mapTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77917,9 +77939,9 @@ class MapToSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscrib
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/materialize.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/materialize.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/materialize.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: materialize */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77963,9 +77985,9 @@ class MaterializeSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Su
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/max.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/max.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/max.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: max */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -77985,9 +78007,9 @@ function max(comparer) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/merge.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/merge.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/merge.js ***!
+  \************************************************************************************************************/
 /*! exports provided: merge */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78004,9 +78026,9 @@ function merge(...observables) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/mergeAll.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeAll.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeAll.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: mergeAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78025,9 +78047,9 @@ function mergeAll(concurrent = Number.POSITIVE_INFINITY) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/mergeMap.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeMap.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeMap.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: mergeMap, MergeMapOperator, MergeMapSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78131,9 +78153,9 @@ class MergeMapSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/mergeMapTo.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeMapTo.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeMapTo.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: mergeMapTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78156,9 +78178,9 @@ function mergeMapTo(innerObservable, resultSelector, concurrent = Number.POSITIV
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/mergeScan.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeScan.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeScan.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: mergeScan, MergeScanOperator, MergeScanSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78263,9 +78285,9 @@ class MergeScanSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__[
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/min.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/min.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/min.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: min */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78285,9 +78307,9 @@ function min(comparer) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/multicast.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/multicast.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/multicast.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: multicast, MulticastOperator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78335,9 +78357,9 @@ class MulticastOperator {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/observeOn.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/observeOn.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/observeOn.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: observeOn, ObserveOnOperator, ObserveOnSubscriber, ObserveOnMessage */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78403,9 +78425,9 @@ class ObserveOnMessage {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/onErrorResumeNext.js":
-/*!*****************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/onErrorResumeNext.js ***!
-  \*****************************************************************************************************************************/
+/*!************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/onErrorResumeNext.js ***!
+  \************************************************************************************************************************/
 /*! exports provided: onErrorResumeNext, onErrorResumeNextStatic */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78486,9 +78508,9 @@ class OnErrorResumeNextSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MOD
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/pairwise.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/pairwise.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/pairwise.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: pairwise */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78529,9 +78551,9 @@ class PairwiseSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subsc
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/partition.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/partition.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/partition.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: partition */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78553,9 +78575,9 @@ function partition(predicate, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/pluck.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/pluck.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/pluck.js ***!
+  \************************************************************************************************************/
 /*! exports provided: pluck */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78592,9 +78614,9 @@ function plucker(props, length) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/publish.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/publish.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/publish.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: publish */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78615,9 +78637,9 @@ function publish(selector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/publishBehavior.js":
-/*!***************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishBehavior.js ***!
-  \***************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishBehavior.js ***!
+  \**********************************************************************************************************************/
 /*! exports provided: publishBehavior */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78636,9 +78658,9 @@ function publishBehavior(value) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/publishLast.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishLast.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishLast.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: publishLast */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78657,9 +78679,9 @@ function publishLast() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/publishReplay.js":
-/*!*************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishReplay.js ***!
-  \*************************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishReplay.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: publishReplay */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78683,9 +78705,9 @@ function publishReplay(bufferSize, windowTime, selectorOrScheduler, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/race.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/race.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/race.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: race */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78709,9 +78731,9 @@ function race(...observables) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/reduce.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/reduce.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/reduce.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: reduce */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78741,9 +78763,9 @@ function reduce(accumulator, seed) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/refCount.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/refCount.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/refCount.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: refCount */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78807,9 +78829,9 @@ class RefCountSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subsc
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/repeat.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/repeat.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/repeat.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: repeat */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78866,9 +78888,9 @@ class RepeatSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscri
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/repeatWhen.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/repeatWhen.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/repeatWhen.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: repeatWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -78959,9 +78981,9 @@ class RepeatWhenSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/retry.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/retry.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/retry.js ***!
+  \************************************************************************************************************/
 /*! exports provided: retry */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79006,9 +79028,9 @@ class RetrySubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscrib
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/retryWhen.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/retryWhen.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/retryWhen.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: retryWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79091,9 +79113,9 @@ class RetryWhenSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__[
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/sample.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/sample.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/sample.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: sample */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79145,9 +79167,9 @@ class SampleSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["Ou
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/sampleTime.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/sampleTime.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/sampleTime.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: sampleTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79199,9 +79221,9 @@ function dispatchNotification(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/scan.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/scan.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/scan.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: scan */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79271,9 +79293,9 @@ class ScanSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscribe
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/sequenceEqual.js":
-/*!*************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/sequenceEqual.js ***!
-  \*************************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/sequenceEqual.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: sequenceEqual, SequenceEqualOperator, SequenceEqualSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79386,9 +79408,9 @@ class SequenceEqualCompareToSubscriber extends _Subscriber__WEBPACK_IMPORTED_MOD
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/share.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/share.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/share.js ***!
+  \************************************************************************************************************/
 /*! exports provided: share */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79412,9 +79434,9 @@ function share() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/shareReplay.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/shareReplay.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/shareReplay.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: shareReplay */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79479,9 +79501,9 @@ function shareReplayOperator({ bufferSize = Number.POSITIVE_INFINITY, windowTime
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/single.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/single.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/single.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: single */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79556,9 +79578,9 @@ class SingleSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscri
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/skip.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/skip.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/skip.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: skip */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79595,9 +79617,9 @@ class SkipSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscribe
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/skipLast.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipLast.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipLast.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: skipLast */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79654,9 +79676,9 @@ class SkipLastSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subsc
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/skipUntil.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipUntil.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipUntil.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: skipUntil */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79712,9 +79734,9 @@ class SkipUntilSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__[
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/skipWhile.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipWhile.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipWhile.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: skipWhile */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79765,9 +79787,9 @@ class SkipWhileSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subs
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/startWith.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/startWith.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/startWith.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: startWith */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79793,9 +79815,9 @@ function startWith(...array) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/subscribeOn.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/subscribeOn.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/subscribeOn.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: subscribeOn */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79823,9 +79845,9 @@ class SubscribeOnOperator {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/switchAll.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchAll.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchAll.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: switchAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79844,9 +79866,9 @@ function switchAll() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/switchMap.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchMap.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchMap.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: switchMap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79935,9 +79957,9 @@ class SwitchMapSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__[
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/switchMapTo.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchMapTo.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchMapTo.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: switchMapTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -79954,9 +79976,9 @@ function switchMapTo(innerObservable, resultSelector) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/take.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/take.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/take.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: take */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80013,9 +80035,9 @@ class TakeSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscribe
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/takeLast.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeLast.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeLast.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: takeLast */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80087,9 +80109,9 @@ class TakeLastSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subsc
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/takeUntil.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeUntil.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeUntil.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: takeUntil */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80134,9 +80156,9 @@ class TakeUntilSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__[
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/takeWhile.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeWhile.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeWhile.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: takeWhile */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80194,9 +80216,9 @@ class TakeWhileSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subs
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/tap.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/tap.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/tap.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: tap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80279,9 +80301,9 @@ class TapSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/throttle.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/throttle.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/throttle.js ***!
+  \***************************************************************************************************************/
 /*! exports provided: defaultThrottleConfig, throttle */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80377,9 +80399,9 @@ class ThrottleSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_0__["
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/throttleTime.js":
-/*!************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/throttleTime.js ***!
-  \************************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/throttleTime.js ***!
+  \*******************************************************************************************************************/
 /*! exports provided: throttleTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80466,9 +80488,9 @@ function dispatchNext(arg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/throwIfEmpty.js":
-/*!************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/throwIfEmpty.js ***!
-  \************************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/throwIfEmpty.js ***!
+  \*******************************************************************************************************************/
 /*! exports provided: throwIfEmpty */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80526,9 +80548,9 @@ function defaultErrorFactory() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/timeInterval.js":
-/*!************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeInterval.js ***!
-  \************************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeInterval.js ***!
+  \*******************************************************************************************************************/
 /*! exports provided: timeInterval, TimeInterval */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80560,9 +80582,9 @@ class TimeInterval {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/timeout.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeout.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeout.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: timeout */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80585,9 +80607,9 @@ function timeout(due, scheduler = _scheduler_async__WEBPACK_IMPORTED_MODULE_0__[
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/timeoutWith.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeoutWith.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeoutWith.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: timeoutWith */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80661,9 +80683,9 @@ class TimeoutWithSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_2_
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/timestamp.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/timestamp.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/timestamp.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: timestamp, Timestamp */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80689,9 +80711,9 @@ class Timestamp {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/toArray.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/toArray.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/toArray.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: toArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80715,9 +80737,9 @@ function toArray() {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/window.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/window.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/window.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: window */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80792,9 +80814,9 @@ class WindowSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["Ou
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/windowCount.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowCount.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowCount.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: windowCount */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -80876,9 +80898,9 @@ class WindowCountSubscriber extends _Subscriber__WEBPACK_IMPORTED_MODULE_0__["Su
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/windowTime.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowTime.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowTime.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: windowTime */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81036,9 +81058,9 @@ function dispatchWindowClose(state) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/windowToggle.js":
-/*!************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowToggle.js ***!
-  \************************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowToggle.js ***!
+  \*******************************************************************************************************************/
 /*! exports provided: windowToggle */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81176,9 +81198,9 @@ class WindowToggleSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_2
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/windowWhen.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowWhen.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowWhen.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: windowWhen */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81267,9 +81289,9 @@ class WindowSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE_1__["Ou
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/withLatestFrom.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/withLatestFrom.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/withLatestFrom.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: withLatestFrom */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81355,9 +81377,9 @@ class WithLatestFromSubscriber extends _OuterSubscriber__WEBPACK_IMPORTED_MODULE
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/zip.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/zip.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/zip.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: zip */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81376,9 +81398,9 @@ function zip(...observables) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/operators/zipAll.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/zipAll.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/zipAll.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: zipAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81395,9 +81417,9 @@ function zipAll(project) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduled/scheduleArray.js":
-/*!*************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleArray.js ***!
-  \*************************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleArray.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: scheduleArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81430,9 +81452,9 @@ function scheduleArray(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduled/scheduleIterable.js":
-/*!****************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleIterable.js ***!
-  \****************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleIterable.js ***!
+  \***********************************************************************************************************************/
 /*! exports provided: scheduleIterable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81491,9 +81513,9 @@ function scheduleIterable(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduled/scheduleObservable.js":
-/*!******************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleObservable.js ***!
-  \******************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleObservable.js ***!
+  \*************************************************************************************************************************/
 /*! exports provided: scheduleObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81525,9 +81547,9 @@ function scheduleObservable(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduled/schedulePromise.js":
-/*!***************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/schedulePromise.js ***!
-  \***************************************************************************************************************************/
+/*!**********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/schedulePromise.js ***!
+  \**********************************************************************************************************************/
 /*! exports provided: schedulePromise */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81557,9 +81579,9 @@ function schedulePromise(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduled/scheduled.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduled.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduled.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: scheduled */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81604,9 +81626,9 @@ function scheduled(input, scheduler) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/Action.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/Action.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/Action.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: Action */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81628,9 +81650,9 @@ class Action extends _Subscription__WEBPACK_IMPORTED_MODULE_0__["Subscription"] 
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameAction.js":
-/*!********************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameAction.js ***!
-  \********************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameAction.js ***!
+  \***************************************************************************************************************************/
 /*! exports provided: AnimationFrameAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81668,9 +81690,9 @@ class AnimationFrameAction extends _AsyncAction__WEBPACK_IMPORTED_MODULE_0__["As
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameScheduler.js":
-/*!***********************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameScheduler.js ***!
-  \***********************************************************************************************************************************/
+/*!******************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameScheduler.js ***!
+  \******************************************************************************************************************************/
 /*! exports provided: AnimationFrameScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81707,9 +81729,9 @@ class AnimationFrameScheduler extends _AsyncScheduler__WEBPACK_IMPORTED_MODULE_0
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/AsapAction.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsapAction.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsapAction.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: AsapAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81749,9 +81771,9 @@ class AsapAction extends _AsyncAction__WEBPACK_IMPORTED_MODULE_1__["AsyncAction"
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/AsapScheduler.js":
-/*!*************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsapScheduler.js ***!
-  \*************************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsapScheduler.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: AsapScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81788,9 +81810,9 @@ class AsapScheduler extends _AsyncScheduler__WEBPACK_IMPORTED_MODULE_0__["AsyncS
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncAction.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsyncAction.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsyncAction.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: AsyncAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81882,9 +81904,9 @@ class AsyncAction extends _Action__WEBPACK_IMPORTED_MODULE_0__["Action"] {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: AsyncScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81942,9 +81964,9 @@ class AsyncScheduler extends _Scheduler__WEBPACK_IMPORTED_MODULE_0__["Scheduler"
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/QueueAction.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/QueueAction.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/QueueAction.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: QueueAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -81985,9 +82007,9 @@ class QueueAction extends _AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncAction
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/QueueScheduler.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/QueueScheduler.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/QueueScheduler.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: QueueScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82003,9 +82025,9 @@ class QueueScheduler extends _AsyncScheduler__WEBPACK_IMPORTED_MODULE_0__["Async
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/VirtualTimeScheduler.js":
-/*!********************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/VirtualTimeScheduler.js ***!
-  \********************************************************************************************************************************/
+/*!***************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/VirtualTimeScheduler.js ***!
+  \***************************************************************************************************************************/
 /*! exports provided: VirtualTimeScheduler, VirtualAction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82101,9 +82123,9 @@ class VirtualAction extends _AsyncAction__WEBPACK_IMPORTED_MODULE_0__["AsyncActi
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/animationFrame.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/animationFrame.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/animationFrame.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: animationFrame */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82120,9 +82142,9 @@ const animationFrame = new _AnimationFrameScheduler__WEBPACK_IMPORTED_MODULE_1__
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/asap.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/asap.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/asap.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: asap */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82139,9 +82161,9 @@ const asap = new _AsapScheduler__WEBPACK_IMPORTED_MODULE_1__["AsapScheduler"](_A
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/async.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/async.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/async.js ***!
+  \************************************************************************************************************/
 /*! exports provided: async */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82158,9 +82180,9 @@ const async = new _AsyncScheduler__WEBPACK_IMPORTED_MODULE_1__["AsyncScheduler"]
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/scheduler/queue.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/queue.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/queue.js ***!
+  \************************************************************************************************************/
 /*! exports provided: queue */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82177,9 +82199,9 @@ const queue = new _QueueScheduler__WEBPACK_IMPORTED_MODULE_1__["QueueScheduler"]
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/symbol/iterator.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/symbol/iterator.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/symbol/iterator.js ***!
+  \************************************************************************************************************/
 /*! exports provided: getSymbolIterator, iterator, $$iterator */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82201,9 +82223,9 @@ const $$iterator = iterator;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/symbol/observable.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/symbol/observable.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/symbol/observable.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: observable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82216,9 +82238,9 @@ const observable = (() => typeof Symbol === 'function' && Symbol.observable || '
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/symbol/rxSubscriber.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/symbol/rxSubscriber.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/symbol/rxSubscriber.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: rxSubscriber, $$rxSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82235,9 +82257,9 @@ const $$rxSubscriber = rxSubscriber;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/ArgumentOutOfRangeError.js":
-/*!******************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/ArgumentOutOfRangeError.js ***!
-  \******************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/ArgumentOutOfRangeError.js ***!
+  \*************************************************************************************************************************/
 /*! exports provided: ArgumentOutOfRangeError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82260,9 +82282,9 @@ const ArgumentOutOfRangeError = ArgumentOutOfRangeErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/EmptyError.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/EmptyError.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/EmptyError.js ***!
+  \************************************************************************************************************/
 /*! exports provided: EmptyError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82285,9 +82307,9 @@ const EmptyError = EmptyErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/Immediate.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/Immediate.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/Immediate.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: Immediate, TestTools */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82326,9 +82348,9 @@ const TestTools = {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/ObjectUnsubscribedError.js":
-/*!******************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/ObjectUnsubscribedError.js ***!
-  \******************************************************************************************************************************/
+/*!*************************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/ObjectUnsubscribedError.js ***!
+  \*************************************************************************************************************************/
 /*! exports provided: ObjectUnsubscribedError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82351,9 +82373,9 @@ const ObjectUnsubscribedError = ObjectUnsubscribedErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/TimeoutError.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/TimeoutError.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/TimeoutError.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: TimeoutError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82376,9 +82398,9 @@ const TimeoutError = TimeoutErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/UnsubscriptionError.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/UnsubscriptionError.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/UnsubscriptionError.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: UnsubscriptionError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82404,9 +82426,9 @@ const UnsubscriptionError = UnsubscriptionErrorImpl;
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/canReportError.js":
-/*!*********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/canReportError.js ***!
-  \*********************************************************************************************************************/
+/*!****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/canReportError.js ***!
+  \****************************************************************************************************************/
 /*! exports provided: canReportError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82435,9 +82457,9 @@ function canReportError(observer) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/hostReportError.js":
-/*!**********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/hostReportError.js ***!
-  \**********************************************************************************************************************/
+/*!*****************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/hostReportError.js ***!
+  \*****************************************************************************************************************/
 /*! exports provided: hostReportError */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82452,9 +82474,9 @@ function hostReportError(err) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/identity.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/identity.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/identity.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: identity */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82469,9 +82491,9 @@ function identity(x) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isArray.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isArray.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isArray.js ***!
+  \*********************************************************************************************************/
 /*! exports provided: isArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82484,9 +82506,9 @@ const isArray = (() => Array.isArray || ((x) => x && typeof x.length === 'number
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isArrayLike.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isArrayLike.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isArrayLike.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: isArrayLike */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82499,9 +82521,9 @@ const isArrayLike = ((x) => x && typeof x.length === 'number' && typeof x !== 'f
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isDate.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isDate.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isDate.js ***!
+  \********************************************************************************************************/
 /*! exports provided: isDate */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82516,9 +82538,9 @@ function isDate(value) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isFunction.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isFunction.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isFunction.js ***!
+  \************************************************************************************************************/
 /*! exports provided: isFunction */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82533,9 +82555,9 @@ function isFunction(x) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isInteropObservable.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isInteropObservable.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isInteropObservable.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: isInteropObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82552,9 +82574,9 @@ function isInteropObservable(input) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isIterable.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isIterable.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isIterable.js ***!
+  \************************************************************************************************************/
 /*! exports provided: isIterable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82571,9 +82593,9 @@ function isIterable(input) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isNumeric.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isNumeric.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isNumeric.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: isNumeric */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82590,9 +82612,9 @@ function isNumeric(val) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isObject.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isObject.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isObject.js ***!
+  \**********************************************************************************************************/
 /*! exports provided: isObject */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82607,9 +82629,9 @@ function isObject(x) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isObservable.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isObservable.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isObservable.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: isObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82626,9 +82648,9 @@ function isObservable(obj) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isPromise.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isPromise.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isPromise.js ***!
+  \***********************************************************************************************************/
 /*! exports provided: isPromise */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82643,9 +82665,9 @@ function isPromise(value) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/isScheduler.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isScheduler.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isScheduler.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: isScheduler */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82660,9 +82682,9 @@ function isScheduler(value) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/noop.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/noop.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/noop.js ***!
+  \******************************************************************************************************/
 /*! exports provided: noop */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82675,9 +82697,9 @@ function noop() { }
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/not.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/not.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/not.js ***!
+  \*****************************************************************************************************/
 /*! exports provided: not */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82697,9 +82719,9 @@ function not(pred, thisArg) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/pipe.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/pipe.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/pipe.js ***!
+  \******************************************************************************************************/
 /*! exports provided: pipe, pipeFromArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82728,9 +82750,9 @@ function pipeFromArray(fns) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/subscribeTo.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeTo.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeTo.js ***!
+  \*************************************************************************************************************/
 /*! exports provided: subscribeTo */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82780,9 +82802,9 @@ const subscribeTo = (result) => {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/subscribeToArray.js":
-/*!***********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToArray.js ***!
-  \***********************************************************************************************************************/
+/*!******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToArray.js ***!
+  \******************************************************************************************************************/
 /*! exports provided: subscribeToArray */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82800,9 +82822,9 @@ const subscribeToArray = (array) => (subscriber) => {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/subscribeToIterable.js":
-/*!**************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToIterable.js ***!
-  \**************************************************************************************************************************/
+/*!*********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToIterable.js ***!
+  \*********************************************************************************************************************/
 /*! exports provided: subscribeToIterable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82838,9 +82860,9 @@ const subscribeToIterable = (iterable) => (subscriber) => {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/subscribeToObservable.js":
-/*!****************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToObservable.js ***!
-  \****************************************************************************************************************************/
+/*!***********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToObservable.js ***!
+  \***********************************************************************************************************************/
 /*! exports provided: subscribeToObservable */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82863,9 +82885,9 @@ const subscribeToObservable = (obj) => (subscriber) => {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/subscribeToPromise.js":
-/*!*************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToPromise.js ***!
-  \*************************************************************************************************************************/
+/*!********************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToPromise.js ***!
+  \********************************************************************************************************************/
 /*! exports provided: subscribeToPromise */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82889,9 +82911,9 @@ const subscribeToPromise = (promise) => (subscriber) => {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/subscribeToResult.js":
-/*!************************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToResult.js ***!
-  \************************************************************************************************************************/
+/*!*******************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToResult.js ***!
+  \*******************************************************************************************************************/
 /*! exports provided: subscribeToResult */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82918,9 +82940,9 @@ function subscribeToResult(outerSubscriber, result, outerValue, outerIndex, inne
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/internal/util/toSubscriber.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/toSubscriber.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/toSubscriber.js ***!
+  \**************************************************************************************************************/
 /*! exports provided: toSubscriber */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82952,9 +82974,9 @@ function toSubscriber(nextOrObserver, error, complete) {
 /***/ }),
 
 /***/ "../../node_modules/rxjs/_esm2015/operators/index.js":
-/*!********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/operators/index.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/operators/index.js ***!
+  \***************************************************************************************************/
 /*! exports provided: audit, auditTime, buffer, bufferCount, bufferTime, bufferToggle, bufferWhen, catchError, combineAll, combineLatest, concat, concatAll, concatMap, concatMapTo, count, debounce, debounceTime, defaultIfEmpty, delay, delayWhen, dematerialize, distinct, distinctUntilChanged, distinctUntilKeyChanged, elementAt, endWith, every, exhaust, exhaustMap, expand, filter, finalize, find, findIndex, first, groupBy, ignoreElements, isEmpty, last, map, mapTo, materialize, max, merge, mergeAll, mergeMap, flatMap, mergeMapTo, mergeScan, min, multicast, observeOn, onErrorResumeNext, pairwise, partition, pluck, publish, publishBehavior, publishLast, publishReplay, race, reduce, repeat, repeatWhen, retry, retryWhen, refCount, sample, sampleTime, scan, sequenceEqual, share, shareReplay, single, skip, skipLast, skipUntil, skipWhile, startWith, subscribeOn, switchAll, switchMap, switchMapTo, take, takeLast, takeUntil, takeWhile, tap, throttle, throttleTime, throwIfEmpty, timeInterval, timeout, timeoutWith, timestamp, toArray, window, windowCount, windowTime, windowToggle, windowWhen, withLatestFrom, zip, zipAll */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 

@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["default~highlight-js~highlight-js-lib-highlight"], {
   /***/
   "../../node_modules/highlight.js/lib/highlight.js":
-  /*!*****************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/highlight.js ***!
-    \*****************************************************************************************************/
+  /*!************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/highlight.js ***!
+    \************************************************************************************************/
 
   /*! no static exports found */
 

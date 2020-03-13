@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["common"], {
   /***/
   "../../node_modules/highlight.js/lib/languages/typescript.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/typescript.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/typescript.js ***!
+    \***********************************************************************************************************/
 
   /*! no static exports found */
 
@@ -162,9 +162,9 @@
 
   /***/
   "../../node_modules/highlight.js/lib/languages/xml.js":
-  /*!*********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/xml.js ***!
-    \*********************************************************************************************************/
+  /*!****************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/xml.js ***!
+    \****************************************************************************************************/
 
   /*! no static exports found */
 

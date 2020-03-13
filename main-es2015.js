@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
-/***/ "../ng-i18n-date-interval/src/langs/en.json":
-/*!**************************************************!*\
-  !*** ../ng-i18n-date-interval/src/langs/en.json ***!
-  \**************************************************/
+/***/ "../ng-date-interval/src/langs/en.json":
+/*!*********************************************!*\
+  !*** ../ng-date-interval/src/langs/en.json ***!
+  \*********************************************/
 /*! exports provided: default, forward, backward */
 /***/ (function(module) {
 
@@ -11,10 +11,10 @@ module.exports = JSON.parse("{\"default\":\"From {startDate} to {endDate}\",\"fo
 
 /***/ }),
 
-/***/ "../ng-i18n-date-interval/src/langs/fr.json":
-/*!**************************************************!*\
-  !*** ../ng-i18n-date-interval/src/langs/fr.json ***!
-  \**************************************************/
+/***/ "../ng-date-interval/src/langs/fr.json":
+/*!*********************************************!*\
+  !*** ../ng-date-interval/src/langs/fr.json ***!
+  \*********************************************/
 /*! exports provided: default, forward, backward */
 /***/ (function(module) {
 
@@ -22,21 +22,21 @@ module.exports = JSON.parse("{\"default\":\"Du {startDate} au {endDate}\",\"forw
 
 /***/ }),
 
-/***/ "../ng-i18n-date-interval/src/langs/index.ts":
-/*!***************************************************!*\
-  !*** ../ng-i18n-date-interval/src/langs/index.ts ***!
-  \***************************************************/
+/***/ "../ng-date-interval/src/langs/index.ts":
+/*!**********************************************!*\
+  !*** ../ng-date-interval/src/langs/index.ts ***!
+  \**********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _en_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./en.json */ "../ng-i18n-date-interval/src/langs/en.json");
-var _en_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./en.json */ "../ng-i18n-date-interval/src/langs/en.json", 1);
-/* harmony import */ var _fr_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fr.json */ "../ng-i18n-date-interval/src/langs/fr.json");
-var _fr_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./fr.json */ "../ng-i18n-date-interval/src/langs/fr.json", 1);
-/* harmony import */ var _ru_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ru.json */ "../ng-i18n-date-interval/src/langs/ru.json");
-var _ru_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./ru.json */ "../ng-i18n-date-interval/src/langs/ru.json", 1);
+/* harmony import */ var _en_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./en.json */ "../ng-date-interval/src/langs/en.json");
+var _en_json__WEBPACK_IMPORTED_MODULE_0___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./en.json */ "../ng-date-interval/src/langs/en.json", 1);
+/* harmony import */ var _fr_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fr.json */ "../ng-date-interval/src/langs/fr.json");
+var _fr_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./fr.json */ "../ng-date-interval/src/langs/fr.json", 1);
+/* harmony import */ var _ru_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ru.json */ "../ng-date-interval/src/langs/ru.json");
+var _ru_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_require__.t(/*! ./ru.json */ "../ng-date-interval/src/langs/ru.json", 1);
 
 
 
@@ -45,10 +45,10 @@ var _ru_json__WEBPACK_IMPORTED_MODULE_2___namespace = /*#__PURE__*/__webpack_req
 
 /***/ }),
 
-/***/ "../ng-i18n-date-interval/src/langs/ru.json":
-/*!**************************************************!*\
-  !*** ../ng-i18n-date-interval/src/langs/ru.json ***!
-  \**************************************************/
+/***/ "../ng-date-interval/src/langs/ru.json":
+/*!*********************************************!*\
+  !*** ../ng-date-interval/src/langs/ru.json ***!
+  \*********************************************/
 /*! exports provided: default, forward, backward */
 /***/ (function(module) {
 
@@ -56,10 +56,10 @@ module.exports = JSON.parse("{\"default\":\"С {startDate} до {endDate}\",\"fo
 
 /***/ }),
 
-/***/ "../ng-i18n-date-interval/src/lib/date-interval.pipe.ts":
-/*!**************************************************************!*\
-  !*** ../ng-i18n-date-interval/src/lib/date-interval.pipe.ts ***!
-  \**************************************************************/
+/***/ "../ng-date-interval/src/lib/date-interval.pipe.ts":
+/*!*********************************************************!*\
+  !*** ../ng-date-interval/src/lib/date-interval.pipe.ts ***!
+  \*********************************************************/
 /*! exports provided: DateIntervalPipe */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -68,7 +68,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "DateIntervalPipe", function() { return DateIntervalPipe; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common */ "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
-/* harmony import */ var _langs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../langs */ "../ng-i18n-date-interval/src/langs/index.ts");
+/* harmony import */ var _langs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../langs */ "../ng-date-interval/src/langs/index.ts");
 
 
 
@@ -202,7 +202,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material/card */ "../../node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
 /* harmony import */ var ngx_highlightjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ngx-highlightjs */ "../../node_modules/ngx-highlightjs/__ivy_ngcc__/fesm2015/ngx-highlightjs.js");
 /* harmony import */ var _angular_material_divider__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/divider */ "../../node_modules/@angular/material/__ivy_ngcc__/fesm2015/divider.js");
-/* harmony import */ var _ng_i18n_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../ng-i18n-date-interval/src/lib/date-interval.pipe */ "../ng-i18n-date-interval/src/lib/date-interval.pipe.ts");
+/* harmony import */ var _ng_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../ng-date-interval/src/lib/date-interval.pipe */ "../ng-date-interval/src/lib/date-interval.pipe.ts");
 
 
 
@@ -217,7 +217,7 @@ const datesStr = `{
 };`;
 class AppComponent {
     constructor() {
-        this.title = 'ng-i18n-date-interval-showcase';
+        this.title = 'ng-date-interval-showcase';
         // Test subjects
         this.dates = {
             single: new Date(),
@@ -411,7 +411,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.localized.ru_dateFormat);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind4"](94, 46, ctx.dates.multiple, "forward", "dd MMMM y", "ru-RU"));
-    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardContent"], ngx_highlightjs__WEBPACK_IMPORTED_MODULE_2__["Highlight"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_3__["MatDivider"]], pipes: [_ng_i18n_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_4__["DateIntervalPipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcm9qZWN0cy9uZy1pMThuLWRhdGUtaW50ZXJ2YWwtc2hvd2Nhc2Uvc3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyJ9 */"] });
+    } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardContent"], ngx_highlightjs__WEBPACK_IMPORTED_MODULE_2__["Highlight"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_3__["MatDivider"]], pipes: [_ng_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_4__["DateIntervalPipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcm9qZWN0cy9uZy1kYXRlLWludGVydmFsLXNob3djYXNlL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MifQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -436,7 +436,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
-/* harmony import */ var _ng_i18n_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../ng-i18n-date-interval/src/lib/date-interval.pipe */ "../ng-i18n-date-interval/src/lib/date-interval.pipe.ts");
+/* harmony import */ var _ng_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../ng-date-interval/src/lib/date-interval.pipe */ "../ng-date-interval/src/lib/date-interval.pipe.ts");
 /* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
 /* harmony import */ var _angular_common_locales_fr__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/common/locales/fr */ "../../node_modules/@angular/common/locales/fr.js");
 /* harmony import */ var _angular_common_locales_fr__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_angular_common_locales_fr__WEBPACK_IMPORTED_MODULE_4__);
@@ -475,11 +475,11 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
             }
         }
     ], imports: [[_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["NoopAnimationsModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], ngx_highlightjs__WEBPACK_IMPORTED_MODULE_10__["HighlightModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_9__["MatDividerModule"]]] });
-(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _ng_i18n_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_2__["DateIntervalPipe"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["NoopAnimationsModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], ngx_highlightjs__WEBPACK_IMPORTED_MODULE_10__["HighlightModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_9__["MatDividerModule"]] }); })();
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _ng_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_2__["DateIntervalPipe"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["NoopAnimationsModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], ngx_highlightjs__WEBPACK_IMPORTED_MODULE_10__["HighlightModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_9__["MatDividerModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
-                declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _ng_i18n_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_2__["DateIntervalPipe"]],
+                declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _ng_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_2__["DateIntervalPipe"]],
                 imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["NoopAnimationsModule"], _angular_material_card__WEBPACK_IMPORTED_MODULE_8__["MatCardModule"], ngx_highlightjs__WEBPACK_IMPORTED_MODULE_10__["HighlightModule"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_9__["MatDividerModule"]],
                 providers: [
                     {
@@ -560,7 +560,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/travis/build/lamabiker/ng-i18n-date-interval/projects/ng-i18n-date-interval-showcase/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /home/travis/build/lamabiker/ng-date-interval/projects/ng-date-interval-showcase/src/main.ts */"./src/main.ts");
 
 
 /***/ })

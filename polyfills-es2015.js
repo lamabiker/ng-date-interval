@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["polyfills"],{
 
 /***/ "../../node_modules/zone.js/dist/zone-evergreen.js":
-/*!******************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/zone.js/dist/zone-evergreen.js ***!
-  \******************************************************************************************************/
+/*!*************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/zone.js/dist/zone-evergreen.js ***!
+  \*************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3024,7 +3024,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/travis/build/lamabiker/ng-i18n-date-interval/projects/ng-i18n-date-interval-showcase/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /home/travis/build/lamabiker/ng-date-interval/projects/ng-date-interval-showcase/src/polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

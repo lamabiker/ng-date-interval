@@ -45,9 +45,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["vendor"], {
   /***/
   "../../node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js":
-  /*!*******************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js ***!
-    \*******************************************************************************************************************************/
+  /*!**************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/animations.js ***!
+    \**************************************************************************************************************************/
 
   /*! exports provided: AUTO_STYLE, AnimationBuilder, AnimationFactory, NoopAnimationPlayer, animate, animateChild, animation, group, keyframes, query, sequence, stagger, state, style, transition, trigger, useAnimation, ɵAnimationGroupPlayer, ɵPRE_STYLE */
 
@@ -171,7 +171,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ɵPRE_STYLE;
     });
     /**
-     * @license Angular v9.0.4
+     * @license Angular v9.0.6
      * (c) 2010-2020 Google LLC. https://angular.io/
      * License: MIT
      */
@@ -1530,7 +1530,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NoopAnimationPlayer = /*#__PURE__*/function () {
+    var NoopAnimationPlayer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?=} duration
        * @param {?=} delay
@@ -1790,7 +1792,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var AnimationGroupPlayer = /*#__PURE__*/function () {
+    var AnimationGroupPlayer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _players
        */
@@ -2237,9 +2241,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js":
-  /*!****************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js ***!
-    \****************************************************************************************************************************/
+  /*!***********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/animations/__ivy_ngcc__/fesm2015/browser.js ***!
+    \***********************************************************************************************************************/
 
   /*! exports provided: AnimationDriver, ɵAnimation, ɵAnimationEngine, ɵAnimationStyleNormalizer, ɵCssKeyframesDriver, ɵCssKeyframesPlayer, ɵNoopAnimationDriver, ɵNoopAnimationStyleNormalizer, ɵWebAnimationsDriver, ɵWebAnimationsPlayer, ɵWebAnimationsStyleNormalizer, ɵallowPreviousPlayerStylesMerge, ɵangular_packages_animations_browser_browser_a, ɵcontainsElement, ɵinvokeQuery, ɵmatchesElement, ɵsupportsWebAnimations, ɵvalidateStyleProperty */
 
@@ -2369,7 +2373,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /**
-     * @license Angular v9.0.4
+     * @license Angular v9.0.6
      * (c) 2010-2020 Google LLC. https://angular.io/
      * License: MIT
      */
@@ -2892,7 +2896,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NoopAnimationDriver = /*#__PURE__*/function () {
+    var NoopAnimationDriver =
+    /*#__PURE__*/
+    function () {
       function NoopAnimationDriver() {
         _classCallCheck(this, NoopAnimationDriver);
       }
@@ -3943,7 +3949,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var ROOT_SELECTOR = '';
 
-    var AnimationAstBuilderVisitor = /*#__PURE__*/function () {
+    var AnimationAstBuilderVisitor =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _driver
        */
@@ -4996,7 +5004,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ElementInstructionMap = /*#__PURE__*/function () {
+    var ElementInstructionMap =
+    /*#__PURE__*/
+    function () {
       function ElementInstructionMap() {
         _classCallCheck(this, ElementInstructionMap);
 
@@ -5197,7 +5207,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return new AnimationTimelineBuilderVisitor().buildKeyframes(driver, rootElement, ast, enterClassName, leaveClassName, startingStyles, finalStyles, options, subInstructions, errors);
     }
 
-    var AnimationTimelineBuilderVisitor = /*#__PURE__*/function () {
+    var AnimationTimelineBuilderVisitor =
+    /*#__PURE__*/
+    function () {
       function AnimationTimelineBuilderVisitor() {
         _classCallCheck(this, AnimationTimelineBuilderVisitor);
       }
@@ -5805,7 +5817,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
     {};
 
-    var AnimationTimelineContext = /*#__PURE__*/function () {
+    var AnimationTimelineContext =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _driver
        * @param {?} element
@@ -6072,7 +6086,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var TimelineBuilder = /*#__PURE__*/function () {
+    var TimelineBuilder =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _driver
        * @param {?} element
@@ -6523,7 +6539,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var SubTimelineBuilder = /*#__PURE__*/function (_TimelineBuilder) {
+    var SubTimelineBuilder =
+    /*#__PURE__*/
+    function (_TimelineBuilder) {
       _inherits(SubTimelineBuilder, _TimelineBuilder);
 
       /**
@@ -6707,7 +6725,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var Animation = /*#__PURE__*/function () {
+    var Animation =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _driver
        * @param {?} input
@@ -6805,7 +6825,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NoopAnimationStyleNormalizer = /*#__PURE__*/function () {
+    var NoopAnimationStyleNormalizer =
+    /*#__PURE__*/
+    function () {
       function NoopAnimationStyleNormalizer() {
         _classCallCheck(this, NoopAnimationStyleNormalizer);
       }
@@ -6848,7 +6870,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var WebAnimationsStyleNormalizer = /*#__PURE__*/function (_AnimationStyleNormal) {
+    var WebAnimationsStyleNormalizer =
+    /*#__PURE__*/
+    function (_AnimationStyleNormal) {
       _inherits(WebAnimationsStyleNormalizer, _AnimationStyleNormal);
 
       function WebAnimationsStyleNormalizer() {
@@ -6997,7 +7021,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var EMPTY_OBJECT = {};
 
-    var AnimationTransitionFactory = /*#__PURE__*/function () {
+    var AnimationTransitionFactory =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _triggerName
        * @param {?} ast
@@ -7181,7 +7207,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       });
     }
 
-    var AnimationStateStyles = /*#__PURE__*/function () {
+    var AnimationStateStyles =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} styles
        * @param {?} defaultParams
@@ -7278,7 +7306,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var AnimationTrigger = /*#__PURE__*/function () {
+    var AnimationTrigger =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} name
        * @param {?} ast
@@ -7433,7 +7463,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var EMPTY_INSTRUCTION_MAP = new ElementInstructionMap();
 
-    var TimelineAnimationEngine = /*#__PURE__*/function () {
+    var TimelineAnimationEngine =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} bodyNode
        * @param {?} _driver
@@ -7793,7 +7825,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var StateValue = /*#__PURE__*/function () {
+    var StateValue =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} input
        * @param {?=} namespaceId
@@ -7884,7 +7918,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var DEFAULT_STATE_VALUE = new StateValue(VOID_VALUE);
 
-    var AnimationTransitionNamespace = /*#__PURE__*/function () {
+    var AnimationTransitionNamespace =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} id
        * @param {?} hostElement
@@ -8663,7 +8699,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var TransitionAnimationEngine = /*#__PURE__*/function () {
+    var TransitionAnimationEngine =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} bodyNode
        * @param {?} driver
@@ -10552,7 +10590,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var TransitionAnimationPlayer = /*#__PURE__*/function () {
+    var TransitionAnimationPlayer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} namespaceId
        * @param {?} triggerName
@@ -11257,7 +11297,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var AnimationEngine = /*#__PURE__*/function () {
+    var AnimationEngine =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} bodyNode
        * @param {?} _driver
@@ -11535,7 +11577,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var SpecialCasedStyles = /*#__PURE__*/function () {
+    var SpecialCasedStyles =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _element
        * @param {?} _startStyles
@@ -11711,7 +11755,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var ONE_SECOND$1 = 1000;
 
-    var ElementAnimationStyleHandler = /*#__PURE__*/function () {
+    var ElementAnimationStyleHandler =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _element
        * @param {?} _name
@@ -12034,7 +12080,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       DESTROYED: 4
     };
 
-    var CssKeyframesPlayer = /*#__PURE__*/function () {
+    var CssKeyframesPlayer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} element
        * @param {?} keyframes
@@ -12391,7 +12439,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var DirectStylePlayer = /*#__PURE__*/function (_angular_animations__) {
+    var DirectStylePlayer =
+    /*#__PURE__*/
+    function (_angular_animations__) {
       _inherits(DirectStylePlayer, _angular_animations__);
 
       /**
@@ -12507,7 +12557,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var TAB_SPACE = ' ';
 
-    var CssKeyframesDriver = /*#__PURE__*/function () {
+    var CssKeyframesDriver =
+    /*#__PURE__*/
+    function () {
       function CssKeyframesDriver() {
         _classCallCheck(this, CssKeyframesDriver);
 
@@ -12808,7 +12860,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var WebAnimationsPlayer = /*#__PURE__*/function () {
+    var WebAnimationsPlayer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} element
        * @param {?} keyframes
@@ -13184,7 +13238,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var WebAnimationsDriver = /*#__PURE__*/function () {
+    var WebAnimationsDriver =
+    /*#__PURE__*/
+    function () {
       function WebAnimationsDriver() {
         _classCallCheck(this, WebAnimationsDriver);
 
@@ -13412,9 +13468,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/a11y.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/a11y.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/a11y.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: A11yModule, ActiveDescendantKeyManager, AriaDescriber, CDK_DESCRIBEDBY_HOST_ATTRIBUTE, CDK_DESCRIBEDBY_ID_PREFIX, CdkAriaLive, CdkMonitorFocus, CdkTrapFocus, ConfigurableFocusTrap, ConfigurableFocusTrapFactory, EventListenerFocusTrapInertStrategy, FOCUS_TRAP_INERT_STRATEGY, FocusKeyManager, FocusMonitor, FocusTrap, FocusTrapFactory, HighContrastModeDetector, InteractivityChecker, LIVE_ANNOUNCER_DEFAULT_OPTIONS, LIVE_ANNOUNCER_ELEMENT_TOKEN, LIVE_ANNOUNCER_ELEMENT_TOKEN_FACTORY, ListKeyManager, LiveAnnouncer, MESSAGES_CONTAINER_ID, TOUCH_BUFFER_MS, isFakeMousedownFromScreenReader, ɵangular_material_src_cdk_a11y_a11y_a, ɵangular_material_src_cdk_a11y_a11y_b */
 
@@ -13789,7 +13845,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * content.
      */
 
-    var AriaDescriber = /*#__PURE__*/function () {
+    var AriaDescriber =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _document
        */
@@ -14196,7 +14254,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ListKeyManager = /*#__PURE__*/function () {
+    var ListKeyManager =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _items
        */
@@ -14787,7 +14847,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ActiveDescendantKeyManager = /*#__PURE__*/function (_ListKeyManager) {
+    var ActiveDescendantKeyManager =
+    /*#__PURE__*/
+    function (_ListKeyManager) {
       _inherits(ActiveDescendantKeyManager, _ListKeyManager);
 
       function ActiveDescendantKeyManager() {
@@ -14840,7 +14902,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var FocusKeyManager = /*#__PURE__*/function (_ListKeyManager2) {
+    var FocusKeyManager =
+    /*#__PURE__*/
+    function (_ListKeyManager2) {
       _inherits(FocusKeyManager, _ListKeyManager2);
 
       function FocusKeyManager() {
@@ -14906,7 +14970,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var InteractivityChecker = /*#__PURE__*/function () {
+    var InteractivityChecker =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _platform
        */
@@ -15275,7 +15341,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var FocusTrap = /*#__PURE__*/function () {
+    var FocusTrap =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _element
        * @param {?} _checker
@@ -15760,7 +15828,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var FocusTrapFactory = /*#__PURE__*/function () {
+    var FocusTrapFactory =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _checker
        * @param {?} _ngZone
@@ -15851,7 +15921,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var CdkTrapFocus = /*#__PURE__*/function () {
+    var CdkTrapFocus =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _elementRef
        * @param {?} _focusTrapFactory
@@ -16043,7 +16115,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ConfigurableFocusTrap = /*#__PURE__*/function (_FocusTrap) {
+    var ConfigurableFocusTrap =
+    /*#__PURE__*/
+    function (_FocusTrap) {
       _inherits(ConfigurableFocusTrap, _FocusTrap);
 
       /**
@@ -16223,7 +16297,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var EventListenerFocusTrapInertStrategy = /*#__PURE__*/function () {
+    var EventListenerFocusTrapInertStrategy =
+    /*#__PURE__*/
+    function () {
       function EventListenerFocusTrapInertStrategy() {
         _classCallCheck(this, EventListenerFocusTrapInertStrategy);
 
@@ -16409,7 +16485,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var FocusTrapManager = /*#__PURE__*/function () {
+    var FocusTrapManager =
+    /*#__PURE__*/
+    function () {
       function FocusTrapManager() {
         _classCallCheck(this, FocusTrapManager);
 
@@ -16519,7 +16597,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ConfigurableFocusTrapFactory = /*#__PURE__*/function () {
+    var ConfigurableFocusTrapFactory =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _checker
        * @param {?} _ngZone
@@ -16682,7 +16762,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
-    var LiveAnnouncer = /*#__PURE__*/function () {
+    var LiveAnnouncer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} elementToken
        * @param {?} _ngZone
@@ -16940,7 +17022,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var CdkAriaLive = /*#__PURE__*/function () {
+    var CdkAriaLive =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _elementRef
        * @param {?} _liveAnnouncer
@@ -17121,7 +17205,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * Monitors mouse and keyboard events to determine the cause of focus events.
      */
 
-    var FocusMonitor = /*#__PURE__*/function () {
+    var FocusMonitor =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _ngZone
        * @param {?} _platform
@@ -17707,7 +17793,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var CdkMonitorFocus = /*#__PURE__*/function () {
+    var CdkMonitorFocus =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _elementRef
        * @param {?} _focusMonitor
@@ -17866,7 +17954,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * browser extension.
      */
 
-    var HighContrastModeDetector = /*#__PURE__*/function () {
+    var HighContrastModeDetector =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _platform
        * @param {?} document
@@ -18101,9 +18191,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/bidi.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/bidi.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/bidi.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: BidiModule, DIR_DOCUMENT, Dir, Directionality, ɵangular_material_src_cdk_bidi_bidi_a */
 
@@ -18202,7 +18292,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var Directionality = /*#__PURE__*/function () {
+    var Directionality =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?=} _document
        */
@@ -18314,7 +18406,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var Dir = /*#__PURE__*/function () {
+    var Dir =
+    /*#__PURE__*/
+    function () {
       function Dir() {
         _classCallCheck(this, Dir);
 
@@ -18515,9 +18609,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/keycodes.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/keycodes.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/keycodes.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: A, ALT, APOSTROPHE, AT_SIGN, B, BACKSLASH, BACKSPACE, C, CAPS_LOCK, CLOSE_SQUARE_BRACKET, COMMA, CONTEXT_MENU, CONTROL, D, DASH, DELETE, DOWN_ARROW, E, EIGHT, END, ENTER, EQUALS, ESCAPE, F, F1, F10, F11, F12, F2, F3, F4, F5, F6, F7, F8, F9, FF_EQUALS, FF_MINUS, FF_MUTE, FF_SEMICOLON, FF_VOLUME_DOWN, FF_VOLUME_UP, FIRST_MEDIA, FIVE, FOUR, G, H, HOME, I, INSERT, J, K, L, LAST_MEDIA, LEFT_ARROW, M, MAC_ENTER, MAC_META, MAC_WK_CMD_LEFT, MAC_WK_CMD_RIGHT, META, MUTE, N, NINE, NUMPAD_DIVIDE, NUMPAD_EIGHT, NUMPAD_FIVE, NUMPAD_FOUR, NUMPAD_MINUS, NUMPAD_MULTIPLY, NUMPAD_NINE, NUMPAD_ONE, NUMPAD_PERIOD, NUMPAD_PLUS, NUMPAD_SEVEN, NUMPAD_SIX, NUMPAD_THREE, NUMPAD_TWO, NUMPAD_ZERO, NUM_CENTER, NUM_LOCK, O, ONE, OPEN_SQUARE_BRACKET, P, PAGE_DOWN, PAGE_UP, PAUSE, PLUS_SIGN, PRINT_SCREEN, Q, QUESTION_MARK, R, RIGHT_ARROW, S, SCROLL_LOCK, SEMICOLON, SEVEN, SHIFT, SINGLE_QUOTE, SIX, SLASH, SPACE, T, TAB, THREE, TILDE, TWO, U, UP_ARROW, V, VOLUME_DOWN, VOLUME_UP, W, X, Y, Z, ZERO, hasModifierKey */
 
@@ -19674,9 +19768,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/observers.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/observers.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/observers.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: CdkObserveContent, ContentObserver, MutationObserverFactory, ObserversModule */
 
@@ -19745,7 +19839,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var MutationObserverFactory = /*#__PURE__*/function () {
+    var MutationObserverFactory =
+    /*#__PURE__*/
+    function () {
       function MutationObserverFactory() {
         _classCallCheck(this, MutationObserverFactory);
       }
@@ -19793,7 +19889,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ContentObserver = /*#__PURE__*/function () {
+    var ContentObserver =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _mutationObserverFactory
        */
@@ -20005,7 +20103,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var CdkObserveContent = /*#__PURE__*/function () {
+    var CdkObserveContent =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _contentObserver
        * @param {?} _elementRef
@@ -20256,9 +20356,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/platform.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/platform.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/__ivy_ngcc__/fesm2015/platform.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: Platform, PlatformModule, _supportsShadowDom, getRtlScrollAxisType, getSupportedInputTypes, normalizePassiveListenerOptions, supportsPassiveEventListeners, supportsScrollBehavior */
 
@@ -20796,9 +20896,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/cdk/fesm2015/cdk.js":
-  /*!****************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/fesm2015/cdk.js ***!
-    \****************************************************************************************************/
+  /*!***********************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/fesm2015/cdk.js ***!
+    \***********************************************************************************************/
 
   /*! exports provided: VERSION */
 
@@ -20830,7 +20930,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** Current version of the Angular Component Development Kit. */
 
 
-    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.1');
+    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.2');
     /**
      * @license
      * Copyright Google LLC All Rights Reserved.
@@ -20853,9 +20953,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/cdk/fesm2015/coercion.js":
-  /*!*********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/cdk/fesm2015/coercion.js ***!
-    \*********************************************************************************************************/
+  /*!****************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/cdk/fesm2015/coercion.js ***!
+    \****************************************************************************************************/
 
   /*! exports provided: _isNumberValue, coerceArray, coerceBooleanProperty, coerceCssPixelValue, coerceElement, coerceNumberProperty */
 
@@ -21017,9 +21117,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: APP_BASE_HREF, AsyncPipe, CommonModule, CurrencyPipe, DOCUMENT, DatePipe, DecimalPipe, FormStyle, FormatWidth, HashLocationStrategy, I18nPluralPipe, I18nSelectPipe, JsonPipe, KeyValuePipe, LOCATION_INITIALIZED, Location, LocationStrategy, LowerCasePipe, NgClass, NgComponentOutlet, NgForOf, NgForOfContext, NgIf, NgIfContext, NgLocaleLocalization, NgLocalization, NgPlural, NgPluralCase, NgStyle, NgSwitch, NgSwitchCase, NgSwitchDefault, NgTemplateOutlet, NumberFormatStyle, NumberSymbol, PathLocationStrategy, PercentPipe, PlatformLocation, Plural, SlicePipe, TitleCasePipe, TranslationWidth, UpperCasePipe, VERSION, ViewportScroller, WeekDay, formatCurrency, formatDate, formatNumber, formatPercent, getCurrencySymbol, getLocaleCurrencyCode, getLocaleCurrencyName, getLocaleCurrencySymbol, getLocaleDateFormat, getLocaleDateTimeFormat, getLocaleDayNames, getLocaleDayPeriods, getLocaleEraNames, getLocaleExtraDayPeriodRules, getLocaleExtraDayPeriods, getLocaleFirstDayOfWeek, getLocaleId, getLocaleMonthNames, getLocaleNumberFormat, getLocaleNumberSymbol, getLocalePluralCase, getLocaleTimeFormat, getLocaleWeekEndRange, getNumberOfCurrencyDigits, isPlatformBrowser, isPlatformServer, isPlatformWorkerApp, isPlatformWorkerUi, registerLocaleData, ɵBrowserPlatformLocation, ɵDomAdapter, ɵNullViewportScroller, ɵPLATFORM_BROWSER_ID, ɵPLATFORM_SERVER_ID, ɵPLATFORM_WORKER_APP_ID, ɵPLATFORM_WORKER_UI_ID, ɵangular_packages_common_common_a, ɵangular_packages_common_common_b, ɵangular_packages_common_common_c, ɵangular_packages_common_common_d, ɵangular_packages_common_common_e, ɵangular_packages_common_common_f, ɵgetDOM, ɵparseCookieValue, ɵsetRootDomAdapter */
 
@@ -21581,7 +21681,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/core */
     "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
     /**
-     * @license Angular v9.0.4
+     * @license Angular v9.0.6
      * (c) 2010-2020 Google LLC. https://angular.io/
      * License: MIT
      */
@@ -21769,7 +21869,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var BrowserPlatformLocation = /*#__PURE__*/function (_PlatformLocation) {
+    var BrowserPlatformLocation =
+    /*#__PURE__*/
+    function (_PlatformLocation) {
       _inherits(BrowserPlatformLocation, _PlatformLocation);
 
       /**
@@ -22249,7 +22351,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      */
 
-    var PathLocationStrategy = /*#__PURE__*/function (_LocationStrategy) {
+    var PathLocationStrategy =
+    /*#__PURE__*/
+    function (_LocationStrategy) {
       _inherits(PathLocationStrategy, _LocationStrategy);
 
       /**
@@ -22450,7 +22554,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var HashLocationStrategy = /*#__PURE__*/function (_LocationStrategy2) {
+    var HashLocationStrategy =
+    /*#__PURE__*/
+    function (_LocationStrategy2) {
       _inherits(HashLocationStrategy, _LocationStrategy2);
 
       /**
@@ -22676,7 +22782,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var Location = /*#__PURE__*/function () {
+    var Location =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} platformStrategy
        * @param {?} platformLocation
@@ -25702,7 +25810,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgLocaleLocalization = /*#__PURE__*/function (_NgLocalization) {
+    var NgLocaleLocalization =
+    /*#__PURE__*/
+    function (_NgLocalization) {
       _inherits(NgLocaleLocalization, _NgLocalization);
 
       /**
@@ -25911,7 +26021,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgClass = /*#__PURE__*/function () {
+    var NgClass =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _iterableDiffers
        * @param {?} _keyValueDiffers
@@ -26308,7 +26420,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgComponentOutlet = /*#__PURE__*/function () {
+    var NgComponentOutlet =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _viewContainerRef
        */
@@ -26384,7 +26498,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         ngComponentOutletContent: "ngComponentOutletContent",
         ngComponentOutletNgModuleFactory: "ngComponentOutletNgModuleFactory"
       },
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]()]
+      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]]
     });
     /** @nocollapse */
 
@@ -26449,7 +26563,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgForOfContext = /*#__PURE__*/function () {
+    var NgForOfContext =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} $implicit
        * @param {?} ngForOf
@@ -26607,7 +26723,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgForOf = /*#__PURE__*/function () {
+    var NgForOf =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _viewContainer
        * @param {?} _template
@@ -27090,7 +27208,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgIf = /*#__PURE__*/function () {
+    var NgIf =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _viewContainer
        * @param {?} templateRef
@@ -27303,7 +27423,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var SwitchView = /*#__PURE__*/function () {
+    var SwitchView =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _viewContainerRef
        * @param {?} _templateRef
@@ -27428,7 +27550,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgSwitch = /*#__PURE__*/function () {
+    var NgSwitch =
+    /*#__PURE__*/
+    function () {
       function NgSwitch() {
         _classCallCheck(this, NgSwitch);
 
@@ -27593,7 +27717,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgSwitchCase = /*#__PURE__*/function () {
+    var NgSwitchCase =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} viewContainer
        * @param {?} templateRef
@@ -27793,7 +27919,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgPlural = /*#__PURE__*/function () {
+    var NgPlural =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _localization
        */
@@ -28061,7 +28189,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgStyle = /*#__PURE__*/function () {
+    var NgStyle =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _ngEl
        * @param {?} _differs
@@ -28261,7 +28391,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgTemplateOutlet = /*#__PURE__*/function () {
+    var NgTemplateOutlet =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _viewContainerRef
        */
@@ -28414,7 +28546,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         ngTemplateOutletContext: "ngTemplateOutletContext",
         ngTemplateOutlet: "ngTemplateOutlet"
       },
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]()]
+      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]]
     });
     /** @nocollapse */
 
@@ -28499,7 +28631,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var ObservableStrategy = /*#__PURE__*/function () {
+    var ObservableStrategy =
+    /*#__PURE__*/
+    function () {
       function ObservableStrategy() {
         _classCallCheck(this, ObservableStrategy);
       }
@@ -28550,7 +28684,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ObservableStrategy;
     }();
 
-    var PromiseStrategy = /*#__PURE__*/function () {
+    var PromiseStrategy =
+    /*#__PURE__*/
+    function () {
       function PromiseStrategy() {
         _classCallCheck(this, PromiseStrategy);
       }
@@ -28630,7 +28766,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var AsyncPipe = /*#__PURE__*/function () {
+    var AsyncPipe =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _ref
        */
@@ -28826,7 +28964,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var LowerCasePipe = /*#__PURE__*/function () {
+    var LowerCasePipe =
+    /*#__PURE__*/
+    function () {
       function LowerCasePipe() {
         _classCallCheck(this, LowerCasePipe);
       }
@@ -28901,7 +29041,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      */
 
-    var TitleCasePipe = /*#__PURE__*/function () {
+    var TitleCasePipe =
+    /*#__PURE__*/
+    function () {
       function TitleCasePipe() {
         _classCallCheck(this, TitleCasePipe);
       }
@@ -28963,7 +29105,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var UpperCasePipe = /*#__PURE__*/function () {
+    var UpperCasePipe =
+    /*#__PURE__*/
+    function () {
       function UpperCasePipe() {
         _classCallCheck(this, UpperCasePipe);
       }
@@ -29156,7 +29300,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     // clang-format on
 
 
-    var DatePipe = /*#__PURE__*/function () {
+    var DatePipe =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} locale
        */
@@ -29266,7 +29412,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      */
 
-    var I18nPluralPipe = /*#__PURE__*/function () {
+    var I18nPluralPipe =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _localization
        */
@@ -29363,7 +29511,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var I18nSelectPipe = /*#__PURE__*/function () {
+    var I18nSelectPipe =
+    /*#__PURE__*/
+    function () {
       function I18nSelectPipe() {
         _classCallCheck(this, I18nSelectPipe);
       }
@@ -29442,7 +29592,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var JsonPipe = /*#__PURE__*/function () {
+    var JsonPipe =
+    /*#__PURE__*/
+    function () {
       function JsonPipe() {
         _classCallCheck(this, JsonPipe);
       }
@@ -29537,7 +29689,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var KeyValuePipe = /*#__PURE__*/function () {
+    var KeyValuePipe =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} differs
        */
@@ -29720,7 +29874,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var DecimalPipe = /*#__PURE__*/function () {
+    var DecimalPipe =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _locale
        */
@@ -29829,7 +29985,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var PercentPipe = /*#__PURE__*/function () {
+    var PercentPipe =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _locale
        */
@@ -29959,7 +30117,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var CurrencyPipe = /*#__PURE__*/function () {
+    var CurrencyPipe =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _locale
        * @param {?=} _defaultCurrencyCode
@@ -30178,7 +30338,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var SlicePipe = /*#__PURE__*/function () {
+    var SlicePipe =
+    /*#__PURE__*/
+    function () {
       function SlicePipe() {
         _classCallCheck(this, SlicePipe);
       }
@@ -30393,7 +30555,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.0.4');
+    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.0.6');
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/common/src/viewport_scroller.ts
@@ -30435,7 +30597,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var BrowserViewportScroller = /*#__PURE__*/function () {
+    var BrowserViewportScroller =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} document
        * @param {?} window
@@ -30619,7 +30783,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NullViewportScroller = /*#__PURE__*/function () {
+    var NullViewportScroller =
+    /*#__PURE__*/
+    function () {
       function NullViewportScroller() {
         _classCallCheck(this, NullViewportScroller);
       }
@@ -30703,9 +30869,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/common/locales/fr.js":
-  /*!*****************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/common/locales/fr.js ***!
-    \*****************************************************************************************************/
+  /*!************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/common/locales/fr.js ***!
+    \************************************************************************************************/
 
   /*! no static exports found */
 
@@ -30798,9 +30964,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/common/locales/ru.js":
-  /*!*****************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/common/locales/ru.js ***!
-    \*****************************************************************************************************/
+  /*!************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/common/locales/ru.js ***!
+    \************************************************************************************************/
 
   /*! no static exports found */
 
@@ -30861,11 +31027,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js ***!
+    \**************************************************************************************************************/
 
-  /*! exports provided: ANALYZE_FOR_ENTRY_COMPONENTS, APP_BOOTSTRAP_LISTENER, APP_ID, APP_INITIALIZER, ApplicationInitStatus, ApplicationModule, ApplicationRef, Attribute, COMPILER_OPTIONS, CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, ChangeDetectorRef, Compiler, CompilerFactory, Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, ContentChild, ContentChildren, DEFAULT_CURRENCY_CODE, DebugElement, DebugEventListener, DebugNode, DefaultIterableDiffer, Directive, ElementRef, EmbeddedViewRef, ErrorHandler, EventEmitter, Host, HostBinding, HostListener, INJECTOR, Inject, InjectFlags, Injectable, InjectionToken, Injector, Input, IterableDiffers, KeyValueDiffers, LOCALE_ID, MissingTranslationStrategy, ModuleWithComponentFactories, NO_ERRORS_SCHEMA, NgModule, NgModuleFactory, NgModuleFactoryLoader, NgModuleRef, NgProbeToken, NgZone, Optional, Output, PACKAGE_ROOT_URL, PLATFORM_ID, PLATFORM_INITIALIZER, Pipe, PlatformRef, Query, QueryList, ReflectiveInjector, ReflectiveKey, Renderer2, RendererFactory2, RendererStyleFlags2, ResolvedReflectiveFactory, Sanitizer, SecurityContext, Self, SimpleChange, SkipSelf, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TRANSLATIONS, TRANSLATIONS_FORMAT, TemplateRef, Testability, TestabilityRegistry, Type, VERSION, Version, ViewChild, ViewChildren, ViewContainerRef, ViewEncapsulation, ViewRef, WrappedValue, asNativeElements, assertPlatform, createPlatform, createPlatformFactory, defineInjectable, destroyPlatform, enableProdMode, forwardRef, getDebugNode, getModuleFactory, getPlatform, inject, isDevMode, platformCore, resolveForwardRef, setTestabilityGetter, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵChangeDetectorStatus, ɵCodegenComponentFactoryResolver, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵComponentFactory, ɵConsole, ɵDEFAULT_LOCALE_ID, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵINJECTOR_IMPL__POST_R3__, ɵINJECTOR_SCOPE, ɵLifecycleHooksFeature, ɵLocaleDataIndex, ɵNG_COMP_DEF, ɵNG_DIR_DEF, ɵNG_ELEMENT_ID, ɵNG_INJ_DEF, ɵNG_MOD_DEF, ɵNG_PIPE_DEF, ɵNG_PROV_DEF, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵNO_CHANGE, ɵNgModuleFactory, ɵNoopNgZone, ɵReflectionCapabilities, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵRender3NgModuleRef, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵ_sanitizeHtml, ɵ_sanitizeStyle, ɵ_sanitizeUrl, ɵallowSanitizationBypassAndThrow, ɵand, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bg, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bk, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_bn, ɵangular_packages_core_core_bp, ɵangular_packages_core_core_bq, ɵangular_packages_core_core_c, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_l, ɵangular_packages_core_core_m, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_t, ɵangular_packages_core_core_u, ɵangular_packages_core_core_v, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_z, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustResourceUrl, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustUrl, ɵccf, ɵclearOverrides, ɵclearResolutionOfComponentResourcesQueue, ɵcmf, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵcompileNgModuleFactory__POST_R3__, ɵcompilePipe, ɵcreateInjector, ɵcrt, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdetectChanges, ɵdevModeEqual, ɵdid, ɵeld, ɵfindLocaleData, ɵflushModuleScopingQueueAsMuchAsPossible, ɵgetComponentViewDefinitionFactory, ɵgetDebugNodeR2, ɵgetDebugNode__POST_R3__, ɵgetDirectives, ɵgetHostElement, ɵgetInjectableDef, ɵgetLContext, ɵgetLocaleCurrencyCode, ɵgetLocalePluralCase, ɵgetModuleFactory__POST_R3__, ɵgetSanitizationBypassType, ɵglobal, ɵinitServicesIfNeeded, ɵinlineInterpolate, ɵinterpolate, ɵisBoundToModule__POST_R3__, ɵisDefaultChangeDetectionStrategy, ɵisListLikeIterable, ɵisObservable, ɵisPromise, ɵivyEnabled, ɵlooseIdentical, ɵmakeDecorator, ɵmarkDirty, ɵmod, ɵmpd, ɵncd, ɵnov, ɵoverrideComponentView, ɵoverrideProvider, ɵpad, ɵpatchComponentDefWithScope, ɵpid, ɵpod, ɵppd, ɵprd, ɵpublishDefaultGlobalUtils, ɵpublishGlobalUtil, ɵqud, ɵregisterLocaleData, ɵregisterModuleFactory, ɵregisterNgModuleType, ɵrenderComponent, ɵresetCompiledComponents, ɵresolveComponentResources, ɵsetClassMetadata, ɵsetCurrentInjector, ɵsetDocument, ɵsetLocaleId, ɵstore, ɵstringify, ɵted, ɵtransitiveScopesFor, ɵunregisterLocaleData, ɵunv, ɵunwrapSafeValue, ɵvid, ɵwhenRendered, ɵɵCopyDefinitionFeature, ɵɵInheritDefinitionFeature, ɵɵNgOnChangesFeature, ɵɵProvidersFeature, ɵɵadvance, ɵɵattribute, ɵɵattributeInterpolate1, ɵɵattributeInterpolate2, ɵɵattributeInterpolate3, ɵɵattributeInterpolate4, ɵɵattributeInterpolate5, ɵɵattributeInterpolate6, ɵɵattributeInterpolate7, ɵɵattributeInterpolate8, ɵɵattributeInterpolateV, ɵɵclassMap, ɵɵclassMapInterpolate1, ɵɵclassMapInterpolate2, ɵɵclassMapInterpolate3, ɵɵclassMapInterpolate4, ɵɵclassMapInterpolate5, ɵɵclassMapInterpolate6, ɵɵclassMapInterpolate7, ɵɵclassMapInterpolate8, ɵɵclassMapInterpolateV, ɵɵclassProp, ɵɵcomponentHostSyntheticListener, ɵɵcontainer, ɵɵcontainerRefreshEnd, ɵɵcontainerRefreshStart, ɵɵcontentQuery, ɵɵdefaultStyleSanitizer, ɵɵdefineComponent, ɵɵdefineDirective, ɵɵdefineInjectable, ɵɵdefineInjector, ɵɵdefineNgModule, ɵɵdefinePipe, ɵɵdirectiveInject, ɵɵdisableBindings, ɵɵelement, ɵɵelementContainer, ɵɵelementContainerEnd, ɵɵelementContainerStart, ɵɵelementEnd, ɵɵelementStart, ɵɵembeddedViewEnd, ɵɵembeddedViewStart, ɵɵenableBindings, ɵɵgetCurrentView, ɵɵgetFactoryOf, ɵɵgetInheritedFactory, ɵɵhostProperty, ɵɵi18n, ɵɵi18nApply, ɵɵi18nAttributes, ɵɵi18nEnd, ɵɵi18nExp, ɵɵi18nPostprocess, ɵɵi18nStart, ɵɵinject, ɵɵinjectAttribute, ɵɵinjectPipeChangeDetectorRef, ɵɵinvalidFactory, ɵɵinvalidFactoryDep, ɵɵlistener, ɵɵloadQuery, ɵɵnamespaceHTML, ɵɵnamespaceMathML, ɵɵnamespaceSVG, ɵɵnextContext, ɵɵpipe, ɵɵpipeBind1, ɵɵpipeBind2, ɵɵpipeBind3, ɵɵpipeBind4, ɵɵpipeBindV, ɵɵprojection, ɵɵprojectionDef, ɵɵproperty, ɵɵpropertyInterpolate, ɵɵpropertyInterpolate1, ɵɵpropertyInterpolate2, ɵɵpropertyInterpolate3, ɵɵpropertyInterpolate4, ɵɵpropertyInterpolate5, ɵɵpropertyInterpolate6, ɵɵpropertyInterpolate7, ɵɵpropertyInterpolate8, ɵɵpropertyInterpolateV, ɵɵpureFunction0, ɵɵpureFunction1, ɵɵpureFunction2, ɵɵpureFunction3, ɵɵpureFunction4, ɵɵpureFunction5, ɵɵpureFunction6, ɵɵpureFunction7, ɵɵpureFunction8, ɵɵpureFunctionV, ɵɵqueryRefresh, ɵɵreference, ɵɵresolveBody, ɵɵresolveDocument, ɵɵresolveWindow, ɵɵrestoreView, ɵɵsanitizeHtml, ɵɵsanitizeResourceUrl, ɵɵsanitizeScript, ɵɵsanitizeStyle, ɵɵsanitizeUrl, ɵɵsanitizeUrlOrResourceUrl, ɵɵselect, ɵɵsetComponentScope, ɵɵsetNgModuleScope, ɵɵstaticContentQuery, ɵɵstaticViewQuery, ɵɵstyleMap, ɵɵstyleMapInterpolate1, ɵɵstyleMapInterpolate2, ɵɵstyleMapInterpolate3, ɵɵstyleMapInterpolate4, ɵɵstyleMapInterpolate5, ɵɵstyleMapInterpolate6, ɵɵstyleMapInterpolate7, ɵɵstyleMapInterpolate8, ɵɵstyleMapInterpolateV, ɵɵstyleProp, ɵɵstylePropInterpolate1, ɵɵstylePropInterpolate2, ɵɵstylePropInterpolate3, ɵɵstylePropInterpolate4, ɵɵstylePropInterpolate5, ɵɵstylePropInterpolate6, ɵɵstylePropInterpolate7, ɵɵstylePropInterpolate8, ɵɵstylePropInterpolateV, ɵɵstyleSanitizer, ɵɵtemplate, ɵɵtemplateRefExtractor, ɵɵtext, ɵɵtextInterpolate, ɵɵtextInterpolate1, ɵɵtextInterpolate2, ɵɵtextInterpolate3, ɵɵtextInterpolate4, ɵɵtextInterpolate5, ɵɵtextInterpolate6, ɵɵtextInterpolate7, ɵɵtextInterpolate8, ɵɵtextInterpolateV, ɵɵupdateSyntheticHostBinding, ɵɵviewQuery */
+  /*! exports provided: ANALYZE_FOR_ENTRY_COMPONENTS, APP_BOOTSTRAP_LISTENER, APP_ID, APP_INITIALIZER, ApplicationInitStatus, ApplicationModule, ApplicationRef, Attribute, COMPILER_OPTIONS, CUSTOM_ELEMENTS_SCHEMA, ChangeDetectionStrategy, ChangeDetectorRef, Compiler, CompilerFactory, Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, ContentChild, ContentChildren, DEFAULT_CURRENCY_CODE, DebugElement, DebugEventListener, DebugNode, DefaultIterableDiffer, Directive, ElementRef, EmbeddedViewRef, ErrorHandler, EventEmitter, Host, HostBinding, HostListener, INJECTOR, Inject, InjectFlags, Injectable, InjectionToken, Injector, Input, IterableDiffers, KeyValueDiffers, LOCALE_ID, MissingTranslationStrategy, ModuleWithComponentFactories, NO_ERRORS_SCHEMA, NgModule, NgModuleFactory, NgModuleFactoryLoader, NgModuleRef, NgProbeToken, NgZone, Optional, Output, PACKAGE_ROOT_URL, PLATFORM_ID, PLATFORM_INITIALIZER, Pipe, PlatformRef, Query, QueryList, ReflectiveInjector, ReflectiveKey, Renderer2, RendererFactory2, RendererStyleFlags2, ResolvedReflectiveFactory, Sanitizer, SecurityContext, Self, SimpleChange, SkipSelf, SystemJsNgModuleLoader, SystemJsNgModuleLoaderConfig, TRANSLATIONS, TRANSLATIONS_FORMAT, TemplateRef, Testability, TestabilityRegistry, Type, VERSION, Version, ViewChild, ViewChildren, ViewContainerRef, ViewEncapsulation, ViewRef, WrappedValue, asNativeElements, assertPlatform, createPlatform, createPlatformFactory, defineInjectable, destroyPlatform, enableProdMode, forwardRef, getDebugNode, getModuleFactory, getPlatform, inject, isDevMode, platformCore, resolveForwardRef, setTestabilityGetter, ɵALLOW_MULTIPLE_PLATFORMS, ɵAPP_ID_RANDOM_PROVIDER, ɵChangeDetectorStatus, ɵCodegenComponentFactoryResolver, ɵCompiler_compileModuleAndAllComponentsAsync__POST_R3__, ɵCompiler_compileModuleAndAllComponentsSync__POST_R3__, ɵCompiler_compileModuleAsync__POST_R3__, ɵCompiler_compileModuleSync__POST_R3__, ɵComponentFactory, ɵConsole, ɵDEFAULT_LOCALE_ID, ɵEMPTY_ARRAY, ɵEMPTY_MAP, ɵINJECTOR_IMPL__POST_R3__, ɵINJECTOR_SCOPE, ɵLifecycleHooksFeature, ɵLocaleDataIndex, ɵNG_COMP_DEF, ɵNG_DIR_DEF, ɵNG_ELEMENT_ID, ɵNG_INJ_DEF, ɵNG_MOD_DEF, ɵNG_PIPE_DEF, ɵNG_PROV_DEF, ɵNOT_FOUND_CHECK_ONLY_ELEMENT_INJECTOR, ɵNO_CHANGE, ɵNgModuleFactory, ɵNoopNgZone, ɵReflectionCapabilities, ɵRender3ComponentFactory, ɵRender3ComponentRef, ɵRender3NgModuleRef, ɵSWITCH_CHANGE_DETECTOR_REF_FACTORY__POST_R3__, ɵSWITCH_COMPILE_COMPONENT__POST_R3__, ɵSWITCH_COMPILE_DIRECTIVE__POST_R3__, ɵSWITCH_COMPILE_INJECTABLE__POST_R3__, ɵSWITCH_COMPILE_NGMODULE__POST_R3__, ɵSWITCH_COMPILE_PIPE__POST_R3__, ɵSWITCH_ELEMENT_REF_FACTORY__POST_R3__, ɵSWITCH_IVY_ENABLED__POST_R3__, ɵSWITCH_RENDERER2_FACTORY__POST_R3__, ɵSWITCH_TEMPLATE_REF_FACTORY__POST_R3__, ɵSWITCH_VIEW_CONTAINER_REF_FACTORY__POST_R3__, ɵ_sanitizeHtml, ɵ_sanitizeStyle, ɵ_sanitizeUrl, ɵallowSanitizationBypassAndThrow, ɵand, ɵangular_packages_core_core_a, ɵangular_packages_core_core_b, ɵangular_packages_core_core_ba, ɵangular_packages_core_core_bb, ɵangular_packages_core_core_bc, ɵangular_packages_core_core_bd, ɵangular_packages_core_core_bf, ɵangular_packages_core_core_bg, ɵangular_packages_core_core_bh, ɵangular_packages_core_core_bi, ɵangular_packages_core_core_bj, ɵangular_packages_core_core_bk, ɵangular_packages_core_core_bl, ɵangular_packages_core_core_bm, ɵangular_packages_core_core_bn, ɵangular_packages_core_core_bo, ɵangular_packages_core_core_bq, ɵangular_packages_core_core_c, ɵangular_packages_core_core_d, ɵangular_packages_core_core_e, ɵangular_packages_core_core_f, ɵangular_packages_core_core_g, ɵangular_packages_core_core_h, ɵangular_packages_core_core_i, ɵangular_packages_core_core_j, ɵangular_packages_core_core_k, ɵangular_packages_core_core_l, ɵangular_packages_core_core_m, ɵangular_packages_core_core_n, ɵangular_packages_core_core_o, ɵangular_packages_core_core_p, ɵangular_packages_core_core_q, ɵangular_packages_core_core_r, ɵangular_packages_core_core_s, ɵangular_packages_core_core_t, ɵangular_packages_core_core_u, ɵangular_packages_core_core_v, ɵangular_packages_core_core_w, ɵangular_packages_core_core_x, ɵangular_packages_core_core_y, ɵangular_packages_core_core_z, ɵbypassSanitizationTrustHtml, ɵbypassSanitizationTrustResourceUrl, ɵbypassSanitizationTrustScript, ɵbypassSanitizationTrustStyle, ɵbypassSanitizationTrustUrl, ɵccf, ɵclearOverrides, ɵclearResolutionOfComponentResourcesQueue, ɵcmf, ɵcompileComponent, ɵcompileDirective, ɵcompileNgModule, ɵcompileNgModuleDefs, ɵcompileNgModuleFactory__POST_R3__, ɵcompilePipe, ɵcreateInjector, ɵcrt, ɵdefaultIterableDiffers, ɵdefaultKeyValueDiffers, ɵdetectChanges, ɵdevModeEqual, ɵdid, ɵeld, ɵfindLocaleData, ɵflushModuleScopingQueueAsMuchAsPossible, ɵgetComponentViewDefinitionFactory, ɵgetDebugNodeR2, ɵgetDebugNode__POST_R3__, ɵgetDirectives, ɵgetHostElement, ɵgetInjectableDef, ɵgetLContext, ɵgetLocaleCurrencyCode, ɵgetLocalePluralCase, ɵgetModuleFactory__POST_R3__, ɵgetSanitizationBypassType, ɵglobal, ɵinitServicesIfNeeded, ɵinlineInterpolate, ɵinterpolate, ɵisBoundToModule__POST_R3__, ɵisDefaultChangeDetectionStrategy, ɵisListLikeIterable, ɵisObservable, ɵisPromise, ɵivyEnabled, ɵlooseIdentical, ɵmakeDecorator, ɵmarkDirty, ɵmod, ɵmpd, ɵncd, ɵnov, ɵoverrideComponentView, ɵoverrideProvider, ɵpad, ɵpatchComponentDefWithScope, ɵpid, ɵpod, ɵppd, ɵprd, ɵpublishDefaultGlobalUtils, ɵpublishGlobalUtil, ɵqud, ɵregisterLocaleData, ɵregisterModuleFactory, ɵregisterNgModuleType, ɵrenderComponent, ɵresetCompiledComponents, ɵresolveComponentResources, ɵsetClassMetadata, ɵsetCurrentInjector, ɵsetDocument, ɵsetLocaleId, ɵstore, ɵstringify, ɵted, ɵtransitiveScopesFor, ɵunregisterLocaleData, ɵunv, ɵunwrapSafeValue, ɵvid, ɵwhenRendered, ɵɵCopyDefinitionFeature, ɵɵInheritDefinitionFeature, ɵɵNgOnChangesFeature, ɵɵProvidersFeature, ɵɵadvance, ɵɵattribute, ɵɵattributeInterpolate1, ɵɵattributeInterpolate2, ɵɵattributeInterpolate3, ɵɵattributeInterpolate4, ɵɵattributeInterpolate5, ɵɵattributeInterpolate6, ɵɵattributeInterpolate7, ɵɵattributeInterpolate8, ɵɵattributeInterpolateV, ɵɵclassMap, ɵɵclassMapInterpolate1, ɵɵclassMapInterpolate2, ɵɵclassMapInterpolate3, ɵɵclassMapInterpolate4, ɵɵclassMapInterpolate5, ɵɵclassMapInterpolate6, ɵɵclassMapInterpolate7, ɵɵclassMapInterpolate8, ɵɵclassMapInterpolateV, ɵɵclassProp, ɵɵcomponentHostSyntheticListener, ɵɵcontainer, ɵɵcontainerRefreshEnd, ɵɵcontainerRefreshStart, ɵɵcontentQuery, ɵɵdefaultStyleSanitizer, ɵɵdefineComponent, ɵɵdefineDirective, ɵɵdefineInjectable, ɵɵdefineInjector, ɵɵdefineNgModule, ɵɵdefinePipe, ɵɵdirectiveInject, ɵɵdisableBindings, ɵɵelement, ɵɵelementContainer, ɵɵelementContainerEnd, ɵɵelementContainerStart, ɵɵelementEnd, ɵɵelementStart, ɵɵembeddedViewEnd, ɵɵembeddedViewStart, ɵɵenableBindings, ɵɵgetCurrentView, ɵɵgetFactoryOf, ɵɵgetInheritedFactory, ɵɵhostProperty, ɵɵi18n, ɵɵi18nApply, ɵɵi18nAttributes, ɵɵi18nEnd, ɵɵi18nExp, ɵɵi18nPostprocess, ɵɵi18nStart, ɵɵinject, ɵɵinjectAttribute, ɵɵinjectPipeChangeDetectorRef, ɵɵinvalidFactory, ɵɵinvalidFactoryDep, ɵɵlistener, ɵɵloadQuery, ɵɵnamespaceHTML, ɵɵnamespaceMathML, ɵɵnamespaceSVG, ɵɵnextContext, ɵɵpipe, ɵɵpipeBind1, ɵɵpipeBind2, ɵɵpipeBind3, ɵɵpipeBind4, ɵɵpipeBindV, ɵɵprojection, ɵɵprojectionDef, ɵɵproperty, ɵɵpropertyInterpolate, ɵɵpropertyInterpolate1, ɵɵpropertyInterpolate2, ɵɵpropertyInterpolate3, ɵɵpropertyInterpolate4, ɵɵpropertyInterpolate5, ɵɵpropertyInterpolate6, ɵɵpropertyInterpolate7, ɵɵpropertyInterpolate8, ɵɵpropertyInterpolateV, ɵɵpureFunction0, ɵɵpureFunction1, ɵɵpureFunction2, ɵɵpureFunction3, ɵɵpureFunction4, ɵɵpureFunction5, ɵɵpureFunction6, ɵɵpureFunction7, ɵɵpureFunction8, ɵɵpureFunctionV, ɵɵqueryRefresh, ɵɵreference, ɵɵresolveBody, ɵɵresolveDocument, ɵɵresolveWindow, ɵɵrestoreView, ɵɵsanitizeHtml, ɵɵsanitizeResourceUrl, ɵɵsanitizeScript, ɵɵsanitizeStyle, ɵɵsanitizeUrl, ɵɵsanitizeUrlOrResourceUrl, ɵɵselect, ɵɵsetComponentScope, ɵɵsetNgModuleScope, ɵɵstaticContentQuery, ɵɵstaticViewQuery, ɵɵstyleMap, ɵɵstyleMapInterpolate1, ɵɵstyleMapInterpolate2, ɵɵstyleMapInterpolate3, ɵɵstyleMapInterpolate4, ɵɵstyleMapInterpolate5, ɵɵstyleMapInterpolate6, ɵɵstyleMapInterpolate7, ɵɵstyleMapInterpolate8, ɵɵstyleMapInterpolateV, ɵɵstyleProp, ɵɵstylePropInterpolate1, ɵɵstylePropInterpolate2, ɵɵstylePropInterpolate3, ɵɵstylePropInterpolate4, ɵɵstylePropInterpolate5, ɵɵstylePropInterpolate6, ɵɵstylePropInterpolate7, ɵɵstylePropInterpolate8, ɵɵstylePropInterpolateV, ɵɵstyleSanitizer, ɵɵtemplate, ɵɵtemplateRefExtractor, ɵɵtext, ɵɵtextInterpolate, ɵɵtextInterpolate1, ɵɵtextInterpolate2, ɵɵtextInterpolate3, ɵɵtextInterpolate4, ɵɵtextInterpolate5, ɵɵtextInterpolate6, ɵɵtextInterpolate7, ɵɵtextInterpolate8, ɵɵtextInterpolateV, ɵɵupdateSyntheticHostBinding, ɵɵviewQuery */
 
   /***/
   function node_modulesAngularCore__ivy_ngcc__Fesm2015CoreJs(module, __webpack_exports__, __webpack_require__) {
@@ -31877,7 +32043,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony export (binding) */
 
 
-    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bp", function () {
+    __webpack_require__.d(__webpack_exports__, "ɵangular_packages_core_core_bo", function () {
       return noSideEffects;
     });
     /* harmony export (binding) */
@@ -33459,11 +33625,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! rxjs/operators */
     "../../node_modules/rxjs/_esm2015/operators/index.js");
     /**
-     * @license Angular v9.0.4
+     * @license Angular v9.0.6
      * (c) 2010-2020 Google LLC. https://angular.io/
      * License: MIT
      */
 
+    /**
+     * @license
+     * Copyright Google Inc. All Rights Reserved.
+     *
+     * Use of this source code is governed by an MIT-style license that can be
+     * found in the LICENSE file at https://angular.io/license
+     */
+
+    /**
+     * Convince closure compiler that the wrapped function has no side-effects.
+     *
+     * Closure compiler always assumes that `toString` has no side-effects. We use this quirk to
+     * allow us to execute a function but have closure compiler mark the call as no-side-effects.
+     * It is important that the return value for the `noSideEffects` function be assigned
+     * to something which is retained otherwise the call to `noSideEffects` will be removed by closure
+     * compiler.
+     */
+
+
+    function noSideEffects(fn) {
+      return {
+        toString: fn
+      }.toString();
+    }
     /**
      * @license
      * Copyright Google Inc. All Rights Reserved.
@@ -33481,40 +33671,42 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
     function makeDecorator(name, props, parentClass, additionalProcessing, typeFn) {
-      var metaCtor = makeMetadataCtor(props);
+      return noSideEffects(function () {
+        var metaCtor = makeMetadataCtor(props);
 
-      function DecoratorFactory() {
-        for (var _len4 = arguments.length, args = new Array(_len4), _key5 = 0; _key5 < _len4; _key5++) {
-          args[_key5] = arguments[_key5];
+        function DecoratorFactory() {
+          for (var _len4 = arguments.length, args = new Array(_len4), _key5 = 0; _key5 < _len4; _key5++) {
+            args[_key5] = arguments[_key5];
+          }
+
+          if (this instanceof DecoratorFactory) {
+            metaCtor.call.apply(metaCtor, [this].concat(args));
+            return this;
+          }
+
+          var annotationInstance = _construct(DecoratorFactory, args);
+
+          return function TypeDecorator(cls) {
+            if (typeFn) typeFn.apply(void 0, [cls].concat(args)); // Use of Object.defineProperty is important since it creates non-enumerable property which
+            // prevents the property is copied during subclassing.
+
+            var annotations = cls.hasOwnProperty(ANNOTATIONS) ? cls[ANNOTATIONS] : Object.defineProperty(cls, ANNOTATIONS, {
+              value: []
+            })[ANNOTATIONS];
+            annotations.push(annotationInstance);
+            if (additionalProcessing) additionalProcessing(cls);
+            return cls;
+          };
         }
 
-        if (this instanceof DecoratorFactory) {
-          metaCtor.call.apply(metaCtor, [this].concat(args));
-          return this;
+        if (parentClass) {
+          DecoratorFactory.prototype = Object.create(parentClass.prototype);
         }
 
-        var annotationInstance = _construct(DecoratorFactory, args);
-
-        return function TypeDecorator(cls) {
-          if (typeFn) typeFn.apply(void 0, [cls].concat(args)); // Use of Object.defineProperty is important since it creates non-enumerable property which
-          // prevents the property is copied during subclassing.
-
-          var annotations = cls.hasOwnProperty(ANNOTATIONS) ? cls[ANNOTATIONS] : Object.defineProperty(cls, ANNOTATIONS, {
-            value: []
-          })[ANNOTATIONS];
-          annotations.push(annotationInstance);
-          if (additionalProcessing) additionalProcessing(cls);
-          return cls;
-        };
-      }
-
-      if (parentClass) {
-        DecoratorFactory.prototype = Object.create(parentClass.prototype);
-      }
-
-      DecoratorFactory.prototype.ngMetadataName = name;
-      DecoratorFactory.annotationCls = DecoratorFactory;
-      return DecoratorFactory;
+        DecoratorFactory.prototype.ngMetadataName = name;
+        DecoratorFactory.annotationCls = DecoratorFactory;
+        return DecoratorFactory;
+      });
     }
 
     function makeMetadataCtor(props) {
@@ -33530,86 +33722,90 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function makeParamDecorator(name, props, parentClass) {
-      var metaCtor = makeMetadataCtor(props);
+      return noSideEffects(function () {
+        var metaCtor = makeMetadataCtor(props);
 
-      function ParamDecoratorFactory() {
-        for (var _len5 = arguments.length, args = new Array(_len5), _key6 = 0; _key6 < _len5; _key6++) {
-          args[_key6] = arguments[_key6];
-        }
-
-        if (this instanceof ParamDecoratorFactory) {
-          metaCtor.apply(this, args);
-          return this;
-        }
-
-        var annotationInstance = _construct(ParamDecoratorFactory, args);
-
-        ParamDecorator.annotation = annotationInstance;
-        return ParamDecorator;
-
-        function ParamDecorator(cls, unusedKey, index) {
-          // Use of Object.defineProperty is important since it creates non-enumerable property which
-          // prevents the property is copied during subclassing.
-          var parameters = cls.hasOwnProperty(PARAMETERS) ? cls[PARAMETERS] : Object.defineProperty(cls, PARAMETERS, {
-            value: []
-          })[PARAMETERS]; // there might be gaps if some in between parameters do not have annotations.
-          // we pad with nulls.
-
-          while (parameters.length <= index) {
-            parameters.push(null);
+        function ParamDecoratorFactory() {
+          for (var _len5 = arguments.length, args = new Array(_len5), _key6 = 0; _key6 < _len5; _key6++) {
+            args[_key6] = arguments[_key6];
           }
 
-          (parameters[index] = parameters[index] || []).push(annotationInstance);
-          return cls;
+          if (this instanceof ParamDecoratorFactory) {
+            metaCtor.apply(this, args);
+            return this;
+          }
+
+          var annotationInstance = _construct(ParamDecoratorFactory, args);
+
+          ParamDecorator.annotation = annotationInstance;
+          return ParamDecorator;
+
+          function ParamDecorator(cls, unusedKey, index) {
+            // Use of Object.defineProperty is important since it creates non-enumerable property which
+            // prevents the property is copied during subclassing.
+            var parameters = cls.hasOwnProperty(PARAMETERS) ? cls[PARAMETERS] : Object.defineProperty(cls, PARAMETERS, {
+              value: []
+            })[PARAMETERS]; // there might be gaps if some in between parameters do not have annotations.
+            // we pad with nulls.
+
+            while (parameters.length <= index) {
+              parameters.push(null);
+            }
+
+            (parameters[index] = parameters[index] || []).push(annotationInstance);
+            return cls;
+          }
         }
-      }
 
-      if (parentClass) {
-        ParamDecoratorFactory.prototype = Object.create(parentClass.prototype);
-      }
+        if (parentClass) {
+          ParamDecoratorFactory.prototype = Object.create(parentClass.prototype);
+        }
 
-      ParamDecoratorFactory.prototype.ngMetadataName = name;
-      ParamDecoratorFactory.annotationCls = ParamDecoratorFactory;
-      return ParamDecoratorFactory;
+        ParamDecoratorFactory.prototype.ngMetadataName = name;
+        ParamDecoratorFactory.annotationCls = ParamDecoratorFactory;
+        return ParamDecoratorFactory;
+      });
     }
 
     function makePropDecorator(name, props, parentClass, additionalProcessing) {
-      var metaCtor = makeMetadataCtor(props);
+      return noSideEffects(function () {
+        var metaCtor = makeMetadataCtor(props);
 
-      function PropDecoratorFactory() {
-        for (var _len6 = arguments.length, args = new Array(_len6), _key7 = 0; _key7 < _len6; _key7++) {
-          args[_key7] = arguments[_key7];
+        function PropDecoratorFactory() {
+          for (var _len6 = arguments.length, args = new Array(_len6), _key7 = 0; _key7 < _len6; _key7++) {
+            args[_key7] = arguments[_key7];
+          }
+
+          if (this instanceof PropDecoratorFactory) {
+            metaCtor.apply(this, args);
+            return this;
+          }
+
+          var decoratorInstance = _construct(PropDecoratorFactory, args);
+
+          function PropDecorator(target, name) {
+            var constructor = target.constructor; // Use of Object.defineProperty is important since it creates non-enumerable property which
+            // prevents the property is copied during subclassing.
+
+            var meta = constructor.hasOwnProperty(PROP_METADATA) ? constructor[PROP_METADATA] : Object.defineProperty(constructor, PROP_METADATA, {
+              value: {}
+            })[PROP_METADATA];
+            meta[name] = meta.hasOwnProperty(name) && meta[name] || [];
+            meta[name].unshift(decoratorInstance);
+            if (additionalProcessing) additionalProcessing.apply(void 0, [target, name].concat(args));
+          }
+
+          return PropDecorator;
         }
 
-        if (this instanceof PropDecoratorFactory) {
-          metaCtor.apply(this, args);
-          return this;
+        if (parentClass) {
+          PropDecoratorFactory.prototype = Object.create(parentClass.prototype);
         }
 
-        var decoratorInstance = _construct(PropDecoratorFactory, args);
-
-        function PropDecorator(target, name) {
-          var constructor = target.constructor; // Use of Object.defineProperty is important since it creates non-enumerable property which
-          // prevents the property is copied during subclassing.
-
-          var meta = constructor.hasOwnProperty(PROP_METADATA) ? constructor[PROP_METADATA] : Object.defineProperty(constructor, PROP_METADATA, {
-            value: {}
-          })[PROP_METADATA];
-          meta[name] = meta.hasOwnProperty(name) && meta[name] || [];
-          meta[name].unshift(decoratorInstance);
-          if (additionalProcessing) additionalProcessing.apply(void 0, [target, name].concat(args));
-        }
-
-        return PropDecorator;
-      }
-
-      if (parentClass) {
-        PropDecoratorFactory.prototype = Object.create(parentClass.prototype);
-      }
-
-      PropDecoratorFactory.prototype.ngMetadataName = name;
-      PropDecoratorFactory.annotationCls = PropDecoratorFactory;
-      return PropDecoratorFactory;
+        PropDecoratorFactory.prototype.ngMetadataName = name;
+        PropDecoratorFactory.annotationCls = PropDecoratorFactory;
+        return PropDecoratorFactory;
+      });
     }
     /**
      * @fileoverview added by tsickle
@@ -34389,7 +34585,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var InjectionToken = /*#__PURE__*/function () {
+    var InjectionToken =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _desc
        * @param {?=} options
@@ -34701,7 +34899,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return args;
     }
 
-    var NullInjector = /*#__PURE__*/function () {
+    var NullInjector =
+    /*#__PURE__*/
+    function () {
       function NullInjector() {
         _classCallCheck(this, NullInjector);
       }
@@ -34992,9 +35192,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function throwError(msg, actual, expected, comparison) {
-      // tslint:disable-next-line
-      debugger; // Left intentionally for better debugger experience.
-
       throw new Error("ASSERTION ERROR: ".concat(msg) + (comparison == null ? '' : " [Expected=> ".concat(expected, " ").concat(comparison, " ").concat(actual, " <=Actual]")));
     }
 
@@ -35511,29 +35708,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     ViewEncapsulation$1[ViewEncapsulation$1.None] = 'None';
     ViewEncapsulation$1[ViewEncapsulation$1.ShadowDom] = 'ShadowDom';
     /**
-     * @license
-     * Copyright Google Inc. All Rights Reserved.
-     *
-     * Use of this source code is governed by an MIT-style license that can be
-     * found in the LICENSE file at https://angular.io/license
-     */
-
-    /**
-     * Convince closure compiler that the wrapped function has no side-effects.
-     *
-     * Closure compiler always assumes that `toString` has no side-effects. We use this quirk to
-     * allow us to execute a function but have closure compiler mark the call as no-side-effects.
-     * It is important that the return value for the `noSideEffects` function be assigned
-     * to something which is retained otherwise the call to `noSideEffects` will be removed by closure
-     * compiler.
-     */
-
-    function noSideEffects(fn) {
-      return '' + {
-        toString: fn
-      };
-    }
-    /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/render3/empty.ts
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
@@ -35546,7 +35720,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * code.
      * @type {?}
      */
-
 
     var EMPTY_OBJ = {};
     /** @type {?} */
@@ -35592,90 +35765,89 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
     function ɵɵdefineComponent(componentDefinition) {
-      // Initialize ngDevMode. This must be the first statement in ɵɵdefineComponent.
-      // See the `initNgDevMode` docstring for more information.
-      (typeof ngDevMode === 'undefined' || ngDevMode) && initNgDevMode();
-      /** @type {?} */
-
-      var type = componentDefinition.type;
-      /** @type {?} */
-
-      var typePrototype = type.prototype;
-      /** @type {?} */
-
-      var declaredInputs =
-      /** @type {?} */
-      {};
-      /** @type {?} */
-
-      var def = {
-        type: type,
-        providersResolver: null,
-        decls: componentDefinition.decls,
-        vars: componentDefinition.vars,
-        factory: null,
-        template: componentDefinition.template ||
-        /** @type {?} */
-        null,
-        consts: componentDefinition.consts || null,
-        ngContentSelectors: componentDefinition.ngContentSelectors,
-        hostBindings: componentDefinition.hostBindings || null,
-        hostVars: componentDefinition.hostVars || 0,
-        hostAttrs: componentDefinition.hostAttrs || null,
-        contentQueries: componentDefinition.contentQueries || null,
-        declaredInputs: declaredInputs,
-        inputs:
-        /** @type {?} */
-        null,
-        // assigned in noSideEffects
-        outputs:
-        /** @type {?} */
-        null,
-        // assigned in noSideEffects
-        exportAs: componentDefinition.exportAs || null,
-        onChanges: null,
-        onInit: typePrototype.ngOnInit || null,
-        doCheck: typePrototype.ngDoCheck || null,
-        afterContentInit: typePrototype.ngAfterContentInit || null,
-        afterContentChecked: typePrototype.ngAfterContentChecked || null,
-        afterViewInit: typePrototype.ngAfterViewInit || null,
-        afterViewChecked: typePrototype.ngAfterViewChecked || null,
-        onDestroy: typePrototype.ngOnDestroy || null,
-        onPush: componentDefinition.changeDetection === ChangeDetectionStrategy.OnPush,
-        directiveDefs:
-        /** @type {?} */
-        null,
-        // assigned in noSideEffects
-        pipeDefs:
-        /** @type {?} */
-        null,
-        // assigned in noSideEffects
-        selectors: componentDefinition.selectors || EMPTY_ARRAY,
-        viewQuery: componentDefinition.viewQuery || null,
-        features:
-        /** @type {?} */
-        componentDefinition.features || null,
-        data: componentDefinition.data || {},
-        // TODO(misko): convert ViewEncapsulation into const enum so that it can be used directly in the
-        // next line. Also `None` should be 0 not 2.
-        encapsulation: componentDefinition.encapsulation || ViewEncapsulation$1.Emulated,
-        id: 'c',
-        styles: componentDefinition.styles || EMPTY_ARRAY,
-        _:
-        /** @type {?} */
-        null,
-        setInput: null,
-        schemas: componentDefinition.schemas || null,
-        tView: null
-      };
-      def._ =
-      /** @type {?} */
-      noSideEffects(
+      return noSideEffects(
       /**
       * @return {?}
       */
       function () {
+        // Initialize ngDevMode. This must be the first statement in ɵɵdefineComponent.
+        // See the `initNgDevMode` docstring for more information.
+        (typeof ngDevMode === 'undefined' || ngDevMode) && initNgDevMode();
         /** @type {?} */
+
+        var type = componentDefinition.type;
+        /** @type {?} */
+
+        var typePrototype = type.prototype;
+        /** @type {?} */
+
+        var declaredInputs =
+        /** @type {?} */
+        {};
+        /** @type {?} */
+
+        var def = {
+          type: type,
+          providersResolver: null,
+          decls: componentDefinition.decls,
+          vars: componentDefinition.vars,
+          factory: null,
+          template: componentDefinition.template ||
+          /** @type {?} */
+          null,
+          consts: componentDefinition.consts || null,
+          ngContentSelectors: componentDefinition.ngContentSelectors,
+          hostBindings: componentDefinition.hostBindings || null,
+          hostVars: componentDefinition.hostVars || 0,
+          hostAttrs: componentDefinition.hostAttrs || null,
+          contentQueries: componentDefinition.contentQueries || null,
+          declaredInputs: declaredInputs,
+          inputs:
+          /** @type {?} */
+          null,
+          // assigned in noSideEffects
+          outputs:
+          /** @type {?} */
+          null,
+          // assigned in noSideEffects
+          exportAs: componentDefinition.exportAs || null,
+          onChanges: null,
+          onInit: typePrototype.ngOnInit || null,
+          doCheck: typePrototype.ngDoCheck || null,
+          afterContentInit: typePrototype.ngAfterContentInit || null,
+          afterContentChecked: typePrototype.ngAfterContentChecked || null,
+          afterViewInit: typePrototype.ngAfterViewInit || null,
+          afterViewChecked: typePrototype.ngAfterViewChecked || null,
+          onDestroy: typePrototype.ngOnDestroy || null,
+          onPush: componentDefinition.changeDetection === ChangeDetectionStrategy.OnPush,
+          directiveDefs:
+          /** @type {?} */
+          null,
+          // assigned in noSideEffects
+          pipeDefs:
+          /** @type {?} */
+          null,
+          // assigned in noSideEffects
+          selectors: componentDefinition.selectors || EMPTY_ARRAY,
+          viewQuery: componentDefinition.viewQuery || null,
+          features:
+          /** @type {?} */
+          componentDefinition.features || null,
+          data: componentDefinition.data || {},
+          // TODO(misko): convert ViewEncapsulation into const enum so that it can be used directly in
+          // the next line. Also `None` should be 0 not 2.
+          encapsulation: componentDefinition.encapsulation || ViewEncapsulation$1.Emulated,
+          id: 'c',
+          styles: componentDefinition.styles || EMPTY_ARRAY,
+          _:
+          /** @type {?} */
+          null,
+          setInput: null,
+          schemas: componentDefinition.schemas || null,
+          tView: null
+        };
+        /** @type {?} */
+
         var directiveTypes =
         /** @type {?} */
         componentDefinition.directives;
@@ -35710,11 +35882,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         function () {
           return (typeof pipeTypes === 'function' ? pipeTypes() : pipeTypes).map(extractPipeDef);
         } : null;
+        return (
+          /** @type {?} */
+          def
+        );
       });
-      return (
-        /** @type {?} */
-        def
-      );
     }
     /**
      * \@codeGenApi
@@ -39442,7 +39614,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return !(flags & InjectFlags.Self) && !(flags & InjectFlags.Host && isFirstHostTNode);
     }
 
-    var NodeInjector = /*#__PURE__*/function () {
+    var NodeInjector =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _tNode
        * @param {?} _lView
@@ -39521,33 +39695,39 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     function ɵɵgetInheritedFactory(type) {
-      /** @type {?} */
-      var proto =
-      /** @type {?} */
-      Object.getPrototypeOf(type.prototype).constructor;
-      /** @type {?} */
+      return noSideEffects(
+      /**
+      * @return {?}
+      */
+      function () {
+        /** @type {?} */
+        var proto =
+        /** @type {?} */
+        Object.getPrototypeOf(type.prototype).constructor;
+        /** @type {?} */
 
-      var factory =
-      /** @type {?} */
-      proto[NG_FACTORY_DEF] || ɵɵgetFactoryOf(proto);
+        var factory =
+        /** @type {?} */
+        proto[NG_FACTORY_DEF] || ɵɵgetFactoryOf(proto);
 
-      if (factory !== null) {
-        return factory;
-      } else {
-        // There is no factory defined. Either this was improper usage of inheritance
-        // (no Angular decorator on the superclass) or there is no constructor at all
-        // in the inheritance chain. Since the two cases cannot be distinguished, the
-        // latter has to be assumed.
-        return (
-          /**
-          * @param {?} t
-          * @return {?}
-          */
-          function (t) {
-            return new t();
-          }
-        );
-      }
+        if (factory !== null) {
+          return factory;
+        } else {
+          // There is no factory defined. Either this was improper usage of inheritance
+          // (no Angular decorator on the superclass) or there is no constructor at all
+          // in the inheritance chain. Since the two cases cannot be distinguished, the
+          // latter has to be assumed.
+          return (
+            /**
+            * @param {?} t
+            * @return {?}
+            */
+            function (t) {
+              return new t();
+            }
+          );
+        }
+      });
     }
     /**
      * @license
@@ -39671,7 +39851,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ErrorHandler = /*#__PURE__*/function () {
+    var ErrorHandler =
+    /*#__PURE__*/
+    function () {
       function ErrorHandler() {
         _classCallCheck(this, ErrorHandler);
 
@@ -39884,7 +40066,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var SafeValueImpl = /*#__PURE__*/function () {
+    var SafeValueImpl =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} changingThisBreaksApplicationSecurity
        */
@@ -39910,7 +40094,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var SafeHtmlImpl = /*#__PURE__*/function (_SafeValueImpl) {
+    var SafeHtmlImpl =
+    /*#__PURE__*/
+    function (_SafeValueImpl) {
       _inherits(SafeHtmlImpl, _SafeValueImpl);
 
       function SafeHtmlImpl() {
@@ -39935,7 +40121,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SafeHtmlImpl;
     }(SafeValueImpl);
 
-    var SafeStyleImpl = /*#__PURE__*/function (_SafeValueImpl2) {
+    var SafeStyleImpl =
+    /*#__PURE__*/
+    function (_SafeValueImpl2) {
       _inherits(SafeStyleImpl, _SafeValueImpl2);
 
       function SafeStyleImpl() {
@@ -39960,7 +40148,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SafeStyleImpl;
     }(SafeValueImpl);
 
-    var SafeScriptImpl = /*#__PURE__*/function (_SafeValueImpl3) {
+    var SafeScriptImpl =
+    /*#__PURE__*/
+    function (_SafeValueImpl3) {
       _inherits(SafeScriptImpl, _SafeValueImpl3);
 
       function SafeScriptImpl() {
@@ -39985,7 +40175,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SafeScriptImpl;
     }(SafeValueImpl);
 
-    var SafeUrlImpl = /*#__PURE__*/function (_SafeValueImpl4) {
+    var SafeUrlImpl =
+    /*#__PURE__*/
+    function (_SafeValueImpl4) {
       _inherits(SafeUrlImpl, _SafeValueImpl4);
 
       function SafeUrlImpl() {
@@ -40010,7 +40202,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SafeUrlImpl;
     }(SafeValueImpl);
 
-    var SafeResourceUrlImpl = /*#__PURE__*/function (_SafeValueImpl5) {
+    var SafeResourceUrlImpl =
+    /*#__PURE__*/
+    function (_SafeValueImpl5) {
       _inherits(SafeResourceUrlImpl, _SafeValueImpl5);
 
       function SafeResourceUrlImpl() {
@@ -40230,7 +40424,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var InertBodyHelper = /*#__PURE__*/function () {
+    var InertBodyHelper =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} defaultDoc
        */
@@ -40675,7 +40871,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * attributes.
      */
 
-    var SanitizingHtmlSerializer = /*#__PURE__*/function () {
+    var SanitizingHtmlSerializer =
+    /*#__PURE__*/
+    function () {
       function SanitizingHtmlSerializer() {
         _classCallCheck(this, SanitizingHtmlSerializer);
 
@@ -42430,10 +42628,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         msg += " It seems like the view has been created after its parent and its children have been dirty checked." + " Has it been created in a change detection hook?";
       } // TODO: include debug context, see `viewDebugError` function in
       // `packages/core/src/view/errors.ts` for reference.
-      // tslint:disable-next-line
 
-
-      debugger; // Left intentionally for better debugger experience.
 
       throw new Error(msg);
     }
@@ -44596,7 +44791,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var TViewConstructor = /*#__PURE__*/function () {
+    var TViewConstructor =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} type
        * @param {?} id
@@ -44710,7 +44907,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return TView;
     }();
 
-    var TNode$1 = /*#__PURE__*/function () {
+    var TNode$1 =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} tView_
        * @param {?} type
@@ -45193,7 +45392,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    var LViewDebug = /*#__PURE__*/function () {
+    var LViewDebug =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _raw_lView
        */
@@ -45502,7 +45703,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var LContainerDebug = /*#__PURE__*/function () {
+    var LContainerDebug =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _raw_lContainer
        */
@@ -45618,7 +45821,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return null;
     }
 
-    var I18NDebugItem = /*#__PURE__*/function () {
+    var I18NDebugItem =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} __raw_opCode
        * @param {?} _lView
@@ -45691,7 +45896,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    var I18nMutateOpCodesDebug = /*#__PURE__*/function () {
+    var I18nMutateOpCodesDebug =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} __raw_opCodes
        * @param {?} __lView
@@ -45820,7 +46027,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var I18nUpdateOpCodesDebug = /*#__PURE__*/function () {
+    var I18nUpdateOpCodesDebug =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} __raw_opCodes
        * @param {?} icus
@@ -47192,7 +47401,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
 
       if (inputsStore !== null) {
-        if (inputsStore.hasOwnProperty('class') || inputsStore.hasOwnProperty('className')) {
+        if (inputsStore.hasOwnProperty('class')) {
           tNode.flags |= 16
           /* hasClassInput */
           ;
@@ -50414,7 +50623,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ViewRef = /*#__PURE__*/function () {
+    var ViewRef =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _lView
        * @param {?=} _cdRefInjectingView
@@ -50767,7 +50978,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var RootViewRef = /*#__PURE__*/function (_ViewRef) {
+    var RootViewRef =
+    /*#__PURE__*/
+    function (_ViewRef) {
       _inherits(RootViewRef, _ViewRef);
 
       /**
@@ -50942,7 +51155,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function createElementRef(ElementRefToken, tNode, view) {
       if (!R3ElementRef) {
-        R3ElementRef = /*#__PURE__*/function (_ElementRefToken) {
+        R3ElementRef =
+        /*#__PURE__*/
+        function (_ElementRefToken) {
           _inherits(ElementRef, _ElementRefToken);
 
           function ElementRef() {
@@ -50989,7 +51204,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function createTemplateRef(TemplateRefToken, ElementRefToken, hostTNode, hostView) {
       if (!R3TemplateRef) {
-        R3TemplateRef = /*#__PURE__*/function (_TemplateRefToken) {
+        R3TemplateRef =
+        /*#__PURE__*/
+        function (_TemplateRefToken) {
           _inherits(TemplateRef, _TemplateRefToken);
 
           /**
@@ -51098,7 +51315,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function createContainerRef(ViewContainerRefToken, ElementRefToken, hostTNode, hostView) {
       if (!R3ViewContainerRef) {
-        R3ViewContainerRef = /*#__PURE__*/function (_ViewContainerRefToke) {
+        R3ViewContainerRef =
+        /*#__PURE__*/
+        function (_ViewContainerRefToke) {
           _inherits(ViewContainerRef, _ViewContainerRefToke);
 
           /**
@@ -51726,7 +51945,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DELEGATE_CTOR.test(typeStr) || INHERITED_CLASS_WITH_DELEGATE_CTOR.test(typeStr) || INHERITED_CLASS.test(typeStr) && !INHERITED_CLASS_WITH_CTOR.test(typeStr);
     }
 
-    var ReflectionCapabilities = /*#__PURE__*/function () {
+    var ReflectionCapabilities =
+    /*#__PURE__*/
+    function () {
       function ReflectionCapabilities(reflect) {
         _classCallCheck(this, ReflectionCapabilities);
 
@@ -52239,7 +52460,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 typeArgumentCount: metadata.typeArgumentCount,
                 deps: reflectDependencies(type),
                 injectFn: 'inject',
-                target: compiler.R3FactoryTarget.Pipe
+                target: compiler.R3FactoryTarget.Injectable
               });
             }
 
@@ -52635,11 +52856,36 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       var parent = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
       var additionalProviders = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
       var name = arguments.length > 3 ? arguments[3] : undefined;
-      parent = parent || getNullInjector();
-      return new R3Injector(defType, additionalProviders, parent, name);
+
+      /** @type {?} */
+      var injector = createInjectorWithoutInjectorInstances(defType, parent, additionalProviders, name);
+
+      injector._resolveInjectorDefTypes();
+
+      return injector;
+    }
+    /**
+     * Creates a new injector without eagerly resolving its injector types. Can be used in places
+     * where resolving the injector types immediately can lead to an infinite loop. The injector types
+     * should be resolved at a later point by calling `_resolveInjectorDefTypes`.
+     * @param {?} defType
+     * @param {?=} parent
+     * @param {?=} additionalProviders
+     * @param {?=} name
+     * @return {?}
+     */
+
+
+    function createInjectorWithoutInjectorInstances(defType) {
+      var parent = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
+      var additionalProviders = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : null;
+      var name = arguments.length > 3 ? arguments[3] : undefined;
+      return new R3Injector(defType, additionalProviders, parent || getNullInjector(), name);
     }
 
-    var R3Injector = /*#__PURE__*/function () {
+    var R3Injector =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} def
        * @param {?} additionalProviders
@@ -52701,16 +52947,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         /** @type {?} */
 
         var record = this.records.get(INJECTOR_SCOPE);
-        this.scope = record != null ? record.value : null; // Eagerly instantiate the InjectorType classes themselves.
-
-        this.injectorDefTypes.forEach(
-        /**
-        * @param {?} defType
-        * @return {?}
-        */
-        function (defType) {
-          return _this89.get(defType);
-        }); // Source name, used for debugging
+        this.scope = record != null ? record.value : null; // Source name, used for debugging
 
         this.source = source || (typeof def === 'object' ? null : stringify(def));
       }
@@ -52836,6 +53073,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           }
         }
         /**
+         * \@internal
+         * @return {?}
+         */
+
+      }, {
+        key: "_resolveInjectorDefTypes",
+        value: function _resolveInjectorDefTypes() {
+          var _this90 = this;
+
+          this.injectorDefTypes.forEach(
+          /**
+          * @param {?} defType
+          * @return {?}
+          */
+          function (defType) {
+            return _this90.get(defType);
+          });
+        }
+        /**
          * @return {?}
          */
 
@@ -52890,7 +53146,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "processInjectorType",
         value: function processInjectorType(defOrWrappedDef, parents, dedupStack) {
-          var _this90 = this;
+          var _this91 = this;
 
           defOrWrappedDef = resolveForwardRef(defOrWrappedDef);
           if (!defOrWrappedDef) return false; // Either the defOrWrappedDef is an InjectorType (with injector def) or an
@@ -52963,7 +53219,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               * @return {?}
               */
               function (imported) {
-                if (_this90.processInjectorType(imported, parents, dedupStack)) {
+                if (_this91.processInjectorType(imported, parents, dedupStack)) {
                   if (importTypesWithProviders === undefined) importTypesWithProviders = []; // If the processed import is an injector type with providers, we store it in the
                   // list of import types with providers, so that we can process those afterwards.
 
@@ -52991,7 +53247,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 * @return {?}
                 */
                 function (provider) {
-                  return _this90.processProvider(provider, ngModule, providers || EMPTY_ARRAY$2);
+                  return _this91.processProvider(provider, ngModule, providers || EMPTY_ARRAY$2);
                 });
               };
 
@@ -53021,7 +53277,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (provider) {
-              return _this90.processProvider(provider, injectorType, defProviders);
+              return _this91.processProvider(provider, injectorType, defProviders);
             });
           }
 
@@ -53493,7 +53749,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @abstract
      */
 
-    var Injector = /*#__PURE__*/function () {
+    var Injector =
+    /*#__PURE__*/
+    function () {
       function Injector() {
         _classCallCheck(this, Injector);
       }
@@ -53590,7 +53848,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var NO_NEW_LINE$1 = 'ɵ';
 
-    var StaticInjector = /*#__PURE__*/function () {
+    var StaticInjector =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} providers
        * @param {?=} parent
@@ -54438,7 +54698,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ReflectiveKey = /*#__PURE__*/function () {
+    var ReflectiveKey =
+    /*#__PURE__*/
+    function () {
       /**
        * Private
        * @param {?} token
@@ -54484,7 +54746,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var KeyRegistry = /*#__PURE__*/function () {
+    var KeyRegistry =
+    /*#__PURE__*/
+    function () {
       function KeyRegistry() {
         _classCallCheck(this, KeyRegistry);
 
@@ -54549,7 +54813,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var Reflector = /*#__PURE__*/function () {
+    var Reflector =
+    /*#__PURE__*/
+    function () {
       function Reflector(reflectionCapabilities) {
         _classCallCheck(this, Reflector);
 
@@ -54657,7 +54923,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ReflectiveDependency = /*#__PURE__*/function () {
+    var ReflectiveDependency =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} key
        * @param {?} optional
@@ -55084,7 +55352,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @abstract
      */
 
-    var ReflectiveInjector = /*#__PURE__*/function () {
+    var ReflectiveInjector =
+    /*#__PURE__*/
+    function () {
       function ReflectiveInjector() {
         _classCallCheck(this, ReflectiveInjector);
       }
@@ -55200,7 +55470,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var ReflectiveInjector_ = /*#__PURE__*/function () {
+    var ReflectiveInjector_ =
+    /*#__PURE__*/
+    function () {
       /**
        * Private
        * @param {?} _providers
@@ -55357,7 +55629,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "_instantiate",
         value: function _instantiate(provider, ResolvedReflectiveFactory) {
-          var _this91 = this;
+          var _this92 = this;
 
           /** @type {?} */
           var factory = ResolvedReflectiveFactory.factory;
@@ -55372,7 +55644,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (dep) {
-              return _this91._getByReflectiveDependency(dep);
+              return _this92._getByReflectiveDependency(dep);
             });
           } catch (e) {
             if (e.addKey) {
@@ -56282,7 +56554,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var WrappedValue = /*#__PURE__*/function () {
+    var WrappedValue =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} value
        */
@@ -57859,10 +58133,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
       var property = isClassBased ? 'class' : 'style'; // We support both 'class' and `className` hence the fallback.
 
-      /** @type {?} */
-
-      var stylingInputs = inputs[property] || isClassBased && inputs['className'];
-      setInputsForProperty(tView, lView, stylingInputs, property, value);
+      setInputsForProperty(tView, lView, inputs[property], property, value);
     }
     /**
      * @fileoverview added by tsickle
@@ -64750,7 +65021,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var SimpleChange = /*#__PURE__*/function () {
+    var SimpleChange =
+    /*#__PURE__*/
+    function () {
       function SimpleChange(previousValue, currentValue, firstChange) {
         _classCallCheck(this, SimpleChange);
 
@@ -64798,42 +65071,35 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * static ɵcmp = defineComponent({
      *   ...
      *   inputs: {name: 'publicName'},
-     *   features: [NgOnChangesFeature()]
+     *   features: [NgOnChangesFeature]
      * });
      * ```
      *
      * \@codeGenApi
      * @template T
-     * @return {?}
-     */
-
-    function ɵɵNgOnChangesFeature() {
-      // This option ensures that the ngOnChanges lifecycle hook will be inherited
-      // from superclasses (in InheritDefinitionFeature).
-
-      /** @type {?} */
-      NgOnChangesFeatureImpl.ngInherit = true;
-      return NgOnChangesFeatureImpl;
-    }
-    /**
-     * @template T
      * @param {?} definition
      * @return {?}
      */
 
-
-    function NgOnChangesFeatureImpl(definition) {
+    function ɵɵNgOnChangesFeature(definition) {
       if (definition.type.prototype.ngOnChanges) {
         definition.setInput = ngOnChangesSetInput;
 
         /** @type {?} */
         definition.onChanges = wrapOnChanges();
       }
-    }
+    } // This option ensures that the ngOnChanges lifecycle hook will be inherited
+    // from superclasses (in InheritDefinitionFeature).
+
+    /** @nocollapse */
+    // tslint:disable-next-line:no-toplevel-property-access
+
+
+    /** @type {?} */
+    ɵɵNgOnChangesFeature.ngInherit = true;
     /**
      * @return {?}
      */
-
 
     function wrapOnChanges() {
       return (
@@ -65449,7 +65715,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       );
     }
 
-    var _NullComponentFactoryResolver = /*#__PURE__*/function () {
+    var _NullComponentFactoryResolver =
+    /*#__PURE__*/
+    function () {
       function _NullComponentFactoryResolver() {
         _classCallCheck(this, _NullComponentFactoryResolver);
       }
@@ -65489,7 +65757,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var CodegenComponentFactoryResolver = /*#__PURE__*/function () {
+    var CodegenComponentFactoryResolver =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} factories
        * @param {?} _parent
@@ -65543,7 +65813,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ComponentFactoryBoundToModule = /*#__PURE__*/function (_ComponentFactory) {
+    var ComponentFactoryBoundToModule =
+    /*#__PURE__*/
+    function (_ComponentFactory) {
       _inherits(ComponentFactoryBoundToModule, _ComponentFactory);
 
       /**
@@ -65551,19 +65823,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} ngModule
        */
       function ComponentFactoryBoundToModule(factory, ngModule) {
-        var _this92;
+        var _this93;
 
         _classCallCheck(this, ComponentFactoryBoundToModule);
 
-        _this92 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentFactoryBoundToModule).call(this));
-        _this92.factory = factory;
-        _this92.ngModule = ngModule;
-        _this92.selector = factory.selector;
-        _this92.componentType = factory.componentType;
-        _this92.ngContentSelectors = factory.ngContentSelectors;
-        _this92.inputs = factory.inputs;
-        _this92.outputs = factory.outputs;
-        return _this92;
+        _this93 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentFactoryBoundToModule).call(this));
+        _this93.factory = factory;
+        _this93.ngModule = ngModule;
+        _this93.selector = factory.selector;
+        _this93.componentType = factory.componentType;
+        _this93.ngContentSelectors = factory.ngContentSelectors;
+        _this93.inputs = factory.inputs;
+        _this93.outputs = factory.outputs;
+        return _this93;
       }
       /**
        * @param {?} injector
@@ -65826,14 +66098,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var VERSION = new Version('9.0.4');
+    var VERSION = new Version('9.0.6');
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/core/src/change_detection/differs/default_iterable_differ.ts
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
-    var DefaultIterableDifferFactory = /*#__PURE__*/function () {
+    var DefaultIterableDifferFactory =
+    /*#__PURE__*/
+    function () {
       function DefaultIterableDifferFactory() {
         _classCallCheck(this, DefaultIterableDifferFactory);
       }
@@ -65883,7 +66157,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @template V
      */
 
-    var DefaultIterableDiffer = /*#__PURE__*/function () {
+    var DefaultIterableDiffer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?=} trackByFn
        */
@@ -66120,7 +66396,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "check",
         value: function check(collection) {
-          var _this93 = this;
+          var _this94 = this;
 
           this._reset();
           /** @type {?} */
@@ -66170,18 +66446,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (item) {
-              itemTrackBy = _this93._trackByFn(index, item);
+              itemTrackBy = _this94._trackByFn(index, item);
 
               if (record === null || !looseIdentical(record.trackById, itemTrackBy)) {
-                record = _this93._mismatch(record, item, itemTrackBy, index);
+                record = _this94._mismatch(record, item, itemTrackBy, index);
                 mayBeDirty = true;
               } else {
                 if (mayBeDirty) {
                   // TODO(misko): can we limit this to duplicates only?
-                  record = _this93._verifyReinsertion(record, item, itemTrackBy, index);
+                  record = _this94._verifyReinsertion(record, item, itemTrackBy, index);
                 }
 
-                if (!looseIdentical(record.item, item)) _this93._addIdentityChange(record, item);
+                if (!looseIdentical(record.item, item)) _this94._addIdentityChange(record, item);
               }
 
               record = record._next;
@@ -66753,7 +67029,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var _DuplicateItemRecordList = /*#__PURE__*/function () {
+    var _DuplicateItemRecordList =
+    /*#__PURE__*/
+    function () {
       function _DuplicateItemRecordList() {
         _classCallCheck(this, _DuplicateItemRecordList);
 
@@ -66878,7 +67156,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var _DuplicateMap = /*#__PURE__*/function () {
+    var _DuplicateMap =
+    /*#__PURE__*/
+    function () {
       function _DuplicateMap() {
         _classCallCheck(this, _DuplicateMap);
 
@@ -67009,7 +67289,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var DefaultKeyValueDifferFactory = /*#__PURE__*/function () {
+    var DefaultKeyValueDifferFactory =
+    /*#__PURE__*/
+    function () {
       function DefaultKeyValueDifferFactory() {
         _classCallCheck(this, DefaultKeyValueDifferFactory);
       }
@@ -67043,7 +67325,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var DefaultKeyValueDiffer = /*#__PURE__*/function () {
+    var DefaultKeyValueDiffer =
+    /*#__PURE__*/
+    function () {
       function DefaultKeyValueDiffer() {
         _classCallCheck(this, DefaultKeyValueDiffer);
 
@@ -67172,7 +67456,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "check",
         value: function check(map) {
-          var _this94 = this;
+          var _this95 = this;
 
           this._reset();
           /** @type {?} */
@@ -67189,15 +67473,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (value, key) {
             if (insertBefore && insertBefore.key === key) {
-              _this94._maybeAddToChanges(insertBefore, value);
+              _this95._maybeAddToChanges(insertBefore, value);
 
-              _this94._appendAfter = insertBefore;
+              _this95._appendAfter = insertBefore;
               insertBefore = insertBefore._next;
             } else {
               /** @type {?} */
-              var record = _this94._getOrCreateRecordForKey(key, value);
+              var record = _this95._getOrCreateRecordForKey(key, value);
 
-              insertBefore = _this94._insertBeforeOrAppend(insertBefore, record);
+              insertBefore = _this95._insertBeforeOrAppend(insertBefore, record);
             }
           }); // Items remaining at the end of the list have been deleted
 
@@ -67577,7 +67861,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var IterableDiffers = /*#__PURE__*/function () {
+    var IterableDiffers =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} factories
        */
@@ -67767,7 +68053,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var KeyValueDiffers = /*#__PURE__*/function () {
+    var KeyValueDiffers =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} factories
        */
@@ -70284,7 +70572,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       );
     }
 
-    var ComponentFactory_ = /*#__PURE__*/function (_ComponentFactory2) {
+    var ComponentFactory_ =
+    /*#__PURE__*/
+    function (_ComponentFactory2) {
       _inherits(ComponentFactory_, _ComponentFactory2);
 
       /**
@@ -70296,20 +70586,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} ngContentSelectors
        */
       function ComponentFactory_(selector, componentType, viewDefFactory, _inputs, _outputs, ngContentSelectors) {
-        var _this95;
+        var _this96;
 
         _classCallCheck(this, ComponentFactory_);
 
         // Attention: this ctor is called as top level function.
         // Putting any logic in here will destroy closure tree shaking!
-        _this95 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentFactory_).call(this));
-        _this95.selector = selector;
-        _this95.componentType = componentType;
-        _this95._inputs = _inputs;
-        _this95._outputs = _outputs;
-        _this95.ngContentSelectors = ngContentSelectors;
-        _this95.viewDefFactory = viewDefFactory;
-        return _this95;
+        _this96 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentFactory_).call(this));
+        _this96.selector = selector;
+        _this96.componentType = componentType;
+        _this96._inputs = _inputs;
+        _this96._outputs = _outputs;
+        _this96.ngContentSelectors = ngContentSelectors;
+        _this96.viewDefFactory = viewDefFactory;
+        return _this96;
       }
       /**
        * @return {?}
@@ -70405,7 +70695,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var ComponentRef_ = /*#__PURE__*/function (_ComponentRef) {
+    var ComponentRef_ =
+    /*#__PURE__*/
+    function (_ComponentRef) {
       _inherits(ComponentRef_, _ComponentRef);
 
       /**
@@ -70414,19 +70706,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _component
        */
       function ComponentRef_(_view, _viewRef, _component) {
-        var _this96;
+        var _this97;
 
         _classCallCheck(this, ComponentRef_);
 
-        _this96 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentRef_).call(this));
-        _this96._view = _view;
-        _this96._viewRef = _viewRef;
-        _this96._component = _component;
-        _this96._elDef = _this96._view.def.nodes[0];
-        _this96.hostView = _viewRef;
-        _this96.changeDetectorRef = _viewRef;
-        _this96.instance = _component;
-        return _this96;
+        _this97 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentRef_).call(this));
+        _this97._view = _view;
+        _this97._viewRef = _viewRef;
+        _this97._component = _component;
+        _this97._elDef = _this97._view.def.nodes[0];
+        _this97.hostView = _viewRef;
+        _this97.changeDetectorRef = _viewRef;
+        _this97.instance = _component;
+        return _this97;
       }
       /**
        * @return {?}
@@ -70496,7 +70788,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return new ViewContainerRef_(view, elDef, elData);
     }
 
-    var ViewContainerRef_ = /*#__PURE__*/function () {
+    var ViewContainerRef_ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _view
        * @param {?} _elDef
@@ -70747,7 +71041,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return new ViewRef_(view);
     }
 
-    var ViewRef_ = /*#__PURE__*/function () {
+    var ViewRef_ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _view
        */
@@ -70937,7 +71233,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return new TemplateRef_(view, def);
     }
 
-    var TemplateRef_ = /*#__PURE__*/function (_TemplateRef) {
+    var TemplateRef_ =
+    /*#__PURE__*/
+    function (_TemplateRef) {
       _inherits(TemplateRef_, _TemplateRef);
 
       /**
@@ -70945,14 +71243,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _def
        */
       function TemplateRef_(_parentView, _def) {
-        var _this97;
+        var _this98;
 
         _classCallCheck(this, TemplateRef_);
 
-        _this97 = _possibleConstructorReturn(this, _getPrototypeOf(TemplateRef_).call(this));
-        _this97._parentView = _parentView;
-        _this97._def = _def;
-        return _this97;
+        _this98 = _possibleConstructorReturn(this, _getPrototypeOf(TemplateRef_).call(this));
+        _this98._parentView = _parentView;
+        _this98._def = _def;
+        return _this98;
       }
       /**
        * @param {?} context
@@ -70995,7 +71293,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return new Injector_(view, elDef);
     }
 
-    var Injector_ = /*#__PURE__*/function () {
+    var Injector_ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} view
        * @param {?} elDef
@@ -71083,7 +71383,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return new NgModuleRef_(moduleType, parent, bootstrapComponents, def);
     }
 
-    var NgModuleRef_ = /*#__PURE__*/function () {
+    var NgModuleRef_ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _moduleType
        * @param {?} _parent
@@ -72219,20 +72521,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ComponentFactoryResolver$1 = /*#__PURE__*/function (_ComponentFactoryReso) {
+    var ComponentFactoryResolver$1 =
+    /*#__PURE__*/
+    function (_ComponentFactoryReso) {
       _inherits(ComponentFactoryResolver$1, _ComponentFactoryReso);
 
       /**
        * @param {?=} ngModule The NgModuleRef to which all resolved factories are bound.
        */
       function ComponentFactoryResolver$1(ngModule) {
-        var _this98;
+        var _this99;
 
         _classCallCheck(this, ComponentFactoryResolver$1);
 
-        _this98 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentFactoryResolver$1).call(this));
-        _this98.ngModule = ngModule;
-        return _this98;
+        _this99 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentFactoryResolver$1).call(this));
+        _this99.ngModule = ngModule;
+        return _this99;
       }
       /**
        * @template T
@@ -72350,7 +72654,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ComponentFactory$1 = /*#__PURE__*/function (_ComponentFactory3) {
+    var ComponentFactory$1 =
+    /*#__PURE__*/
+    function (_ComponentFactory3) {
       _inherits(ComponentFactory$1, _ComponentFactory3);
 
       /**
@@ -72358,18 +72664,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?=} ngModule The NgModuleRef to which the factory is bound.
        */
       function ComponentFactory$1(componentDef, ngModule) {
-        var _this99;
+        var _this100;
 
         _classCallCheck(this, ComponentFactory$1);
 
-        _this99 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentFactory$1).call(this));
-        _this99.componentDef = componentDef;
-        _this99.ngModule = ngModule;
-        _this99.componentType = componentDef.type;
-        _this99.selector = stringifyCSSSelectorList(componentDef.selectors);
-        _this99.ngContentSelectors = componentDef.ngContentSelectors ? componentDef.ngContentSelectors : [];
-        _this99.isBoundToModule = !!ngModule;
-        return _this99;
+        _this100 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentFactory$1).call(this));
+        _this100.componentDef = componentDef;
+        _this100.ngModule = ngModule;
+        _this100.componentType = componentDef.type;
+        _this100.selector = stringifyCSSSelectorList(componentDef.selectors);
+        _this100.ngContentSelectors = componentDef.ngContentSelectors ? componentDef.ngContentSelectors : [];
+        _this100.isBoundToModule = !!ngModule;
+        return _this100;
       }
       /**
        * @return {?}
@@ -72567,7 +72873,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ComponentRef$1 = /*#__PURE__*/function (_ComponentRef2) {
+    var ComponentRef$1 =
+    /*#__PURE__*/
+    function (_ComponentRef2) {
       _inherits(ComponentRef$1, _ComponentRef2);
 
       /**
@@ -72578,20 +72886,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _tNode
        */
       function ComponentRef$1(componentType, instance, location, _rootLView, _tNode) {
-        var _this100;
+        var _this101;
 
         _classCallCheck(this, ComponentRef$1);
 
-        _this100 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentRef$1).call(this));
-        _this100.location = location;
-        _this100._rootLView = _rootLView;
-        _this100._tNode = _tNode;
-        _this100.destroyCbs = [];
-        _this100.instance = instance;
-        _this100.hostView = _this100.changeDetectorRef = new RootViewRef(_rootLView);
-        _this100.hostView._tViewNode = assignTViewNodeToLView(_rootLView[TVIEW], null, -1, _rootLView);
-        _this100.componentType = componentType;
-        return _this100;
+        _this101 = _possibleConstructorReturn(this, _getPrototypeOf(ComponentRef$1).call(this));
+        _this101.location = location;
+        _this101._rootLView = _rootLView;
+        _this101._tNode = _tNode;
+        _this101.destroyCbs = [];
+        _this101.instance = instance;
+        _this101.hostView = _this101.changeDetectorRef = new RootViewRef(_rootLView);
+        _this101.hostView._tViewNode = assignTViewNodeToLView(_rootLView[TVIEW], null, -1, _rootLView);
+        _this101.componentType = componentType;
+        return _this101;
       }
       /**
        * @return {?}
@@ -73943,7 +74251,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         var tNode = getTNode(tView, index);
 
-        if (tNode && (tNode.type === 3
+        if (tNode && (tNode.type === 0
+        /* Container */
+        || tNode.type === 3
         /* Element */
         || tNode.type === 4
         /* ElementContainer */
@@ -75191,7 +75501,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgModuleRef$1 = /*#__PURE__*/function (_NgModuleRef) {
+    var NgModuleRef$1 =
+    /*#__PURE__*/
+    function (_NgModuleRef) {
       _inherits(NgModuleRef$1, _NgModuleRef);
 
       /**
@@ -75199,23 +75511,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _parent
        */
       function NgModuleRef$1(ngModuleType, _parent) {
-        var _this101;
+        var _this102;
 
         _classCallCheck(this, NgModuleRef$1);
 
-        _this101 = _possibleConstructorReturn(this, _getPrototypeOf(NgModuleRef$1).call(this));
-        _this101._parent = _parent; // tslint:disable-next-line:require-internal-with-underscore
+        _this102 = _possibleConstructorReturn(this, _getPrototypeOf(NgModuleRef$1).call(this));
+        _this102._parent = _parent; // tslint:disable-next-line:require-internal-with-underscore
 
-        _this101._bootstrapComponents = [];
-        _this101.injector = _assertThisInitialized(_this101);
-        _this101.destroyCbs = []; // When bootstrapping a module we have a dependency graph that looks like this:
+        _this102._bootstrapComponents = [];
+        _this102.injector = _assertThisInitialized(_this102);
+        _this102.destroyCbs = []; // When bootstrapping a module we have a dependency graph that looks like this:
         // ApplicationRef -> ComponentFactoryResolver -> NgModuleRef. The problem is that if the
         // module being resolved tries to inject the ComponentFactoryResolver, it'll create a
         // circular dependency which will result in a runtime error, because the injector doesn't
         // exist yet. We work around the issue by creating the ComponentFactoryResolver ourselves
         // and providing it, rather than letting the injector resolve it.
 
-        _this101.componentFactoryResolver = new ComponentFactoryResolver$1(_assertThisInitialized(_this101));
+        _this102.componentFactoryResolver = new ComponentFactoryResolver$1(_assertThisInitialized(_this102));
         /** @type {?} */
 
         var ngModuleDef = getNgModuleDef(ngModuleType);
@@ -75224,20 +75536,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         var ngLocaleIdDef = getNgLocaleIdDef(ngModuleType);
         ngLocaleIdDef && setLocaleId(ngLocaleIdDef);
-        _this101._bootstrapComponents = maybeUnwrapFn(
+        _this102._bootstrapComponents = maybeUnwrapFn(
         /** @type {?} */
         ngModuleDef.bootstrap);
-        _this101._r3Injector =
+        _this102._r3Injector =
         /** @type {?} */
-        createInjector(ngModuleType, _parent, [{
+        createInjectorWithoutInjectorInstances(ngModuleType, _parent, [{
           provide: NgModuleRef,
-          useValue: _assertThisInitialized(_this101)
+          useValue: _assertThisInitialized(_this102)
         }, {
           provide: ComponentFactoryResolver,
-          useValue: _this101.componentFactoryResolver
-        }], stringify(ngModuleType));
-        _this101.instance = _this101.get(ngModuleType);
-        return _this101;
+          useValue: _this102.componentFactoryResolver
+        }], stringify(ngModuleType)); // We need to resolve the injector types separately from the injector creation, because
+        // the module might be trying to use this ref in its contructor for DI which will cause a
+        // circular error that will eventually error out, because the injector isn't created yet.
+
+        _this102._r3Injector._resolveInjectorDefTypes();
+
+        _this102.instance = _this102.get(ngModuleType);
+        return _this102;
       }
       /**
        * @param {?} token
@@ -75307,19 +75624,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgModuleFactory$1 = /*#__PURE__*/function (_NgModuleFactory) {
+    var NgModuleFactory$1 =
+    /*#__PURE__*/
+    function (_NgModuleFactory) {
       _inherits(NgModuleFactory$1, _NgModuleFactory);
 
       /**
        * @param {?} moduleType
        */
       function NgModuleFactory$1(moduleType) {
-        var _this102;
+        var _this103;
 
         _classCallCheck(this, NgModuleFactory$1);
 
-        _this102 = _possibleConstructorReturn(this, _getPrototypeOf(NgModuleFactory$1).call(this));
-        _this102.moduleType = moduleType;
+        _this103 = _possibleConstructorReturn(this, _getPrototypeOf(NgModuleFactory$1).call(this));
+        _this103.moduleType = moduleType;
         /** @type {?} */
 
         var ngModuleDef = getNgModuleDef(moduleType);
@@ -75353,7 +75672,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           moduleType);
         }
 
-        return _this102;
+        return _this103;
       }
       /**
        * @param {?} parentInjector
@@ -76126,7 +76445,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var EventEmitter = /*#__PURE__*/function (_rxjs__WEBPACK_IMPORT) {
+    var EventEmitter =
+    /*#__PURE__*/
+    function (_rxjs__WEBPACK_IMPORT) {
       _inherits(EventEmitter, _rxjs__WEBPACK_IMPORT);
 
       // tslint:disable-line
@@ -76139,15 +76460,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        *
        */
       function EventEmitter() {
-        var _this103;
+        var _this104;
 
         var isAsync = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : false;
 
         _classCallCheck(this, EventEmitter);
 
-        _this103 = _possibleConstructorReturn(this, _getPrototypeOf(EventEmitter).call(this));
-        _this103.__isAsync = isAsync;
-        return _this103;
+        _this104 = _possibleConstructorReturn(this, _getPrototypeOf(EventEmitter).call(this));
+        _this104.__isAsync = isAsync;
+        return _this104;
       }
       /**
        * Emits an event containing a given value.
@@ -76403,7 +76724,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var QueryList = /*#__PURE__*/function () {
+    var QueryList =
+    /*#__PURE__*/
+    function () {
       function QueryList() {
         _classCallCheck(this, QueryList);
 
@@ -76809,7 +77132,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @template T
      */
 
-    var LQuery_ = /*#__PURE__*/function () {
+    var LQuery_ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} queryList
        */
@@ -76845,7 +77170,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var LQueries_ = /*#__PURE__*/function () {
+    var LQueries_ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?=} queries
        */
@@ -76954,7 +77281,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var TQueries_ = /*#__PURE__*/function () {
+    var TQueries_ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?=} queries
        */
@@ -77076,7 +77405,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var TQuery_ = /*#__PURE__*/function () {
+    var TQuery_ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} metadata
        * @param {?=} nodeIndex
@@ -77468,12 +77799,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var tNodeIdx = tQueryMatches[i];
 
           if (tNodeIdx > 0) {
-            /** @type {?} */
-            var viewResult = lViewResults[i / 2];
-            ngDevMode && assertDefined(viewResult, 'materialized query result should be defined');
             result.push(
             /** @type {?} */
-            viewResult);
+            lViewResults[i / 2]);
           } else {
             /** @type {?} */
             var childQueryIndex = tQueryMatches[i + 1];
@@ -78680,26 +79008,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           pipes: new Set()
         }
       };
-      maybeUnwrapFn(def.declarations).forEach(
-      /**
-      * @param {?} declared
-      * @return {?}
-      */
-      function (declared) {
-        /** @type {?} */
-        var declaredWithDefs =
-        /** @type {?} */
-        declared;
-
-        if (getPipeDef(declaredWithDefs)) {
-          scopes.compilation.pipes.add(declared);
-        } else {
-          // Either declared has a ɵcmp or ɵdir, or it's a component which hasn't
-          // had its template compiled yet. In either case, it gets added to the compilation's
-          // directives.
-          scopes.compilation.directives.add(declared);
-        }
-      });
       maybeUnwrapFn(def.imports).forEach(
       /**
       * @template I
@@ -78737,6 +79045,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         function (entry) {
           return scopes.compilation.pipes.add(entry);
         });
+      });
+      maybeUnwrapFn(def.declarations).forEach(
+      /**
+      * @param {?} declared
+      * @return {?}
+      */
+      function (declared) {
+        /** @type {?} */
+        var declaredWithDefs =
+        /** @type {?} */
+        declared;
+
+        if (getPipeDef(declaredWithDefs)) {
+          scopes.compilation.pipes.add(declared);
+        } else {
+          // Either declared has a ɵcmp or ɵdir, or it's a component which hasn't
+          // had its template compiled yet. In either case, it gets added to the compilation's
+          // directives.
+          scopes.compilation.directives.add(declared);
+        }
       });
       maybeUnwrapFn(def.exports).forEach(
       /**
@@ -79868,12 +80196,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      */
 
-    var ApplicationInitStatus = /*#__PURE__*/function () {
+    var ApplicationInitStatus =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} appInits
        */
       function ApplicationInitStatus(appInits) {
-        var _this104 = this;
+        var _this105 = this;
 
         _classCallCheck(this, ApplicationInitStatus);
 
@@ -79887,8 +80217,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function (res, rej) {
-          _this104.resolve = res;
-          _this104.reject = rej;
+          _this105.resolve = res;
+          _this105.reject = rej;
         });
       }
       /**
@@ -79900,7 +80230,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(ApplicationInitStatus, [{
         key: "runInitializers",
         value: function runInitializers() {
-          var _this105 = this;
+          var _this106 = this;
 
           if (this.initialized) {
             return;
@@ -79917,9 +80247,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function complete() {
             /** @type {?} */
-            _this105.done = true;
+            _this106.done = true;
 
-            _this105.resolve();
+            _this106.resolve();
           };
 
           if (this.appInits) {
@@ -79945,7 +80275,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (e) {
-            _this105.reject(e);
+            _this106.reject(e);
           });
 
           if (asyncInitPromises.length === 0) {
@@ -80087,7 +80417,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
-    var Console = /*#__PURE__*/function () {
+    var Console =
+    /*#__PURE__*/
+    function () {
       function Console() {
         _classCallCheck(this, Console);
       }
@@ -80442,7 +80774,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      */
 
-    var Compiler = /*#__PURE__*/function () {
+    var Compiler =
+    /*#__PURE__*/
+    function () {
       function Compiler() {
         _classCallCheck(this, Compiler);
 
@@ -80680,7 +81014,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NgZone = /*#__PURE__*/function () {
+    var NgZone =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} __0
        */
@@ -81154,7 +81490,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NoopNgZone = /*#__PURE__*/function () {
+    var NoopNgZone =
+    /*#__PURE__*/
+    function () {
       function NoopNgZone() {
         _classCallCheck(this, NoopNgZone);
 
@@ -81258,12 +81596,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var Testability = /*#__PURE__*/function () {
+    var Testability =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _ngZone
        */
       function Testability(_ngZone) {
-        var _this106 = this;
+        var _this107 = this;
 
         _classCallCheck(this, Testability);
 
@@ -81288,7 +81628,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function () {
-          _this106.taskTrackingZone = typeof Zone == 'undefined' ? null : Zone.current.get('TaskTrackingZone');
+          _this107.taskTrackingZone = typeof Zone == 'undefined' ? null : Zone.current.get('TaskTrackingZone');
         });
       }
       /**
@@ -81300,7 +81640,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(Testability, [{
         key: "_watchAngularEvents",
         value: function _watchAngularEvents() {
-          var _this107 = this;
+          var _this108 = this;
 
           this._ngZone.onUnstable.subscribe({
             next:
@@ -81308,8 +81648,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function next() {
-              _this107._didWork = true;
-              _this107._isZoneStable = false;
+              _this108._didWork = true;
+              _this108._isZoneStable = false;
             }
           });
 
@@ -81318,7 +81658,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function () {
-            _this107._ngZone.onStable.subscribe({
+            _this108._ngZone.onStable.subscribe({
               next:
               /**
               * @return {?}
@@ -81330,9 +81670,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 * @return {?}
                 */
                 function () {
-                  _this107._isZoneStable = true;
+                  _this108._isZoneStable = true;
 
-                  _this107._runCallbacksIfReady();
+                  _this108._runCallbacksIfReady();
                 });
               }
             });
@@ -81388,7 +81728,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "_runCallbacksIfReady",
         value: function _runCallbacksIfReady() {
-          var _this108 = this;
+          var _this109 = this;
 
           if (this.isStable()) {
             // Schedules the call backs in a new frame so that it is always async.
@@ -81397,17 +81737,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              while (_this108._callbacks.length !== 0) {
+              while (_this109._callbacks.length !== 0) {
                 /** @type {?} */
                 var cb =
                 /** @type {?} */
-                _this108._callbacks.pop();
+                _this109._callbacks.pop();
 
                 clearTimeout(cb.timeoutId);
-                cb.doneCb(_this108._didWork);
+                cb.doneCb(_this109._didWork);
               }
 
-              _this108._didWork = false;
+              _this109._didWork = false;
             });
           } else {
             // Still not stable, send updates.
@@ -81473,7 +81813,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addCallback",
         value: function addCallback(cb, timeout, updateCb) {
-          var _this109 = this;
+          var _this110 = this;
 
           /** @type {?} */
           var timeoutId = -1;
@@ -81484,7 +81824,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              _this109._callbacks = _this109._callbacks.filter(
+              _this110._callbacks = _this110._callbacks.filter(
               /**
               * @param {?} cb
               * @return {?}
@@ -81492,7 +81832,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               function (cb) {
                 return cb.timeoutId !== timeoutId;
               });
-              cb(_this109._didWork, _this109.getPendingTasks());
+              cb(_this110._didWork, _this110.getPendingTasks());
             }, timeout);
           }
 
@@ -81599,7 +81939,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var TestabilityRegistry = /*#__PURE__*/function () {
+    var TestabilityRegistry =
+    /*#__PURE__*/
+    function () {
       function TestabilityRegistry() {
         _classCallCheck(this, TestabilityRegistry);
 
@@ -81732,7 +82074,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var _NoopGetTestability = /*#__PURE__*/function () {
+    var _NoopGetTestability =
+    /*#__PURE__*/
+    function () {
       function _NoopGetTestability() {
         _classCallCheck(this, _NoopGetTestability);
       }
@@ -82103,7 +82447,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var PlatformRef = /*#__PURE__*/function () {
+    var PlatformRef =
+    /*#__PURE__*/
+    function () {
       /**
        * \@internal
        * @param {?} _injector
@@ -82147,7 +82493,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(PlatformRef, [{
         key: "bootstrapModuleFactory",
         value: function bootstrapModuleFactory(moduleFactory, options) {
-          var _this110 = this;
+          var _this111 = this;
 
           // Note: We need to create the NgZone _before_ we instantiate the module,
           // as instantiating the module creates some providers eagerly.
@@ -82178,7 +82524,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             /** @type {?} */
             var ngZoneInjector = Injector.create({
               providers: providers,
-              parent: _this110.injector,
+              parent: _this111.injector,
               name: moduleFactory.moduleType.name
             });
             /** @type {?} */
@@ -82199,7 +82545,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              return remove(_this110._modules, moduleRef);
+              return remove(_this111._modules, moduleRef);
             });
 
             /** @type {?} */
@@ -82245,7 +82591,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   setLocaleId(localeId || DEFAULT_LOCALE_ID);
                 }
 
-                _this110._moduleDoBootstrap(moduleRef);
+                _this111._moduleDoBootstrap(moduleRef);
 
                 return moduleRef;
               });
@@ -82276,7 +82622,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "bootstrapModule",
         value: function bootstrapModule(moduleType) {
-          var _this111 = this;
+          var _this112 = this;
 
           var compilerOptions = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : [];
 
@@ -82288,7 +82634,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (moduleFactory) {
-            return _this111.bootstrapModuleFactory(moduleFactory, options);
+            return _this112.bootstrapModuleFactory(moduleFactory, options);
           });
         }
         /**
@@ -82600,7 +82946,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ApplicationRef = /*#__PURE__*/function () {
+    var ApplicationRef =
+    /*#__PURE__*/
+    function () {
       /**
        * \@internal
        * @param {?} _zone
@@ -82611,7 +82959,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _initStatus
        */
       function ApplicationRef(_zone, _console, _injector, _exceptionHandler, _componentFactoryResolver, _initStatus) {
-        var _this112 = this;
+        var _this113 = this;
 
         _classCallCheck(this, ApplicationRef);
 
@@ -82649,12 +82997,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function next() {
-            _this112._zone.run(
+            _this113._zone.run(
             /**
             * @return {?}
             */
             function () {
-              _this112.tick();
+              _this113.tick();
             });
           }
         });
@@ -82667,14 +83015,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function (observer) {
-          _this112._stable = _this112._zone.isStable && !_this112._zone.hasPendingMacrotasks && !_this112._zone.hasPendingMicrotasks;
+          _this113._stable = _this113._zone.isStable && !_this113._zone.hasPendingMacrotasks && !_this113._zone.hasPendingMicrotasks;
 
-          _this112._zone.runOutsideAngular(
+          _this113._zone.runOutsideAngular(
           /**
           * @return {?}
           */
           function () {
-            observer.next(_this112._stable);
+            observer.next(_this113._stable);
             observer.complete();
           });
         });
@@ -82692,12 +83040,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           /** @type {?} */
           var stableSub;
 
-          _this112._zone.runOutsideAngular(
+          _this113._zone.runOutsideAngular(
           /**
           * @return {?}
           */
           function () {
-            stableSub = _this112._zone.onStable.subscribe(
+            stableSub = _this113._zone.onStable.subscribe(
             /**
             * @return {?}
             */
@@ -82710,8 +83058,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               * @return {?}
               */
               function () {
-                if (!_this112._stable && !_this112._zone.hasPendingMacrotasks && !_this112._zone.hasPendingMicrotasks) {
-                  _this112._stable = true;
+                if (!_this113._stable && !_this113._zone.hasPendingMacrotasks && !_this113._zone.hasPendingMicrotasks) {
+                  _this113._stable = true;
                   observer.next(true);
                 }
               });
@@ -82720,17 +83068,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           /** @type {?} */
 
 
-          var unstableSub = _this112._zone.onUnstable.subscribe(
+          var unstableSub = _this113._zone.onUnstable.subscribe(
           /**
           * @return {?}
           */
           function () {
             NgZone.assertInAngularZone();
 
-            if (_this112._stable) {
-              _this112._stable = false;
+            if (_this113._stable) {
+              _this113._stable = false;
 
-              _this112._zone.runOutsideAngular(
+              _this113._zone.runOutsideAngular(
               /**
               * @return {?}
               */
@@ -82779,7 +83127,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(ApplicationRef, [{
         key: "bootstrap",
         value: function bootstrap(componentOrFactory, rootSelectorOrNode) {
-          var _this113 = this;
+          var _this114 = this;
 
           if (!this._initStatus.done) {
             throw new Error('Cannot bootstrap as there are still asynchronous initializers running. Bootstrap components in the `ngDoBootstrap` method of the root module.');
@@ -82813,7 +83161,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function () {
-            _this113._unloadComponent(compRef);
+            _this114._unloadComponent(compRef);
           });
           /** @type {?} */
 
@@ -82846,7 +83194,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "tick",
         value: function tick() {
-          var _this114 = this;
+          var _this115 = this;
 
           if (this._runningTick) {
             throw new Error('ApplicationRef.tick is called recursively');
@@ -82911,7 +83259,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              return _this114._exceptionHandler.handleError(e);
+              return _this115._exceptionHandler.handleError(e);
             });
           } finally {
             this._runningTick = false;
@@ -83229,7 +83577,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * part of its implementation. See `LoadChildren` for more details.
      */
 
-    var SystemJsNgModuleLoader = /*#__PURE__*/function () {
+    var SystemJsNgModuleLoader =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _compiler
        * @param {?=} config
@@ -83262,7 +83612,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "loadAndCompile",
         value: function loadAndCompile(path) {
-          var _this115 = this;
+          var _this116 = this;
 
           var _path$split = path.split(_SEPARATOR),
               _path$split2 = _slicedToArray(_path$split, 2),
@@ -83293,7 +83643,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (type) {
-            return _this115._compiler.compileModuleAsync(type);
+            return _this116._compiler.compileModuleAsync(type);
           });
         }
         /**
@@ -83413,7 +83763,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ViewRef$1 = /*#__PURE__*/function (_ChangeDetectorRef) {
+    var ViewRef$1 =
+    /*#__PURE__*/
+    function (_ChangeDetectorRef) {
       _inherits(ViewRef$1, _ChangeDetectorRef);
 
       function ViewRef$1() {
@@ -83483,7 +83835,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var EmbeddedViewRef = /*#__PURE__*/function (_ViewRef$) {
+    var EmbeddedViewRef =
+    /*#__PURE__*/
+    function (_ViewRef$) {
       _inherits(EmbeddedViewRef, _ViewRef$);
 
       function EmbeddedViewRef() {
@@ -83536,7 +83890,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     if (false) {} // WARNING: interface has both a type and a value, skipping emit
 
 
-    var DebugNode__PRE_R3__ = /*#__PURE__*/function () {
+    var DebugNode__PRE_R3__ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} nativeNode
        * @param {?} parent
@@ -83608,7 +83964,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     if (false) {} // WARNING: interface has both a type and a value, skipping emit
 
 
-    var DebugElement__PRE_R3__ = /*#__PURE__*/function (_DebugNode__PRE_R3__) {
+    var DebugElement__PRE_R3__ =
+    /*#__PURE__*/
+    function (_DebugNode__PRE_R3__) {
       _inherits(DebugElement__PRE_R3__, _DebugNode__PRE_R3__);
 
       /**
@@ -83617,18 +83975,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _debugContext
        */
       function DebugElement__PRE_R3__(nativeNode, parent, _debugContext) {
-        var _this116;
+        var _this117;
 
         _classCallCheck(this, DebugElement__PRE_R3__);
 
-        _this116 = _possibleConstructorReturn(this, _getPrototypeOf(DebugElement__PRE_R3__).call(this, nativeNode, parent, _debugContext));
-        _this116.properties = {};
-        _this116.attributes = {};
-        _this116.classes = {};
-        _this116.styles = {};
-        _this116.childNodes = [];
-        _this116.nativeElement = nativeNode;
-        return _this116;
+        _this117 = _possibleConstructorReturn(this, _getPrototypeOf(DebugElement__PRE_R3__).call(this, nativeNode, parent, _debugContext));
+        _this117.properties = {};
+        _this117.attributes = {};
+        _this117.classes = {};
+        _this117.styles = {};
+        _this117.childNodes = [];
+        _this117.nativeElement = nativeNode;
+        return _this117;
       }
       /**
        * @param {?} child
@@ -83672,7 +84030,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "insertChildrenAfter",
         value: function insertChildrenAfter(child, newChildren) {
-          var _this117 = this;
+          var _this118 = this;
 
           /** @type {?} */
           var siblingIndex = this.childNodes.indexOf(child);
@@ -83694,7 +84052,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               }
 
               /** @type {?} */
-              child.parent = _this117;
+              child.parent = _this118;
             });
           }
         }
@@ -83879,7 +84237,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    var DebugNode__POST_R3__ = /*#__PURE__*/function () {
+    var DebugNode__POST_R3__ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} nativeNode
        */
@@ -83982,7 +84342,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var DebugElement__POST_R3__ = /*#__PURE__*/function (_DebugNode__POST_R3__) {
+    var DebugElement__POST_R3__ =
+    /*#__PURE__*/
+    function (_DebugNode__POST_R3__) {
       _inherits(DebugElement__POST_R3__, _DebugNode__POST_R3__);
 
       /**
@@ -88989,7 +89351,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return null;
     }
 
-    var DebugContext_ = /*#__PURE__*/function () {
+    var DebugContext_ =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} view
        * @param {?} nodeIndex
@@ -89329,7 +89693,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return _currentView ? new DebugContext_(_currentView, _currentNodeIndex) : null;
     }
 
-    var DebugRendererFactory2 = /*#__PURE__*/function () {
+    var DebugRendererFactory2 =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} delegate
        */
@@ -89392,7 +89758,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var DebugRenderer2 = /*#__PURE__*/function () {
+    var DebugRenderer2 =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} delegate
        */
@@ -89884,7 +90252,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var NgModuleFactory_ = /*#__PURE__*/function (_NgModuleFactory2) {
+    var NgModuleFactory_ =
+    /*#__PURE__*/
+    function (_NgModuleFactory2) {
       _inherits(NgModuleFactory_, _NgModuleFactory2);
 
       /**
@@ -89893,17 +90263,17 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _ngModuleDefFactory
        */
       function NgModuleFactory_(moduleType, _bootstrapComponents, _ngModuleDefFactory) {
-        var _this118;
+        var _this119;
 
         _classCallCheck(this, NgModuleFactory_);
 
         // Attention: this ctor is called as top level function.
         // Putting any logic in here will destroy closure tree shaking!
-        _this118 = _possibleConstructorReturn(this, _getPrototypeOf(NgModuleFactory_).call(this));
-        _this118.moduleType = moduleType;
-        _this118._bootstrapComponents = _bootstrapComponents;
-        _this118._ngModuleDefFactory = _ngModuleDefFactory;
-        return _this118;
+        _this119 = _possibleConstructorReturn(this, _getPrototypeOf(NgModuleFactory_).call(this));
+        _this119.moduleType = moduleType;
+        _this119._bootstrapComponents = _bootstrapComponents;
+        _this119._ngModuleDefFactory = _ngModuleDefFactory;
+        return _this119;
       }
       /**
        * @param {?} parentInjector
@@ -89995,9 +90365,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: MatCard, MatCardActions, MatCardAvatar, MatCardContent, MatCardFooter, MatCardHeader, MatCardImage, MatCardLgImage, MatCardMdImage, MatCardModule, MatCardSmImage, MatCardSubtitle, MatCardTitle, MatCardTitleGroup, MatCardXlImage */
 
@@ -90786,9 +91156,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: APR, AUG, AnimationCurves, AnimationDurations, DEC, DateAdapter, ErrorStateMatcher, FEB, GestureConfig, JAN, JUL, JUN, MAR, MATERIAL_SANITY_CHECKS, MAT_DATE_FORMATS, MAT_DATE_LOCALE, MAT_DATE_LOCALE_FACTORY, MAT_DATE_LOCALE_PROVIDER, MAT_HAMMER_OPTIONS, MAT_LABEL_GLOBAL_OPTIONS, MAT_NATIVE_DATE_FORMATS, MAT_OPTION_PARENT_COMPONENT, MAT_RIPPLE_GLOBAL_OPTIONS, MAY, MatCommonModule, MatLine, MatLineModule, MatLineSetter, MatNativeDateModule, MatOptgroup, MatOption, MatOptionModule, MatOptionSelectionChange, MatPseudoCheckbox, MatPseudoCheckboxModule, MatRipple, MatRippleModule, NOV, NativeDateAdapter, NativeDateModule, OCT, RippleRef, RippleRenderer, SEP, ShowOnDirtyErrorStateMatcher, VERSION, _countGroupLabelsBeforeOption, _getOptionScrollPosition, defaultRippleAnimationConfig, mixinColor, mixinDisableRipple, mixinDisabled, mixinErrorState, mixinInitialized, mixinTabIndex, setLines, ɵangular_material_src_material_core_core_a */
 
@@ -91239,7 +91609,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     var _c2 = ["*"];
-    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.1');
+    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.2');
     /**
      * @fileoverview added by tsickle
      * Generated from: src/material/core/animation/animation.ts
@@ -91295,7 +91665,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /** @type {?} */
 
 
-    var VERSION$1 = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.1');
+    var VERSION$1 = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["Version"]('9.1.2');
     /**
      * \@docs-private
      * @return {?}
@@ -91330,7 +91700,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var MatCommonModule = /*#__PURE__*/function () {
+    var MatCommonModule =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} highContrastModeDetector
        * @param {?} sanityChecks
@@ -91562,7 +91934,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     function mixinDisabled(base) {
-      return (/*#__PURE__*/function (_base) {
+      return (
+        /*#__PURE__*/
+        function (_base) {
           _inherits(_class, _base);
 
           /**
@@ -91571,7 +91945,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           function _class() {
             var _getPrototypeOf2;
 
-            var _this119;
+            var _this120;
 
             _classCallCheck(this, _class);
 
@@ -91579,9 +91953,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               args[_key17] = arguments[_key17];
             }
 
-            _this119 = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(_class)).call.apply(_getPrototypeOf2, [this].concat(args)));
-            _this119._disabled = false;
-            return _this119;
+            _this120 = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(_class)).call.apply(_getPrototypeOf2, [this].concat(args)));
+            _this120._disabled = false;
+            return _this120;
           }
           /**
            * @return {?}
@@ -91649,7 +92023,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     function mixinColor(base, defaultColor) {
-      return (/*#__PURE__*/function (_base2) {
+      return (
+        /*#__PURE__*/
+        function (_base2) {
           _inherits(_class2, _base2);
 
           /**
@@ -91658,7 +92034,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           function _class2() {
             var _getPrototypeOf3;
 
-            var _this120;
+            var _this121;
 
             _classCallCheck(this, _class2);
 
@@ -91666,10 +92042,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               args[_key18] = arguments[_key18];
             }
 
-            _this120 = _possibleConstructorReturn(this, (_getPrototypeOf3 = _getPrototypeOf(_class2)).call.apply(_getPrototypeOf3, [this].concat(args))); // Set the default color that can be specified from the mixin.
+            _this121 = _possibleConstructorReturn(this, (_getPrototypeOf3 = _getPrototypeOf(_class2)).call.apply(_getPrototypeOf3, [this].concat(args))); // Set the default color that can be specified from the mixin.
 
-            _this120.color = defaultColor;
-            return _this120;
+            _this121.color = defaultColor;
+            return _this121;
           }
           /**
            * @return {?}
@@ -91732,7 +92108,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     function mixinDisableRipple(base) {
-      return (/*#__PURE__*/function (_base3) {
+      return (
+        /*#__PURE__*/
+        function (_base3) {
           _inherits(_class3, _base3);
 
           /**
@@ -91741,7 +92119,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           function _class3() {
             var _getPrototypeOf4;
 
-            var _this121;
+            var _this122;
 
             _classCallCheck(this, _class3);
 
@@ -91749,9 +92127,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               args[_key19] = arguments[_key19];
             }
 
-            _this121 = _possibleConstructorReturn(this, (_getPrototypeOf4 = _getPrototypeOf(_class3)).call.apply(_getPrototypeOf4, [this].concat(args)));
-            _this121._disableRipple = false;
-            return _this121;
+            _this122 = _possibleConstructorReturn(this, (_getPrototypeOf4 = _getPrototypeOf(_class3)).call.apply(_getPrototypeOf4, [this].concat(args)));
+            _this122._disableRipple = false;
+            return _this122;
           }
           /**
            * Whether the ripple effect is disabled or not.
@@ -91812,7 +92190,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function mixinTabIndex(base) {
       var defaultTabIndex = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
-      return (/*#__PURE__*/function (_base4) {
+      return (
+        /*#__PURE__*/
+        function (_base4) {
           _inherits(_class4, _base4);
 
           /**
@@ -91821,7 +92201,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           function _class4() {
             var _getPrototypeOf5;
 
-            var _this122;
+            var _this123;
 
             _classCallCheck(this, _class4);
 
@@ -91829,9 +92209,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               args[_key20] = arguments[_key20];
             }
 
-            _this122 = _possibleConstructorReturn(this, (_getPrototypeOf5 = _getPrototypeOf(_class4)).call.apply(_getPrototypeOf5, [this].concat(args)));
-            _this122._tabIndex = defaultTabIndex;
-            return _this122;
+            _this123 = _possibleConstructorReturn(this, (_getPrototypeOf5 = _getPrototypeOf(_class4)).call.apply(_getPrototypeOf5, [this].concat(args)));
+            _this123._tabIndex = defaultTabIndex;
+            return _this123;
           }
           /**
            * @return {?}
@@ -91892,7 +92272,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     function mixinErrorState(base) {
-      return (/*#__PURE__*/function (_base5) {
+      return (
+        /*#__PURE__*/
+        function (_base5) {
           _inherits(_class5, _base5);
 
           /**
@@ -91901,7 +92283,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           function _class5() {
             var _getPrototypeOf6;
 
-            var _this123;
+            var _this124;
 
             _classCallCheck(this, _class5);
 
@@ -91909,19 +92291,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               args[_key21] = arguments[_key21];
             }
 
-            _this123 = _possibleConstructorReturn(this, (_getPrototypeOf6 = _getPrototypeOf(_class5)).call.apply(_getPrototypeOf6, [this].concat(args)));
+            _this124 = _possibleConstructorReturn(this, (_getPrototypeOf6 = _getPrototypeOf(_class5)).call.apply(_getPrototypeOf6, [this].concat(args)));
             /**
              * Whether the component is in an error state.
              */
 
-            _this123.errorState = false;
+            _this124.errorState = false;
             /**
              * Stream that emits whenever the state of the input changes such that the wrapping
              * `MatFormField` needs to run change detection.
              */
 
-            _this123.stateChanges = new rxjs__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
-            return _this123;
+            _this124.stateChanges = new rxjs__WEBPACK_IMPORTED_MODULE_5__["Subject"]();
+            return _this124;
           }
           /**
            * @return {?}
@@ -91987,7 +92369,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 
     function mixinInitialized(base) {
-      return (/*#__PURE__*/function (_base6) {
+      return (
+        /*#__PURE__*/
+        function (_base6) {
           _inherits(_class6, _base6);
 
           /**
@@ -91996,7 +92380,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           function _class6() {
             var _getPrototypeOf7;
 
-            var _this124;
+            var _this125;
 
             _classCallCheck(this, _class6);
 
@@ -92004,25 +92388,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               args[_key22] = arguments[_key22];
             }
 
-            _this124 = _possibleConstructorReturn(this, (_getPrototypeOf7 = _getPrototypeOf(_class6)).call.apply(_getPrototypeOf7, [this].concat(args)));
+            _this125 = _possibleConstructorReturn(this, (_getPrototypeOf7 = _getPrototypeOf(_class6)).call.apply(_getPrototypeOf7, [this].concat(args)));
             /**
              * Whether this directive has been marked as initialized.
              */
 
-            _this124._isInitialized = false;
+            _this125._isInitialized = false;
             /**
              * List of subscribers that subscribed before the directive was initialized. Should be notified
              * during _markInitialized. Set to null after pending subscribers are notified, and should
              * not expect to be populated after.
              */
 
-            _this124._pendingSubscribers = [];
+            _this125._pendingSubscribers = [];
             /**
              * Observable stream that emits when the directive initializes. If already initialized, the
              * subscriber is stored to be notified once _markInitialized is called.
              */
 
-            _this124.initialized = new rxjs__WEBPACK_IMPORTED_MODULE_5__["Observable"](
+            _this125.initialized = new rxjs__WEBPACK_IMPORTED_MODULE_5__["Observable"](
             /**
             * @param {?} subscriber
             * @return {?}
@@ -92030,14 +92414,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             function (subscriber) {
               // If initialized, immediately notify the subscriber. Otherwise store the subscriber to notify
               // when _markInitialized is called.
-              if (_this124._isInitialized) {
-                _this124._notifySubscriber(subscriber);
+              if (_this125._isInitialized) {
+                _this125._notifySubscriber(subscriber);
               } else {
                 /** @type {?} */
-                _this124._pendingSubscribers.push(subscriber);
+                _this125._pendingSubscribers.push(subscriber);
               }
             });
-            return _this124;
+            return _this125;
           }
           /**
            * Marks the state as initialized and notifies pending subscribers. Should be called at the end
@@ -92128,7 +92512,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @template D
      */
 
-    var DateAdapter = /*#__PURE__*/function () {
+    var DateAdapter =
+    /*#__PURE__*/
+    function () {
       function DateAdapter() {
         _classCallCheck(this, DateAdapter);
 
@@ -92349,7 +92735,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var NativeDateAdapter = /*#__PURE__*/function (_DateAdapter) {
+    var NativeDateAdapter =
+    /*#__PURE__*/
+    function (_DateAdapter) {
       _inherits(NativeDateAdapter, _DateAdapter);
 
       /**
@@ -92357,11 +92745,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} platform
        */
       function NativeDateAdapter(matDateLocale, platform) {
-        var _this125;
+        var _this126;
 
         _classCallCheck(this, NativeDateAdapter);
 
-        _this125 = _possibleConstructorReturn(this, _getPrototypeOf(NativeDateAdapter).call(this));
+        _this126 = _possibleConstructorReturn(this, _getPrototypeOf(NativeDateAdapter).call(this));
         /**
          * Whether to use `timeZone: 'utc'` with `Intl.DateTimeFormat` when formatting dates.
          * Without this `Intl.DateTimeFormat` sometimes chooses the wrong timeZone, which can throw off
@@ -92374,14 +92762,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
          * though.
          */
 
-        _this125.useUtcForDisplay = true;
+        _this126.useUtcForDisplay = true;
 
-        _get(_getPrototypeOf(NativeDateAdapter.prototype), "setLocale", _assertThisInitialized(_this125)).call(_assertThisInitialized(_this125), matDateLocale); // IE does its own time zone correction, so we disable this on IE.
+        _get(_getPrototypeOf(NativeDateAdapter.prototype), "setLocale", _assertThisInitialized(_this126)).call(_assertThisInitialized(_this126), matDateLocale); // IE does its own time zone correction, so we disable this on IE.
 
 
-        _this125.useUtcForDisplay = !platform.TRIDENT;
-        _this125._clampDate = platform.TRIDENT || platform.EDGE;
-        return _this125;
+        _this126.useUtcForDisplay = !platform.TRIDENT;
+        _this126._clampDate = platform.TRIDENT || platform.EDGE;
+        return _this126;
       }
       /**
        * @param {?} date
@@ -92432,7 +92820,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getMonthNames",
         value: function getMonthNames(style) {
-          var _this126 = this;
+          var _this127 = this;
 
           if (SUPPORTS_INTL_API) {
             /** @type {?} */
@@ -92446,7 +92834,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (i) {
-              return _this126._stripDirectionalityCharacters(_this126._format(dtf, new Date(2017, i, 1)));
+              return _this127._stripDirectionalityCharacters(_this127._format(dtf, new Date(2017, i, 1)));
             });
           }
 
@@ -92459,7 +92847,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getDateNames",
         value: function getDateNames() {
-          var _this127 = this;
+          var _this128 = this;
 
           if (SUPPORTS_INTL_API) {
             /** @type {?} */
@@ -92473,7 +92861,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (i) {
-              return _this127._stripDirectionalityCharacters(_this127._format(dtf, new Date(2017, 0, i + 1)));
+              return _this128._stripDirectionalityCharacters(_this128._format(dtf, new Date(2017, 0, i + 1)));
             });
           }
 
@@ -92487,7 +92875,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "getDayOfWeekNames",
         value: function getDayOfWeekNames(style) {
-          var _this128 = this;
+          var _this129 = this;
 
           if (SUPPORTS_INTL_API) {
             /** @type {?} */
@@ -92501,7 +92889,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function (i) {
-              return _this128._stripDirectionalityCharacters(_this128._format(dtf, new Date(2017, 0, i + 1)));
+              return _this129._stripDirectionalityCharacters(_this129._format(dtf, new Date(2017, 0, i + 1)));
             });
           }
 
@@ -93015,7 +93403,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ShowOnDirtyErrorStateMatcher = /*#__PURE__*/function () {
+    var ShowOnDirtyErrorStateMatcher =
+    /*#__PURE__*/
+    function () {
       function ShowOnDirtyErrorStateMatcher() {
         _classCallCheck(this, ShowOnDirtyErrorStateMatcher);
       }
@@ -93056,7 +93446,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var ErrorStateMatcher = /*#__PURE__*/function () {
+    var ErrorStateMatcher =
+    /*#__PURE__*/
+    function () {
       function ErrorStateMatcher() {
         _classCallCheck(this, ErrorStateMatcher);
       }
@@ -93242,7 +93634,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@breaking-change 10.0.0
      */
 
-    var GestureConfig = /*#__PURE__*/function (_angular_platform_bro) {
+    var GestureConfig =
+    /*#__PURE__*/
+    function (_angular_platform_bro) {
       _inherits(GestureConfig, _angular_platform_bro);
 
       /**
@@ -93250,18 +93644,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?=} _commonModule
        */
       function GestureConfig(_hammerOptions, _commonModule) {
-        var _this129;
+        var _this130;
 
         _classCallCheck(this, GestureConfig);
 
-        _this129 = _possibleConstructorReturn(this, _getPrototypeOf(GestureConfig).call(this));
-        _this129._hammerOptions = _hammerOptions;
+        _this130 = _possibleConstructorReturn(this, _getPrototypeOf(GestureConfig).call(this));
+        _this130._hammerOptions = _hammerOptions;
         /**
          * List of new event names to add to the gesture support list
          */
 
-        _this129.events = ANGULAR_MATERIAL_SUPPORTED_HAMMER_GESTURES;
-        return _this129;
+        _this130.events = ANGULAR_MATERIAL_SUPPORTED_HAMMER_GESTURES;
+        return _this130;
       }
       /**
        * Builds Hammer instance manually to add custom recognizers that match the Material Design spec.
@@ -93594,7 +93988,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * Reference to a previously launched ripple element.
      */
 
-    var RippleRef = /*#__PURE__*/function () {
+    var RippleRef =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _renderer
        * @param {?} element
@@ -93692,7 +94088,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@docs-private
      */
 
-    var RippleRenderer = /*#__PURE__*/function () {
+    var RippleRenderer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _target
        * @param {?} _ngZone
@@ -93700,7 +94098,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} platform
        */
       function RippleRenderer(_target, _ngZone, elementOrElementRef, platform) {
-        var _this130 = this;
+        var _this131 = this;
 
         _classCallCheck(this, RippleRenderer);
 
@@ -93738,12 +94136,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var isFakeMousedown = Object(_angular_cdk_a11y__WEBPACK_IMPORTED_MODULE_1__["isFakeMousedownFromScreenReader"])(event);
           /** @type {?} */
 
-          var isSyntheticEvent = _this130._lastTouchStartEvent && Date.now() < _this130._lastTouchStartEvent + ignoreMouseEventsTimeout;
+          var isSyntheticEvent = _this131._lastTouchStartEvent && Date.now() < _this131._lastTouchStartEvent + ignoreMouseEventsTimeout;
 
-          if (!_this130._target.rippleDisabled && !isFakeMousedown && !isSyntheticEvent) {
-            _this130._isPointerDown = true;
+          if (!_this131._target.rippleDisabled && !isFakeMousedown && !isSyntheticEvent) {
+            _this131._isPointerDown = true;
 
-            _this130.fadeInRipple(event.clientX, event.clientY, _this130._target.rippleConfig);
+            _this131.fadeInRipple(event.clientX, event.clientY, _this131._target.rippleConfig);
           }
         };
         /**
@@ -93757,12 +94155,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function (event) {
-          if (!_this130._target.rippleDisabled) {
+          if (!_this131._target.rippleDisabled) {
             // Some browsers fire mouse events after a `touchstart` event. Those synthetic mouse
             // events will launch a second ripple if we don't ignore mouse events for a specific
             // time after a touchstart event.
-            _this130._lastTouchStartEvent = Date.now();
-            _this130._isPointerDown = true; // Use `changedTouches` so we skip any touches where the user put
+            _this131._lastTouchStartEvent = Date.now();
+            _this131._isPointerDown = true; // Use `changedTouches` so we skip any touches where the user put
             // their finger down, but used another finger to tap the element again.
 
             /** @type {?} */
@@ -93770,7 +94168,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             var touches = event.changedTouches;
 
             for (var i = 0; i < touches.length; i++) {
-              _this130.fadeInRipple(touches[i].clientX, touches[i].clientY, _this130._target.rippleConfig);
+              _this131.fadeInRipple(touches[i].clientX, touches[i].clientY, _this131._target.rippleConfig);
             }
           }
         };
@@ -93784,13 +94182,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function () {
-          if (!_this130._isPointerDown) {
+          if (!_this131._isPointerDown) {
             return;
           }
 
-          _this130._isPointerDown = false; // Fade-out all ripples that are visible and not persistent.
+          _this131._isPointerDown = false; // Fade-out all ripples that are visible and not persistent.
 
-          _this130._activeRipples.forEach(
+          _this131._activeRipples.forEach(
           /**
           * @param {?} ripple
           * @return {?}
@@ -93831,7 +94229,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(RippleRenderer, [{
         key: "fadeInRipple",
         value: function fadeInRipple(x, y) {
-          var _this131 = this;
+          var _this132 = this;
 
           var config = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
 
@@ -93903,7 +94301,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function () {
             /** @type {?} */
-            var isMostRecentTransientRipple = rippleRef === _this131._mostRecentTransientRipple;
+            var isMostRecentTransientRipple = rippleRef === _this132._mostRecentTransientRipple;
             rippleRef.state = 1
             /* VISIBLE */
             ; // When the timer runs out while the user has kept their pointer down, we want to
@@ -93911,7 +94309,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             // because we don't want stacked transient ripples to appear after their enter
             // animation has finished.
 
-            if (!config.persistent && (!isMostRecentTransientRipple || !_this131._isPointerDown)) {
+            if (!config.persistent && (!isMostRecentTransientRipple || !_this132._isPointerDown)) {
               rippleRef.fadeOut();
             }
           }, duration);
@@ -93995,7 +94393,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "setupTriggerEvents",
         value: function setupTriggerEvents(elementOrElementRef) {
-          var _this132 = this;
+          var _this133 = this;
 
           /** @type {?} */
           var element = Object(_angular_cdk_coercion__WEBPACK_IMPORTED_MODULE_4__["coerceElement"])(elementOrElementRef);
@@ -94012,7 +94410,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function () {
-            _this132._triggerEvents.forEach(
+            _this133._triggerEvents.forEach(
             /**
             * @param {?} fn
             * @param {?} type
@@ -94054,7 +94452,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "_removeTriggerEvents",
         value: function _removeTriggerEvents() {
-          var _this133 = this;
+          var _this134 = this;
 
           if (this._triggerElement) {
             this._triggerEvents.forEach(
@@ -94065,7 +94463,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             */
             function (fn, type) {
               /** @type {?} */
-              _this133._triggerElement.removeEventListener(type, fn, passiveEventOptions);
+              _this134._triggerElement.removeEventListener(type, fn, passiveEventOptions);
             });
           }
         }
@@ -94128,7 +94526,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var MAT_RIPPLE_GLOBAL_OPTIONS = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["InjectionToken"]('mat-ripple-global-options');
 
-    var MatRipple = /*#__PURE__*/function () {
+    var MatRipple =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _elementRef
        * @param {?} ngZone
@@ -94696,21 +95096,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * Component that is used to group instances of `mat-option`.
      */
 
-    var MatOptgroup = /*#__PURE__*/function (_MatOptgroupMixinBase2) {
+    var MatOptgroup =
+    /*#__PURE__*/
+    function (_MatOptgroupMixinBase2) {
       _inherits(MatOptgroup, _MatOptgroupMixinBase2);
 
       function MatOptgroup() {
-        var _this134;
+        var _this135;
 
         _classCallCheck(this, MatOptgroup);
 
-        _this134 = _possibleConstructorReturn(this, _getPrototypeOf(MatOptgroup).apply(this, arguments));
+        _this135 = _possibleConstructorReturn(this, _getPrototypeOf(MatOptgroup).apply(this, arguments));
         /**
          * Unique id for the underlying label.
          */
 
-        _this134._labelId = "mat-optgroup-label-".concat(_uniqueOptgroupIdCounter++);
-        return _this134;
+        _this135._labelId = "mat-optgroup-label-".concat(_uniqueOptgroupIdCounter++);
+        return _this135;
       }
 
       return MatOptgroup;
@@ -94861,7 +95263,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * Single option inside of a `<mat-select>` element.
      */
 
-    var MatOption = /*#__PURE__*/function () {
+    var MatOption =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _element
        * @param {?} _changeDetectorRef
@@ -95550,9 +95954,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/material/__ivy_ngcc__/fesm2015/divider.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/divider.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/material/__ivy_ngcc__/fesm2015/divider.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: MatDivider, MatDividerModule */
 
@@ -95598,7 +96002,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var MatDivider = /*#__PURE__*/function () {
+    var MatDivider =
+    /*#__PURE__*/
+    function () {
       function MatDivider() {
         _classCallCheck(this, MatDivider);
 
@@ -95779,9 +96185,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js":
-  /*!*************************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js ***!
-    \*************************************************************************************************************************************/
+  /*!********************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js ***!
+    \********************************************************************************************************************************/
 
   /*! exports provided: ANIMATION_MODULE_TYPE, BrowserAnimationsModule, NoopAnimationsModule, ɵAnimationRenderer, ɵAnimationRendererFactory, ɵBrowserAnimationBuilder, ɵBrowserAnimationFactory, ɵInjectableAnimationEngine, ɵangular_packages_platform_browser_animations_animations_a, ɵangular_packages_platform_browser_animations_animations_b, ɵangular_packages_platform_browser_animations_animations_c, ɵangular_packages_platform_browser_animations_animations_d, ɵangular_packages_platform_browser_animations_animations_e, ɵangular_packages_platform_browser_animations_animations_f */
 
@@ -95905,7 +96311,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! @angular/common */
     "../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
     /**
-     * @license Angular v9.0.4
+     * @license Angular v9.0.6
      * (c) 2010-2020 Google LLC. https://angular.io/
      * License: MIT
      */
@@ -95917,7 +96323,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var BrowserAnimationBuilder = /*#__PURE__*/function (_angular_animations__2) {
+    var BrowserAnimationBuilder =
+    /*#__PURE__*/
+    function (_angular_animations__2) {
       _inherits(BrowserAnimationBuilder, _angular_animations__2);
 
       /**
@@ -95925,12 +96333,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} doc
        */
       function BrowserAnimationBuilder(rootRenderer, doc) {
-        var _this135;
+        var _this136;
 
         _classCallCheck(this, BrowserAnimationBuilder);
 
-        _this135 = _possibleConstructorReturn(this, _getPrototypeOf(BrowserAnimationBuilder).call(this));
-        _this135._nextAnimationId = 0;
+        _this136 = _possibleConstructorReturn(this, _getPrototypeOf(BrowserAnimationBuilder).call(this));
+        _this136._nextAnimationId = 0;
         /** @type {?} */
 
         var typeData =
@@ -95943,10 +96351,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             animation: []
           }
         };
-        _this135._renderer =
+        _this136._renderer =
         /** @type {?} */
         rootRenderer.createRenderer(doc.body, typeData);
-        return _this135;
+        return _this136;
       }
       /**
        * @param {?} animation
@@ -96014,7 +96422,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var BrowserAnimationFactory = /*#__PURE__*/function (_angular_animations__3) {
+    var BrowserAnimationFactory =
+    /*#__PURE__*/
+    function (_angular_animations__3) {
       _inherits(BrowserAnimationFactory, _angular_animations__3);
 
       /**
@@ -96022,14 +96432,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} _renderer
        */
       function BrowserAnimationFactory(_id, _renderer) {
-        var _this136;
+        var _this137;
 
         _classCallCheck(this, BrowserAnimationFactory);
 
-        _this136 = _possibleConstructorReturn(this, _getPrototypeOf(BrowserAnimationFactory).call(this));
-        _this136._id = _id;
-        _this136._renderer = _renderer;
-        return _this136;
+        _this137 = _possibleConstructorReturn(this, _getPrototypeOf(BrowserAnimationFactory).call(this));
+        _this137._id = _id;
+        _this137._renderer = _renderer;
+        return _this137;
       }
       /**
        * @param {?} element
@@ -96050,7 +96460,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var RendererAnimationPlayer = /*#__PURE__*/function () {
+    var RendererAnimationPlayer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} id
        * @param {?} element
@@ -96259,7 +96671,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     function RecursiveAnimationTriggerMetadata() {}
 
-    var AnimationRendererFactory = /*#__PURE__*/function () {
+    var AnimationRendererFactory =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} delegate
        * @param {?} engine
@@ -96304,7 +96718,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(AnimationRendererFactory, [{
         key: "createRenderer",
         value: function createRenderer(hostElement, type) {
-          var _this137 = this;
+          var _this138 = this;
 
           /** @type {?} */
           var EMPTY_NAMESPACE_ID = ''; // cache the delegates to find out which cached delegate can
@@ -96346,7 +96760,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             if (Array.isArray(trigger)) {
               trigger.forEach(registerTrigger);
             } else {
-              _this137.engine.registerTrigger(componentId, namespaceId, hostElement, trigger.name, trigger);
+              _this138.engine.registerTrigger(componentId, namespaceId, hostElement, trigger.name, trigger);
             }
           };
           /** @type {?} */
@@ -96379,7 +96793,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "_scheduleCountTask",
         value: function _scheduleCountTask() {
-          var _this138 = this;
+          var _this139 = this;
 
           // always use promise to schedule microtask instead of use Zone
           this.promise.then(
@@ -96387,7 +96801,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function () {
-            _this138._microtaskId++;
+            _this139._microtaskId++;
           });
         }
         /**
@@ -96401,7 +96815,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "scheduleListenerCallback",
         value: function scheduleListenerCallback(count, fn, data) {
-          var _this139 = this;
+          var _this140 = this;
 
           if (count >= 0 && count < this._microtaskId) {
             this._zone.run(
@@ -96421,12 +96835,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              _this139._zone.run(
+              _this140._zone.run(
               /**
               * @return {?}
               */
               function () {
-                _this139._animationCallbacksBuffer.forEach(
+                _this140._animationCallbacksBuffer.forEach(
                 /**
                 * @param {?} tuple
                 * @return {?}
@@ -96439,7 +96853,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                   fn(data);
                 });
 
-                _this139._animationCallbacksBuffer = [];
+                _this140._animationCallbacksBuffer = [];
               });
             });
           }
@@ -96453,7 +96867,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "end",
         value: function end() {
-          var _this140 = this;
+          var _this141 = this;
 
           this._cdRecurDepth--; // this is to prevent animations from running twice when an inner
           // component does CD when a parent component instead has inserted it
@@ -96464,9 +96878,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              _this140._scheduleCountTask();
+              _this141._scheduleCountTask();
 
-              _this140.engine.flush(_this140._microtaskId);
+              _this141.engine.flush(_this141._microtaskId);
             });
           }
 
@@ -96526,7 +96940,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var BaseAnimationRenderer = /*#__PURE__*/function () {
+    var BaseAnimationRenderer =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} namespaceId
        * @param {?} delegate
@@ -96799,7 +97215,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var AnimationRenderer = /*#__PURE__*/function (_BaseAnimationRendere) {
+    var AnimationRenderer =
+    /*#__PURE__*/
+    function (_BaseAnimationRendere) {
       _inherits(AnimationRenderer, _BaseAnimationRendere);
 
       /**
@@ -96809,14 +97227,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} engine
        */
       function AnimationRenderer(factory, namespaceId, delegate, engine) {
-        var _this141;
+        var _this142;
 
         _classCallCheck(this, AnimationRenderer);
 
-        _this141 = _possibleConstructorReturn(this, _getPrototypeOf(AnimationRenderer).call(this, namespaceId, delegate, engine));
-        _this141.factory = factory;
-        _this141.namespaceId = namespaceId;
-        return _this141;
+        _this142 = _possibleConstructorReturn(this, _getPrototypeOf(AnimationRenderer).call(this, namespaceId, delegate, engine));
+        _this142.factory = factory;
+        _this142.namespaceId = namespaceId;
+        return _this142;
       }
       /**
        * @param {?} el
@@ -96852,7 +97270,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "listen",
         value: function listen(target, eventName, callback) {
-          var _this142 = this;
+          var _this143 = this;
 
           if (eventName.charAt(0) == ANIMATION_PREFIX) {
             /** @type {?} */
@@ -96885,7 +97303,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               /** @type {?} */
               event['_data'] || -1;
 
-              _this142.factory.scheduleListenerCallback(countId, callback, event);
+              _this143.factory.scheduleListenerCallback(countId, callback, event);
             });
           }
 
@@ -96942,7 +97360,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var InjectableAnimationEngine = /*#__PURE__*/function (_angular_animations_b) {
+    var InjectableAnimationEngine =
+    /*#__PURE__*/
+    function (_angular_animations_b) {
       _inherits(InjectableAnimationEngine, _angular_animations_b);
 
       /**
@@ -97199,9 +97619,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js":
-  /*!*******************************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js ***!
-    \*******************************************************************************************************************************************/
+  /*!**************************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js ***!
+    \**************************************************************************************************************************************/
 
   /*! exports provided: ɵgetDOM, BrowserModule, BrowserTransferStateModule, By, DomSanitizer, EVENT_MANAGER_PLUGINS, EventManager, HAMMER_GESTURE_CONFIG, HAMMER_LOADER, HammerGestureConfig, HammerModule, Meta, Title, TransferState, VERSION, disableDebugTools, enableDebugTools, makeStateKey, platformBrowser, ɵBROWSER_SANITIZATION_PROVIDERS, ɵBROWSER_SANITIZATION_PROVIDERS__POST_R3__, ɵBrowserDomAdapter, ɵBrowserGetTestability, ɵDomEventsPlugin, ɵDomRendererFactory2, ɵDomSanitizerImpl, ɵDomSharedStylesHost, ɵELEMENT_PROBE_PROVIDERS, ɵELEMENT_PROBE_PROVIDERS__POST_R3__, ɵHAMMER_PROVIDERS__POST_R3__, ɵHammerGesturesPlugin, ɵINTERNAL_BROWSER_PLATFORM_PROVIDERS, ɵKeyEventsPlugin, ɵNAMESPACE_URIS, ɵSharedStylesHost, ɵTRANSITION_ID, ɵangular_packages_platform_browser_platform_browser_a, ɵangular_packages_platform_browser_platform_browser_b, ɵangular_packages_platform_browser_platform_browser_c, ɵangular_packages_platform_browser_platform_browser_d, ɵangular_packages_platform_browser_platform_browser_e, ɵangular_packages_platform_browser_platform_browser_f, ɵangular_packages_platform_browser_platform_browser_g, ɵangular_packages_platform_browser_platform_browser_h, ɵangular_packages_platform_browser_platform_browser_i, ɵangular_packages_platform_browser_platform_browser_j, ɵangular_packages_platform_browser_platform_browser_k, ɵangular_packages_platform_browser_platform_browser_l, ɵangular_packages_platform_browser_platform_browser_m, ɵangular_packages_platform_browser_platform_browser_n, ɵangular_packages_platform_browser_platform_browser_o, ɵescapeHtml, ɵflattenStyles, ɵinitDomAdapter, ɵshimContentAttribute, ɵshimHostAttribute */
 
@@ -97559,7 +97979,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return _angular_common__WEBPACK_IMPORTED_MODULE_0__["ɵgetDOM"];
     });
     /**
-     * @license Angular v9.0.4
+     * @license Angular v9.0.6
      * (c) 2010-2020 Google LLC. https://angular.io/
      * License: MIT
      */
@@ -97579,7 +97999,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var GenericBrowserDomAdapter = /*#__PURE__*/function (_angular_common__WEBP) {
+    var GenericBrowserDomAdapter =
+    /*#__PURE__*/
+    function (_angular_common__WEBP) {
       _inherits(GenericBrowserDomAdapter, _angular_common__WEBP);
 
       function GenericBrowserDomAdapter() {
@@ -97643,7 +98065,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     /* tslint:disable:requireParameterType no-console */
 
-    var BrowserDomAdapter = /*#__PURE__*/function (_GenericBrowserDomAda) {
+    var BrowserDomAdapter =
+    /*#__PURE__*/
+    function (_GenericBrowserDomAda) {
       _inherits(BrowserDomAdapter, _GenericBrowserDomAda);
 
       function BrowserDomAdapter() {
@@ -98034,7 +98458,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
-    var BrowserGetTestability = /*#__PURE__*/function () {
+    var BrowserGetTestability =
+    /*#__PURE__*/
+    function () {
       function BrowserGetTestability() {
         _classCallCheck(this, BrowserGetTestability);
       }
@@ -98377,14 +98803,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      */
 
-    var EventManager = /*#__PURE__*/function () {
+    var EventManager =
+    /*#__PURE__*/
+    function () {
       /**
        * Initializes an instance of the event-manager service.
        * @param {?} plugins
        * @param {?} _zone
        */
       function EventManager(plugins, _zone) {
-        var _this143 = this;
+        var _this144 = this;
 
         _classCallCheck(this, EventManager);
 
@@ -98398,7 +98826,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {THIS}
         */
         function (p) {
-          return p.manager = _this143;
+          return p.manager = _this144;
         });
         this._plugins = plugins.slice().reverse();
       }
@@ -98533,7 +98961,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var EventManagerPlugin = /*#__PURE__*/function () {
+    var EventManagerPlugin =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _doc
        */
@@ -98575,7 +99005,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var SharedStylesHost = /*#__PURE__*/function () {
+    var SharedStylesHost =
+    /*#__PURE__*/
+    function () {
       function SharedStylesHost() {
         _classCallCheck(this, SharedStylesHost);
 
@@ -98593,7 +99025,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(SharedStylesHost, [{
         key: "addStyles",
         value: function addStyles(styles) {
-          var _this144 = this;
+          var _this145 = this;
 
           /** @type {?} */
           var additions = new Set();
@@ -98603,8 +99035,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (style) {
-            if (!_this144._stylesSet.has(style)) {
-              _this144._stylesSet.add(style);
+            if (!_this145._stylesSet.has(style)) {
+              _this145._stylesSet.add(style);
 
               additions.add(style);
             }
@@ -98653,25 +99085,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var DomSharedStylesHost = /*#__PURE__*/function (_SharedStylesHost) {
+    var DomSharedStylesHost =
+    /*#__PURE__*/
+    function (_SharedStylesHost) {
       _inherits(DomSharedStylesHost, _SharedStylesHost);
 
       /**
        * @param {?} _doc
        */
       function DomSharedStylesHost(_doc) {
-        var _this145;
+        var _this146;
 
         _classCallCheck(this, DomSharedStylesHost);
 
-        _this145 = _possibleConstructorReturn(this, _getPrototypeOf(DomSharedStylesHost).call(this));
-        _this145._doc = _doc;
-        _this145._hostNodes = new Set();
-        _this145._styleNodes = new Set();
+        _this146 = _possibleConstructorReturn(this, _getPrototypeOf(DomSharedStylesHost).call(this));
+        _this146._doc = _doc;
+        _this146._hostNodes = new Set();
+        _this146._styleNodes = new Set();
 
-        _this145._hostNodes.add(_doc.head);
+        _this146._hostNodes.add(_doc.head);
 
-        return _this145;
+        return _this146;
       }
       /**
        * @private
@@ -98684,7 +99118,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(DomSharedStylesHost, [{
         key: "_addStylesToHost",
         value: function _addStylesToHost(styles, host) {
-          var _this146 = this;
+          var _this147 = this;
 
           styles.forEach(
           /**
@@ -98693,11 +99127,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (style) {
             /** @type {?} */
-            var styleEl = _this146._doc.createElement('style');
+            var styleEl = _this147._doc.createElement('style');
 
             styleEl.textContent = style;
 
-            _this146._styleNodes.add(host.appendChild(styleEl));
+            _this147._styleNodes.add(host.appendChild(styleEl));
           });
         }
         /**
@@ -98730,7 +99164,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "onStylesAdded",
         value: function onStylesAdded(additions) {
-          var _this147 = this;
+          var _this148 = this;
 
           this._hostNodes.forEach(
           /**
@@ -98738,7 +99172,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (hostNode) {
-            return _this147._addStylesToHost(additions, hostNode);
+            return _this148._addStylesToHost(additions, hostNode);
           });
         }
         /**
@@ -98910,7 +99344,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       );
     }
 
-    var DomRendererFactory2 = /*#__PURE__*/function () {
+    var DomRendererFactory2 =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} eventManager
        * @param {?} sharedStylesHost
@@ -99037,7 +99473,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var DefaultDomRenderer2 = /*#__PURE__*/function () {
+    var DefaultDomRenderer2 =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} eventManager
        */
@@ -99366,7 +99804,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }
     }
 
-    var EmulatedEncapsulationDomRenderer2 = /*#__PURE__*/function (_DefaultDomRenderer) {
+    var EmulatedEncapsulationDomRenderer2 =
+    /*#__PURE__*/
+    function (_DefaultDomRenderer) {
       _inherits(EmulatedEncapsulationDomRenderer2, _DefaultDomRenderer);
 
       /**
@@ -99376,19 +99816,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} appId
        */
       function EmulatedEncapsulationDomRenderer2(eventManager, sharedStylesHost, component, appId) {
-        var _this148;
+        var _this149;
 
         _classCallCheck(this, EmulatedEncapsulationDomRenderer2);
 
-        _this148 = _possibleConstructorReturn(this, _getPrototypeOf(EmulatedEncapsulationDomRenderer2).call(this, eventManager));
-        _this148.component = component;
+        _this149 = _possibleConstructorReturn(this, _getPrototypeOf(EmulatedEncapsulationDomRenderer2).call(this, eventManager));
+        _this149.component = component;
         /** @type {?} */
 
         var styles = flattenStyles(appId + '-' + component.id, component.styles, []);
         sharedStylesHost.addStyles(styles);
-        _this148.contentAttr = shimContentAttribute(appId + '-' + component.id);
-        _this148.hostAttr = shimHostAttribute(appId + '-' + component.id);
-        return _this148;
+        _this149.contentAttr = shimContentAttribute(appId + '-' + component.id);
+        _this149.hostAttr = shimHostAttribute(appId + '-' + component.id);
+        return _this149;
       }
       /**
        * @param {?} element
@@ -99424,7 +99864,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     if (false) {}
 
-    var ShadowDomRenderer = /*#__PURE__*/function (_DefaultDomRenderer2) {
+    var ShadowDomRenderer =
+    /*#__PURE__*/
+    function (_DefaultDomRenderer2) {
       _inherits(ShadowDomRenderer, _DefaultDomRenderer2);
 
       /**
@@ -99434,28 +99876,28 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?} component
        */
       function ShadowDomRenderer(eventManager, sharedStylesHost, hostEl, component) {
-        var _this149;
+        var _this150;
 
         _classCallCheck(this, ShadowDomRenderer);
 
-        _this149 = _possibleConstructorReturn(this, _getPrototypeOf(ShadowDomRenderer).call(this, eventManager));
-        _this149.sharedStylesHost = sharedStylesHost;
-        _this149.hostEl = hostEl;
-        _this149.component = component;
+        _this150 = _possibleConstructorReturn(this, _getPrototypeOf(ShadowDomRenderer).call(this, eventManager));
+        _this150.sharedStylesHost = sharedStylesHost;
+        _this150.hostEl = hostEl;
+        _this150.component = component;
 
         if (component.encapsulation === _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].ShadowDom) {
-          _this149.shadowRoot =
+          _this150.shadowRoot =
           /** @type {?} */
           hostEl.attachShadow({
             mode: 'open'
           });
         } else {
-          _this149.shadowRoot =
+          _this150.shadowRoot =
           /** @type {?} */
           hostEl.createShadowRoot();
         }
 
-        _this149.sharedStylesHost.addHost(_this149.shadowRoot);
+        _this150.sharedStylesHost.addHost(_this150.shadowRoot);
         /** @type {?} */
 
 
@@ -99466,10 +99908,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var styleEl = document.createElement('style');
           styleEl.textContent = styles[i];
 
-          _this149.shadowRoot.appendChild(styleEl);
+          _this150.shadowRoot.appendChild(styleEl);
         }
 
-        return _this149;
+        return _this150;
       }
       /**
        * @private
@@ -99549,7 +99991,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var DomEventsPlugin = /*#__PURE__*/function (_EventManagerPlugin) {
+    var DomEventsPlugin =
+    /*#__PURE__*/
+    function (_EventManagerPlugin) {
       _inherits(DomEventsPlugin, _EventManagerPlugin);
 
       /**
@@ -99583,7 +100027,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addEventListener",
         value: function addEventListener(element, eventName, handler) {
-          var _this150 = this;
+          var _this151 = this;
 
           element.addEventListener(eventName,
           /** @type {?} */
@@ -99593,7 +100037,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             * @return {?}
             */
             function () {
-              return _this150.removeEventListener(element, eventName,
+              return _this151.removeEventListener(element, eventName,
               /** @type {?} */
               handler);
             }
@@ -99734,7 +100178,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var HammerGestureConfig = /*#__PURE__*/function () {
+    var HammerGestureConfig =
+    /*#__PURE__*/
+    function () {
       function HammerGestureConfig() {
         _classCallCheck(this, HammerGestureConfig);
 
@@ -99822,7 +100268,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var HammerGesturesPlugin = /*#__PURE__*/function (_EventManagerPlugin2) {
+    var HammerGesturesPlugin =
+    /*#__PURE__*/
+    function (_EventManagerPlugin2) {
       _inherits(HammerGesturesPlugin, _EventManagerPlugin2);
 
       /**
@@ -99832,15 +100280,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
        * @param {?=} loader
        */
       function HammerGesturesPlugin(doc, _config, console, loader) {
-        var _this151;
+        var _this152;
 
         _classCallCheck(this, HammerGesturesPlugin);
 
-        _this151 = _possibleConstructorReturn(this, _getPrototypeOf(HammerGesturesPlugin).call(this, doc));
-        _this151._config = _config;
-        _this151.console = console;
-        _this151.loader = loader;
-        return _this151;
+        _this152 = _possibleConstructorReturn(this, _getPrototypeOf(HammerGesturesPlugin).call(this, doc));
+        _this152._config = _config;
+        _this152.console = console;
+        _this152.loader = loader;
+        return _this152;
       }
       /**
        * @param {?} eventName
@@ -99874,7 +100322,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addEventListener",
         value: function addEventListener(element, eventName, handler) {
-          var _this152 = this;
+          var _this153 = this;
 
           /** @type {?} */
           var zone = this.manager.getZone();
@@ -99909,7 +100357,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               if (!
               /** @type {?} */
               window.Hammer) {
-                _this152.console.warn("The custom HAMMER_LOADER completed, but Hammer.JS is not present.");
+                _this153.console.warn("The custom HAMMER_LOADER completed, but Hammer.JS is not present.");
 
                 deregister =
                 /**
@@ -99923,14 +100371,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               if (!cancelRegistration) {
                 // Now that Hammer is loaded and the listener is being loaded for real,
                 // the deregistration function changes from canceling registration to removal.
-                deregister = _this152.addEventListener(element, eventName, handler);
+                deregister = _this153.addEventListener(element, eventName, handler);
               }
             })["catch"](
             /**
             * @return {?}
             */
             function () {
-              _this152.console.warn("The \"".concat(eventName, "\" event cannot be bound because the custom ") + "Hammer.JS loader failed.");
+              _this153.console.warn("The \"".concat(eventName, "\" event cannot be bound because the custom ") + "Hammer.JS loader failed.");
 
               deregister =
               /**
@@ -99959,7 +100407,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             // Creating the manager bind events, must be done outside of angular
 
             /** @type {?} */
-            var mc = _this152._config.buildHammer(element);
+            var mc = _this153._config.buildHammer(element);
             /** @type {?} */
 
 
@@ -100248,7 +100696,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * A browser plug-in that provides support for handling of key events in Angular.
      */
 
-    var KeyEventsPlugin = /*#__PURE__*/function (_EventManagerPlugin3) {
+    var KeyEventsPlugin =
+    /*#__PURE__*/
+    function (_EventManagerPlugin3) {
       _inherits(KeyEventsPlugin, _EventManagerPlugin3);
 
       /**
@@ -100657,20 +101107,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return new DomSanitizerImpl(injector.get(_angular_common__WEBPACK_IMPORTED_MODULE_0__["DOCUMENT"]));
     }
 
-    var DomSanitizerImpl = /*#__PURE__*/function (_DomSanitizer) {
+    var DomSanitizerImpl =
+    /*#__PURE__*/
+    function (_DomSanitizer) {
       _inherits(DomSanitizerImpl, _DomSanitizer);
 
       /**
        * @param {?} _doc
        */
       function DomSanitizerImpl(_doc) {
-        var _this153;
+        var _this154;
 
         _classCallCheck(this, DomSanitizerImpl);
 
-        _this153 = _possibleConstructorReturn(this, _getPrototypeOf(DomSanitizerImpl).call(this));
-        _this153._doc = _doc;
-        return _this153;
+        _this154 = _possibleConstructorReturn(this, _getPrototypeOf(DomSanitizerImpl).call(this));
+        _this154._doc = _doc;
+        return _this154;
       }
       /**
        * @param {?} ctx
@@ -100976,7 +101428,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * \@publicApi
      */
 
-    var BrowserModule = /*#__PURE__*/function () {
+    var BrowserModule =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} parentModule
        */
@@ -101095,7 +101549,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var Meta = /*#__PURE__*/function () {
+    var Meta =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _doc
        */
@@ -101128,7 +101584,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addTags",
         value: function addTags(tags) {
-          var _this154 = this;
+          var _this155 = this;
 
           var forceCreation = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
           if (!tags) return [];
@@ -101140,7 +101596,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (result, tag) {
             if (tag) {
-              result.push(_this154._getOrCreateElement(tag, forceCreation));
+              result.push(_this155._getOrCreateElement(tag, forceCreation));
             }
 
             return result;
@@ -101392,7 +101848,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var Title = /*#__PURE__*/function () {
+    var Title =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _doc
        */
@@ -101518,7 +101976,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var AngularProfiler = /*#__PURE__*/function () {
+    var AngularProfiler =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} ref
        */
@@ -101734,7 +102194,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var TransferState = /*#__PURE__*/function () {
+    var TransferState =
+    /*#__PURE__*/
+    function () {
       function TransferState() {
         _classCallCheck(this, TransferState);
 
@@ -101945,7 +102407,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var By = /*#__PURE__*/function () {
+    var By =
+    /*#__PURE__*/
+    function () {
       function By() {
         _classCallCheck(this, By);
       }
@@ -102059,7 +102523,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('9.0.4');
+    var VERSION = new _angular_core__WEBPACK_IMPORTED_MODULE_1__["Version"]('9.0.6');
     /**
      * @fileoverview added by tsickle
      * Generated from: packages/platform-browser/src/platform-browser.ts
@@ -102088,9 +102552,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/ngx-highlightjs/__ivy_ngcc__/fesm2015/ngx-highlightjs.js":
-  /*!********************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/ngx-highlightjs/__ivy_ngcc__/fesm2015/ngx-highlightjs.js ***!
-    \********************************************************************************************************************************/
+  /*!***************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/ngx-highlightjs/__ivy_ngcc__/fesm2015/ngx-highlightjs.js ***!
+    \***************************************************************************************************************************/
 
   /*! exports provided: HIGHLIGHT_OPTIONS, Highlight, HighlightJS, HighlightLoader, HighlightModule */
 
@@ -102206,14 +102670,16 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
     // @dynamic
 
-    var HighlightLoader = /*#__PURE__*/function () {
+    var HighlightLoader =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} doc
        * @param {?} platformId
        * @param {?} _options
        */
       function HighlightLoader(doc, platformId, _options) {
-        var _this155 = this;
+        var _this156 = this;
 
         _classCallCheck(this, HighlightLoader);
 
@@ -102239,7 +102705,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (hljs) {
-            if (_this155._options && _this155._options.lineNumbers) {
+            if (_this156._options && _this156._options.lineNumbers) {
               // Make hljs available on window object (required for the line numbers library)
               doc.defaultView.hljs = hljs; // Load line numbers library
 
@@ -102248,10 +102714,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
               * @return {?}
               */
               function () {
-                return _this155._ready.next(hljs);
+                return _this156._ready.next(hljs);
               }));
             } else {
-              _this155._ready.next(hljs);
+              _this156._ready.next(hljs);
 
               return rxjs__WEBPACK_IMPORTED_MODULE_2__["EMPTY"];
             }
@@ -102276,7 +102742,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass2(HighlightLoader, [{
         key: "_loadLibrary",
         value: function _loadLibrary() {
-          var _this156 = this;
+          var _this157 = this;
 
           return this._options && this._options.languages && Object.keys(this._options.languages).length ? Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(loadCoreLibrary()).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["switchMap"])(
           /**
@@ -102284,7 +102750,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           * @return {?}
           */
           function (hljs) {
-            return _this156._loadLanguages(hljs);
+            return _this157._loadLanguages(hljs);
           })) : Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["from"])(loadAllLibrary());
         }
         /**
@@ -102482,13 +102948,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * @suppress {checkTypes,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
      */
 
-    var HighlightJS = /*#__PURE__*/function () {
+    var HighlightJS =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} _loader
        * @param {?} options
        */
       function HighlightJS(_loader, options) {
-        var _this157 = this;
+        var _this158 = this;
 
         _classCallCheck(this, HighlightJS);
 
@@ -102500,7 +102968,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         * @return {?}
         */
         function (hljs) {
-          _this157._hljs = hljs;
+          _this158._hljs = hljs;
 
           if (options && options.config) {
             // Set global config if present
@@ -102789,7 +103257,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      */
 
 
-    var Highlight = /*#__PURE__*/function () {
+    var Highlight =
+    /*#__PURE__*/
+    function () {
       /**
        * @param {?} el
        * @param {?} _hljs
@@ -102830,7 +103300,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "highlightElement",
         value: function highlightElement(code, languages) {
-          var _this158 = this;
+          var _this159 = this;
 
           // Set code text before highlighting
           this.setTextContent(code);
@@ -102842,15 +103312,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function (res) {
             // Set highlighted code
-            _this158.setInnerHTML(res.value); // Check if user want to show line numbers
+            _this159.setInnerHTML(res.value); // Check if user want to show line numbers
 
 
-            if (_this158.lineNumbers && _this158._options && _this158._options.lineNumbers) {
-              _this158.addLineNumbers();
+            if (_this159.lineNumbers && _this159._options && _this159._options.lineNumbers) {
+              _this159.addLineNumbers();
             } // Forward highlight response to the highlighted output
 
 
-            _this158.highlighted.emit(res);
+            _this159.highlighted.emit(res);
           });
         }
         /**
@@ -102861,7 +103331,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "addLineNumbers",
         value: function addLineNumbers() {
-          var _this159 = this;
+          var _this160 = this;
 
           // Clean up line numbers observer
           this.destroyLineNumbersObserver();
@@ -102871,23 +103341,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           */
           function () {
             // Add line numbers
-            _this159._hljs.lineNumbersBlock(_this159._nativeElement).subscribe(); // If lines count is 1, the line numbers library will not add numbers
+            _this160._hljs.lineNumbersBlock(_this160._nativeElement).subscribe(); // If lines count is 1, the line numbers library will not add numbers
             // Observe changes to add 'hljs-line-numbers' class only when line numbers is added to the code element
 
 
-            _this159._lineNumbersObs = new MutationObserver(
+            _this160._lineNumbersObs = new MutationObserver(
             /**
             * @return {?}
             */
             function () {
-              if (_this159._nativeElement.firstElementChild && _this159._nativeElement.firstElementChild.tagName.toUpperCase() === 'TABLE') {
-                _this159._nativeElement.classList.add('hljs-line-numbers');
+              if (_this160._nativeElement.firstElementChild && _this160._nativeElement.firstElementChild.tagName.toUpperCase() === 'TABLE') {
+                _this160._nativeElement.classList.add('hljs-line-numbers');
               }
 
-              _this159.destroyLineNumbersObserver();
+              _this160.destroyLineNumbersObserver();
             });
 
-            _this159._lineNumbersObs.observe(_this159._nativeElement, {
+            _this160._lineNumbersObs.observe(_this160._nativeElement, {
               childList: true
             });
           });
@@ -102915,14 +103385,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "setTextContent",
         value: function setTextContent(content) {
-          var _this160 = this;
+          var _this161 = this;
 
           rxjs__WEBPACK_IMPORTED_MODULE_2__["animationFrameScheduler"].schedule(
           /**
           * @return {?}
           */
           function () {
-            return _this160._nativeElement.textContent = content;
+            return _this161._nativeElement.textContent = content;
           });
         }
         /**
@@ -102934,14 +103404,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "setInnerHTML",
         value: function setInnerHTML(content) {
-          var _this161 = this;
+          var _this162 = this;
 
           rxjs__WEBPACK_IMPORTED_MODULE_2__["animationFrameScheduler"].schedule(
           /**
           * @return {?}
           */
           function () {
-            return _this161._nativeElement.innerHTML = _this161._sanitizer.sanitize(_angular_core__WEBPACK_IMPORTED_MODULE_0__["SecurityContext"].HTML, content);
+            return _this162._nativeElement.innerHTML = _this162._sanitizer.sanitize(_angular_core__WEBPACK_IMPORTED_MODULE_0__["SecurityContext"].HTML, content);
           });
         }
       }]);
@@ -102970,7 +103440,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       outputs: {
         highlighted: "highlighted"
       },
-      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]()]
+      features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]]
     });
     /** @nocollapse */
 
@@ -103106,9 +103576,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/index.js":
-  /*!**********************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/index.js ***!
-    \**********************************************************************************************/
+  /*!*****************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/index.js ***!
+    \*****************************************************************************************/
 
   /*! exports provided: Observable, ConnectableObservable, GroupedObservable, observable, Subject, BehaviorSubject, ReplaySubject, AsyncSubject, asapScheduler, asyncScheduler, queueScheduler, animationFrameScheduler, VirtualTimeScheduler, VirtualAction, Scheduler, Subscription, Subscriber, Notification, NotificationKind, pipe, noop, identity, isObservable, ArgumentOutOfRangeError, EmptyError, ObjectUnsubscribedError, UnsubscriptionError, TimeoutError, bindCallback, bindNodeCallback, combineLatest, concat, defer, empty, forkJoin, from, fromEvent, fromEventPattern, generate, iif, interval, merge, never, of, onErrorResumeNext, pairs, partition, race, range, throwError, timer, using, zip, scheduled, EMPTY, NEVER, config */
 
@@ -103784,9 +104254,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/AsyncSubject.js":
-  /*!**************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/AsyncSubject.js ***!
-    \**************************************************************************************************************/
+  /*!*********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/AsyncSubject.js ***!
+    \*********************************************************************************************************/
 
   /*! exports provided: AsyncSubject */
 
@@ -103814,19 +104284,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./Subscription */
     "../../node_modules/rxjs/_esm2015/internal/Subscription.js");
 
-    var AsyncSubject = /*#__PURE__*/function (_Subject__WEBPACK_IMP) {
+    var AsyncSubject =
+    /*#__PURE__*/
+    function (_Subject__WEBPACK_IMP) {
       _inherits(AsyncSubject, _Subject__WEBPACK_IMP);
 
       function AsyncSubject() {
-        var _this162;
+        var _this163;
 
         _classCallCheck(this, AsyncSubject);
 
-        _this162 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncSubject).apply(this, arguments));
-        _this162.value = null;
-        _this162.hasNext = false;
-        _this162.hasCompleted = false;
-        return _this162;
+        _this163 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncSubject).apply(this, arguments));
+        _this163.value = null;
+        _this163.hasNext = false;
+        _this163.hasCompleted = false;
+        return _this163;
       }
 
       _createClass2(AsyncSubject, [{
@@ -103880,9 +104352,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/BehaviorSubject.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/BehaviorSubject.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/BehaviorSubject.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: BehaviorSubject */
 
@@ -103910,17 +104382,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./util/ObjectUnsubscribedError */
     "../../node_modules/rxjs/_esm2015/internal/util/ObjectUnsubscribedError.js");
 
-    var BehaviorSubject = /*#__PURE__*/function (_Subject__WEBPACK_IMP2) {
+    var BehaviorSubject =
+    /*#__PURE__*/
+    function (_Subject__WEBPACK_IMP2) {
       _inherits(BehaviorSubject, _Subject__WEBPACK_IMP2);
 
       function BehaviorSubject(_value) {
-        var _this163;
+        var _this164;
 
         _classCallCheck(this, BehaviorSubject);
 
-        _this163 = _possibleConstructorReturn(this, _getPrototypeOf(BehaviorSubject).call(this));
-        _this163._value = _value;
-        return _this163;
+        _this164 = _possibleConstructorReturn(this, _getPrototypeOf(BehaviorSubject).call(this));
+        _this164._value = _value;
+        return _this164;
       }
 
       _createClass2(BehaviorSubject, [{
@@ -103966,9 +104440,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/InnerSubscriber.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/InnerSubscriber.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/InnerSubscriber.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: InnerSubscriber */
 
@@ -103990,20 +104464,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./Subscriber */
     "../../node_modules/rxjs/_esm2015/internal/Subscriber.js");
 
-    var InnerSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_) {
+    var InnerSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_) {
       _inherits(InnerSubscriber, _Subscriber__WEBPACK_);
 
       function InnerSubscriber(parent, outerValue, outerIndex) {
-        var _this164;
+        var _this165;
 
         _classCallCheck(this, InnerSubscriber);
 
-        _this164 = _possibleConstructorReturn(this, _getPrototypeOf(InnerSubscriber).call(this));
-        _this164.parent = parent;
-        _this164.outerValue = outerValue;
-        _this164.outerIndex = outerIndex;
-        _this164.index = 0;
-        return _this164;
+        _this165 = _possibleConstructorReturn(this, _getPrototypeOf(InnerSubscriber).call(this));
+        _this165.parent = parent;
+        _this165.outerValue = outerValue;
+        _this165.outerIndex = outerIndex;
+        _this165.index = 0;
+        return _this165;
       }
 
       _createClass2(InnerSubscriber, [{
@@ -104034,9 +104510,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/Notification.js":
-  /*!**************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Notification.js ***!
-    \**************************************************************************************************************/
+  /*!*********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Notification.js ***!
+    \*********************************************************************************************************/
 
   /*! exports provided: NotificationKind, Notification */
 
@@ -104084,7 +104560,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       NotificationKind["COMPLETE"] = "C";
     })(NotificationKind || (NotificationKind = {}));
 
-    var Notification = /*#__PURE__*/function () {
+    var Notification =
+    /*#__PURE__*/
+    function () {
       function Notification(kind, value, error) {
         _classCallCheck(this, Notification);
 
@@ -104183,9 +104661,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/Observable.js":
-  /*!************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Observable.js ***!
-    \************************************************************************************************************/
+  /*!*******************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Observable.js ***!
+    \*******************************************************************************************************/
 
   /*! exports provided: Observable */
 
@@ -104231,7 +104709,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./config */
     "../../node_modules/rxjs/_esm2015/internal/config.js");
 
-    var Observable = /*#__PURE__*/function () {
+    var Observable =
+    /*#__PURE__*/
+    function () {
       function Observable(subscribe) {
         _classCallCheck(this, Observable);
 
@@ -104295,12 +104775,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "forEach",
         value: function forEach(next, promiseCtor) {
-          var _this165 = this;
+          var _this166 = this;
 
           promiseCtor = getPromiseCtor(promiseCtor);
           return new promiseCtor(function (resolve, reject) {
             var subscription;
-            subscription = _this165.subscribe(function (value) {
+            subscription = _this166.subscribe(function (value) {
               try {
                 next(value);
               } catch (err) {
@@ -104340,13 +104820,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "toPromise",
         value: function toPromise(promiseCtor) {
-          var _this166 = this;
+          var _this167 = this;
 
           promiseCtor = getPromiseCtor(promiseCtor);
           return new promiseCtor(function (resolve, reject) {
             var value;
 
-            _this166.subscribe(function (x) {
+            _this167.subscribe(function (x) {
               return value = x;
             }, function (err) {
               return reject(err);
@@ -104382,9 +104862,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/Observer.js":
-  /*!**********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Observer.js ***!
-    \**********************************************************************************************************/
+  /*!*****************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Observer.js ***!
+    \*****************************************************************************************************/
 
   /*! exports provided: empty */
 
@@ -104430,9 +104910,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/OuterSubscriber.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/OuterSubscriber.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/OuterSubscriber.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: OuterSubscriber */
 
@@ -104454,7 +104934,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./Subscriber */
     "../../node_modules/rxjs/_esm2015/internal/Subscriber.js");
 
-    var OuterSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_2) {
+    var OuterSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_2) {
       _inherits(OuterSubscriber, _Subscriber__WEBPACK_2);
 
       function OuterSubscriber() {
@@ -104489,9 +104971,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/ReplaySubject.js":
-  /*!***************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/ReplaySubject.js ***!
-    \***************************************************************************************************************/
+  /*!**********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/ReplaySubject.js ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: ReplaySubject */
 
@@ -104543,11 +105025,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./SubjectSubscription */
     "../../node_modules/rxjs/_esm2015/internal/SubjectSubscription.js");
 
-    var ReplaySubject = /*#__PURE__*/function (_Subject__WEBPACK_IMP3) {
+    var ReplaySubject =
+    /*#__PURE__*/
+    function (_Subject__WEBPACK_IMP3) {
       _inherits(ReplaySubject, _Subject__WEBPACK_IMP3);
 
       function ReplaySubject() {
-        var _this167;
+        var _this168;
 
         var bufferSize = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : Number.POSITIVE_INFINITY;
         var windowTime = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : Number.POSITIVE_INFINITY;
@@ -104555,21 +105039,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
         _classCallCheck(this, ReplaySubject);
 
-        _this167 = _possibleConstructorReturn(this, _getPrototypeOf(ReplaySubject).call(this));
-        _this167.scheduler = scheduler;
-        _this167._events = [];
-        _this167._infiniteTimeWindow = false;
-        _this167._bufferSize = bufferSize < 1 ? 1 : bufferSize;
-        _this167._windowTime = windowTime < 1 ? 1 : windowTime;
+        _this168 = _possibleConstructorReturn(this, _getPrototypeOf(ReplaySubject).call(this));
+        _this168.scheduler = scheduler;
+        _this168._events = [];
+        _this168._infiniteTimeWindow = false;
+        _this168._bufferSize = bufferSize < 1 ? 1 : bufferSize;
+        _this168._windowTime = windowTime < 1 ? 1 : windowTime;
 
         if (windowTime === Number.POSITIVE_INFINITY) {
-          _this167._infiniteTimeWindow = true;
-          _this167.next = _this167.nextInfiniteTimeWindow;
+          _this168._infiniteTimeWindow = true;
+          _this168.next = _this168.nextInfiniteTimeWindow;
         } else {
-          _this167.next = _this167.nextTimeWindow;
+          _this168.next = _this168.nextTimeWindow;
         }
 
-        return _this167;
+        return _this168;
       }
 
       _createClass2(ReplaySubject, [{
@@ -104688,9 +105172,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/Scheduler.js":
-  /*!***********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Scheduler.js ***!
-    \***********************************************************************************************************/
+  /*!******************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Scheduler.js ***!
+    \******************************************************************************************************/
 
   /*! exports provided: Scheduler */
 
@@ -104706,7 +105190,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Scheduler;
     });
 
-    var Scheduler = /*#__PURE__*/function () {
+    var Scheduler =
+    /*#__PURE__*/
+    function () {
       function Scheduler(SchedulerAction) {
         var now = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : Scheduler.now;
 
@@ -104738,9 +105224,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/Subject.js":
-  /*!*********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Subject.js ***!
-    \*********************************************************************************************************/
+  /*!****************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Subject.js ***!
+    \****************************************************************************************************/
 
   /*! exports provided: SubjectSubscriber, Subject, AnonymousSubject */
 
@@ -104804,37 +105290,41 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ../internal/symbol/rxSubscriber */
     "../../node_modules/rxjs/_esm2015/internal/symbol/rxSubscriber.js");
 
-    var SubjectSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_3) {
+    var SubjectSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_3) {
       _inherits(SubjectSubscriber, _Subscriber__WEBPACK_3);
 
       function SubjectSubscriber(destination) {
-        var _this168;
+        var _this169;
 
         _classCallCheck(this, SubjectSubscriber);
 
-        _this168 = _possibleConstructorReturn(this, _getPrototypeOf(SubjectSubscriber).call(this, destination));
-        _this168.destination = destination;
-        return _this168;
+        _this169 = _possibleConstructorReturn(this, _getPrototypeOf(SubjectSubscriber).call(this, destination));
+        _this169.destination = destination;
+        return _this169;
       }
 
       return SubjectSubscriber;
     }(_Subscriber__WEBPACK_IMPORTED_MODULE_1__["Subscriber"]);
 
-    var Subject = /*#__PURE__*/function (_Observable__WEBPACK_) {
+    var Subject =
+    /*#__PURE__*/
+    function (_Observable__WEBPACK_) {
       _inherits(Subject, _Observable__WEBPACK_);
 
       function Subject() {
-        var _this169;
+        var _this170;
 
         _classCallCheck(this, Subject);
 
-        _this169 = _possibleConstructorReturn(this, _getPrototypeOf(Subject).call(this));
-        _this169.observers = [];
-        _this169.closed = false;
-        _this169.isStopped = false;
-        _this169.hasError = false;
-        _this169.thrownError = null;
-        return _this169;
+        _this170 = _possibleConstructorReturn(this, _getPrototypeOf(Subject).call(this));
+        _this170.observers = [];
+        _this170.closed = false;
+        _this170.isStopped = false;
+        _this170.hasError = false;
+        _this170.thrownError = null;
+        return _this170;
       }
 
       _createClass2(Subject, [{
@@ -104952,18 +105442,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return new AnonymousSubject(destination, source);
     };
 
-    var AnonymousSubject = /*#__PURE__*/function (_Subject) {
+    var AnonymousSubject =
+    /*#__PURE__*/
+    function (_Subject) {
       _inherits(AnonymousSubject, _Subject);
 
       function AnonymousSubject(destination, source) {
-        var _this170;
+        var _this171;
 
         _classCallCheck(this, AnonymousSubject);
 
-        _this170 = _possibleConstructorReturn(this, _getPrototypeOf(AnonymousSubject).call(this));
-        _this170.destination = destination;
-        _this170.source = source;
-        return _this170;
+        _this171 = _possibleConstructorReturn(this, _getPrototypeOf(AnonymousSubject).call(this));
+        _this171.destination = destination;
+        _this171.source = source;
+        return _this171;
       }
 
       _createClass2(AnonymousSubject, [{
@@ -105015,9 +105507,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/SubjectSubscription.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/SubjectSubscription.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/SubjectSubscription.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: SubjectSubscription */
 
@@ -105039,19 +105531,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./Subscription */
     "../../node_modules/rxjs/_esm2015/internal/Subscription.js");
 
-    var SubjectSubscription = /*#__PURE__*/function (_Subscription__WEBPAC) {
+    var SubjectSubscription =
+    /*#__PURE__*/
+    function (_Subscription__WEBPAC) {
       _inherits(SubjectSubscription, _Subscription__WEBPAC);
 
       function SubjectSubscription(subject, subscriber) {
-        var _this171;
+        var _this172;
 
         _classCallCheck(this, SubjectSubscription);
 
-        _this171 = _possibleConstructorReturn(this, _getPrototypeOf(SubjectSubscription).call(this));
-        _this171.subject = subject;
-        _this171.subscriber = subscriber;
-        _this171.closed = false;
-        return _this171;
+        _this172 = _possibleConstructorReturn(this, _getPrototypeOf(SubjectSubscription).call(this));
+        _this172.subject = subject;
+        _this172.subscriber = subscriber;
+        _this172.closed = false;
+        return _this172;
       }
 
       _createClass2(SubjectSubscription, [{
@@ -105087,9 +105581,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/Subscriber.js":
-  /*!************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Subscriber.js ***!
-    \************************************************************************************************************/
+  /*!*******************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Subscriber.js ***!
+    \*******************************************************************************************************/
 
   /*! exports provided: Subscriber, SafeSubscriber */
 
@@ -105147,51 +105641,53 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./util/hostReportError */
     "../../node_modules/rxjs/_esm2015/internal/util/hostReportError.js");
 
-    var Subscriber = /*#__PURE__*/function (_Subscription__WEBPAC2) {
+    var Subscriber =
+    /*#__PURE__*/
+    function (_Subscription__WEBPAC2) {
       _inherits(Subscriber, _Subscription__WEBPAC2);
 
       function Subscriber(destinationOrNext, error, complete) {
-        var _this172;
+        var _this173;
 
         _classCallCheck(this, Subscriber);
 
-        _this172 = _possibleConstructorReturn(this, _getPrototypeOf(Subscriber).call(this));
-        _this172.syncErrorValue = null;
-        _this172.syncErrorThrown = false;
-        _this172.syncErrorThrowable = false;
-        _this172.isStopped = false;
+        _this173 = _possibleConstructorReturn(this, _getPrototypeOf(Subscriber).call(this));
+        _this173.syncErrorValue = null;
+        _this173.syncErrorThrown = false;
+        _this173.syncErrorThrowable = false;
+        _this173.isStopped = false;
 
         switch (arguments.length) {
           case 0:
-            _this172.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
+            _this173.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
             break;
 
           case 1:
             if (!destinationOrNext) {
-              _this172.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
+              _this173.destination = _Observer__WEBPACK_IMPORTED_MODULE_1__["empty"];
               break;
             }
 
             if (typeof destinationOrNext === 'object') {
               if (destinationOrNext instanceof Subscriber) {
-                _this172.syncErrorThrowable = destinationOrNext.syncErrorThrowable;
-                _this172.destination = destinationOrNext;
-                destinationOrNext.add(_assertThisInitialized(_this172));
+                _this173.syncErrorThrowable = destinationOrNext.syncErrorThrowable;
+                _this173.destination = destinationOrNext;
+                destinationOrNext.add(_assertThisInitialized(_this173));
               } else {
-                _this172.syncErrorThrowable = true;
-                _this172.destination = new SafeSubscriber(_assertThisInitialized(_this172), destinationOrNext);
+                _this173.syncErrorThrowable = true;
+                _this173.destination = new SafeSubscriber(_assertThisInitialized(_this173), destinationOrNext);
               }
 
               break;
             }
 
           default:
-            _this172.syncErrorThrowable = true;
-            _this172.destination = new SafeSubscriber(_assertThisInitialized(_this172), destinationOrNext, error, complete);
+            _this173.syncErrorThrowable = true;
+            _this173.destination = new SafeSubscriber(_assertThisInitialized(_this173), destinationOrNext, error, complete);
             break;
         }
 
-        return _this172;
+        return _this173;
       }
 
       _createClass2(Subscriber, [{
@@ -105275,19 +105771,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Subscriber;
     }(_Subscription__WEBPACK_IMPORTED_MODULE_2__["Subscription"]);
 
-    var SafeSubscriber = /*#__PURE__*/function (_Subscriber) {
+    var SafeSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber) {
       _inherits(SafeSubscriber, _Subscriber);
 
       function SafeSubscriber(_parentSubscriber, observerOrNext, error, complete) {
-        var _this173;
+        var _this174;
 
         _classCallCheck(this, SafeSubscriber);
 
-        _this173 = _possibleConstructorReturn(this, _getPrototypeOf(SafeSubscriber).call(this));
-        _this173._parentSubscriber = _parentSubscriber;
+        _this174 = _possibleConstructorReturn(this, _getPrototypeOf(SafeSubscriber).call(this));
+        _this174._parentSubscriber = _parentSubscriber;
         var next;
 
-        var context = _assertThisInitialized(_this173);
+        var context = _assertThisInitialized(_this174);
 
         if (Object(_util_isFunction__WEBPACK_IMPORTED_MODULE_0__["isFunction"])(observerOrNext)) {
           next = observerOrNext;
@@ -105300,18 +105798,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             context = Object.create(observerOrNext);
 
             if (Object(_util_isFunction__WEBPACK_IMPORTED_MODULE_0__["isFunction"])(context.unsubscribe)) {
-              _this173.add(context.unsubscribe.bind(context));
+              _this174.add(context.unsubscribe.bind(context));
             }
 
-            context.unsubscribe = _this173.unsubscribe.bind(_assertThisInitialized(_this173));
+            context.unsubscribe = _this174.unsubscribe.bind(_assertThisInitialized(_this174));
           }
         }
 
-        _this173._context = context;
-        _this173._next = next;
-        _this173._error = error;
-        _this173._complete = complete;
-        return _this173;
+        _this174._context = context;
+        _this174._next = next;
+        _this174._error = error;
+        _this174._complete = complete;
+        return _this174;
       }
 
       _createClass2(SafeSubscriber, [{
@@ -105367,14 +105865,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "complete",
         value: function complete() {
-          var _this174 = this;
+          var _this175 = this;
 
           if (!this.isStopped) {
             var _parentSubscriber = this._parentSubscriber;
 
             if (this._complete) {
               var wrappedComplete = function wrappedComplete() {
-                return _this174._complete.call(_this174._context);
+                return _this175._complete.call(_this175._context);
               };
 
               if (!_config__WEBPACK_IMPORTED_MODULE_4__["config"].useDeprecatedSynchronousErrorHandling || !_parentSubscriber.syncErrorThrowable) {
@@ -105448,9 +105946,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/Subscription.js":
-  /*!**************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/Subscription.js ***!
-    \**************************************************************************************************************/
+  /*!*********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/Subscription.js ***!
+    \*********************************************************************************************************/
 
   /*! exports provided: Subscription */
 
@@ -105490,7 +105988,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./util/UnsubscriptionError */
     "../../node_modules/rxjs/_esm2015/internal/util/UnsubscriptionError.js");
 
-    var Subscription = /*#__PURE__*/function () {
+    var Subscription =
+    /*#__PURE__*/
+    function () {
       function Subscription(unsubscribe) {
         _classCallCheck(this, Subscription);
 
@@ -105659,9 +106159,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/config.js":
-  /*!********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/config.js ***!
-    \********************************************************************************************************/
+  /*!***************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/config.js ***!
+    \***************************************************************************************************/
 
   /*! exports provided: config */
 
@@ -105703,9 +106203,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/ConnectableObservable.js":
-  /*!**********************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/ConnectableObservable.js ***!
-    \**********************************************************************************************************************************/
+  /*!*****************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/ConnectableObservable.js ***!
+    \*****************************************************************************************************************************/
 
   /*! exports provided: ConnectableObservable, connectableObservableDescriptor */
 
@@ -105757,20 +106257,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ../operators/refCount */
     "../../node_modules/rxjs/_esm2015/internal/operators/refCount.js");
 
-    var ConnectableObservable = /*#__PURE__*/function (_Observable__WEBPACK_2) {
+    var ConnectableObservable =
+    /*#__PURE__*/
+    function (_Observable__WEBPACK_2) {
       _inherits(ConnectableObservable, _Observable__WEBPACK_2);
 
       function ConnectableObservable(source, subjectFactory) {
-        var _this175;
+        var _this176;
 
         _classCallCheck(this, ConnectableObservable);
 
-        _this175 = _possibleConstructorReturn(this, _getPrototypeOf(ConnectableObservable).call(this));
-        _this175.source = source;
-        _this175.subjectFactory = subjectFactory;
-        _this175._refCount = 0;
-        _this175._isComplete = false;
-        return _this175;
+        _this176 = _possibleConstructorReturn(this, _getPrototypeOf(ConnectableObservable).call(this));
+        _this176.source = source;
+        _this176.subjectFactory = subjectFactory;
+        _this176._refCount = 0;
+        _this176._isComplete = false;
+        return _this176;
       }
 
       _createClass2(ConnectableObservable, [{
@@ -105854,17 +106356,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }();
 
-    var ConnectableSubscriber = /*#__PURE__*/function (_Subject__WEBPACK_IMP4) {
+    var ConnectableSubscriber =
+    /*#__PURE__*/
+    function (_Subject__WEBPACK_IMP4) {
       _inherits(ConnectableSubscriber, _Subject__WEBPACK_IMP4);
 
       function ConnectableSubscriber(destination, connectable) {
-        var _this176;
+        var _this177;
 
         _classCallCheck(this, ConnectableSubscriber);
 
-        _this176 = _possibleConstructorReturn(this, _getPrototypeOf(ConnectableSubscriber).call(this, destination));
-        _this176.connectable = connectable;
-        return _this176;
+        _this177 = _possibleConstructorReturn(this, _getPrototypeOf(ConnectableSubscriber).call(this, destination));
+        _this177.connectable = connectable;
+        return _this177;
       }
 
       _createClass2(ConnectableSubscriber, [{
@@ -105905,7 +106409,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ConnectableSubscriber;
     }(_Subject__WEBPACK_IMPORTED_MODULE_0__["SubjectSubscriber"]);
 
-    var RefCountOperator = /*#__PURE__*/function () {
+    var RefCountOperator =
+    /*#__PURE__*/
+    function () {
       function RefCountOperator(connectable) {
         _classCallCheck(this, RefCountOperator);
 
@@ -105931,17 +106437,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RefCountOperator;
     }();
 
-    var RefCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_4) {
+    var RefCountSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_4) {
       _inherits(RefCountSubscriber, _Subscriber__WEBPACK_4);
 
       function RefCountSubscriber(destination, connectable) {
-        var _this177;
+        var _this178;
 
         _classCallCheck(this, RefCountSubscriber);
 
-        _this177 = _possibleConstructorReturn(this, _getPrototypeOf(RefCountSubscriber).call(this, destination));
-        _this177.connectable = connectable;
-        return _this177;
+        _this178 = _possibleConstructorReturn(this, _getPrototypeOf(RefCountSubscriber).call(this, destination));
+        _this178.connectable = connectable;
+        return _this178;
       }
 
       _createClass2(RefCountSubscriber, [{
@@ -105988,9 +106496,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/SubscribeOnObservable.js":
-  /*!**********************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/SubscribeOnObservable.js ***!
-    \**********************************************************************************************************************************/
+  /*!*****************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/SubscribeOnObservable.js ***!
+    \*****************************************************************************************************************************/
 
   /*! exports provided: SubscribeOnObservable */
 
@@ -106024,31 +106532,33 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ../util/isNumeric */
     "../../node_modules/rxjs/_esm2015/internal/util/isNumeric.js");
 
-    var SubscribeOnObservable = /*#__PURE__*/function (_Observable__WEBPACK_3) {
+    var SubscribeOnObservable =
+    /*#__PURE__*/
+    function (_Observable__WEBPACK_3) {
       _inherits(SubscribeOnObservable, _Observable__WEBPACK_3);
 
       function SubscribeOnObservable(source) {
-        var _this178;
+        var _this179;
 
         var delayTime = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
         var scheduler = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : _scheduler_asap__WEBPACK_IMPORTED_MODULE_1__["asap"];
 
         _classCallCheck(this, SubscribeOnObservable);
 
-        _this178 = _possibleConstructorReturn(this, _getPrototypeOf(SubscribeOnObservable).call(this));
-        _this178.source = source;
-        _this178.delayTime = delayTime;
-        _this178.scheduler = scheduler;
+        _this179 = _possibleConstructorReturn(this, _getPrototypeOf(SubscribeOnObservable).call(this));
+        _this179.source = source;
+        _this179.delayTime = delayTime;
+        _this179.scheduler = scheduler;
 
         if (!Object(_util_isNumeric__WEBPACK_IMPORTED_MODULE_2__["isNumeric"])(delayTime) || delayTime < 0) {
-          _this178.delayTime = 0;
+          _this179.delayTime = 0;
         }
 
         if (!scheduler || typeof scheduler.schedule !== 'function') {
-          _this178.scheduler = _scheduler_asap__WEBPACK_IMPORTED_MODULE_1__["asap"];
+          _this179.scheduler = _scheduler_asap__WEBPACK_IMPORTED_MODULE_1__["asap"];
         }
 
-        return _this178;
+        return _this179;
       }
 
       _createClass2(SubscribeOnObservable, [{
@@ -106087,9 +106597,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/bindCallback.js":
-  /*!*************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/bindCallback.js ***!
-    \*************************************************************************************************************************/
+  /*!********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/bindCallback.js ***!
+    \********************************************************************************************************************/
 
   /*! exports provided: bindCallback */
 
@@ -106206,7 +106716,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function dispatch(state) {
-      var _this179 = this;
+      var _this180 = this;
 
       var self = this;
       var args = state.args,
@@ -106227,7 +106737,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           var value = innerArgs.length <= 1 ? innerArgs[0] : innerArgs;
 
-          _this179.add(scheduler.schedule(dispatchNext, 0, {
+          _this180.add(scheduler.schedule(dispatchNext, 0, {
             value: value,
             subject: subject
           }));
@@ -106262,9 +106772,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/bindNodeCallback.js":
-  /*!*****************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/bindNodeCallback.js ***!
-    \*****************************************************************************************************************************/
+  /*!************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/bindNodeCallback.js ***!
+    \************************************************************************************************************************/
 
   /*! exports provided: bindNodeCallback */
 
@@ -106389,7 +106899,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     }
 
     function dispatch(state) {
-      var _this180 = this;
+      var _this181 = this;
 
       var params = state.params,
           subscriber = state.subscriber,
@@ -106410,14 +106920,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var err = innerArgs.shift();
 
           if (err) {
-            _this180.add(scheduler.schedule(dispatchError, 0, {
+            _this181.add(scheduler.schedule(dispatchError, 0, {
               err: err,
               subject: subject
             }));
           } else {
             var value = innerArgs.length <= 1 ? innerArgs[0] : innerArgs;
 
-            _this180.add(scheduler.schedule(dispatchNext, 0, {
+            _this181.add(scheduler.schedule(dispatchNext, 0, {
               value: value,
               subject: subject
             }));
@@ -106456,9 +106966,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/combineLatest.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/combineLatest.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/combineLatest.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: combineLatest, CombineLatestOperator, CombineLatestSubscriber */
 
@@ -106541,7 +107051,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Object(_fromArray__WEBPACK_IMPORTED_MODULE_4__["fromArray"])(observables, scheduler).lift(new CombineLatestOperator(resultSelector));
     }
 
-    var CombineLatestOperator = /*#__PURE__*/function () {
+    var CombineLatestOperator =
+    /*#__PURE__*/
+    function () {
       function CombineLatestOperator(resultSelector) {
         _classCallCheck(this, CombineLatestOperator);
 
@@ -106558,20 +107070,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return CombineLatestOperator;
     }();
 
-    var CombineLatestSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB) {
+    var CombineLatestSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB) {
       _inherits(CombineLatestSubscriber, _OuterSubscriber__WEB);
 
       function CombineLatestSubscriber(destination, resultSelector) {
-        var _this181;
+        var _this182;
 
         _classCallCheck(this, CombineLatestSubscriber);
 
-        _this181 = _possibleConstructorReturn(this, _getPrototypeOf(CombineLatestSubscriber).call(this, destination));
-        _this181.resultSelector = resultSelector;
-        _this181.active = 0;
-        _this181.values = [];
-        _this181.observables = [];
-        return _this181;
+        _this182 = _possibleConstructorReturn(this, _getPrototypeOf(CombineLatestSubscriber).call(this, destination));
+        _this182.resultSelector = resultSelector;
+        _this182.active = 0;
+        _this182.values = [];
+        _this182.observables = [];
+        return _this182;
       }
 
       _createClass2(CombineLatestSubscriber, [{
@@ -106646,9 +107160,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/concat.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/concat.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/concat.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: concat */
 
@@ -106686,9 +107200,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/defer.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/defer.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/defer.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: defer */
 
@@ -106744,9 +107258,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/empty.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/empty.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/empty.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: EMPTY, empty */
 
@@ -106796,9 +107310,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/forkJoin.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/forkJoin.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/forkJoin.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: forkJoin */
 
@@ -106931,9 +107445,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/from.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/from.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/from.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: from */
 
@@ -106985,9 +107499,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/fromArray.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromArray.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromArray.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: fromArray */
 
@@ -107035,9 +107549,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/fromEvent.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromEvent.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromEvent.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: fromEvent */
 
@@ -107159,9 +107673,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/fromEventPattern.js":
-  /*!*****************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromEventPattern.js ***!
-    \*****************************************************************************************************************************/
+  /*!************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/fromEventPattern.js ***!
+    \************************************************************************************************************************/
 
   /*! exports provided: fromEventPattern */
 
@@ -107242,9 +107756,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/generate.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/generate.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/generate.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: generate */
 
@@ -107422,9 +107936,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/iif.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/iif.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/iif.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: iif */
 
@@ -107466,9 +107980,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/interval.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/interval.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/interval.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: interval */
 
@@ -107542,9 +108056,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/merge.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/merge.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/merge.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: merge */
 
@@ -107617,9 +108131,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/never.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/never.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/never.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: NEVER, never */
 
@@ -107665,9 +108179,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/of.js":
-  /*!***************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/of.js ***!
-    \***************************************************************************************************************/
+  /*!**********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/of.js ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: of */
 
@@ -107722,9 +108236,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/onErrorResumeNext.js":
-  /*!******************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/onErrorResumeNext.js ***!
-    \******************************************************************************************************************************/
+  /*!*************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/onErrorResumeNext.js ***!
+    \*************************************************************************************************************************/
 
   /*! exports provided: onErrorResumeNext */
 
@@ -107801,9 +108315,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/pairs.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/pairs.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/pairs.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: pairs, dispatch */
 
@@ -107898,9 +108412,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/partition.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/partition.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/partition.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: partition */
 
@@ -107950,9 +108464,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/race.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/race.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/race.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: race, RaceOperator, RaceSubscriber */
 
@@ -108020,7 +108534,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Object(_fromArray__WEBPACK_IMPORTED_MODULE_1__["fromArray"])(observables, undefined).lift(new RaceOperator());
     }
 
-    var RaceOperator = /*#__PURE__*/function () {
+    var RaceOperator =
+    /*#__PURE__*/
+    function () {
       function RaceOperator() {
         _classCallCheck(this, RaceOperator);
       }
@@ -108035,19 +108551,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RaceOperator;
     }();
 
-    var RaceSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB2) {
+    var RaceSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB2) {
       _inherits(RaceSubscriber, _OuterSubscriber__WEB2);
 
       function RaceSubscriber(destination) {
-        var _this182;
+        var _this183;
 
         _classCallCheck(this, RaceSubscriber);
 
-        _this182 = _possibleConstructorReturn(this, _getPrototypeOf(RaceSubscriber).call(this, destination));
-        _this182.hasFirst = false;
-        _this182.observables = [];
-        _this182.subscriptions = [];
-        return _this182;
+        _this183 = _possibleConstructorReturn(this, _getPrototypeOf(RaceSubscriber).call(this, destination));
+        _this183.hasFirst = false;
+        _this183.observables = [];
+        _this183.subscriptions = [];
+        return _this183;
       }
 
       _createClass2(RaceSubscriber, [{
@@ -108108,9 +108626,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/range.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/range.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/range.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: range, dispatch */
 
@@ -108205,9 +108723,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/throwError.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/throwError.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/throwError.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: throwError */
 
@@ -108256,9 +108774,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/timer.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/timer.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/timer.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: timer */
 
@@ -108346,9 +108864,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/using.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/using.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/using.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: using */
 
@@ -108420,9 +108938,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/observable/zip.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/observable/zip.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/observable/zip.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: zip, ZipOperator, ZipSubscriber */
 
@@ -108500,7 +109018,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Object(_fromArray__WEBPACK_IMPORTED_MODULE_0__["fromArray"])(observables, undefined).lift(new ZipOperator(resultSelector));
     }
 
-    var ZipOperator = /*#__PURE__*/function () {
+    var ZipOperator =
+    /*#__PURE__*/
+    function () {
       function ZipOperator(resultSelector) {
         _classCallCheck(this, ZipOperator);
 
@@ -108517,22 +109037,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ZipOperator;
     }();
 
-    var ZipSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_5) {
+    var ZipSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_5) {
       _inherits(ZipSubscriber, _Subscriber__WEBPACK_5);
 
       function ZipSubscriber(destination, resultSelector) {
-        var _this183;
+        var _this184;
 
         var values = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : Object.create(null);
 
         _classCallCheck(this, ZipSubscriber);
 
-        _this183 = _possibleConstructorReturn(this, _getPrototypeOf(ZipSubscriber).call(this, destination));
-        _this183.iterators = [];
-        _this183.active = 0;
-        _this183.resultSelector = typeof resultSelector === 'function' ? resultSelector : null;
-        _this183.values = values;
-        return _this183;
+        _this184 = _possibleConstructorReturn(this, _getPrototypeOf(ZipSubscriber).call(this, destination));
+        _this184.iterators = [];
+        _this184.active = 0;
+        _this184.resultSelector = typeof resultSelector === 'function' ? resultSelector : null;
+        _this184.values = values;
+        return _this184;
       }
 
       _createClass2(ZipSubscriber, [{
@@ -108646,7 +109168,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ZipSubscriber;
     }(_Subscriber__WEBPACK_IMPORTED_MODULE_2__["Subscriber"]);
 
-    var StaticIterator = /*#__PURE__*/function () {
+    var StaticIterator =
+    /*#__PURE__*/
+    function () {
       function StaticIterator(iterator) {
         _classCallCheck(this, StaticIterator);
 
@@ -108677,7 +109201,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return StaticIterator;
     }();
 
-    var StaticArrayIterator = /*#__PURE__*/function () {
+    var StaticArrayIterator =
+    /*#__PURE__*/
+    function () {
       function StaticArrayIterator(array) {
         _classCallCheck(this, StaticArrayIterator);
 
@@ -108720,21 +109246,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return StaticArrayIterator;
     }();
 
-    var ZipBufferIterator = /*#__PURE__*/function (_OuterSubscriber__WEB3) {
+    var ZipBufferIterator =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB3) {
       _inherits(ZipBufferIterator, _OuterSubscriber__WEB3);
 
       function ZipBufferIterator(destination, parent, observable) {
-        var _this184;
+        var _this185;
 
         _classCallCheck(this, ZipBufferIterator);
 
-        _this184 = _possibleConstructorReturn(this, _getPrototypeOf(ZipBufferIterator).call(this, destination));
-        _this184.parent = parent;
-        _this184.observable = observable;
-        _this184.stillUnsubscribed = true;
-        _this184.buffer = [];
-        _this184.isComplete = false;
-        return _this184;
+        _this185 = _possibleConstructorReturn(this, _getPrototypeOf(ZipBufferIterator).call(this, destination));
+        _this185.parent = parent;
+        _this185.observable = observable;
+        _this185.stillUnsubscribed = true;
+        _this185.buffer = [];
+        _this185.isComplete = false;
+        return _this185;
       }
 
       _createClass2(ZipBufferIterator, [{
@@ -108801,9 +109329,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/audit.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/audit.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/audit.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: audit */
 
@@ -108837,7 +109365,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var AuditOperator = /*#__PURE__*/function () {
+    var AuditOperator =
+    /*#__PURE__*/
+    function () {
       function AuditOperator(durationSelector) {
         _classCallCheck(this, AuditOperator);
 
@@ -108854,18 +109384,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return AuditOperator;
     }();
 
-    var AuditSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB4) {
+    var AuditSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB4) {
       _inherits(AuditSubscriber, _OuterSubscriber__WEB4);
 
       function AuditSubscriber(destination, durationSelector) {
-        var _this185;
+        var _this186;
 
         _classCallCheck(this, AuditSubscriber);
 
-        _this185 = _possibleConstructorReturn(this, _getPrototypeOf(AuditSubscriber).call(this, destination));
-        _this185.durationSelector = durationSelector;
-        _this185.hasValue = false;
-        return _this185;
+        _this186 = _possibleConstructorReturn(this, _getPrototypeOf(AuditSubscriber).call(this, destination));
+        _this186.durationSelector = durationSelector;
+        _this186.hasValue = false;
+        return _this186;
       }
 
       _createClass2(AuditSubscriber, [{
@@ -108933,9 +109465,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/auditTime.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/auditTime.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/auditTime.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: auditTime */
 
@@ -108982,9 +109514,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/buffer.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/buffer.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/buffer.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: buffer */
 
@@ -109018,7 +109550,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var BufferOperator = /*#__PURE__*/function () {
+    var BufferOperator =
+    /*#__PURE__*/
+    function () {
       function BufferOperator(closingNotifier) {
         _classCallCheck(this, BufferOperator);
 
@@ -109035,20 +109569,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return BufferOperator;
     }();
 
-    var BufferSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB5) {
+    var BufferSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB5) {
       _inherits(BufferSubscriber, _OuterSubscriber__WEB5);
 
       function BufferSubscriber(destination, closingNotifier) {
-        var _this186;
+        var _this187;
 
         _classCallCheck(this, BufferSubscriber);
 
-        _this186 = _possibleConstructorReturn(this, _getPrototypeOf(BufferSubscriber).call(this, destination));
-        _this186.buffer = [];
+        _this187 = _possibleConstructorReturn(this, _getPrototypeOf(BufferSubscriber).call(this, destination));
+        _this187.buffer = [];
 
-        _this186.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this186), closingNotifier));
+        _this187.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this187), closingNotifier));
 
-        return _this186;
+        return _this187;
       }
 
       _createClass2(BufferSubscriber, [{
@@ -109074,9 +109610,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/bufferCount.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferCount.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferCount.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: bufferCount */
 
@@ -109105,7 +109641,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var BufferCountOperator = /*#__PURE__*/function () {
+    var BufferCountOperator =
+    /*#__PURE__*/
+    function () {
       function BufferCountOperator(bufferSize, startBufferEvery) {
         _classCallCheck(this, BufferCountOperator);
 
@@ -109129,18 +109667,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return BufferCountOperator;
     }();
 
-    var BufferCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_6) {
+    var BufferCountSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_6) {
       _inherits(BufferCountSubscriber, _Subscriber__WEBPACK_6);
 
       function BufferCountSubscriber(destination, bufferSize) {
-        var _this187;
+        var _this188;
 
         _classCallCheck(this, BufferCountSubscriber);
 
-        _this187 = _possibleConstructorReturn(this, _getPrototypeOf(BufferCountSubscriber).call(this, destination));
-        _this187.bufferSize = bufferSize;
-        _this187.buffer = [];
-        return _this187;
+        _this188 = _possibleConstructorReturn(this, _getPrototypeOf(BufferCountSubscriber).call(this, destination));
+        _this188.bufferSize = bufferSize;
+        _this188.buffer = [];
+        return _this188;
       }
 
       _createClass2(BufferCountSubscriber, [{
@@ -109170,20 +109710,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return BufferCountSubscriber;
     }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
 
-    var BufferSkipCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_7) {
+    var BufferSkipCountSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_7) {
       _inherits(BufferSkipCountSubscriber, _Subscriber__WEBPACK_7);
 
       function BufferSkipCountSubscriber(destination, bufferSize, startBufferEvery) {
-        var _this188;
+        var _this189;
 
         _classCallCheck(this, BufferSkipCountSubscriber);
 
-        _this188 = _possibleConstructorReturn(this, _getPrototypeOf(BufferSkipCountSubscriber).call(this, destination));
-        _this188.bufferSize = bufferSize;
-        _this188.startBufferEvery = startBufferEvery;
-        _this188.buffers = [];
-        _this188.count = 0;
-        return _this188;
+        _this189 = _possibleConstructorReturn(this, _getPrototypeOf(BufferSkipCountSubscriber).call(this, destination));
+        _this189.bufferSize = bufferSize;
+        _this189.startBufferEvery = startBufferEvery;
+        _this189.buffers = [];
+        _this189.count = 0;
+        return _this189;
       }
 
       _createClass2(BufferSkipCountSubscriber, [{
@@ -109236,9 +109778,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/bufferTime.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferTime.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferTime.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: bufferTime */
 
@@ -109298,7 +109840,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var BufferTimeOperator = /*#__PURE__*/function () {
+    var BufferTimeOperator =
+    /*#__PURE__*/
+    function () {
       function BufferTimeOperator(bufferTimeSpan, bufferCreationInterval, maxBufferSize, scheduler) {
         _classCallCheck(this, BufferTimeOperator);
 
@@ -109324,51 +109868,53 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       this.buffer = [];
     };
 
-    var BufferTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_8) {
+    var BufferTimeSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_8) {
       _inherits(BufferTimeSubscriber, _Subscriber__WEBPACK_8);
 
       function BufferTimeSubscriber(destination, bufferTimeSpan, bufferCreationInterval, maxBufferSize, scheduler) {
-        var _this189;
+        var _this190;
 
         _classCallCheck(this, BufferTimeSubscriber);
 
-        _this189 = _possibleConstructorReturn(this, _getPrototypeOf(BufferTimeSubscriber).call(this, destination));
-        _this189.bufferTimeSpan = bufferTimeSpan;
-        _this189.bufferCreationInterval = bufferCreationInterval;
-        _this189.maxBufferSize = maxBufferSize;
-        _this189.scheduler = scheduler;
-        _this189.contexts = [];
+        _this190 = _possibleConstructorReturn(this, _getPrototypeOf(BufferTimeSubscriber).call(this, destination));
+        _this190.bufferTimeSpan = bufferTimeSpan;
+        _this190.bufferCreationInterval = bufferCreationInterval;
+        _this190.maxBufferSize = maxBufferSize;
+        _this190.scheduler = scheduler;
+        _this190.contexts = [];
 
-        var context = _this189.openContext();
+        var context = _this190.openContext();
 
-        _this189.timespanOnly = bufferCreationInterval == null || bufferCreationInterval < 0;
+        _this190.timespanOnly = bufferCreationInterval == null || bufferCreationInterval < 0;
 
-        if (_this189.timespanOnly) {
+        if (_this190.timespanOnly) {
           var timeSpanOnlyState = {
-            subscriber: _assertThisInitialized(_this189),
+            subscriber: _assertThisInitialized(_this190),
             context: context,
             bufferTimeSpan: bufferTimeSpan
           };
 
-          _this189.add(context.closeAction = scheduler.schedule(dispatchBufferTimeSpanOnly, bufferTimeSpan, timeSpanOnlyState));
+          _this190.add(context.closeAction = scheduler.schedule(dispatchBufferTimeSpanOnly, bufferTimeSpan, timeSpanOnlyState));
         } else {
           var closeState = {
-            subscriber: _assertThisInitialized(_this189),
+            subscriber: _assertThisInitialized(_this190),
             context: context
           };
           var creationState = {
             bufferTimeSpan: bufferTimeSpan,
             bufferCreationInterval: bufferCreationInterval,
-            subscriber: _assertThisInitialized(_this189),
+            subscriber: _assertThisInitialized(_this190),
             scheduler: scheduler
           };
 
-          _this189.add(context.closeAction = scheduler.schedule(dispatchBufferClose, bufferTimeSpan, closeState));
+          _this190.add(context.closeAction = scheduler.schedule(dispatchBufferClose, bufferTimeSpan, closeState));
 
-          _this189.add(scheduler.schedule(dispatchBufferCreation, bufferCreationInterval, creationState));
+          _this190.add(scheduler.schedule(dispatchBufferCreation, bufferCreationInterval, creationState));
         }
 
-        return _this189;
+        return _this190;
       }
 
       _createClass2(BufferTimeSubscriber, [{
@@ -109502,9 +110048,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/bufferToggle.js":
-  /*!************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferToggle.js ***!
-    \************************************************************************************************************************/
+  /*!*******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferToggle.js ***!
+    \*******************************************************************************************************************/
 
   /*! exports provided: bufferToggle */
 
@@ -109544,7 +110090,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var BufferToggleOperator = /*#__PURE__*/function () {
+    var BufferToggleOperator =
+    /*#__PURE__*/
+    function () {
       function BufferToggleOperator(openings, closingSelector) {
         _classCallCheck(this, BufferToggleOperator);
 
@@ -109562,22 +110110,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return BufferToggleOperator;
     }();
 
-    var BufferToggleSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB6) {
+    var BufferToggleSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB6) {
       _inherits(BufferToggleSubscriber, _OuterSubscriber__WEB6);
 
       function BufferToggleSubscriber(destination, openings, closingSelector) {
-        var _this190;
+        var _this191;
 
         _classCallCheck(this, BufferToggleSubscriber);
 
-        _this190 = _possibleConstructorReturn(this, _getPrototypeOf(BufferToggleSubscriber).call(this, destination));
-        _this190.openings = openings;
-        _this190.closingSelector = closingSelector;
-        _this190.contexts = [];
+        _this191 = _possibleConstructorReturn(this, _getPrototypeOf(BufferToggleSubscriber).call(this, destination));
+        _this191.openings = openings;
+        _this191.closingSelector = closingSelector;
+        _this191.contexts = [];
 
-        _this190.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this190), openings));
+        _this191.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this191), openings));
 
-        return _this190;
+        return _this191;
       }
 
       _createClass2(BufferToggleSubscriber, [{
@@ -109693,9 +110243,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/bufferWhen.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferWhen.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/bufferWhen.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: bufferWhen */
 
@@ -109735,7 +110285,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var BufferWhenOperator = /*#__PURE__*/function () {
+    var BufferWhenOperator =
+    /*#__PURE__*/
+    function () {
       function BufferWhenOperator(closingSelector) {
         _classCallCheck(this, BufferWhenOperator);
 
@@ -109752,21 +110304,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return BufferWhenOperator;
     }();
 
-    var BufferWhenSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB7) {
+    var BufferWhenSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB7) {
       _inherits(BufferWhenSubscriber, _OuterSubscriber__WEB7);
 
       function BufferWhenSubscriber(destination, closingSelector) {
-        var _this191;
+        var _this192;
 
         _classCallCheck(this, BufferWhenSubscriber);
 
-        _this191 = _possibleConstructorReturn(this, _getPrototypeOf(BufferWhenSubscriber).call(this, destination));
-        _this191.closingSelector = closingSelector;
-        _this191.subscribing = false;
+        _this192 = _possibleConstructorReturn(this, _getPrototypeOf(BufferWhenSubscriber).call(this, destination));
+        _this192.closingSelector = closingSelector;
+        _this192.subscribing = false;
 
-        _this191.openBuffer();
+        _this192.openBuffer();
 
-        return _this191;
+        return _this192;
       }
 
       _createClass2(BufferWhenSubscriber, [{
@@ -109849,9 +110403,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/catchError.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/catchError.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/catchError.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: catchError */
 
@@ -109893,7 +110447,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var CatchOperator = /*#__PURE__*/function () {
+    var CatchOperator =
+    /*#__PURE__*/
+    function () {
       function CatchOperator(selector) {
         _classCallCheck(this, CatchOperator);
 
@@ -109910,18 +110466,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return CatchOperator;
     }();
 
-    var CatchSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB8) {
+    var CatchSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB8) {
       _inherits(CatchSubscriber, _OuterSubscriber__WEB8);
 
       function CatchSubscriber(destination, selector, caught) {
-        var _this192;
+        var _this193;
 
         _classCallCheck(this, CatchSubscriber);
 
-        _this192 = _possibleConstructorReturn(this, _getPrototypeOf(CatchSubscriber).call(this, destination));
-        _this192.selector = selector;
-        _this192.caught = caught;
-        return _this192;
+        _this193 = _possibleConstructorReturn(this, _getPrototypeOf(CatchSubscriber).call(this, destination));
+        _this193.selector = selector;
+        _this193.caught = caught;
+        return _this193;
       }
 
       _createClass2(CatchSubscriber, [{
@@ -109960,9 +110518,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/combineAll.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/combineAll.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/combineAll.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: combineAll */
 
@@ -109996,9 +110554,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/combineLatest.js":
-  /*!*************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/combineLatest.js ***!
-    \*************************************************************************************************************************/
+  /*!********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/combineLatest.js ***!
+    \********************************************************************************************************************/
 
   /*! exports provided: combineLatest */
 
@@ -110060,9 +110618,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/concat.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/concat.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/concat.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: concat */
 
@@ -110100,9 +110658,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/concatAll.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatAll.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatAll.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: concatAll */
 
@@ -110134,9 +110692,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/concatMap.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatMap.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatMap.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: concatMap */
 
@@ -110168,9 +110726,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/concatMapTo.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatMapTo.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/concatMapTo.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: concatMapTo */
 
@@ -110204,9 +110762,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/count.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/count.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/count.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: count */
 
@@ -110234,7 +110792,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var CountOperator = /*#__PURE__*/function () {
+    var CountOperator =
+    /*#__PURE__*/
+    function () {
       function CountOperator(predicate, source) {
         _classCallCheck(this, CountOperator);
 
@@ -110252,20 +110812,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return CountOperator;
     }();
 
-    var CountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_9) {
+    var CountSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_9) {
       _inherits(CountSubscriber, _Subscriber__WEBPACK_9);
 
       function CountSubscriber(destination, predicate, source) {
-        var _this193;
+        var _this194;
 
         _classCallCheck(this, CountSubscriber);
 
-        _this193 = _possibleConstructorReturn(this, _getPrototypeOf(CountSubscriber).call(this, destination));
-        _this193.predicate = predicate;
-        _this193.source = source;
-        _this193.count = 0;
-        _this193.index = 0;
-        return _this193;
+        _this194 = _possibleConstructorReturn(this, _getPrototypeOf(CountSubscriber).call(this, destination));
+        _this194.predicate = predicate;
+        _this194.source = source;
+        _this194.count = 0;
+        _this194.index = 0;
+        return _this194;
       }
 
       _createClass2(CountSubscriber, [{
@@ -110310,9 +110872,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/debounce.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/debounce.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/debounce.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: debounce */
 
@@ -110346,7 +110908,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var DebounceOperator = /*#__PURE__*/function () {
+    var DebounceOperator =
+    /*#__PURE__*/
+    function () {
       function DebounceOperator(durationSelector) {
         _classCallCheck(this, DebounceOperator);
 
@@ -110363,19 +110927,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DebounceOperator;
     }();
 
-    var DebounceSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB9) {
+    var DebounceSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB9) {
       _inherits(DebounceSubscriber, _OuterSubscriber__WEB9);
 
       function DebounceSubscriber(destination, durationSelector) {
-        var _this194;
+        var _this195;
 
         _classCallCheck(this, DebounceSubscriber);
 
-        _this194 = _possibleConstructorReturn(this, _getPrototypeOf(DebounceSubscriber).call(this, destination));
-        _this194.durationSelector = durationSelector;
-        _this194.hasValue = false;
-        _this194.durationSubscription = null;
-        return _this194;
+        _this195 = _possibleConstructorReturn(this, _getPrototypeOf(DebounceSubscriber).call(this, destination));
+        _this195.durationSelector = durationSelector;
+        _this195.hasValue = false;
+        _this195.durationSubscription = null;
+        return _this195;
       }
 
       _createClass2(DebounceSubscriber, [{
@@ -110455,9 +111021,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/debounceTime.js":
-  /*!************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/debounceTime.js ***!
-    \************************************************************************************************************************/
+  /*!*******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/debounceTime.js ***!
+    \*******************************************************************************************************************/
 
   /*! exports provided: debounceTime */
 
@@ -110492,7 +111058,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var DebounceTimeOperator = /*#__PURE__*/function () {
+    var DebounceTimeOperator =
+    /*#__PURE__*/
+    function () {
       function DebounceTimeOperator(dueTime, scheduler) {
         _classCallCheck(this, DebounceTimeOperator);
 
@@ -110510,21 +111078,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DebounceTimeOperator;
     }();
 
-    var DebounceTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_10) {
+    var DebounceTimeSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_10) {
       _inherits(DebounceTimeSubscriber, _Subscriber__WEBPACK_10);
 
       function DebounceTimeSubscriber(destination, dueTime, scheduler) {
-        var _this195;
+        var _this196;
 
         _classCallCheck(this, DebounceTimeSubscriber);
 
-        _this195 = _possibleConstructorReturn(this, _getPrototypeOf(DebounceTimeSubscriber).call(this, destination));
-        _this195.dueTime = dueTime;
-        _this195.scheduler = scheduler;
-        _this195.debouncedSubscription = null;
-        _this195.lastValue = null;
-        _this195.hasValue = false;
-        return _this195;
+        _this196 = _possibleConstructorReturn(this, _getPrototypeOf(DebounceTimeSubscriber).call(this, destination));
+        _this196.dueTime = dueTime;
+        _this196.scheduler = scheduler;
+        _this196.debouncedSubscription = null;
+        _this196.lastValue = null;
+        _this196.hasValue = false;
+        return _this196;
       }
 
       _createClass2(DebounceTimeSubscriber, [{
@@ -110579,9 +111149,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/defaultIfEmpty.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/defaultIfEmpty.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/defaultIfEmpty.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: defaultIfEmpty */
 
@@ -110610,7 +111180,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var DefaultIfEmptyOperator = /*#__PURE__*/function () {
+    var DefaultIfEmptyOperator =
+    /*#__PURE__*/
+    function () {
       function DefaultIfEmptyOperator(defaultValue) {
         _classCallCheck(this, DefaultIfEmptyOperator);
 
@@ -110627,18 +111199,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DefaultIfEmptyOperator;
     }();
 
-    var DefaultIfEmptySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_11) {
+    var DefaultIfEmptySubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_11) {
       _inherits(DefaultIfEmptySubscriber, _Subscriber__WEBPACK_11);
 
       function DefaultIfEmptySubscriber(destination, defaultValue) {
-        var _this196;
+        var _this197;
 
         _classCallCheck(this, DefaultIfEmptySubscriber);
 
-        _this196 = _possibleConstructorReturn(this, _getPrototypeOf(DefaultIfEmptySubscriber).call(this, destination));
-        _this196.defaultValue = defaultValue;
-        _this196.isEmpty = true;
-        return _this196;
+        _this197 = _possibleConstructorReturn(this, _getPrototypeOf(DefaultIfEmptySubscriber).call(this, destination));
+        _this197.defaultValue = defaultValue;
+        _this197.isEmpty = true;
+        return _this197;
       }
 
       _createClass2(DefaultIfEmptySubscriber, [{
@@ -110667,9 +111241,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/delay.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/delay.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/delay.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: delay */
 
@@ -110718,7 +111292,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var DelayOperator = /*#__PURE__*/function () {
+    var DelayOperator =
+    /*#__PURE__*/
+    function () {
       function DelayOperator(delay, scheduler) {
         _classCallCheck(this, DelayOperator);
 
@@ -110736,21 +111312,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DelayOperator;
     }();
 
-    var DelaySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_12) {
+    var DelaySubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_12) {
       _inherits(DelaySubscriber, _Subscriber__WEBPACK_12);
 
       function DelaySubscriber(destination, delay, scheduler) {
-        var _this197;
+        var _this198;
 
         _classCallCheck(this, DelaySubscriber);
 
-        _this197 = _possibleConstructorReturn(this, _getPrototypeOf(DelaySubscriber).call(this, destination));
-        _this197.delay = delay;
-        _this197.scheduler = scheduler;
-        _this197.queue = [];
-        _this197.active = false;
-        _this197.errored = false;
-        return _this197;
+        _this198 = _possibleConstructorReturn(this, _getPrototypeOf(DelaySubscriber).call(this, destination));
+        _this198.delay = delay;
+        _this198.scheduler = scheduler;
+        _this198.queue = [];
+        _this198.active = false;
+        _this198.errored = false;
+        return _this198;
       }
 
       _createClass2(DelaySubscriber, [{
@@ -110837,9 +111415,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/delayWhen.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/delayWhen.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/delayWhen.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: delayWhen */
 
@@ -110891,7 +111469,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var DelayWhenOperator = /*#__PURE__*/function () {
+    var DelayWhenOperator =
+    /*#__PURE__*/
+    function () {
       function DelayWhenOperator(delayDurationSelector) {
         _classCallCheck(this, DelayWhenOperator);
 
@@ -110908,20 +111488,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DelayWhenOperator;
     }();
 
-    var DelayWhenSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB10) {
+    var DelayWhenSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB10) {
       _inherits(DelayWhenSubscriber, _OuterSubscriber__WEB10);
 
       function DelayWhenSubscriber(destination, delayDurationSelector) {
-        var _this198;
+        var _this199;
 
         _classCallCheck(this, DelayWhenSubscriber);
 
-        _this198 = _possibleConstructorReturn(this, _getPrototypeOf(DelayWhenSubscriber).call(this, destination));
-        _this198.delayDurationSelector = delayDurationSelector;
-        _this198.completed = false;
-        _this198.delayNotifierSubscriptions = [];
-        _this198.index = 0;
-        return _this198;
+        _this199 = _possibleConstructorReturn(this, _getPrototypeOf(DelayWhenSubscriber).call(this, destination));
+        _this199.delayDurationSelector = delayDurationSelector;
+        _this199.completed = false;
+        _this199.delayNotifierSubscriptions = [];
+        _this199.index = 0;
+        return _this199;
       }
 
       _createClass2(DelayWhenSubscriber, [{
@@ -111004,18 +111586,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DelayWhenSubscriber;
     }(_OuterSubscriber__WEBPACK_IMPORTED_MODULE_2__["OuterSubscriber"]);
 
-    var SubscriptionDelayObservable = /*#__PURE__*/function (_Observable__WEBPACK_4) {
+    var SubscriptionDelayObservable =
+    /*#__PURE__*/
+    function (_Observable__WEBPACK_4) {
       _inherits(SubscriptionDelayObservable, _Observable__WEBPACK_4);
 
       function SubscriptionDelayObservable(source, subscriptionDelay) {
-        var _this199;
+        var _this200;
 
         _classCallCheck(this, SubscriptionDelayObservable);
 
-        _this199 = _possibleConstructorReturn(this, _getPrototypeOf(SubscriptionDelayObservable).call(this));
-        _this199.source = source;
-        _this199.subscriptionDelay = subscriptionDelay;
-        return _this199;
+        _this200 = _possibleConstructorReturn(this, _getPrototypeOf(SubscriptionDelayObservable).call(this));
+        _this200.source = source;
+        _this200.subscriptionDelay = subscriptionDelay;
+        return _this200;
       }
 
       _createClass2(SubscriptionDelayObservable, [{
@@ -111028,19 +111612,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SubscriptionDelayObservable;
     }(_Observable__WEBPACK_IMPORTED_MODULE_1__["Observable"]);
 
-    var SubscriptionDelaySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_13) {
+    var SubscriptionDelaySubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_13) {
       _inherits(SubscriptionDelaySubscriber, _Subscriber__WEBPACK_13);
 
       function SubscriptionDelaySubscriber(parent, source) {
-        var _this200;
+        var _this201;
 
         _classCallCheck(this, SubscriptionDelaySubscriber);
 
-        _this200 = _possibleConstructorReturn(this, _getPrototypeOf(SubscriptionDelaySubscriber).call(this));
-        _this200.parent = parent;
-        _this200.source = source;
-        _this200.sourceSubscribed = false;
-        return _this200;
+        _this201 = _possibleConstructorReturn(this, _getPrototypeOf(SubscriptionDelaySubscriber).call(this));
+        _this201.parent = parent;
+        _this201.source = source;
+        _this201.sourceSubscribed = false;
+        return _this201;
       }
 
       _createClass2(SubscriptionDelaySubscriber, [{
@@ -111080,9 +111666,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/dematerialize.js":
-  /*!*************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/dematerialize.js ***!
-    \*************************************************************************************************************************/
+  /*!********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/dematerialize.js ***!
+    \********************************************************************************************************************/
 
   /*! exports provided: dematerialize */
 
@@ -111110,7 +111696,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var DeMaterializeOperator = /*#__PURE__*/function () {
+    var DeMaterializeOperator =
+    /*#__PURE__*/
+    function () {
       function DeMaterializeOperator() {
         _classCallCheck(this, DeMaterializeOperator);
       }
@@ -111125,7 +111713,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DeMaterializeOperator;
     }();
 
-    var DeMaterializeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_14) {
+    var DeMaterializeSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_14) {
       _inherits(DeMaterializeSubscriber, _Subscriber__WEBPACK_14);
 
       function DeMaterializeSubscriber(destination) {
@@ -111150,9 +111740,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/distinct.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinct.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinct.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: distinct, DistinctSubscriber */
 
@@ -111192,7 +111782,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var DistinctOperator = /*#__PURE__*/function () {
+    var DistinctOperator =
+    /*#__PURE__*/
+    function () {
       function DistinctOperator(keySelector, flushes) {
         _classCallCheck(this, DistinctOperator);
 
@@ -111210,23 +111802,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DistinctOperator;
     }();
 
-    var DistinctSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB11) {
+    var DistinctSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB11) {
       _inherits(DistinctSubscriber, _OuterSubscriber__WEB11);
 
       function DistinctSubscriber(destination, keySelector, flushes) {
-        var _this201;
+        var _this202;
 
         _classCallCheck(this, DistinctSubscriber);
 
-        _this201 = _possibleConstructorReturn(this, _getPrototypeOf(DistinctSubscriber).call(this, destination));
-        _this201.keySelector = keySelector;
-        _this201.values = new Set();
+        _this202 = _possibleConstructorReturn(this, _getPrototypeOf(DistinctSubscriber).call(this, destination));
+        _this202.keySelector = keySelector;
+        _this202.values = new Set();
 
         if (flushes) {
-          _this201.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this201), flushes));
+          _this202.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this202), flushes));
         }
 
-        return _this201;
+        return _this202;
       }
 
       _createClass2(DistinctSubscriber, [{
@@ -111284,9 +111878,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/distinctUntilChanged.js":
-  /*!********************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinctUntilChanged.js ***!
-    \********************************************************************************************************************************/
+  /*!***************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinctUntilChanged.js ***!
+    \***************************************************************************************************************************/
 
   /*! exports provided: distinctUntilChanged */
 
@@ -111314,7 +111908,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var DistinctUntilChangedOperator = /*#__PURE__*/function () {
+    var DistinctUntilChangedOperator =
+    /*#__PURE__*/
+    function () {
       function DistinctUntilChangedOperator(compare, keySelector) {
         _classCallCheck(this, DistinctUntilChangedOperator);
 
@@ -111332,23 +111928,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DistinctUntilChangedOperator;
     }();
 
-    var DistinctUntilChangedSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_15) {
+    var DistinctUntilChangedSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_15) {
       _inherits(DistinctUntilChangedSubscriber, _Subscriber__WEBPACK_15);
 
       function DistinctUntilChangedSubscriber(destination, compare, keySelector) {
-        var _this202;
+        var _this203;
 
         _classCallCheck(this, DistinctUntilChangedSubscriber);
 
-        _this202 = _possibleConstructorReturn(this, _getPrototypeOf(DistinctUntilChangedSubscriber).call(this, destination));
-        _this202.keySelector = keySelector;
-        _this202.hasKey = false;
+        _this203 = _possibleConstructorReturn(this, _getPrototypeOf(DistinctUntilChangedSubscriber).call(this, destination));
+        _this203.keySelector = keySelector;
+        _this203.hasKey = false;
 
         if (typeof compare === 'function') {
-          _this202.compare = compare;
+          _this203.compare = compare;
         }
 
-        return _this202;
+        return _this203;
       }
 
       _createClass2(DistinctUntilChangedSubscriber, [{
@@ -111397,9 +111995,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/distinctUntilKeyChanged.js":
-  /*!***********************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinctUntilKeyChanged.js ***!
-    \***********************************************************************************************************************************/
+  /*!******************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/distinctUntilKeyChanged.js ***!
+    \******************************************************************************************************************************/
 
   /*! exports provided: distinctUntilKeyChanged */
 
@@ -111433,9 +112031,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/elementAt.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/elementAt.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/elementAt.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: elementAt */
 
@@ -111502,9 +112100,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/endWith.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/endWith.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/endWith.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: endWith */
 
@@ -111548,9 +112146,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/every.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/every.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/every.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: every */
 
@@ -111578,7 +112176,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var EveryOperator = /*#__PURE__*/function () {
+    var EveryOperator =
+    /*#__PURE__*/
+    function () {
       function EveryOperator(predicate, thisArg, source) {
         _classCallCheck(this, EveryOperator);
 
@@ -111597,21 +112197,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return EveryOperator;
     }();
 
-    var EverySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_16) {
+    var EverySubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_16) {
       _inherits(EverySubscriber, _Subscriber__WEBPACK_16);
 
       function EverySubscriber(destination, predicate, thisArg, source) {
-        var _this203;
+        var _this204;
 
         _classCallCheck(this, EverySubscriber);
 
-        _this203 = _possibleConstructorReturn(this, _getPrototypeOf(EverySubscriber).call(this, destination));
-        _this203.predicate = predicate;
-        _this203.thisArg = thisArg;
-        _this203.source = source;
-        _this203.index = 0;
-        _this203.thisArg = thisArg || _assertThisInitialized(_this203);
-        return _this203;
+        _this204 = _possibleConstructorReturn(this, _getPrototypeOf(EverySubscriber).call(this, destination));
+        _this204.predicate = predicate;
+        _this204.thisArg = thisArg;
+        _this204.source = source;
+        _this204.index = 0;
+        _this204.thisArg = thisArg || _assertThisInitialized(_this204);
+        return _this204;
       }
 
       _createClass2(EverySubscriber, [{
@@ -111652,9 +112254,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/exhaust.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/exhaust.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/exhaust.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: exhaust */
 
@@ -111688,7 +112290,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SwitchFirstOperator = /*#__PURE__*/function () {
+    var SwitchFirstOperator =
+    /*#__PURE__*/
+    function () {
       function SwitchFirstOperator() {
         _classCallCheck(this, SwitchFirstOperator);
       }
@@ -111703,18 +112307,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SwitchFirstOperator;
     }();
 
-    var SwitchFirstSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB12) {
+    var SwitchFirstSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB12) {
       _inherits(SwitchFirstSubscriber, _OuterSubscriber__WEB12);
 
       function SwitchFirstSubscriber(destination) {
-        var _this204;
+        var _this205;
 
         _classCallCheck(this, SwitchFirstSubscriber);
 
-        _this204 = _possibleConstructorReturn(this, _getPrototypeOf(SwitchFirstSubscriber).call(this, destination));
-        _this204.hasCompleted = false;
-        _this204.hasSubscription = false;
-        return _this204;
+        _this205 = _possibleConstructorReturn(this, _getPrototypeOf(SwitchFirstSubscriber).call(this, destination));
+        _this205.hasCompleted = false;
+        _this205.hasSubscription = false;
+        return _this205;
       }
 
       _createClass2(SwitchFirstSubscriber, [{
@@ -111755,9 +112361,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/exhaustMap.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/exhaustMap.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/exhaustMap.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: exhaustMap */
 
@@ -111819,7 +112425,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var ExhaustMapOperator = /*#__PURE__*/function () {
+    var ExhaustMapOperator =
+    /*#__PURE__*/
+    function () {
       function ExhaustMapOperator(project) {
         _classCallCheck(this, ExhaustMapOperator);
 
@@ -111836,20 +112444,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ExhaustMapOperator;
     }();
 
-    var ExhaustMapSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB13) {
+    var ExhaustMapSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB13) {
       _inherits(ExhaustMapSubscriber, _OuterSubscriber__WEB13);
 
       function ExhaustMapSubscriber(destination, project) {
-        var _this205;
+        var _this206;
 
         _classCallCheck(this, ExhaustMapSubscriber);
 
-        _this205 = _possibleConstructorReturn(this, _getPrototypeOf(ExhaustMapSubscriber).call(this, destination));
-        _this205.project = project;
-        _this205.hasSubscription = false;
-        _this205.hasCompleted = false;
-        _this205.index = 0;
-        return _this205;
+        _this206 = _possibleConstructorReturn(this, _getPrototypeOf(ExhaustMapSubscriber).call(this, destination));
+        _this206.project = project;
+        _this206.hasSubscription = false;
+        _this206.hasCompleted = false;
+        _this206.index = 0;
+        return _this206;
       }
 
       _createClass2(ExhaustMapSubscriber, [{
@@ -111931,9 +112541,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/expand.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/expand.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/expand.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: expand, ExpandOperator, ExpandSubscriber */
 
@@ -111982,7 +112592,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var ExpandOperator = /*#__PURE__*/function () {
+    var ExpandOperator =
+    /*#__PURE__*/
+    function () {
       function ExpandOperator(project, concurrent, scheduler) {
         _classCallCheck(this, ExpandOperator);
 
@@ -112001,27 +112613,29 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ExpandOperator;
     }();
 
-    var ExpandSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB14) {
+    var ExpandSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB14) {
       _inherits(ExpandSubscriber, _OuterSubscriber__WEB14);
 
       function ExpandSubscriber(destination, project, concurrent, scheduler) {
-        var _this206;
+        var _this207;
 
         _classCallCheck(this, ExpandSubscriber);
 
-        _this206 = _possibleConstructorReturn(this, _getPrototypeOf(ExpandSubscriber).call(this, destination));
-        _this206.project = project;
-        _this206.concurrent = concurrent;
-        _this206.scheduler = scheduler;
-        _this206.index = 0;
-        _this206.active = 0;
-        _this206.hasCompleted = false;
+        _this207 = _possibleConstructorReturn(this, _getPrototypeOf(ExpandSubscriber).call(this, destination));
+        _this207.project = project;
+        _this207.concurrent = concurrent;
+        _this207.scheduler = scheduler;
+        _this207.index = 0;
+        _this207.active = 0;
+        _this207.hasCompleted = false;
 
         if (concurrent < Number.POSITIVE_INFINITY) {
-          _this206.buffer = [];
+          _this207.buffer = [];
         }
 
-        return _this206;
+        return _this207;
       }
 
       _createClass2(ExpandSubscriber, [{
@@ -112123,9 +112737,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/filter.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/filter.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/filter.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: filter */
 
@@ -112153,7 +112767,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var FilterOperator = /*#__PURE__*/function () {
+    var FilterOperator =
+    /*#__PURE__*/
+    function () {
       function FilterOperator(predicate, thisArg) {
         _classCallCheck(this, FilterOperator);
 
@@ -112171,19 +112787,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return FilterOperator;
     }();
 
-    var FilterSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_17) {
+    var FilterSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_17) {
       _inherits(FilterSubscriber, _Subscriber__WEBPACK_17);
 
       function FilterSubscriber(destination, predicate, thisArg) {
-        var _this207;
+        var _this208;
 
         _classCallCheck(this, FilterSubscriber);
 
-        _this207 = _possibleConstructorReturn(this, _getPrototypeOf(FilterSubscriber).call(this, destination));
-        _this207.predicate = predicate;
-        _this207.thisArg = thisArg;
-        _this207.count = 0;
-        return _this207;
+        _this208 = _possibleConstructorReturn(this, _getPrototypeOf(FilterSubscriber).call(this, destination));
+        _this208.predicate = predicate;
+        _this208.thisArg = thisArg;
+        _this208.count = 0;
+        return _this208;
       }
 
       _createClass2(FilterSubscriber, [{
@@ -112213,9 +112831,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/finalize.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/finalize.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/finalize.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: finalize */
 
@@ -112249,7 +112867,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var FinallyOperator = /*#__PURE__*/function () {
+    var FinallyOperator =
+    /*#__PURE__*/
+    function () {
       function FinallyOperator(callback) {
         _classCallCheck(this, FinallyOperator);
 
@@ -112266,19 +112886,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return FinallyOperator;
     }();
 
-    var FinallySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_18) {
+    var FinallySubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_18) {
       _inherits(FinallySubscriber, _Subscriber__WEBPACK_18);
 
       function FinallySubscriber(destination, callback) {
-        var _this208;
+        var _this209;
 
         _classCallCheck(this, FinallySubscriber);
 
-        _this208 = _possibleConstructorReturn(this, _getPrototypeOf(FinallySubscriber).call(this, destination));
+        _this209 = _possibleConstructorReturn(this, _getPrototypeOf(FinallySubscriber).call(this, destination));
 
-        _this208.add(new _Subscription__WEBPACK_IMPORTED_MODULE_1__["Subscription"](callback));
+        _this209.add(new _Subscription__WEBPACK_IMPORTED_MODULE_1__["Subscription"](callback));
 
-        return _this208;
+        return _this209;
       }
 
       return FinallySubscriber;
@@ -112290,9 +112912,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/find.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/find.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/find.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: find, FindValueOperator, FindValueSubscriber */
 
@@ -112336,7 +112958,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var FindValueOperator = /*#__PURE__*/function () {
+    var FindValueOperator =
+    /*#__PURE__*/
+    function () {
       function FindValueOperator(predicate, source, yieldIndex, thisArg) {
         _classCallCheck(this, FindValueOperator);
 
@@ -112356,21 +112980,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return FindValueOperator;
     }();
 
-    var FindValueSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_19) {
+    var FindValueSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_19) {
       _inherits(FindValueSubscriber, _Subscriber__WEBPACK_19);
 
       function FindValueSubscriber(destination, predicate, source, yieldIndex, thisArg) {
-        var _this209;
+        var _this210;
 
         _classCallCheck(this, FindValueSubscriber);
 
-        _this209 = _possibleConstructorReturn(this, _getPrototypeOf(FindValueSubscriber).call(this, destination));
-        _this209.predicate = predicate;
-        _this209.source = source;
-        _this209.yieldIndex = yieldIndex;
-        _this209.thisArg = thisArg;
-        _this209.index = 0;
-        return _this209;
+        _this210 = _possibleConstructorReturn(this, _getPrototypeOf(FindValueSubscriber).call(this, destination));
+        _this210.predicate = predicate;
+        _this210.source = source;
+        _this210.yieldIndex = yieldIndex;
+        _this210.thisArg = thisArg;
+        _this210.index = 0;
+        return _this210;
       }
 
       _createClass2(FindValueSubscriber, [{
@@ -112414,9 +113040,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/findIndex.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/findIndex.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/findIndex.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: findIndex */
 
@@ -112450,9 +113076,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/first.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/first.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/first.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: first */
 
@@ -112521,9 +113147,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/groupBy.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/groupBy.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/groupBy.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: groupBy, GroupedObservable */
 
@@ -112575,7 +113201,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var GroupByOperator = /*#__PURE__*/function () {
+    var GroupByOperator =
+    /*#__PURE__*/
+    function () {
       function GroupByOperator(keySelector, elementSelector, durationSelector, subjectSelector) {
         _classCallCheck(this, GroupByOperator);
 
@@ -112595,23 +113223,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return GroupByOperator;
     }();
 
-    var GroupBySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_20) {
+    var GroupBySubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_20) {
       _inherits(GroupBySubscriber, _Subscriber__WEBPACK_20);
 
       function GroupBySubscriber(destination, keySelector, elementSelector, durationSelector, subjectSelector) {
-        var _this210;
+        var _this211;
 
         _classCallCheck(this, GroupBySubscriber);
 
-        _this210 = _possibleConstructorReturn(this, _getPrototypeOf(GroupBySubscriber).call(this, destination));
-        _this210.keySelector = keySelector;
-        _this210.elementSelector = elementSelector;
-        _this210.durationSelector = durationSelector;
-        _this210.subjectSelector = subjectSelector;
-        _this210.groups = null;
-        _this210.attemptedToUnsubscribe = false;
-        _this210.count = 0;
-        return _this210;
+        _this211 = _possibleConstructorReturn(this, _getPrototypeOf(GroupBySubscriber).call(this, destination));
+        _this211.keySelector = keySelector;
+        _this211.elementSelector = elementSelector;
+        _this211.durationSelector = durationSelector;
+        _this211.subjectSelector = subjectSelector;
+        _this211.groups = null;
+        _this211.attemptedToUnsubscribe = false;
+        _this211.count = 0;
+        return _this211;
       }
 
       _createClass2(GroupBySubscriber, [{
@@ -112723,19 +113353,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return GroupBySubscriber;
     }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
 
-    var GroupDurationSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_21) {
+    var GroupDurationSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_21) {
       _inherits(GroupDurationSubscriber, _Subscriber__WEBPACK_21);
 
       function GroupDurationSubscriber(key, group, parent) {
-        var _this211;
+        var _this212;
 
         _classCallCheck(this, GroupDurationSubscriber);
 
-        _this211 = _possibleConstructorReturn(this, _getPrototypeOf(GroupDurationSubscriber).call(this, group));
-        _this211.key = key;
-        _this211.group = group;
-        _this211.parent = parent;
-        return _this211;
+        _this212 = _possibleConstructorReturn(this, _getPrototypeOf(GroupDurationSubscriber).call(this, group));
+        _this212.key = key;
+        _this212.group = group;
+        _this212.parent = parent;
+        return _this212;
       }
 
       _createClass2(GroupDurationSubscriber, [{
@@ -112759,19 +113391,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return GroupDurationSubscriber;
     }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
 
-    var GroupedObservable = /*#__PURE__*/function (_Observable__WEBPACK_5) {
+    var GroupedObservable =
+    /*#__PURE__*/
+    function (_Observable__WEBPACK_5) {
       _inherits(GroupedObservable, _Observable__WEBPACK_5);
 
       function GroupedObservable(key, groupSubject, refCountSubscription) {
-        var _this212;
+        var _this213;
 
         _classCallCheck(this, GroupedObservable);
 
-        _this212 = _possibleConstructorReturn(this, _getPrototypeOf(GroupedObservable).call(this));
-        _this212.key = key;
-        _this212.groupSubject = groupSubject;
-        _this212.refCountSubscription = refCountSubscription;
-        return _this212;
+        _this213 = _possibleConstructorReturn(this, _getPrototypeOf(GroupedObservable).call(this));
+        _this213.key = key;
+        _this213.groupSubject = groupSubject;
+        _this213.refCountSubscription = refCountSubscription;
+        return _this213;
       }
 
       _createClass2(GroupedObservable, [{
@@ -112793,18 +113427,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return GroupedObservable;
     }(_Observable__WEBPACK_IMPORTED_MODULE_2__["Observable"]);
 
-    var InnerRefCountSubscription = /*#__PURE__*/function (_Subscription__WEBPAC3) {
+    var InnerRefCountSubscription =
+    /*#__PURE__*/
+    function (_Subscription__WEBPAC3) {
       _inherits(InnerRefCountSubscription, _Subscription__WEBPAC3);
 
       function InnerRefCountSubscription(parent) {
-        var _this213;
+        var _this214;
 
         _classCallCheck(this, InnerRefCountSubscription);
 
-        _this213 = _possibleConstructorReturn(this, _getPrototypeOf(InnerRefCountSubscription).call(this));
-        _this213.parent = parent;
+        _this214 = _possibleConstructorReturn(this, _getPrototypeOf(InnerRefCountSubscription).call(this));
+        _this214.parent = parent;
         parent.count++;
-        return _this213;
+        return _this214;
       }
 
       _createClass2(InnerRefCountSubscription, [{
@@ -112833,9 +113469,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/ignoreElements.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/ignoreElements.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/ignoreElements.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: ignoreElements */
 
@@ -112863,7 +113499,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var IgnoreElementsOperator = /*#__PURE__*/function () {
+    var IgnoreElementsOperator =
+    /*#__PURE__*/
+    function () {
       function IgnoreElementsOperator() {
         _classCallCheck(this, IgnoreElementsOperator);
       }
@@ -112878,7 +113516,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return IgnoreElementsOperator;
     }();
 
-    var IgnoreElementsSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_22) {
+    var IgnoreElementsSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_22) {
       _inherits(IgnoreElementsSubscriber, _Subscriber__WEBPACK_22);
 
       function IgnoreElementsSubscriber() {
@@ -112901,9 +113541,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/isEmpty.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/isEmpty.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/isEmpty.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: isEmpty */
 
@@ -112931,7 +113571,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var IsEmptyOperator = /*#__PURE__*/function () {
+    var IsEmptyOperator =
+    /*#__PURE__*/
+    function () {
       function IsEmptyOperator() {
         _classCallCheck(this, IsEmptyOperator);
       }
@@ -112946,7 +113588,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return IsEmptyOperator;
     }();
 
-    var IsEmptySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_23) {
+    var IsEmptySubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_23) {
       _inherits(IsEmptySubscriber, _Subscriber__WEBPACK_23);
 
       function IsEmptySubscriber(destination) {
@@ -112983,9 +113627,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/last.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/last.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/last.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: last */
 
@@ -113054,9 +113698,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/map.js":
-  /*!***************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/map.js ***!
-    \***************************************************************************************************************/
+  /*!**********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/map.js ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: map, MapOperator */
 
@@ -113094,7 +113738,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var MapOperator = /*#__PURE__*/function () {
+    var MapOperator =
+    /*#__PURE__*/
+    function () {
       function MapOperator(project, thisArg) {
         _classCallCheck(this, MapOperator);
 
@@ -113112,19 +113758,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return MapOperator;
     }();
 
-    var MapSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_24) {
+    var MapSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_24) {
       _inherits(MapSubscriber, _Subscriber__WEBPACK_24);
 
       function MapSubscriber(destination, project, thisArg) {
-        var _this214;
+        var _this215;
 
         _classCallCheck(this, MapSubscriber);
 
-        _this214 = _possibleConstructorReturn(this, _getPrototypeOf(MapSubscriber).call(this, destination));
-        _this214.project = project;
-        _this214.count = 0;
-        _this214.thisArg = thisArg || _assertThisInitialized(_this214);
-        return _this214;
+        _this215 = _possibleConstructorReturn(this, _getPrototypeOf(MapSubscriber).call(this, destination));
+        _this215.project = project;
+        _this215.count = 0;
+        _this215.thisArg = thisArg || _assertThisInitialized(_this215);
+        return _this215;
       }
 
       _createClass2(MapSubscriber, [{
@@ -113152,9 +113800,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/mapTo.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mapTo.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mapTo.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: mapTo */
 
@@ -113182,7 +113830,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var MapToOperator = /*#__PURE__*/function () {
+    var MapToOperator =
+    /*#__PURE__*/
+    function () {
       function MapToOperator(value) {
         _classCallCheck(this, MapToOperator);
 
@@ -113199,17 +113849,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return MapToOperator;
     }();
 
-    var MapToSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_25) {
+    var MapToSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_25) {
       _inherits(MapToSubscriber, _Subscriber__WEBPACK_25);
 
       function MapToSubscriber(destination, value) {
-        var _this215;
+        var _this216;
 
         _classCallCheck(this, MapToSubscriber);
 
-        _this215 = _possibleConstructorReturn(this, _getPrototypeOf(MapToSubscriber).call(this, destination));
-        _this215.value = value;
-        return _this215;
+        _this216 = _possibleConstructorReturn(this, _getPrototypeOf(MapToSubscriber).call(this, destination));
+        _this216.value = value;
+        return _this216;
       }
 
       _createClass2(MapToSubscriber, [{
@@ -113228,9 +113880,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/materialize.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/materialize.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/materialize.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: materialize */
 
@@ -113264,7 +113916,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var MaterializeOperator = /*#__PURE__*/function () {
+    var MaterializeOperator =
+    /*#__PURE__*/
+    function () {
       function MaterializeOperator() {
         _classCallCheck(this, MaterializeOperator);
       }
@@ -113279,7 +113933,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return MaterializeOperator;
     }();
 
-    var MaterializeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_26) {
+    var MaterializeSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_26) {
       _inherits(MaterializeSubscriber, _Subscriber__WEBPACK_26);
 
       function MaterializeSubscriber(destination) {
@@ -113318,9 +113974,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/max.js":
-  /*!***************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/max.js ***!
-    \***************************************************************************************************************/
+  /*!**********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/max.js ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: max */
 
@@ -113357,9 +114013,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/merge.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/merge.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/merge.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: merge */
 
@@ -113397,9 +114053,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/mergeAll.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeAll.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeAll.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: mergeAll */
 
@@ -113438,9 +114094,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/mergeMap.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeMap.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeMap.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: mergeMap, MergeMapOperator, MergeMapSubscriber */
 
@@ -113518,7 +114174,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var MergeMapOperator = /*#__PURE__*/function () {
+    var MergeMapOperator =
+    /*#__PURE__*/
+    function () {
       function MergeMapOperator(project) {
         var concurrent = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : Number.POSITIVE_INFINITY;
 
@@ -113538,24 +114196,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return MergeMapOperator;
     }();
 
-    var MergeMapSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB15) {
+    var MergeMapSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB15) {
       _inherits(MergeMapSubscriber, _OuterSubscriber__WEB15);
 
       function MergeMapSubscriber(destination, project) {
-        var _this216;
+        var _this217;
 
         var concurrent = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : Number.POSITIVE_INFINITY;
 
         _classCallCheck(this, MergeMapSubscriber);
 
-        _this216 = _possibleConstructorReturn(this, _getPrototypeOf(MergeMapSubscriber).call(this, destination));
-        _this216.project = project;
-        _this216.concurrent = concurrent;
-        _this216.hasCompleted = false;
-        _this216.buffer = [];
-        _this216.active = 0;
-        _this216.index = 0;
-        return _this216;
+        _this217 = _possibleConstructorReturn(this, _getPrototypeOf(MergeMapSubscriber).call(this, destination));
+        _this217.project = project;
+        _this217.concurrent = concurrent;
+        _this217.hasCompleted = false;
+        _this217.buffer = [];
+        _this217.active = 0;
+        _this217.index = 0;
+        return _this217;
       }
 
       _createClass2(MergeMapSubscriber, [{
@@ -113636,9 +114296,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/mergeMapTo.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeMapTo.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeMapTo.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: mergeMapTo */
 
@@ -113684,9 +114344,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/mergeScan.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeScan.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/mergeScan.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: mergeScan, MergeScanOperator, MergeScanSubscriber */
 
@@ -113739,7 +114399,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var MergeScanOperator = /*#__PURE__*/function () {
+    var MergeScanOperator =
+    /*#__PURE__*/
+    function () {
       function MergeScanOperator(accumulator, seed, concurrent) {
         _classCallCheck(this, MergeScanOperator);
 
@@ -113758,24 +114420,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return MergeScanOperator;
     }();
 
-    var MergeScanSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB16) {
+    var MergeScanSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB16) {
       _inherits(MergeScanSubscriber, _OuterSubscriber__WEB16);
 
       function MergeScanSubscriber(destination, accumulator, acc, concurrent) {
-        var _this217;
+        var _this218;
 
         _classCallCheck(this, MergeScanSubscriber);
 
-        _this217 = _possibleConstructorReturn(this, _getPrototypeOf(MergeScanSubscriber).call(this, destination));
-        _this217.accumulator = accumulator;
-        _this217.acc = acc;
-        _this217.concurrent = concurrent;
-        _this217.hasValue = false;
-        _this217.hasCompleted = false;
-        _this217.buffer = [];
-        _this217.active = 0;
-        _this217.index = 0;
-        return _this217;
+        _this218 = _possibleConstructorReturn(this, _getPrototypeOf(MergeScanSubscriber).call(this, destination));
+        _this218.accumulator = accumulator;
+        _this218.acc = acc;
+        _this218.concurrent = concurrent;
+        _this218.hasValue = false;
+        _this218.hasCompleted = false;
+        _this218.buffer = [];
+        _this218.active = 0;
+        _this218.index = 0;
+        return _this218;
       }
 
       _createClass2(MergeScanSubscriber, [{
@@ -113864,9 +114528,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/min.js":
-  /*!***************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/min.js ***!
-    \***************************************************************************************************************/
+  /*!**********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/min.js ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: min */
 
@@ -113903,9 +114567,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/multicast.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/multicast.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/multicast.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: multicast, MulticastOperator */
 
@@ -113956,7 +114620,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var MulticastOperator = /*#__PURE__*/function () {
+    var MulticastOperator =
+    /*#__PURE__*/
+    function () {
       function MulticastOperator(subjectFactory, selector) {
         _classCallCheck(this, MulticastOperator);
 
@@ -113984,9 +114650,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/observeOn.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/observeOn.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/observeOn.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: observeOn, ObserveOnOperator, ObserveOnSubscriber, ObserveOnMessage */
 
@@ -114039,7 +114705,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var ObserveOnOperator = /*#__PURE__*/function () {
+    var ObserveOnOperator =
+    /*#__PURE__*/
+    function () {
       function ObserveOnOperator(scheduler) {
         var delay = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 0;
 
@@ -114059,20 +114727,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ObserveOnOperator;
     }();
 
-    var ObserveOnSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_27) {
+    var ObserveOnSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_27) {
       _inherits(ObserveOnSubscriber, _Subscriber__WEBPACK_27);
 
       function ObserveOnSubscriber(destination, scheduler) {
-        var _this218;
+        var _this219;
 
         var delay = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 0;
 
         _classCallCheck(this, ObserveOnSubscriber);
 
-        _this218 = _possibleConstructorReturn(this, _getPrototypeOf(ObserveOnSubscriber).call(this, destination));
-        _this218.scheduler = scheduler;
-        _this218.delay = delay;
-        return _this218;
+        _this219 = _possibleConstructorReturn(this, _getPrototypeOf(ObserveOnSubscriber).call(this, destination));
+        _this219.scheduler = scheduler;
+        _this219.delay = delay;
+        return _this219;
       }
 
       _createClass2(ObserveOnSubscriber, [{
@@ -114124,9 +114794,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/onErrorResumeNext.js":
-  /*!*****************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/onErrorResumeNext.js ***!
-    \*****************************************************************************************************************************/
+  /*!************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/onErrorResumeNext.js ***!
+    \************************************************************************************************************************/
 
   /*! exports provided: onErrorResumeNext, onErrorResumeNextStatic */
 
@@ -114207,7 +114877,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return Object(_observable_from__WEBPACK_IMPORTED_MODULE_0__["from"])(source, null).lift(new OnErrorResumeNextOperator(nextSources));
     }
 
-    var OnErrorResumeNextOperator = /*#__PURE__*/function () {
+    var OnErrorResumeNextOperator =
+    /*#__PURE__*/
+    function () {
       function OnErrorResumeNextOperator(nextSources) {
         _classCallCheck(this, OnErrorResumeNextOperator);
 
@@ -114224,18 +114896,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return OnErrorResumeNextOperator;
     }();
 
-    var OnErrorResumeNextSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB17) {
+    var OnErrorResumeNextSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB17) {
       _inherits(OnErrorResumeNextSubscriber, _OuterSubscriber__WEB17);
 
       function OnErrorResumeNextSubscriber(destination, nextSources) {
-        var _this219;
+        var _this220;
 
         _classCallCheck(this, OnErrorResumeNextSubscriber);
 
-        _this219 = _possibleConstructorReturn(this, _getPrototypeOf(OnErrorResumeNextSubscriber).call(this, destination));
-        _this219.destination = destination;
-        _this219.nextSources = nextSources;
-        return _this219;
+        _this220 = _possibleConstructorReturn(this, _getPrototypeOf(OnErrorResumeNextSubscriber).call(this, destination));
+        _this220.destination = destination;
+        _this220.nextSources = nextSources;
+        return _this220;
       }
 
       _createClass2(OnErrorResumeNextSubscriber, [{
@@ -114289,9 +114963,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/pairwise.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/pairwise.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/pairwise.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: pairwise */
 
@@ -114319,7 +114993,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var PairwiseOperator = /*#__PURE__*/function () {
+    var PairwiseOperator =
+    /*#__PURE__*/
+    function () {
       function PairwiseOperator() {
         _classCallCheck(this, PairwiseOperator);
       }
@@ -114334,17 +115010,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return PairwiseOperator;
     }();
 
-    var PairwiseSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_28) {
+    var PairwiseSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_28) {
       _inherits(PairwiseSubscriber, _Subscriber__WEBPACK_28);
 
       function PairwiseSubscriber(destination) {
-        var _this220;
+        var _this221;
 
         _classCallCheck(this, PairwiseSubscriber);
 
-        _this220 = _possibleConstructorReturn(this, _getPrototypeOf(PairwiseSubscriber).call(this, destination));
-        _this220.hasPrev = false;
-        return _this220;
+        _this221 = _possibleConstructorReturn(this, _getPrototypeOf(PairwiseSubscriber).call(this, destination));
+        _this221.hasPrev = false;
+        return _this221;
       }
 
       _createClass2(PairwiseSubscriber, [{
@@ -114375,9 +115053,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/partition.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/partition.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/partition.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: partition */
 
@@ -114417,9 +115095,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/pluck.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/pluck.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/pluck.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: pluck */
 
@@ -114483,9 +115161,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/publish.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/publish.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/publish.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: publish */
 
@@ -114525,9 +115203,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/publishBehavior.js":
-  /*!***************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishBehavior.js ***!
-    \***************************************************************************************************************************/
+  /*!**********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishBehavior.js ***!
+    \**********************************************************************************************************************/
 
   /*! exports provided: publishBehavior */
 
@@ -114567,9 +115245,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/publishLast.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishLast.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishLast.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: publishLast */
 
@@ -114609,9 +115287,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/publishReplay.js":
-  /*!*************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishReplay.js ***!
-    \*************************************************************************************************************************/
+  /*!********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/publishReplay.js ***!
+    \********************************************************************************************************************/
 
   /*! exports provided: publishReplay */
 
@@ -114659,9 +115337,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/race.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/race.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/race.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: race */
 
@@ -114709,9 +115387,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/reduce.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/reduce.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/reduce.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: reduce */
 
@@ -114771,9 +115449,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/refCount.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/refCount.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/refCount.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: refCount */
 
@@ -114801,7 +115479,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var RefCountOperator = /*#__PURE__*/function () {
+    var RefCountOperator =
+    /*#__PURE__*/
+    function () {
       function RefCountOperator(connectable) {
         _classCallCheck(this, RefCountOperator);
 
@@ -114827,17 +115507,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RefCountOperator;
     }();
 
-    var RefCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_29) {
+    var RefCountSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_29) {
       _inherits(RefCountSubscriber, _Subscriber__WEBPACK_29);
 
       function RefCountSubscriber(destination, connectable) {
-        var _this221;
+        var _this222;
 
         _classCallCheck(this, RefCountSubscriber);
 
-        _this221 = _possibleConstructorReturn(this, _getPrototypeOf(RefCountSubscriber).call(this, destination));
-        _this221.connectable = connectable;
-        return _this221;
+        _this222 = _possibleConstructorReturn(this, _getPrototypeOf(RefCountSubscriber).call(this, destination));
+        _this222.connectable = connectable;
+        return _this222;
       }
 
       _createClass2(RefCountSubscriber, [{
@@ -114884,9 +115566,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/repeat.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/repeat.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/repeat.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: repeat */
 
@@ -114927,7 +115609,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var RepeatOperator = /*#__PURE__*/function () {
+    var RepeatOperator =
+    /*#__PURE__*/
+    function () {
       function RepeatOperator(count, source) {
         _classCallCheck(this, RepeatOperator);
 
@@ -114945,18 +115629,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RepeatOperator;
     }();
 
-    var RepeatSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_30) {
+    var RepeatSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_30) {
       _inherits(RepeatSubscriber, _Subscriber__WEBPACK_30);
 
       function RepeatSubscriber(destination, count, source) {
-        var _this222;
+        var _this223;
 
         _classCallCheck(this, RepeatSubscriber);
 
-        _this222 = _possibleConstructorReturn(this, _getPrototypeOf(RepeatSubscriber).call(this, destination));
-        _this222.count = count;
-        _this222.source = source;
-        return _this222;
+        _this223 = _possibleConstructorReturn(this, _getPrototypeOf(RepeatSubscriber).call(this, destination));
+        _this223.count = count;
+        _this223.source = source;
+        return _this223;
       }
 
       _createClass2(RepeatSubscriber, [{
@@ -114986,9 +115672,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/repeatWhen.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/repeatWhen.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/repeatWhen.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: repeatWhen */
 
@@ -115028,7 +115714,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var RepeatWhenOperator = /*#__PURE__*/function () {
+    var RepeatWhenOperator =
+    /*#__PURE__*/
+    function () {
       function RepeatWhenOperator(notifier) {
         _classCallCheck(this, RepeatWhenOperator);
 
@@ -115045,19 +115733,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RepeatWhenOperator;
     }();
 
-    var RepeatWhenSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB18) {
+    var RepeatWhenSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB18) {
       _inherits(RepeatWhenSubscriber, _OuterSubscriber__WEB18);
 
       function RepeatWhenSubscriber(destination, notifier, source) {
-        var _this223;
+        var _this224;
 
         _classCallCheck(this, RepeatWhenSubscriber);
 
-        _this223 = _possibleConstructorReturn(this, _getPrototypeOf(RepeatWhenSubscriber).call(this, destination));
-        _this223.notifier = notifier;
-        _this223.source = source;
-        _this223.sourceIsBeingSubscribedTo = true;
-        return _this223;
+        _this224 = _possibleConstructorReturn(this, _getPrototypeOf(RepeatWhenSubscriber).call(this, destination));
+        _this224.notifier = notifier;
+        _this224.source = source;
+        _this224.sourceIsBeingSubscribedTo = true;
+        return _this224;
       }
 
       _createClass2(RepeatWhenSubscriber, [{
@@ -115148,9 +115838,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/retry.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/retry.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/retry.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: retry */
 
@@ -115179,7 +115869,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var RetryOperator = /*#__PURE__*/function () {
+    var RetryOperator =
+    /*#__PURE__*/
+    function () {
       function RetryOperator(count, source) {
         _classCallCheck(this, RetryOperator);
 
@@ -115197,18 +115889,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RetryOperator;
     }();
 
-    var RetrySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_31) {
+    var RetrySubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_31) {
       _inherits(RetrySubscriber, _Subscriber__WEBPACK_31);
 
       function RetrySubscriber(destination, count, source) {
-        var _this224;
+        var _this225;
 
         _classCallCheck(this, RetrySubscriber);
 
-        _this224 = _possibleConstructorReturn(this, _getPrototypeOf(RetrySubscriber).call(this, destination));
-        _this224.count = count;
-        _this224.source = source;
-        return _this224;
+        _this225 = _possibleConstructorReturn(this, _getPrototypeOf(RetrySubscriber).call(this, destination));
+        _this225.count = count;
+        _this225.source = source;
+        return _this225;
       }
 
       _createClass2(RetrySubscriber, [{
@@ -115238,9 +115932,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/retryWhen.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/retryWhen.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/retryWhen.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: retryWhen */
 
@@ -115280,7 +115974,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var RetryWhenOperator = /*#__PURE__*/function () {
+    var RetryWhenOperator =
+    /*#__PURE__*/
+    function () {
       function RetryWhenOperator(notifier, source) {
         _classCallCheck(this, RetryWhenOperator);
 
@@ -115298,18 +115994,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return RetryWhenOperator;
     }();
 
-    var RetryWhenSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB19) {
+    var RetryWhenSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB19) {
       _inherits(RetryWhenSubscriber, _OuterSubscriber__WEB19);
 
       function RetryWhenSubscriber(destination, notifier, source) {
-        var _this225;
+        var _this226;
 
         _classCallCheck(this, RetryWhenSubscriber);
 
-        _this225 = _possibleConstructorReturn(this, _getPrototypeOf(RetryWhenSubscriber).call(this, destination));
-        _this225.notifier = notifier;
-        _this225.source = source;
-        return _this225;
+        _this226 = _possibleConstructorReturn(this, _getPrototypeOf(RetryWhenSubscriber).call(this, destination));
+        _this226.notifier = notifier;
+        _this226.source = source;
+        return _this226;
       }
 
       _createClass2(RetryWhenSubscriber, [{
@@ -115384,9 +116082,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/sample.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/sample.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/sample.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: sample */
 
@@ -115420,7 +116118,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SampleOperator = /*#__PURE__*/function () {
+    var SampleOperator =
+    /*#__PURE__*/
+    function () {
       function SampleOperator(notifier) {
         _classCallCheck(this, SampleOperator);
 
@@ -115440,17 +116140,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SampleOperator;
     }();
 
-    var SampleSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB20) {
+    var SampleSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB20) {
       _inherits(SampleSubscriber, _OuterSubscriber__WEB20);
 
       function SampleSubscriber() {
-        var _this226;
+        var _this227;
 
         _classCallCheck(this, SampleSubscriber);
 
-        _this226 = _possibleConstructorReturn(this, _getPrototypeOf(SampleSubscriber).apply(this, arguments));
-        _this226.hasValue = false;
-        return _this226;
+        _this227 = _possibleConstructorReturn(this, _getPrototypeOf(SampleSubscriber).apply(this, arguments));
+        _this227.hasValue = false;
+        return _this227;
       }
 
       _createClass2(SampleSubscriber, [{
@@ -115488,9 +116190,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/sampleTime.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/sampleTime.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/sampleTime.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: sampleTime */
 
@@ -115525,7 +116227,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SampleTimeOperator = /*#__PURE__*/function () {
+    var SampleTimeOperator =
+    /*#__PURE__*/
+    function () {
       function SampleTimeOperator(period, scheduler) {
         _classCallCheck(this, SampleTimeOperator);
 
@@ -115543,25 +116247,27 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SampleTimeOperator;
     }();
 
-    var SampleTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_32) {
+    var SampleTimeSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_32) {
       _inherits(SampleTimeSubscriber, _Subscriber__WEBPACK_32);
 
       function SampleTimeSubscriber(destination, period, scheduler) {
-        var _this227;
+        var _this228;
 
         _classCallCheck(this, SampleTimeSubscriber);
 
-        _this227 = _possibleConstructorReturn(this, _getPrototypeOf(SampleTimeSubscriber).call(this, destination));
-        _this227.period = period;
-        _this227.scheduler = scheduler;
-        _this227.hasValue = false;
+        _this228 = _possibleConstructorReturn(this, _getPrototypeOf(SampleTimeSubscriber).call(this, destination));
+        _this228.period = period;
+        _this228.scheduler = scheduler;
+        _this228.hasValue = false;
 
-        _this227.add(scheduler.schedule(dispatchNotification, period, {
-          subscriber: _assertThisInitialized(_this227),
+        _this228.add(scheduler.schedule(dispatchNotification, period, {
+          subscriber: _assertThisInitialized(_this228),
           period: period
         }));
 
-        return _this227;
+        return _this228;
       }
 
       _createClass2(SampleTimeSubscriber, [{
@@ -115596,9 +116302,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/scan.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/scan.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/scan.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: scan */
 
@@ -115632,7 +116338,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var ScanOperator = /*#__PURE__*/function () {
+    var ScanOperator =
+    /*#__PURE__*/
+    function () {
       function ScanOperator(accumulator, seed) {
         var hasSeed = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : false;
 
@@ -115653,20 +116361,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ScanOperator;
     }();
 
-    var ScanSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_33) {
+    var ScanSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_33) {
       _inherits(ScanSubscriber, _Subscriber__WEBPACK_33);
 
       function ScanSubscriber(destination, accumulator, _seed, hasSeed) {
-        var _this228;
+        var _this229;
 
         _classCallCheck(this, ScanSubscriber);
 
-        _this228 = _possibleConstructorReturn(this, _getPrototypeOf(ScanSubscriber).call(this, destination));
-        _this228.accumulator = accumulator;
-        _this228._seed = _seed;
-        _this228.hasSeed = hasSeed;
-        _this228.index = 0;
-        return _this228;
+        _this229 = _possibleConstructorReturn(this, _getPrototypeOf(ScanSubscriber).call(this, destination));
+        _this229.accumulator = accumulator;
+        _this229._seed = _seed;
+        _this229.hasSeed = hasSeed;
+        _this229.index = 0;
+        return _this229;
       }
 
       _createClass2(ScanSubscriber, [{
@@ -115714,9 +116424,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/sequenceEqual.js":
-  /*!*************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/sequenceEqual.js ***!
-    \*************************************************************************************************************************/
+  /*!********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/sequenceEqual.js ***!
+    \********************************************************************************************************************/
 
   /*! exports provided: sequenceEqual, SequenceEqualOperator, SequenceEqualSubscriber */
 
@@ -115756,7 +116466,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SequenceEqualOperator = /*#__PURE__*/function () {
+    var SequenceEqualOperator =
+    /*#__PURE__*/
+    function () {
       function SequenceEqualOperator(compareTo, comparator) {
         _classCallCheck(this, SequenceEqualOperator);
 
@@ -115774,24 +116486,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SequenceEqualOperator;
     }();
 
-    var SequenceEqualSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_34) {
+    var SequenceEqualSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_34) {
       _inherits(SequenceEqualSubscriber, _Subscriber__WEBPACK_34);
 
       function SequenceEqualSubscriber(destination, compareTo, comparator) {
-        var _this229;
+        var _this230;
 
         _classCallCheck(this, SequenceEqualSubscriber);
 
-        _this229 = _possibleConstructorReturn(this, _getPrototypeOf(SequenceEqualSubscriber).call(this, destination));
-        _this229.compareTo = compareTo;
-        _this229.comparator = comparator;
-        _this229._a = [];
-        _this229._b = [];
-        _this229._oneComplete = false;
+        _this230 = _possibleConstructorReturn(this, _getPrototypeOf(SequenceEqualSubscriber).call(this, destination));
+        _this230.compareTo = compareTo;
+        _this230.comparator = comparator;
+        _this230._a = [];
+        _this230._b = [];
+        _this230._oneComplete = false;
 
-        _this229.destination.add(compareTo.subscribe(new SequenceEqualCompareToSubscriber(destination, _assertThisInitialized(_this229))));
+        _this230.destination.add(compareTo.subscribe(new SequenceEqualCompareToSubscriber(destination, _assertThisInitialized(_this230))));
 
-        return _this229;
+        return _this230;
       }
 
       _createClass2(SequenceEqualSubscriber, [{
@@ -115873,17 +116587,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SequenceEqualSubscriber;
     }(_Subscriber__WEBPACK_IMPORTED_MODULE_0__["Subscriber"]);
 
-    var SequenceEqualCompareToSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_35) {
+    var SequenceEqualCompareToSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_35) {
       _inherits(SequenceEqualCompareToSubscriber, _Subscriber__WEBPACK_35);
 
       function SequenceEqualCompareToSubscriber(destination, parent) {
-        var _this230;
+        var _this231;
 
         _classCallCheck(this, SequenceEqualCompareToSubscriber);
 
-        _this230 = _possibleConstructorReturn(this, _getPrototypeOf(SequenceEqualCompareToSubscriber).call(this, destination));
-        _this230.parent = parent;
-        return _this230;
+        _this231 = _possibleConstructorReturn(this, _getPrototypeOf(SequenceEqualCompareToSubscriber).call(this, destination));
+        _this231.parent = parent;
+        return _this231;
       }
 
       _createClass2(SequenceEqualCompareToSubscriber, [{
@@ -115914,9 +116630,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/share.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/share.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/share.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: share */
 
@@ -115966,9 +116682,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/shareReplay.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/shareReplay.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/shareReplay.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: shareReplay */
 
@@ -116063,9 +116779,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/single.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/single.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/single.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: single */
 
@@ -116099,7 +116815,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SingleOperator = /*#__PURE__*/function () {
+    var SingleOperator =
+    /*#__PURE__*/
+    function () {
       function SingleOperator(predicate, source) {
         _classCallCheck(this, SingleOperator);
 
@@ -116117,20 +116835,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SingleOperator;
     }();
 
-    var SingleSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_36) {
+    var SingleSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_36) {
       _inherits(SingleSubscriber, _Subscriber__WEBPACK_36);
 
       function SingleSubscriber(destination, predicate, source) {
-        var _this231;
+        var _this232;
 
         _classCallCheck(this, SingleSubscriber);
 
-        _this231 = _possibleConstructorReturn(this, _getPrototypeOf(SingleSubscriber).call(this, destination));
-        _this231.predicate = predicate;
-        _this231.source = source;
-        _this231.seenValue = false;
-        _this231.index = 0;
-        return _this231;
+        _this232 = _possibleConstructorReturn(this, _getPrototypeOf(SingleSubscriber).call(this, destination));
+        _this232.predicate = predicate;
+        _this232.source = source;
+        _this232.seenValue = false;
+        _this232.index = 0;
+        return _this232;
       }
 
       _createClass2(SingleSubscriber, [{
@@ -116188,9 +116908,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/skip.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/skip.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/skip.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: skip */
 
@@ -116218,7 +116938,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SkipOperator = /*#__PURE__*/function () {
+    var SkipOperator =
+    /*#__PURE__*/
+    function () {
       function SkipOperator(total) {
         _classCallCheck(this, SkipOperator);
 
@@ -116235,18 +116957,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SkipOperator;
     }();
 
-    var SkipSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_37) {
+    var SkipSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_37) {
       _inherits(SkipSubscriber, _Subscriber__WEBPACK_37);
 
       function SkipSubscriber(destination, total) {
-        var _this232;
+        var _this233;
 
         _classCallCheck(this, SkipSubscriber);
 
-        _this232 = _possibleConstructorReturn(this, _getPrototypeOf(SkipSubscriber).call(this, destination));
-        _this232.total = total;
-        _this232.count = 0;
-        return _this232;
+        _this233 = _possibleConstructorReturn(this, _getPrototypeOf(SkipSubscriber).call(this, destination));
+        _this233.total = total;
+        _this233.count = 0;
+        return _this233;
       }
 
       _createClass2(SkipSubscriber, [{
@@ -116267,9 +116991,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/skipLast.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipLast.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipLast.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: skipLast */
 
@@ -116303,7 +117027,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SkipLastOperator = /*#__PURE__*/function () {
+    var SkipLastOperator =
+    /*#__PURE__*/
+    function () {
       function SkipLastOperator(_skipCount) {
         _classCallCheck(this, SkipLastOperator);
 
@@ -116328,19 +117054,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SkipLastOperator;
     }();
 
-    var SkipLastSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_38) {
+    var SkipLastSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_38) {
       _inherits(SkipLastSubscriber, _Subscriber__WEBPACK_38);
 
       function SkipLastSubscriber(destination, _skipCount) {
-        var _this233;
+        var _this234;
 
         _classCallCheck(this, SkipLastSubscriber);
 
-        _this233 = _possibleConstructorReturn(this, _getPrototypeOf(SkipLastSubscriber).call(this, destination));
-        _this233._skipCount = _skipCount;
-        _this233._count = 0;
-        _this233._ring = new Array(_skipCount);
-        return _this233;
+        _this234 = _possibleConstructorReturn(this, _getPrototypeOf(SkipLastSubscriber).call(this, destination));
+        _this234._skipCount = _skipCount;
+        _this234._count = 0;
+        _this234._ring = new Array(_skipCount);
+        return _this234;
       }
 
       _createClass2(SkipLastSubscriber, [{
@@ -116370,9 +117098,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/skipUntil.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipUntil.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipUntil.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: skipUntil */
 
@@ -116412,7 +117140,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SkipUntilOperator = /*#__PURE__*/function () {
+    var SkipUntilOperator =
+    /*#__PURE__*/
+    function () {
       function SkipUntilOperator(notifier) {
         _classCallCheck(this, SkipUntilOperator);
 
@@ -116429,30 +117159,32 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SkipUntilOperator;
     }();
 
-    var SkipUntilSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB21) {
+    var SkipUntilSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB21) {
       _inherits(SkipUntilSubscriber, _OuterSubscriber__WEB21);
 
       function SkipUntilSubscriber(destination, notifier) {
-        var _this234;
+        var _this235;
 
         _classCallCheck(this, SkipUntilSubscriber);
 
-        _this234 = _possibleConstructorReturn(this, _getPrototypeOf(SkipUntilSubscriber).call(this, destination));
-        _this234.hasValue = false;
-        var innerSubscriber = new _InnerSubscriber__WEBPACK_IMPORTED_MODULE_1__["InnerSubscriber"](_assertThisInitialized(_this234), undefined, undefined);
+        _this235 = _possibleConstructorReturn(this, _getPrototypeOf(SkipUntilSubscriber).call(this, destination));
+        _this235.hasValue = false;
+        var innerSubscriber = new _InnerSubscriber__WEBPACK_IMPORTED_MODULE_1__["InnerSubscriber"](_assertThisInitialized(_this235), undefined, undefined);
 
-        _this234.add(innerSubscriber);
+        _this235.add(innerSubscriber);
 
-        _this234.innerSubscription = innerSubscriber;
-        var innerSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_2__["subscribeToResult"])(_assertThisInitialized(_this234), notifier, undefined, undefined, innerSubscriber);
+        _this235.innerSubscription = innerSubscriber;
+        var innerSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_2__["subscribeToResult"])(_assertThisInitialized(_this235), notifier, undefined, undefined, innerSubscriber);
 
         if (innerSubscription !== innerSubscriber) {
-          _this234.add(innerSubscription);
+          _this235.add(innerSubscription);
 
-          _this234.innerSubscription = innerSubscription;
+          _this235.innerSubscription = innerSubscription;
         }
 
-        return _this234;
+        return _this235;
       }
 
       _createClass2(SkipUntilSubscriber, [{
@@ -116485,9 +117217,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/skipWhile.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipWhile.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/skipWhile.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: skipWhile */
 
@@ -116515,7 +117247,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SkipWhileOperator = /*#__PURE__*/function () {
+    var SkipWhileOperator =
+    /*#__PURE__*/
+    function () {
       function SkipWhileOperator(predicate) {
         _classCallCheck(this, SkipWhileOperator);
 
@@ -116532,19 +117266,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SkipWhileOperator;
     }();
 
-    var SkipWhileSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_39) {
+    var SkipWhileSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_39) {
       _inherits(SkipWhileSubscriber, _Subscriber__WEBPACK_39);
 
       function SkipWhileSubscriber(destination, predicate) {
-        var _this235;
+        var _this236;
 
         _classCallCheck(this, SkipWhileSubscriber);
 
-        _this235 = _possibleConstructorReturn(this, _getPrototypeOf(SkipWhileSubscriber).call(this, destination));
-        _this235.predicate = predicate;
-        _this235.skipping = true;
-        _this235.index = 0;
-        return _this235;
+        _this236 = _possibleConstructorReturn(this, _getPrototypeOf(SkipWhileSubscriber).call(this, destination));
+        _this236.predicate = predicate;
+        _this236.skipping = true;
+        _this236.index = 0;
+        return _this236;
       }
 
       _createClass2(SkipWhileSubscriber, [{
@@ -116581,9 +117317,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/startWith.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/startWith.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/startWith.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: startWith */
 
@@ -116636,9 +117372,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/subscribeOn.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/subscribeOn.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/subscribeOn.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: subscribeOn */
 
@@ -116667,7 +117403,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SubscribeOnOperator = /*#__PURE__*/function () {
+    var SubscribeOnOperator =
+    /*#__PURE__*/
+    function () {
       function SubscribeOnOperator(scheduler, delay) {
         _classCallCheck(this, SubscribeOnOperator);
 
@@ -116691,9 +117429,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/switchAll.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchAll.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchAll.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: switchAll */
 
@@ -116731,9 +117469,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/switchMap.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchMap.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchMap.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: switchMap */
 
@@ -116795,7 +117533,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var SwitchMapOperator = /*#__PURE__*/function () {
+    var SwitchMapOperator =
+    /*#__PURE__*/
+    function () {
       function SwitchMapOperator(project) {
         _classCallCheck(this, SwitchMapOperator);
 
@@ -116812,18 +117552,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return SwitchMapOperator;
     }();
 
-    var SwitchMapSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB22) {
+    var SwitchMapSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB22) {
       _inherits(SwitchMapSubscriber, _OuterSubscriber__WEB22);
 
       function SwitchMapSubscriber(destination, project) {
-        var _this236;
+        var _this237;
 
         _classCallCheck(this, SwitchMapSubscriber);
 
-        _this236 = _possibleConstructorReturn(this, _getPrototypeOf(SwitchMapSubscriber).call(this, destination));
-        _this236.project = project;
-        _this236.index = 0;
-        return _this236;
+        _this237 = _possibleConstructorReturn(this, _getPrototypeOf(SwitchMapSubscriber).call(this, destination));
+        _this237.project = project;
+        _this237.index = 0;
+        return _this237;
       }
 
       _createClass2(SwitchMapSubscriber, [{
@@ -116902,9 +117644,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/switchMapTo.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchMapTo.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/switchMapTo.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: switchMapTo */
 
@@ -116940,9 +117682,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/take.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/take.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/take.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: take */
 
@@ -116986,7 +117728,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var TakeOperator = /*#__PURE__*/function () {
+    var TakeOperator =
+    /*#__PURE__*/
+    function () {
       function TakeOperator(total) {
         _classCallCheck(this, TakeOperator);
 
@@ -117007,18 +117751,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return TakeOperator;
     }();
 
-    var TakeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_40) {
+    var TakeSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_40) {
       _inherits(TakeSubscriber, _Subscriber__WEBPACK_40);
 
       function TakeSubscriber(destination, total) {
-        var _this237;
+        var _this238;
 
         _classCallCheck(this, TakeSubscriber);
 
-        _this237 = _possibleConstructorReturn(this, _getPrototypeOf(TakeSubscriber).call(this, destination));
-        _this237.total = total;
-        _this237.count = 0;
-        return _this237;
+        _this238 = _possibleConstructorReturn(this, _getPrototypeOf(TakeSubscriber).call(this, destination));
+        _this238.total = total;
+        _this238.count = 0;
+        return _this238;
       }
 
       _createClass2(TakeSubscriber, [{
@@ -117047,9 +117793,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/takeLast.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeLast.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeLast.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: takeLast */
 
@@ -117093,7 +117839,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var TakeLastOperator = /*#__PURE__*/function () {
+    var TakeLastOperator =
+    /*#__PURE__*/
+    function () {
       function TakeLastOperator(total) {
         _classCallCheck(this, TakeLastOperator);
 
@@ -117114,19 +117862,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return TakeLastOperator;
     }();
 
-    var TakeLastSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_41) {
+    var TakeLastSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_41) {
       _inherits(TakeLastSubscriber, _Subscriber__WEBPACK_41);
 
       function TakeLastSubscriber(destination, total) {
-        var _this238;
+        var _this239;
 
         _classCallCheck(this, TakeLastSubscriber);
 
-        _this238 = _possibleConstructorReturn(this, _getPrototypeOf(TakeLastSubscriber).call(this, destination));
-        _this238.total = total;
-        _this238.ring = new Array();
-        _this238.count = 0;
-        return _this238;
+        _this239 = _possibleConstructorReturn(this, _getPrototypeOf(TakeLastSubscriber).call(this, destination));
+        _this239.total = total;
+        _this239.ring = new Array();
+        _this239.count = 0;
+        return _this239;
       }
 
       _createClass2(TakeLastSubscriber, [{
@@ -117172,9 +117922,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/takeUntil.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeUntil.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeUntil.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: takeUntil */
 
@@ -117208,7 +117958,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var TakeUntilOperator = /*#__PURE__*/function () {
+    var TakeUntilOperator =
+    /*#__PURE__*/
+    function () {
       function TakeUntilOperator(notifier) {
         _classCallCheck(this, TakeUntilOperator);
 
@@ -117233,17 +117985,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return TakeUntilOperator;
     }();
 
-    var TakeUntilSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB23) {
+    var TakeUntilSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB23) {
       _inherits(TakeUntilSubscriber, _OuterSubscriber__WEB23);
 
       function TakeUntilSubscriber(destination) {
-        var _this239;
+        var _this240;
 
         _classCallCheck(this, TakeUntilSubscriber);
 
-        _this239 = _possibleConstructorReturn(this, _getPrototypeOf(TakeUntilSubscriber).call(this, destination));
-        _this239.seenValue = false;
-        return _this239;
+        _this240 = _possibleConstructorReturn(this, _getPrototypeOf(TakeUntilSubscriber).call(this, destination));
+        _this240.seenValue = false;
+        return _this240;
       }
 
       _createClass2(TakeUntilSubscriber, [{
@@ -117266,9 +118020,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/takeWhile.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeWhile.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/takeWhile.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: takeWhile */
 
@@ -117297,7 +118051,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var TakeWhileOperator = /*#__PURE__*/function () {
+    var TakeWhileOperator =
+    /*#__PURE__*/
+    function () {
       function TakeWhileOperator(predicate, inclusive) {
         _classCallCheck(this, TakeWhileOperator);
 
@@ -117315,19 +118071,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return TakeWhileOperator;
     }();
 
-    var TakeWhileSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_42) {
+    var TakeWhileSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_42) {
       _inherits(TakeWhileSubscriber, _Subscriber__WEBPACK_42);
 
       function TakeWhileSubscriber(destination, predicate, inclusive) {
-        var _this240;
+        var _this241;
 
         _classCallCheck(this, TakeWhileSubscriber);
 
-        _this240 = _possibleConstructorReturn(this, _getPrototypeOf(TakeWhileSubscriber).call(this, destination));
-        _this240.predicate = predicate;
-        _this240.inclusive = inclusive;
-        _this240.index = 0;
-        return _this240;
+        _this241 = _possibleConstructorReturn(this, _getPrototypeOf(TakeWhileSubscriber).call(this, destination));
+        _this241.predicate = predicate;
+        _this241.inclusive = inclusive;
+        _this241.index = 0;
+        return _this241;
       }
 
       _createClass2(TakeWhileSubscriber, [{
@@ -117371,9 +118129,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/tap.js":
-  /*!***************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/tap.js ***!
-    \***************************************************************************************************************/
+  /*!**********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/tap.js ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: tap */
 
@@ -117413,7 +118171,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var DoOperator = /*#__PURE__*/function () {
+    var DoOperator =
+    /*#__PURE__*/
+    function () {
       function DoOperator(nextOrObserver, error, complete) {
         _classCallCheck(this, DoOperator);
 
@@ -117432,32 +118192,34 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return DoOperator;
     }();
 
-    var TapSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_43) {
+    var TapSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_43) {
       _inherits(TapSubscriber, _Subscriber__WEBPACK_43);
 
       function TapSubscriber(destination, observerOrNext, error, complete) {
-        var _this241;
+        var _this242;
 
         _classCallCheck(this, TapSubscriber);
 
-        _this241 = _possibleConstructorReturn(this, _getPrototypeOf(TapSubscriber).call(this, destination));
-        _this241._tapNext = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this241._tapError = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this241._tapComplete = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this241._tapError = error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-        _this241._tapComplete = complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this242 = _possibleConstructorReturn(this, _getPrototypeOf(TapSubscriber).call(this, destination));
+        _this242._tapNext = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this242._tapError = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this242._tapComplete = _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this242._tapError = error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+        _this242._tapComplete = complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
 
         if (Object(_util_isFunction__WEBPACK_IMPORTED_MODULE_2__["isFunction"])(observerOrNext)) {
-          _this241._context = _assertThisInitialized(_this241);
-          _this241._tapNext = observerOrNext;
+          _this242._context = _assertThisInitialized(_this242);
+          _this242._tapNext = observerOrNext;
         } else if (observerOrNext) {
-          _this241._context = observerOrNext;
-          _this241._tapNext = observerOrNext.next || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-          _this241._tapError = observerOrNext.error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
-          _this241._tapComplete = observerOrNext.complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+          _this242._context = observerOrNext;
+          _this242._tapNext = observerOrNext.next || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+          _this242._tapError = observerOrNext.error || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
+          _this242._tapComplete = observerOrNext.complete || _util_noop__WEBPACK_IMPORTED_MODULE_1__["noop"];
         }
 
-        return _this241;
+        return _this242;
       }
 
       _createClass2(TapSubscriber, [{
@@ -117507,9 +118269,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/throttle.js":
-  /*!********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/throttle.js ***!
-    \********************************************************************************************************************/
+  /*!***************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/throttle.js ***!
+    \***************************************************************************************************************/
 
   /*! exports provided: defaultThrottleConfig, throttle */
 
@@ -117555,7 +118317,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var ThrottleOperator = /*#__PURE__*/function () {
+    var ThrottleOperator =
+    /*#__PURE__*/
+    function () {
       function ThrottleOperator(durationSelector, leading, trailing) {
         _classCallCheck(this, ThrottleOperator);
 
@@ -117574,21 +118338,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ThrottleOperator;
     }();
 
-    var ThrottleSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB24) {
+    var ThrottleSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB24) {
       _inherits(ThrottleSubscriber, _OuterSubscriber__WEB24);
 
       function ThrottleSubscriber(destination, durationSelector, _leading, _trailing) {
-        var _this242;
+        var _this243;
 
         _classCallCheck(this, ThrottleSubscriber);
 
-        _this242 = _possibleConstructorReturn(this, _getPrototypeOf(ThrottleSubscriber).call(this, destination));
-        _this242.destination = destination;
-        _this242.durationSelector = durationSelector;
-        _this242._leading = _leading;
-        _this242._trailing = _trailing;
-        _this242._hasValue = false;
-        return _this242;
+        _this243 = _possibleConstructorReturn(this, _getPrototypeOf(ThrottleSubscriber).call(this, destination));
+        _this243.destination = destination;
+        _this243.durationSelector = durationSelector;
+        _this243._leading = _leading;
+        _this243._trailing = _trailing;
+        _this243._hasValue = false;
+        return _this243;
       }
 
       _createClass2(ThrottleSubscriber, [{
@@ -117675,9 +118441,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/throttleTime.js":
-  /*!************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/throttleTime.js ***!
-    \************************************************************************************************************************/
+  /*!*******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/throttleTime.js ***!
+    \*******************************************************************************************************************/
 
   /*! exports provided: throttleTime */
 
@@ -117719,7 +118485,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var ThrottleTimeOperator = /*#__PURE__*/function () {
+    var ThrottleTimeOperator =
+    /*#__PURE__*/
+    function () {
       function ThrottleTimeOperator(duration, scheduler, leading, trailing) {
         _classCallCheck(this, ThrottleTimeOperator);
 
@@ -117739,22 +118507,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ThrottleTimeOperator;
     }();
 
-    var ThrottleTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_44) {
+    var ThrottleTimeSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_44) {
       _inherits(ThrottleTimeSubscriber, _Subscriber__WEBPACK_44);
 
       function ThrottleTimeSubscriber(destination, duration, scheduler, leading, trailing) {
-        var _this243;
+        var _this244;
 
         _classCallCheck(this, ThrottleTimeSubscriber);
 
-        _this243 = _possibleConstructorReturn(this, _getPrototypeOf(ThrottleTimeSubscriber).call(this, destination));
-        _this243.duration = duration;
-        _this243.scheduler = scheduler;
-        _this243.leading = leading;
-        _this243.trailing = trailing;
-        _this243._hasTrailingValue = false;
-        _this243._trailingValue = null;
-        return _this243;
+        _this244 = _possibleConstructorReturn(this, _getPrototypeOf(ThrottleTimeSubscriber).call(this, destination));
+        _this244.duration = duration;
+        _this244.scheduler = scheduler;
+        _this244.leading = leading;
+        _this244.trailing = trailing;
+        _this244._hasTrailingValue = false;
+        _this244._trailingValue = null;
+        return _this244;
       }
 
       _createClass2(ThrottleTimeSubscriber, [{
@@ -117821,9 +118591,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/throwIfEmpty.js":
-  /*!************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/throwIfEmpty.js ***!
-    \************************************************************************************************************************/
+  /*!*******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/throwIfEmpty.js ***!
+    \*******************************************************************************************************************/
 
   /*! exports provided: throwIfEmpty */
 
@@ -117858,7 +118628,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var ThrowIfEmptyOperator = /*#__PURE__*/function () {
+    var ThrowIfEmptyOperator =
+    /*#__PURE__*/
+    function () {
       function ThrowIfEmptyOperator(errorFactory) {
         _classCallCheck(this, ThrowIfEmptyOperator);
 
@@ -117875,18 +118647,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return ThrowIfEmptyOperator;
     }();
 
-    var ThrowIfEmptySubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_45) {
+    var ThrowIfEmptySubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_45) {
       _inherits(ThrowIfEmptySubscriber, _Subscriber__WEBPACK_45);
 
       function ThrowIfEmptySubscriber(destination, errorFactory) {
-        var _this244;
+        var _this245;
 
         _classCallCheck(this, ThrowIfEmptySubscriber);
 
-        _this244 = _possibleConstructorReturn(this, _getPrototypeOf(ThrowIfEmptySubscriber).call(this, destination));
-        _this244.errorFactory = errorFactory;
-        _this244.hasValue = false;
-        return _this244;
+        _this245 = _possibleConstructorReturn(this, _getPrototypeOf(ThrowIfEmptySubscriber).call(this, destination));
+        _this245.errorFactory = errorFactory;
+        _this245.hasValue = false;
+        return _this245;
       }
 
       _createClass2(ThrowIfEmptySubscriber, [{
@@ -117927,9 +118701,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/timeInterval.js":
-  /*!************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeInterval.js ***!
-    \************************************************************************************************************************/
+  /*!*******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeInterval.js ***!
+    \*******************************************************************************************************************/
 
   /*! exports provided: timeInterval, TimeInterval */
 
@@ -118013,9 +118787,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/timeout.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeout.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeout.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: timeout */
 
@@ -118066,9 +118840,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/timeoutWith.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeoutWith.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/timeoutWith.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: timeoutWith */
 
@@ -118117,7 +118891,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var TimeoutWithOperator = /*#__PURE__*/function () {
+    var TimeoutWithOperator =
+    /*#__PURE__*/
+    function () {
       function TimeoutWithOperator(waitFor, absoluteTimeout, withObservable, scheduler) {
         _classCallCheck(this, TimeoutWithOperator);
 
@@ -118137,24 +118913,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return TimeoutWithOperator;
     }();
 
-    var TimeoutWithSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB25) {
+    var TimeoutWithSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB25) {
       _inherits(TimeoutWithSubscriber, _OuterSubscriber__WEB25);
 
       function TimeoutWithSubscriber(destination, absoluteTimeout, waitFor, withObservable, scheduler) {
-        var _this245;
+        var _this246;
 
         _classCallCheck(this, TimeoutWithSubscriber);
 
-        _this245 = _possibleConstructorReturn(this, _getPrototypeOf(TimeoutWithSubscriber).call(this, destination));
-        _this245.absoluteTimeout = absoluteTimeout;
-        _this245.waitFor = waitFor;
-        _this245.withObservable = withObservable;
-        _this245.scheduler = scheduler;
-        _this245.action = null;
+        _this246 = _possibleConstructorReturn(this, _getPrototypeOf(TimeoutWithSubscriber).call(this, destination));
+        _this246.absoluteTimeout = absoluteTimeout;
+        _this246.waitFor = waitFor;
+        _this246.withObservable = withObservable;
+        _this246.scheduler = scheduler;
+        _this246.action = null;
 
-        _this245.scheduleTimeout();
+        _this246.scheduleTimeout();
 
-        return _this245;
+        return _this246;
       }
 
       _createClass2(TimeoutWithSubscriber, [{
@@ -118204,9 +118982,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/timestamp.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/timestamp.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/timestamp.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: timestamp, Timestamp */
 
@@ -118260,9 +119038,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/toArray.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/toArray.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/toArray.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: toArray */
 
@@ -118303,9 +119081,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/window.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/window.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/window.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: window */
 
@@ -118345,7 +119123,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var WindowOperator = /*#__PURE__*/function () {
+    var WindowOperator =
+    /*#__PURE__*/
+    function () {
       function WindowOperator(windowBoundaries) {
         _classCallCheck(this, WindowOperator);
 
@@ -118369,18 +119149,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return WindowOperator;
     }();
 
-    var WindowSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB26) {
+    var WindowSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB26) {
       _inherits(WindowSubscriber, _OuterSubscriber__WEB26);
 
       function WindowSubscriber(destination) {
-        var _this246;
+        var _this247;
 
         _classCallCheck(this, WindowSubscriber);
 
-        _this246 = _possibleConstructorReturn(this, _getPrototypeOf(WindowSubscriber).call(this, destination));
-        _this246.window = new _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
-        destination.next(_this246.window);
-        return _this246;
+        _this247 = _possibleConstructorReturn(this, _getPrototypeOf(WindowSubscriber).call(this, destination));
+        _this247.window = new _Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]();
+        destination.next(_this247.window);
+        return _this247;
       }
 
       _createClass2(WindowSubscriber, [{
@@ -118444,9 +119226,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/windowCount.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowCount.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowCount.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: windowCount */
 
@@ -118481,7 +119263,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var WindowCountOperator = /*#__PURE__*/function () {
+    var WindowCountOperator =
+    /*#__PURE__*/
+    function () {
       function WindowCountOperator(windowSize, startWindowEvery) {
         _classCallCheck(this, WindowCountOperator);
 
@@ -118499,22 +119283,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return WindowCountOperator;
     }();
 
-    var WindowCountSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_46) {
+    var WindowCountSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_46) {
       _inherits(WindowCountSubscriber, _Subscriber__WEBPACK_46);
 
       function WindowCountSubscriber(destination, windowSize, startWindowEvery) {
-        var _this247;
+        var _this248;
 
         _classCallCheck(this, WindowCountSubscriber);
 
-        _this247 = _possibleConstructorReturn(this, _getPrototypeOf(WindowCountSubscriber).call(this, destination));
-        _this247.destination = destination;
-        _this247.windowSize = windowSize;
-        _this247.startWindowEvery = startWindowEvery;
-        _this247.windows = [new _Subject__WEBPACK_IMPORTED_MODULE_1__["Subject"]()];
-        _this247.count = 0;
-        destination.next(_this247.windows[0]);
-        return _this247;
+        _this248 = _possibleConstructorReturn(this, _getPrototypeOf(WindowCountSubscriber).call(this, destination));
+        _this248.destination = destination;
+        _this248.windowSize = windowSize;
+        _this248.startWindowEvery = startWindowEvery;
+        _this248.windows = [new _Subject__WEBPACK_IMPORTED_MODULE_1__["Subject"]()];
+        _this248.count = 0;
+        destination.next(_this248.windows[0]);
+        return _this248;
       }
 
       _createClass2(WindowCountSubscriber, [{
@@ -118586,9 +119372,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/windowTime.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowTime.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowTime.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: windowTime */
 
@@ -118660,7 +119446,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var WindowTimeOperator = /*#__PURE__*/function () {
+    var WindowTimeOperator =
+    /*#__PURE__*/
+    function () {
       function WindowTimeOperator(windowTimeSpan, windowCreationInterval, maxWindowSize, scheduler) {
         _classCallCheck(this, WindowTimeOperator);
 
@@ -118680,17 +119468,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return WindowTimeOperator;
     }();
 
-    var CountedSubject = /*#__PURE__*/function (_Subject__WEBPACK_IMP5) {
+    var CountedSubject =
+    /*#__PURE__*/
+    function (_Subject__WEBPACK_IMP5) {
       _inherits(CountedSubject, _Subject__WEBPACK_IMP5);
 
       function CountedSubject() {
-        var _this248;
+        var _this249;
 
         _classCallCheck(this, CountedSubject);
 
-        _this248 = _possibleConstructorReturn(this, _getPrototypeOf(CountedSubject).apply(this, arguments));
-        _this248._numberOfNextedValues = 0;
-        return _this248;
+        _this249 = _possibleConstructorReturn(this, _getPrototypeOf(CountedSubject).apply(this, arguments));
+        _this249._numberOfNextedValues = 0;
+        return _this249;
       }
 
       _createClass2(CountedSubject, [{
@@ -118710,51 +119500,53 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return CountedSubject;
     }(_Subject__WEBPACK_IMPORTED_MODULE_0__["Subject"]);
 
-    var WindowTimeSubscriber = /*#__PURE__*/function (_Subscriber__WEBPACK_47) {
+    var WindowTimeSubscriber =
+    /*#__PURE__*/
+    function (_Subscriber__WEBPACK_47) {
       _inherits(WindowTimeSubscriber, _Subscriber__WEBPACK_47);
 
       function WindowTimeSubscriber(destination, windowTimeSpan, windowCreationInterval, maxWindowSize, scheduler) {
-        var _this249;
+        var _this250;
 
         _classCallCheck(this, WindowTimeSubscriber);
 
-        _this249 = _possibleConstructorReturn(this, _getPrototypeOf(WindowTimeSubscriber).call(this, destination));
-        _this249.destination = destination;
-        _this249.windowTimeSpan = windowTimeSpan;
-        _this249.windowCreationInterval = windowCreationInterval;
-        _this249.maxWindowSize = maxWindowSize;
-        _this249.scheduler = scheduler;
-        _this249.windows = [];
+        _this250 = _possibleConstructorReturn(this, _getPrototypeOf(WindowTimeSubscriber).call(this, destination));
+        _this250.destination = destination;
+        _this250.windowTimeSpan = windowTimeSpan;
+        _this250.windowCreationInterval = windowCreationInterval;
+        _this250.maxWindowSize = maxWindowSize;
+        _this250.scheduler = scheduler;
+        _this250.windows = [];
 
-        var window = _this249.openWindow();
+        var window = _this250.openWindow();
 
         if (windowCreationInterval !== null && windowCreationInterval >= 0) {
           var closeState = {
-            subscriber: _assertThisInitialized(_this249),
+            subscriber: _assertThisInitialized(_this250),
             window: window,
             context: null
           };
           var creationState = {
             windowTimeSpan: windowTimeSpan,
             windowCreationInterval: windowCreationInterval,
-            subscriber: _assertThisInitialized(_this249),
+            subscriber: _assertThisInitialized(_this250),
             scheduler: scheduler
           };
 
-          _this249.add(scheduler.schedule(dispatchWindowClose, windowTimeSpan, closeState));
+          _this250.add(scheduler.schedule(dispatchWindowClose, windowTimeSpan, closeState));
 
-          _this249.add(scheduler.schedule(dispatchWindowCreation, windowCreationInterval, creationState));
+          _this250.add(scheduler.schedule(dispatchWindowCreation, windowCreationInterval, creationState));
         } else {
           var timeSpanOnlyState = {
-            subscriber: _assertThisInitialized(_this249),
+            subscriber: _assertThisInitialized(_this250),
             window: window,
             windowTimeSpan: windowTimeSpan
           };
 
-          _this249.add(scheduler.schedule(dispatchWindowTimeSpanOnly, windowTimeSpan, timeSpanOnlyState));
+          _this250.add(scheduler.schedule(dispatchWindowTimeSpanOnly, windowTimeSpan, timeSpanOnlyState));
         }
 
-        return _this249;
+        return _this250;
       }
 
       _createClass2(WindowTimeSubscriber, [{
@@ -118874,9 +119666,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/windowToggle.js":
-  /*!************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowToggle.js ***!
-    \************************************************************************************************************************/
+  /*!*******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowToggle.js ***!
+    \*******************************************************************************************************************/
 
   /*! exports provided: windowToggle */
 
@@ -118922,7 +119714,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var WindowToggleOperator = /*#__PURE__*/function () {
+    var WindowToggleOperator =
+    /*#__PURE__*/
+    function () {
       function WindowToggleOperator(openings, closingSelector) {
         _classCallCheck(this, WindowToggleOperator);
 
@@ -118940,22 +119734,24 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return WindowToggleOperator;
     }();
 
-    var WindowToggleSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB27) {
+    var WindowToggleSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB27) {
       _inherits(WindowToggleSubscriber, _OuterSubscriber__WEB27);
 
       function WindowToggleSubscriber(destination, openings, closingSelector) {
-        var _this250;
+        var _this251;
 
         _classCallCheck(this, WindowToggleSubscriber);
 
-        _this250 = _possibleConstructorReturn(this, _getPrototypeOf(WindowToggleSubscriber).call(this, destination));
-        _this250.openings = openings;
-        _this250.closingSelector = closingSelector;
-        _this250.contexts = [];
+        _this251 = _possibleConstructorReturn(this, _getPrototypeOf(WindowToggleSubscriber).call(this, destination));
+        _this251.openings = openings;
+        _this251.closingSelector = closingSelector;
+        _this251.contexts = [];
 
-        _this250.add(_this250.openSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_3__["subscribeToResult"])(_assertThisInitialized(_this250), openings, openings));
+        _this251.add(_this251.openSubscription = Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_3__["subscribeToResult"])(_assertThisInitialized(_this251), openings, openings));
 
-        return _this250;
+        return _this251;
       }
 
       _createClass2(WindowToggleSubscriber, [{
@@ -119099,9 +119895,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/windowWhen.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowWhen.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/windowWhen.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: windowWhen */
 
@@ -119141,7 +119937,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var WindowOperator = /*#__PURE__*/function () {
+    var WindowOperator =
+    /*#__PURE__*/
+    function () {
       function WindowOperator(closingSelector) {
         _classCallCheck(this, WindowOperator);
 
@@ -119158,21 +119956,23 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return WindowOperator;
     }();
 
-    var WindowSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB28) {
+    var WindowSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB28) {
       _inherits(WindowSubscriber, _OuterSubscriber__WEB28);
 
       function WindowSubscriber(destination, closingSelector) {
-        var _this251;
+        var _this252;
 
         _classCallCheck(this, WindowSubscriber);
 
-        _this251 = _possibleConstructorReturn(this, _getPrototypeOf(WindowSubscriber).call(this, destination));
-        _this251.destination = destination;
-        _this251.closingSelector = closingSelector;
+        _this252 = _possibleConstructorReturn(this, _getPrototypeOf(WindowSubscriber).call(this, destination));
+        _this252.destination = destination;
+        _this252.closingSelector = closingSelector;
 
-        _this251.openWindow();
+        _this252.openWindow();
 
-        return _this251;
+        return _this252;
       }
 
       _createClass2(WindowSubscriber, [{
@@ -119258,9 +120058,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/withLatestFrom.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/withLatestFrom.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/withLatestFrom.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: withLatestFrom */
 
@@ -119305,7 +120105,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       };
     }
 
-    var WithLatestFromOperator = /*#__PURE__*/function () {
+    var WithLatestFromOperator =
+    /*#__PURE__*/
+    function () {
       function WithLatestFromOperator(observables, project) {
         _classCallCheck(this, WithLatestFromOperator);
 
@@ -119323,32 +120125,34 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return WithLatestFromOperator;
     }();
 
-    var WithLatestFromSubscriber = /*#__PURE__*/function (_OuterSubscriber__WEB29) {
+    var WithLatestFromSubscriber =
+    /*#__PURE__*/
+    function (_OuterSubscriber__WEB29) {
       _inherits(WithLatestFromSubscriber, _OuterSubscriber__WEB29);
 
       function WithLatestFromSubscriber(destination, observables, project) {
-        var _this252;
+        var _this253;
 
         _classCallCheck(this, WithLatestFromSubscriber);
 
-        _this252 = _possibleConstructorReturn(this, _getPrototypeOf(WithLatestFromSubscriber).call(this, destination));
-        _this252.observables = observables;
-        _this252.project = project;
-        _this252.toRespond = [];
+        _this253 = _possibleConstructorReturn(this, _getPrototypeOf(WithLatestFromSubscriber).call(this, destination));
+        _this253.observables = observables;
+        _this253.project = project;
+        _this253.toRespond = [];
         var len = observables.length;
-        _this252.values = new Array(len);
+        _this253.values = new Array(len);
 
         for (var i = 0; i < len; i++) {
-          _this252.toRespond.push(i);
+          _this253.toRespond.push(i);
         }
 
         for (var _i27 = 0; _i27 < len; _i27++) {
           var observable = observables[_i27];
 
-          _this252.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this252), observable, observable, _i27));
+          _this253.add(Object(_util_subscribeToResult__WEBPACK_IMPORTED_MODULE_1__["subscribeToResult"])(_assertThisInitialized(_this253), observable, observable, _i27));
         }
 
-        return _this252;
+        return _this253;
       }
 
       _createClass2(WithLatestFromSubscriber, [{
@@ -119406,9 +120210,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/zip.js":
-  /*!***************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/zip.js ***!
-    \***************************************************************************************************************/
+  /*!**********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/zip.js ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: zip */
 
@@ -119446,9 +120250,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/operators/zipAll.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/operators/zipAll.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/operators/zipAll.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: zipAll */
 
@@ -119482,9 +120286,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduled/scheduleArray.js":
-  /*!*************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleArray.js ***!
-    \*************************************************************************************************************************/
+  /*!********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleArray.js ***!
+    \********************************************************************************************************************/
 
   /*! exports provided: scheduleArray */
 
@@ -119538,9 +120342,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduled/scheduleIterable.js":
-  /*!****************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleIterable.js ***!
-    \****************************************************************************************************************************/
+  /*!***********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleIterable.js ***!
+    \***********************************************************************************************************************/
 
   /*! exports provided: scheduleIterable */
 
@@ -119624,9 +120428,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduled/scheduleObservable.js":
-  /*!******************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleObservable.js ***!
-    \******************************************************************************************************************************/
+  /*!*************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduleObservable.js ***!
+    \*************************************************************************************************************************/
 
   /*! exports provided: scheduleObservable */
 
@@ -119694,9 +120498,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduled/schedulePromise.js":
-  /*!***************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/schedulePromise.js ***!
-    \***************************************************************************************************************************/
+  /*!**********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/schedulePromise.js ***!
+    \**********************************************************************************************************************/
 
   /*! exports provided: schedulePromise */
 
@@ -119751,9 +120555,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduled/scheduled.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduled.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduled/scheduled.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: scheduled */
 
@@ -119839,9 +120643,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/Action.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/Action.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/Action.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: Action */
 
@@ -119863,7 +120667,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ../Subscription */
     "../../node_modules/rxjs/_esm2015/internal/Subscription.js");
 
-    var Action = /*#__PURE__*/function (_Subscription__WEBPAC4) {
+    var Action =
+    /*#__PURE__*/
+    function (_Subscription__WEBPAC4) {
       _inherits(Action, _Subscription__WEBPAC4);
 
       function Action(scheduler, work) {
@@ -119889,9 +120695,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameAction.js":
-  /*!********************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameAction.js ***!
-    \********************************************************************************************************************************/
+  /*!***************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameAction.js ***!
+    \***************************************************************************************************************************/
 
   /*! exports provided: AnimationFrameAction */
 
@@ -119913,18 +120719,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AsyncAction */
     "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncAction.js");
 
-    var AnimationFrameAction = /*#__PURE__*/function (_AsyncAction__WEBPACK) {
+    var AnimationFrameAction =
+    /*#__PURE__*/
+    function (_AsyncAction__WEBPACK) {
       _inherits(AnimationFrameAction, _AsyncAction__WEBPACK);
 
       function AnimationFrameAction(scheduler, work) {
-        var _this253;
+        var _this254;
 
         _classCallCheck(this, AnimationFrameAction);
 
-        _this253 = _possibleConstructorReturn(this, _getPrototypeOf(AnimationFrameAction).call(this, scheduler, work));
-        _this253.scheduler = scheduler;
-        _this253.work = work;
-        return _this253;
+        _this254 = _possibleConstructorReturn(this, _getPrototypeOf(AnimationFrameAction).call(this, scheduler, work));
+        _this254.scheduler = scheduler;
+        _this254.work = work;
+        return _this254;
       }
 
       _createClass2(AnimationFrameAction, [{
@@ -119968,9 +120776,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameScheduler.js":
-  /*!***********************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameScheduler.js ***!
-    \***********************************************************************************************************************************/
+  /*!******************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AnimationFrameScheduler.js ***!
+    \******************************************************************************************************************************/
 
   /*! exports provided: AnimationFrameScheduler */
 
@@ -119992,7 +120800,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AsyncScheduler */
     "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js");
 
-    var AnimationFrameScheduler = /*#__PURE__*/function (_AsyncScheduler__WEBP) {
+    var AnimationFrameScheduler =
+    /*#__PURE__*/
+    function (_AsyncScheduler__WEBP) {
       _inherits(AnimationFrameScheduler, _AsyncScheduler__WEBP);
 
       function AnimationFrameScheduler() {
@@ -120039,9 +120849,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/AsapAction.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsapAction.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsapAction.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: AsapAction */
 
@@ -120069,18 +120879,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AsyncAction */
     "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncAction.js");
 
-    var AsapAction = /*#__PURE__*/function (_AsyncAction__WEBPACK2) {
+    var AsapAction =
+    /*#__PURE__*/
+    function (_AsyncAction__WEBPACK2) {
       _inherits(AsapAction, _AsyncAction__WEBPACK2);
 
       function AsapAction(scheduler, work) {
-        var _this254;
+        var _this255;
 
         _classCallCheck(this, AsapAction);
 
-        _this254 = _possibleConstructorReturn(this, _getPrototypeOf(AsapAction).call(this, scheduler, work));
-        _this254.scheduler = scheduler;
-        _this254.work = work;
-        return _this254;
+        _this255 = _possibleConstructorReturn(this, _getPrototypeOf(AsapAction).call(this, scheduler, work));
+        _this255.scheduler = scheduler;
+        _this255.work = work;
+        return _this255;
       }
 
       _createClass2(AsapAction, [{
@@ -120123,9 +120935,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/AsapScheduler.js":
-  /*!*************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsapScheduler.js ***!
-    \*************************************************************************************************************************/
+  /*!********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsapScheduler.js ***!
+    \********************************************************************************************************************/
 
   /*! exports provided: AsapScheduler */
 
@@ -120147,7 +120959,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AsyncScheduler */
     "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js");
 
-    var AsapScheduler = /*#__PURE__*/function (_AsyncScheduler__WEBP2) {
+    var AsapScheduler =
+    /*#__PURE__*/
+    function (_AsyncScheduler__WEBP2) {
       _inherits(AsapScheduler, _AsyncScheduler__WEBP2);
 
       function AsapScheduler() {
@@ -120194,9 +121008,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncAction.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsyncAction.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsyncAction.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: AsyncAction */
 
@@ -120218,19 +121032,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./Action */
     "../../node_modules/rxjs/_esm2015/internal/scheduler/Action.js");
 
-    var AsyncAction = /*#__PURE__*/function (_Action__WEBPACK_IMPO) {
+    var AsyncAction =
+    /*#__PURE__*/
+    function (_Action__WEBPACK_IMPO) {
       _inherits(AsyncAction, _Action__WEBPACK_IMPO);
 
       function AsyncAction(scheduler, work) {
-        var _this255;
+        var _this256;
 
         _classCallCheck(this, AsyncAction);
 
-        _this255 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncAction).call(this, scheduler, work));
-        _this255.scheduler = scheduler;
-        _this255.work = work;
-        _this255.pending = false;
-        return _this255;
+        _this256 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncAction).call(this, scheduler, work));
+        _this256.scheduler = scheduler;
+        _this256.work = work;
+        _this256.pending = false;
+        return _this256;
       }
 
       _createClass2(AsyncAction, [{
@@ -120341,9 +121157,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: AsyncScheduler */
 
@@ -120365,27 +121181,29 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ../Scheduler */
     "../../node_modules/rxjs/_esm2015/internal/Scheduler.js");
 
-    var AsyncScheduler = /*#__PURE__*/function (_Scheduler__WEBPACK_I) {
+    var AsyncScheduler =
+    /*#__PURE__*/
+    function (_Scheduler__WEBPACK_I) {
       _inherits(AsyncScheduler, _Scheduler__WEBPACK_I);
 
       function AsyncScheduler(SchedulerAction) {
-        var _this256;
+        var _this257;
 
         var now = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : _Scheduler__WEBPACK_IMPORTED_MODULE_0__["Scheduler"].now;
 
         _classCallCheck(this, AsyncScheduler);
 
-        _this256 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncScheduler).call(this, SchedulerAction, function () {
-          if (AsyncScheduler.delegate && AsyncScheduler.delegate !== _assertThisInitialized(_this256)) {
+        _this257 = _possibleConstructorReturn(this, _getPrototypeOf(AsyncScheduler).call(this, SchedulerAction, function () {
+          if (AsyncScheduler.delegate && AsyncScheduler.delegate !== _assertThisInitialized(_this257)) {
             return AsyncScheduler.delegate.now();
           } else {
             return now();
           }
         }));
-        _this256.actions = [];
-        _this256.active = false;
-        _this256.scheduled = undefined;
-        return _this256;
+        _this257.actions = [];
+        _this257.active = false;
+        _this257.scheduled = undefined;
+        return _this257;
       }
 
       _createClass2(AsyncScheduler, [{
@@ -120440,9 +121258,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/QueueAction.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/QueueAction.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/QueueAction.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: QueueAction */
 
@@ -120464,18 +121282,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AsyncAction */
     "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncAction.js");
 
-    var QueueAction = /*#__PURE__*/function (_AsyncAction__WEBPACK3) {
+    var QueueAction =
+    /*#__PURE__*/
+    function (_AsyncAction__WEBPACK3) {
       _inherits(QueueAction, _AsyncAction__WEBPACK3);
 
       function QueueAction(scheduler, work) {
-        var _this257;
+        var _this258;
 
         _classCallCheck(this, QueueAction);
 
-        _this257 = _possibleConstructorReturn(this, _getPrototypeOf(QueueAction).call(this, scheduler, work));
-        _this257.scheduler = scheduler;
-        _this257.work = work;
-        return _this257;
+        _this258 = _possibleConstructorReturn(this, _getPrototypeOf(QueueAction).call(this, scheduler, work));
+        _this258.scheduler = scheduler;
+        _this258.work = work;
+        return _this258;
       }
 
       _createClass2(QueueAction, [{
@@ -120519,9 +121339,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/QueueScheduler.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/QueueScheduler.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/QueueScheduler.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: QueueScheduler */
 
@@ -120543,7 +121363,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AsyncScheduler */
     "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js");
 
-    var QueueScheduler = /*#__PURE__*/function (_AsyncScheduler__WEBP3) {
+    var QueueScheduler =
+    /*#__PURE__*/
+    function (_AsyncScheduler__WEBP3) {
       _inherits(QueueScheduler, _AsyncScheduler__WEBP3);
 
       function QueueScheduler() {
@@ -120561,9 +121383,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/VirtualTimeScheduler.js":
-  /*!********************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/VirtualTimeScheduler.js ***!
-    \********************************************************************************************************************************/
+  /*!***************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/VirtualTimeScheduler.js ***!
+    \***************************************************************************************************************************/
 
   /*! exports provided: VirtualTimeScheduler, VirtualAction */
 
@@ -120597,24 +121419,26 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /*! ./AsyncScheduler */
     "../../node_modules/rxjs/_esm2015/internal/scheduler/AsyncScheduler.js");
 
-    var VirtualTimeScheduler = /*#__PURE__*/function (_AsyncScheduler__WEBP4) {
+    var VirtualTimeScheduler =
+    /*#__PURE__*/
+    function (_AsyncScheduler__WEBP4) {
       _inherits(VirtualTimeScheduler, _AsyncScheduler__WEBP4);
 
       function VirtualTimeScheduler() {
-        var _this258;
+        var _this259;
 
         var SchedulerAction = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : VirtualAction;
         var maxFrames = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : Number.POSITIVE_INFINITY;
 
         _classCallCheck(this, VirtualTimeScheduler);
 
-        _this258 = _possibleConstructorReturn(this, _getPrototypeOf(VirtualTimeScheduler).call(this, SchedulerAction, function () {
-          return _this258.frame;
+        _this259 = _possibleConstructorReturn(this, _getPrototypeOf(VirtualTimeScheduler).call(this, SchedulerAction, function () {
+          return _this259.frame;
         }));
-        _this258.maxFrames = maxFrames;
-        _this258.frame = 0;
-        _this258.index = -1;
-        return _this258;
+        _this259.maxFrames = maxFrames;
+        _this259.frame = 0;
+        _this259.index = -1;
+        return _this259;
       }
 
       _createClass2(VirtualTimeScheduler, [{
@@ -120648,23 +121472,25 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     VirtualTimeScheduler.frameTimeFactor = 10;
 
-    var VirtualAction = /*#__PURE__*/function (_AsyncAction__WEBPACK4) {
+    var VirtualAction =
+    /*#__PURE__*/
+    function (_AsyncAction__WEBPACK4) {
       _inherits(VirtualAction, _AsyncAction__WEBPACK4);
 
       function VirtualAction(scheduler, work) {
-        var _this259;
+        var _this260;
 
         var index = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : scheduler.index += 1;
 
         _classCallCheck(this, VirtualAction);
 
-        _this259 = _possibleConstructorReturn(this, _getPrototypeOf(VirtualAction).call(this, scheduler, work));
-        _this259.scheduler = scheduler;
-        _this259.work = work;
-        _this259.index = index;
-        _this259.active = true;
-        _this259.index = scheduler.index = index;
-        return _this259;
+        _this260 = _possibleConstructorReturn(this, _getPrototypeOf(VirtualAction).call(this, scheduler, work));
+        _this260.scheduler = scheduler;
+        _this260.work = work;
+        _this260.index = index;
+        _this260.active = true;
+        _this260.index = scheduler.index = index;
+        return _this260;
       }
 
       _createClass2(VirtualAction, [{
@@ -120732,9 +121558,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/animationFrame.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/animationFrame.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/animationFrame.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: animationFrame */
 
@@ -120769,9 +121595,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/asap.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/asap.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/asap.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: asap */
 
@@ -120806,9 +121632,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/async.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/async.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/async.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: async */
 
@@ -120843,9 +121669,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/scheduler/queue.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/queue.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/scheduler/queue.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: queue */
 
@@ -120880,9 +121706,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/symbol/iterator.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/symbol/iterator.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/symbol/iterator.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: getSymbolIterator, iterator, $$iterator */
 
@@ -120926,9 +121752,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/symbol/observable.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/symbol/observable.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/symbol/observable.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: observable */
 
@@ -120954,9 +121780,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/symbol/rxSubscriber.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/symbol/rxSubscriber.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/symbol/rxSubscriber.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: rxSubscriber, $$rxSubscriber */
 
@@ -120989,9 +121815,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/ArgumentOutOfRangeError.js":
-  /*!******************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/ArgumentOutOfRangeError.js ***!
-    \******************************************************************************************************************************/
+  /*!*************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/ArgumentOutOfRangeError.js ***!
+    \*************************************************************************************************************************/
 
   /*! exports provided: ArgumentOutOfRangeError */
 
@@ -121026,9 +121852,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/EmptyError.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/EmptyError.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/EmptyError.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: EmptyError */
 
@@ -121063,9 +121889,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/Immediate.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/Immediate.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/Immediate.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: Immediate, TestTools */
 
@@ -121128,9 +121954,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/ObjectUnsubscribedError.js":
-  /*!******************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/ObjectUnsubscribedError.js ***!
-    \******************************************************************************************************************************/
+  /*!*************************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/ObjectUnsubscribedError.js ***!
+    \*************************************************************************************************************************/
 
   /*! exports provided: ObjectUnsubscribedError */
 
@@ -121165,9 +121991,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/TimeoutError.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/TimeoutError.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/TimeoutError.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: TimeoutError */
 
@@ -121202,9 +122028,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/UnsubscriptionError.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/UnsubscriptionError.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/UnsubscriptionError.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: UnsubscriptionError */
 
@@ -121242,9 +122068,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/canReportError.js":
-  /*!*********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/canReportError.js ***!
-    \*********************************************************************************************************************/
+  /*!****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/canReportError.js ***!
+    \****************************************************************************************************************/
 
   /*! exports provided: canReportError */
 
@@ -121291,9 +122117,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/hostReportError.js":
-  /*!**********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/hostReportError.js ***!
-    \**********************************************************************************************************************/
+  /*!*****************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/hostReportError.js ***!
+    \*****************************************************************************************************************/
 
   /*! exports provided: hostReportError */
 
@@ -121321,9 +122147,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/identity.js":
-  /*!***************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/identity.js ***!
-    \***************************************************************************************************************/
+  /*!**********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/identity.js ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: identity */
 
@@ -121349,9 +122175,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isArray.js":
-  /*!**************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isArray.js ***!
-    \**************************************************************************************************************/
+  /*!*********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isArray.js ***!
+    \*********************************************************************************************************/
 
   /*! exports provided: isArray */
 
@@ -121379,9 +122205,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isArrayLike.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isArrayLike.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isArrayLike.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: isArrayLike */
 
@@ -121407,9 +122233,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isDate.js":
-  /*!*************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isDate.js ***!
-    \*************************************************************************************************************/
+  /*!********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isDate.js ***!
+    \********************************************************************************************************/
 
   /*! exports provided: isDate */
 
@@ -121435,9 +122261,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isFunction.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isFunction.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isFunction.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: isFunction */
 
@@ -121463,9 +122289,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isInteropObservable.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isInteropObservable.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isInteropObservable.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: isInteropObservable */
 
@@ -121497,9 +122323,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isIterable.js":
-  /*!*****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isIterable.js ***!
-    \*****************************************************************************************************************/
+  /*!************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isIterable.js ***!
+    \************************************************************************************************************/
 
   /*! exports provided: isIterable */
 
@@ -121531,9 +122357,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isNumeric.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isNumeric.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isNumeric.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: isNumeric */
 
@@ -121565,9 +122391,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isObject.js":
-  /*!***************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isObject.js ***!
-    \***************************************************************************************************************/
+  /*!**********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isObject.js ***!
+    \**********************************************************************************************************/
 
   /*! exports provided: isObject */
 
@@ -121593,9 +122419,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isObservable.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isObservable.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isObservable.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: isObservable */
 
@@ -121627,9 +122453,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isPromise.js":
-  /*!****************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isPromise.js ***!
-    \****************************************************************************************************************/
+  /*!***********************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isPromise.js ***!
+    \***********************************************************************************************************/
 
   /*! exports provided: isPromise */
 
@@ -121655,9 +122481,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/isScheduler.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/isScheduler.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/isScheduler.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: isScheduler */
 
@@ -121683,9 +122509,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/noop.js":
-  /*!***********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/noop.js ***!
-    \***********************************************************************************************************/
+  /*!******************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/noop.js ***!
+    \******************************************************************************************************/
 
   /*! exports provided: noop */
 
@@ -121709,9 +122535,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/not.js":
-  /*!**********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/not.js ***!
-    \**********************************************************************************************************/
+  /*!*****************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/not.js ***!
+    \*****************************************************************************************************/
 
   /*! exports provided: not */
 
@@ -121743,9 +122569,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/pipe.js":
-  /*!***********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/pipe.js ***!
-    \***********************************************************************************************************/
+  /*!******************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/pipe.js ***!
+    \******************************************************************************************************/
 
   /*! exports provided: pipe, pipeFromArray */
 
@@ -121803,9 +122629,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/subscribeTo.js":
-  /*!******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeTo.js ***!
-    \******************************************************************************************************************/
+  /*!*************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeTo.js ***!
+    \*************************************************************************************************************/
 
   /*! exports provided: subscribeTo */
 
@@ -121897,9 +122723,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/subscribeToArray.js":
-  /*!***********************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToArray.js ***!
-    \***********************************************************************************************************************/
+  /*!******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToArray.js ***!
+    \******************************************************************************************************************/
 
   /*! exports provided: subscribeToArray */
 
@@ -121931,9 +122757,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/subscribeToIterable.js":
-  /*!**************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToIterable.js ***!
-    \**************************************************************************************************************************/
+  /*!*********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToIterable.js ***!
+    \*********************************************************************************************************************/
 
   /*! exports provided: subscribeToIterable */
 
@@ -121992,9 +122818,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/subscribeToObservable.js":
-  /*!****************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToObservable.js ***!
-    \****************************************************************************************************************************/
+  /*!***********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToObservable.js ***!
+    \***********************************************************************************************************************/
 
   /*! exports provided: subscribeToObservable */
 
@@ -122034,9 +122860,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/subscribeToPromise.js":
-  /*!*************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToPromise.js ***!
-    \*************************************************************************************************************************/
+  /*!********************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToPromise.js ***!
+    \********************************************************************************************************************/
 
   /*! exports provided: subscribeToPromise */
 
@@ -122078,9 +122904,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/subscribeToResult.js":
-  /*!************************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToResult.js ***!
-    \************************************************************************************************************************/
+  /*!*******************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/subscribeToResult.js ***!
+    \*******************************************************************************************************************/
 
   /*! exports provided: subscribeToResult */
 
@@ -122134,9 +122960,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/internal/util/toSubscriber.js":
-  /*!*******************************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/internal/util/toSubscriber.js ***!
-    \*******************************************************************************************************************/
+  /*!**************************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/internal/util/toSubscriber.js ***!
+    \**************************************************************************************************************/
 
   /*! exports provided: toSubscriber */
 
@@ -122194,9 +123020,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
   /***/
   "../../node_modules/rxjs/_esm2015/operators/index.js":
-  /*!********************************************************************************************************!*\
-    !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/rxjs/_esm2015/operators/index.js ***!
-    \********************************************************************************************************/
+  /*!***************************************************************************************************!*\
+    !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/rxjs/_esm2015/operators/index.js ***!
+    \***************************************************************************************************/
 
   /*! exports provided: audit, auditTime, buffer, bufferCount, bufferTime, bufferToggle, bufferWhen, catchError, combineAll, combineLatest, concat, concatAll, concatMap, concatMapTo, count, debounce, debounceTime, defaultIfEmpty, delay, delayWhen, dematerialize, distinct, distinctUntilChanged, distinctUntilKeyChanged, elementAt, endWith, every, exhaust, exhaustMap, expand, filter, finalize, find, findIndex, first, groupBy, ignoreElements, isEmpty, last, map, mapTo, materialize, max, merge, mergeAll, mergeMap, flatMap, mergeMapTo, mergeScan, min, multicast, observeOn, onErrorResumeNext, pairwise, partition, pluck, publish, publishBehavior, publishLast, publishReplay, race, reduce, repeat, repeatWhen, retry, retryWhen, refCount, sample, sampleTime, scan, sequenceEqual, share, shareReplay, single, skip, skipLast, skipUntil, skipWhile, startWith, subscribeOn, switchAll, switchMap, switchMapTo, take, takeLast, takeUntil, takeWhile, tap, throttle, throttleTime, throwIfEmpty, timeInterval, timeout, timeoutWith, timestamp, toArray, window, windowCount, windowTime, windowToggle, windowWhen, withLatestFrom, zip, zipAll */
 

@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["highlight-js"],{
 
 /***/ "../../node_modules/highlight.js/lib/index.js":
-/*!*************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/index.js ***!
-  \*************************************************************************************************/
+/*!********************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/index.js ***!
+  \********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -200,9 +200,9 @@ module.exports = hljs;
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/1c.js":
-/*!********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/1c.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/1c.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -719,9 +719,9 @@ module.exports = function(hljs){
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/abnf.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/abnf.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/abnf.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -796,9 +796,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/accesslog.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/accesslog.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/accesslog.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -870,9 +870,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/actionscript.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/actionscript.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/actionscript.js ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -953,9 +953,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/ada.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/ada.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/ada.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1135,9 +1135,9 @@ function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/angelscript.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/angelscript.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/angelscript.js ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1251,9 +1251,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/apache.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/apache.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/apache.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1306,9 +1306,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/applescript.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/applescript.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/applescript.js ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1401,9 +1401,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/arcade.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/arcade.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/arcade.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1548,9 +1548,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/arduino.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/arduino.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/arduino.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1656,9 +1656,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/armasm.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/armasm.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/armasm.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1757,9 +1757,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/asciidoc.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/asciidoc.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/asciidoc.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -1954,9 +1954,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/aspectj.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/aspectj.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/aspectj.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2108,9 +2108,9 @@ module.exports = function (hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/autohotkey.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/autohotkey.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/autohotkey.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2175,9 +2175,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/autoit.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/autoit.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/autoit.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2320,9 +2320,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/avrasm.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/avrasm.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/avrasm.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2391,9 +2391,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/awk.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/awk.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/awk.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2453,9 +2453,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/axapta.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/axapta.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/axapta.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2493,9 +2493,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/bash.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/bash.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/bash.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2583,9 +2583,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/basic.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/basic.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/basic.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2643,9 +2643,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/bnf.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/bnf.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/bnf.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2681,9 +2681,9 @@ module.exports = function(hljs){
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/brainfuck.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/brainfuck.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/brainfuck.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2727,9 +2727,9 @@ module.exports = function(hljs){
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/cal.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/cal.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/cal.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2816,9 +2816,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/capnproto.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/capnproto.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/capnproto.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2874,9 +2874,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/ceylon.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/ceylon.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/ceylon.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2950,9 +2950,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/clean.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/clean.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/clean.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -2986,9 +2986,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/clojure-repl.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/clojure-repl.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/clojure-repl.js ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3010,9 +3010,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/clojure.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/clojure.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/clojure.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3115,9 +3115,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/cmake.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/cmake.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/cmake.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3177,9 +3177,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/coffeescript.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/coffeescript.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/coffeescript.js ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3332,9 +3332,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/coq.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/coq.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/coq.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3408,9 +3408,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/cos.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/cos.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/cos.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3541,9 +3541,9 @@ module.exports = function cos (hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/cpp.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/cpp.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/cpp.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3769,9 +3769,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/crmsh.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/crmsh.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/crmsh.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -3872,9 +3872,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/crystal.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/crystal.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/crystal.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4069,9 +4069,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/cs.js":
-/*!********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/cs.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/cs.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4263,9 +4263,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/csp.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/csp.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/csp.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4294,9 +4294,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/css.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/css.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/css.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4429,9 +4429,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/d.js":
-/*!*******************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/d.js ***!
-  \*******************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/d.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4696,9 +4696,9 @@ function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/dart.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/dart.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/dart.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4828,9 +4828,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/delphi.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/delphi.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/delphi.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4906,9 +4906,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/diff.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/diff.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/diff.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4955,9 +4955,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/django.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/django.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/django.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5028,9 +5028,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/dns.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/dns.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/dns.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5066,9 +5066,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/dockerfile.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/dockerfile.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/dockerfile.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5097,9 +5097,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/dos.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/dos.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/dos.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5158,9 +5158,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/dsconfig.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/dsconfig.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/dsconfig.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5214,9 +5214,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/dts.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/dts.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/dts.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5347,9 +5347,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/dust.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/dust.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/dust.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5388,9 +5388,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/ebnf.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/ebnf.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/ebnf.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5437,9 +5437,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/elixir.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/elixir.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/elixir.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5610,9 +5610,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/elm.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/elm.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/elm.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5709,9 +5709,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/erb.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/erb.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/erb.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5733,9 +5733,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/erlang-repl.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/erlang-repl.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/erlang-repl.js ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5788,9 +5788,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/erlang.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/erlang.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/erlang.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -5943,9 +5943,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/excel.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/excel.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/excel.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6000,9 +6000,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/fix.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/fix.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/fix.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6038,9 +6038,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/flix.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/flix.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/flix.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6092,9 +6092,9 @@ module.exports = function (hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/fortran.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/fortran.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/fortran.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6172,9 +6172,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/fsharp.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/fsharp.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/fsharp.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6240,9 +6240,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/gams.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/gams.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/gams.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6403,9 +6403,9 @@ module.exports = function (hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/gauss.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/gauss.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/gauss.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6703,9 +6703,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/gcode.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/gcode.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/gcode.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6779,9 +6779,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/gherkin.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/gherkin.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/gherkin.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6825,9 +6825,9 @@ module.exports = function (hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/glsl.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/glsl.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/glsl.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -6951,9 +6951,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/gml.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/gml.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/gml.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -7833,9 +7833,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/go.js":
-/*!********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/go.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/go.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -7896,9 +7896,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/golo.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/golo.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/golo.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -7928,9 +7928,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/gradle.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/gradle.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/gradle.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -7972,9 +7972,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/groovy.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/groovy.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/groovy.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8075,9 +8075,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/haml.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/haml.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/haml.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8191,9 +8191,9 @@ function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/handlebars.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/handlebars.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/handlebars.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8275,9 +8275,9 @@ module.exports = function (hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/haskell.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/haskell.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/haskell.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8406,9 +8406,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/haxe.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/haxe.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/haxe.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8527,9 +8527,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/hsp.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/hsp.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/hsp.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8582,9 +8582,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/htmlbars.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/htmlbars.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/htmlbars.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8662,9 +8662,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/http.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/http.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/http.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8712,9 +8712,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/hy.js":
-/*!********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/hy.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/hy.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8823,9 +8823,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/inform7.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/inform7.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/inform7.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8889,9 +8889,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/ini.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/ini.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/ini.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -8975,9 +8975,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/irpf90.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/irpf90.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/irpf90.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -9060,9 +9060,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/isbl.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/isbl.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/isbl.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12242,9 +12242,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/java.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/java.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/java.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12359,9 +12359,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/javascript.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/javascript.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/javascript.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12610,9 +12610,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/jboss-cli.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/jboss-cli.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/jboss-cli.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12666,9 +12666,9 @@ module.exports = function (hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/json.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/json.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/json.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12719,9 +12719,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/julia-repl.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/julia-repl.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/julia-repl.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12752,9 +12752,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/julia.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/julia.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/julia.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -12923,9 +12923,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/kotlin.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/kotlin.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/kotlin.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -13149,9 +13149,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/lasso.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/lasso.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/lasso.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -13321,9 +13321,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/ldif.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/ldif.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/ldif.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -13353,9 +13353,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/leaf.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/leaf.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/leaf.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -13402,9 +13402,9 @@ module.exports = function (hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/less.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/less.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/less.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -13551,9 +13551,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/lisp.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/lisp.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/lisp.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -13663,9 +13663,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/livecodeserver.js":
-/*!********************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/livecodeserver.js ***!
-  \********************************************************************************************************************/
+/*!***************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/livecodeserver.js ***!
+  \***************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -13833,9 +13833,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/livescript.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/livescript.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/livescript.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -13996,9 +13996,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/llvm.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/llvm.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/llvm.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14094,9 +14094,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/lsl.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/lsl.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/lsl.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14187,9 +14187,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/lua.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/lua.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/lua.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14262,9 +14262,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/makefile.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/makefile.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/makefile.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14344,9 +14344,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/markdown.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/markdown.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/markdown.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14461,9 +14461,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/mathematica.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/mathematica.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/mathematica.js ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14519,9 +14519,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/matlab.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/matlab.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/matlab.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -14624,9 +14624,9 @@ function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/maxima.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/maxima.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/maxima.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15039,9 +15039,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/mel.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/mel.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/mel.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15273,9 +15273,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/mercury.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/mercury.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/mercury.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15366,9 +15366,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/mipsasm.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/mipsasm.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/mipsasm.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15462,9 +15462,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/mizar.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/mizar.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/mizar.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15490,9 +15490,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/mojolicious.js":
-/*!*****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/mojolicious.js ***!
-  \*****************************************************************************************************************/
+/*!************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/mojolicious.js ***!
+  \************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15524,9 +15524,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/monkey.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/monkey.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/monkey.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15608,9 +15608,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/moonscript.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/moonscript.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/moonscript.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15729,9 +15729,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/n1ql.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/n1ql.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/n1ql.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15807,9 +15807,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/nginx.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/nginx.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/nginx.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15909,9 +15909,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/nimrod.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/nimrod.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/nimrod.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -15973,9 +15973,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/nix.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/nix.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/nix.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16031,9 +16031,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/nsis.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/nsis.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/nsis.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16146,9 +16146,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/objectivec.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/objectivec.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/objectivec.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16251,9 +16251,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/ocaml.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/ocaml.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/ocaml.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16331,9 +16331,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/openscad.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/openscad.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/openscad.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16397,9 +16397,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/oxygene.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/oxygene.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/oxygene.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16476,9 +16476,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/parser3.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/parser3.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/parser3.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16533,9 +16533,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/perl.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/perl.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/perl.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16699,9 +16699,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/pf.js":
-/*!********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/pf.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/pf.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -16760,9 +16760,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/pgsql.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/pgsql.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/pgsql.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17257,9 +17257,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/php.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/php.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/php.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17393,9 +17393,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/plaintext.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/plaintext.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/plaintext.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17408,9 +17408,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/pony.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/pony.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/pony.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17492,9 +17492,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/powershell.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/powershell.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/powershell.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17744,9 +17744,9 @@ module.exports = function(hljs){
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/processing.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/processing.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/processing.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17801,9 +17801,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/profile.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/profile.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/profile.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17840,9 +17840,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/prolog.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/prolog.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/prolog.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -17937,9 +17937,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/properties.js":
-/*!****************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/properties.js ***!
-  \****************************************************************************************************************/
+/*!***********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/properties.js ***!
+  \***********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18016,9 +18016,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/protobuf.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/protobuf.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/protobuf.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18061,9 +18061,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/puppet.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/puppet.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/puppet.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18185,9 +18185,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/purebasic.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/purebasic.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/purebasic.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18279,9 +18279,9 @@ function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/python.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/python.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/python.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18412,9 +18412,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/q.js":
-/*!*******************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/q.js ***!
-  \*******************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/q.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18444,9 +18444,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/qml.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/qml.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/qml.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18622,9 +18622,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/r.js":
-/*!*******************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/r.js ***!
-  \*******************************************************************************************************/
+/*!**************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/r.js ***!
+  \**************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -18701,9 +18701,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/reasonml.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/reasonml.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/reasonml.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19010,9 +19010,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/rib.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/rib.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/rib.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19046,9 +19046,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/roboconf.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/roboconf.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/roboconf.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19122,9 +19122,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/routeros.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/routeros.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/routeros.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19290,9 +19290,9 @@ function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/rsl.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/rsl.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/rsl.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19335,9 +19335,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/ruby.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/ruby.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/ruby.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19529,9 +19529,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/ruleslanguage.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/ruleslanguage.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/ruleslanguage.js ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19599,9 +19599,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/rust.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/rust.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/rust.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19716,9 +19716,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/sas.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/sas.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/sas.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19851,9 +19851,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/scala.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/scala.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/scala.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -19975,9 +19975,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/scheme.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/scheme.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/scheme.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -20128,9 +20128,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/scilab.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/scilab.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/scilab.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -20191,9 +20191,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/scss.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/scss.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/scss.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -20315,9 +20315,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/shell.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/shell.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/shell.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -20339,9 +20339,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/smali.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/smali.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/smali.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -20404,9 +20404,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/smalltalk.js":
-/*!***************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/smalltalk.js ***!
-  \***************************************************************************************************************/
+/*!**********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/smalltalk.js ***!
+  \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -20463,9 +20463,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/sml.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/sml.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/sml.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -20538,9 +20538,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/sqf.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/sqf.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/sqf.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -20974,9 +20974,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/sql.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/sql.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/sql.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -21144,9 +21144,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/stan.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/stan.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/stan.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -21373,9 +21373,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/stata.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/stata.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/stata.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -21424,9 +21424,9 @@ function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/step21.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/step21.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/step21.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -21480,9 +21480,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/stylus.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/stylus.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/stylus.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -21934,9 +21934,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/subunit.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/subunit.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/subunit.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -21977,9 +21977,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/swift.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/swift.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/swift.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22117,9 +22117,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/taggerscript.js":
-/*!******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/taggerscript.js ***!
-  \******************************************************************************************************************/
+/*!*************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/taggerscript.js ***!
+  \*************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22170,9 +22170,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/tap.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/tap.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/tap.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22215,9 +22215,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/tcl.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/tcl.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/tcl.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22284,9 +22284,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/tex.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/tex.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/tex.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22355,9 +22355,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/thrift.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/thrift.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/thrift.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22399,9 +22399,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/tp.js":
-/*!********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/tp.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/tp.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22492,9 +22492,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/twig.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/twig.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/twig.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22567,9 +22567,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/vala.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/vala.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/vala.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22626,9 +22626,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/vbnet.js":
-/*!***********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/vbnet.js ***!
-  \***********************************************************************************************************/
+/*!******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/vbnet.js ***!
+  \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22691,9 +22691,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/vbscript-html.js":
-/*!*******************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/vbscript-html.js ***!
-  \*******************************************************************************************************************/
+/*!**************************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/vbscript-html.js ***!
+  \**************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22712,9 +22712,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/vbscript.js":
-/*!**************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/vbscript.js ***!
-  \**************************************************************************************************************/
+/*!*********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/vbscript.js ***!
+  \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22760,9 +22760,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/verilog.js":
-/*!*************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/verilog.js ***!
-  \*************************************************************************************************************/
+/*!********************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/verilog.js ***!
+  \********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22868,9 +22868,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/vhdl.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/vhdl.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/vhdl.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -22938,9 +22938,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/vim.js":
-/*!*********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/vim.js ***!
-  \*********************************************************************************************************/
+/*!****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/vim.js ***!
+  \****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -23057,9 +23057,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/x86asm.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/x86asm.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/x86asm.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -23202,9 +23202,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/xl.js":
-/*!********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/xl.js ***!
-  \********************************************************************************************************/
+/*!***************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/xl.js ***!
+  \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -23284,9 +23284,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/xquery.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/xquery.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/xquery.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -23463,9 +23463,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/yaml.js":
-/*!**********************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/yaml.js ***!
-  \**********************************************************************************************************/
+/*!*****************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/yaml.js ***!
+  \*****************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -23572,9 +23572,9 @@ module.exports = function(hljs) {
 /***/ }),
 
 /***/ "../../node_modules/highlight.js/lib/languages/zephir.js":
-/*!************************************************************************************************************!*\
-  !*** /home/travis/build/lamabiker/ng-i18n-date-interval/node_modules/highlight.js/lib/languages/zephir.js ***!
-  \************************************************************************************************************/
+/*!*******************************************************************************************************!*\
+  !*** /home/travis/build/lamabiker/ng-date-interval/node_modules/highlight.js/lib/languages/zephir.js ***!
+  \*******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
