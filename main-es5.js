@@ -183,7 +183,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
               startDate = _this$normalizedInput2[0],
               endDate = _this$normalizedInput2[1];
 
-          return this.interpolate(this.sentence, {
+          return !startDate && !endDate ? '' : this.interpolate(this.sentence, {
             startDate: startDate,
             endDate: endDate
           });
@@ -218,7 +218,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "normalizeInput",
         value: function normalizeInput(input) {
           // If this input isn't an array, make it so
-          var inputArr = Array.isArray(input) ? input : [input];
+          var inputArr = Array.isArray(input) ? input : [input]; // Filter out null values
+
+          inputArr = inputArr.filter(function (i) {
+            return i;
+          });
 
           if (inputArr.length === 1) {
             inputArr.push(null); // [date, null]

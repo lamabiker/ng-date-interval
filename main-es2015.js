@@ -87,7 +87,7 @@ class DateIntervalPipe {
         // Get array of dates
         this.normalizedInput = this.normalizeInput(input);
         const [startDate, endDate] = this.normalizedInput.map(this.formatDates.bind(this));
-        return this.interpolate(this.sentence, { startDate, endDate });
+        return !startDate && !endDate ? '' : this.interpolate(this.sentence, { startDate, endDate });
     }
     formatDates(item, index) {
         if (!item) {
@@ -107,7 +107,9 @@ class DateIntervalPipe {
     }
     normalizeInput(input) {
         // If this input isn't an array, make it so
-        const inputArr = Array.isArray(input) ? input : [input];
+        let inputArr = Array.isArray(input) ? input : [input];
+        // Filter out null values
+        inputArr = inputArr.filter(i => i);
         if (inputArr.length === 1) {
             inputArr.push(null); // [date, null]
             if (this.singleDateOutlook === 'backward') {
