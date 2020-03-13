@@ -13,7 +13,7 @@ const datesStr = `{
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-i18n-date-interval-showcase';
+  title = 'ng-date-interval-showcase';
 
   // Test subjects
   dates = {

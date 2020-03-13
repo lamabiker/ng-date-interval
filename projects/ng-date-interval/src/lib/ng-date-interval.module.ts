@@ -5,4 +5,4 @@ import { DateIntervalPipe } from './date-interval.pipe';
   declarations: [DateIntervalPipe],
   exports: [DateIntervalPipe]
 })
-export class NgI18nDateIntervalModule {}
+export class NgDateIntervalModule {}

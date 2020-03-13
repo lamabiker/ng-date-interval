@@ -3,38 +3,38 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ng-i18n-date-interval": {
+    "ng-date-interval": {
       "projectType": "library",
-      "root": "projects/ng-i18n-date-interval",
-      "sourceRoot": "projects/ng-i18n-date-interval/src",
+      "root": "projects/ng-date-interval",
+      "sourceRoot": "projects/ng-date-interval/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/ng-i18n-date-interval/tsconfig.lib.json",
-            "project": "projects/ng-i18n-date-interval/ng-package.json"
+            "tsConfig": "projects/ng-date-interval/tsconfig.lib.json",
+            "project": "projects/ng-date-interval/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ng-i18n-date-interval/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ng-date-interval/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng-i18n-date-interval/src/test.ts",
-            "tsConfig": "projects/ng-i18n-date-interval/tsconfig.spec.json",
-            "karmaConfig": "projects/ng-i18n-date-interval/karma.conf.js"
+            "main": "projects/ng-date-interval/src/test.ts",
+            "tsConfig": "projects/ng-date-interval/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-date-interval/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng-i18n-date-interval/tsconfig.lib.json",
-              "projects/ng-i18n-date-interval/tsconfig.spec.json"
+              "projects/ng-date-interval/tsconfig.lib.json",
+              "projects/ng-date-interval/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -43,30 +43,30 @@
         }
       }
     },
-    "ng-i18n-date-interval-showcase": {
+    "ng-date-interval-showcase": {
       "projectType": "application",
       "schematics": {},
-      "root": "projects/ng-i18n-date-interval-showcase",
-      "sourceRoot": "projects/ng-i18n-date-interval-showcase/src",
+      "root": "projects/ng-date-interval-showcase",
+      "sourceRoot": "projects/ng-date-interval-showcase/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ng-i18n-date-interval-showcase",
-            "index": "projects/ng-i18n-date-interval-showcase/src/index.html",
-            "main": "projects/ng-i18n-date-interval-showcase/src/main.ts",
-            "polyfills": "projects/ng-i18n-date-interval-showcase/src/polyfills.ts",
-            "tsConfig": "projects/ng-i18n-date-interval-showcase/tsconfig.app.json",
+            "outputPath": "dist/ng-date-interval-showcase",
+            "index": "projects/ng-date-interval-showcase/src/index.html",
+            "main": "projects/ng-date-interval-showcase/src/main.ts",
+            "polyfills": "projects/ng-date-interval-showcase/src/polyfills.ts",
+            "tsConfig": "projects/ng-date-interval-showcase/tsconfig.app.json",
             "aot": true,
             "assets": [
-              "projects/ng-i18n-date-interval-showcase/src/favicon.ico",
-              "projects/ng-i18n-date-interval-showcase/src/assets"
+              "projects/ng-date-interval-showcase/src/favicon.ico",
+              "projects/ng-date-interval-showcase/src/assets"
             ],
             "styles": [
               "./node_modules/highlight.js/styles/github.css",
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "projects/ng-i18n-date-interval-showcase/src/styles.css"
+              "projects/ng-date-interval-showcase/src/styles.css"
             ],
             "scripts": []
           },
@@ -74,8 +74,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "projects/ng-i18n-date-interval-showcase/src/environments/environment.ts",
-                  "with": "projects/ng-i18n-date-interval-showcase/src/environments/environment.prod.ts"
+                  "replace": "projects/ng-date-interval-showcase/src/environments/environment.ts",
+                  "with": "projects/ng-date-interval-showcase/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -104,34 +104,34 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "ng-i18n-date-interval-showcase:build"
+            "browserTarget": "ng-date-interval-showcase:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "ng-i18n-date-interval-showcase:build:production"
+              "browserTarget": "ng-date-interval-showcase:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "ng-i18n-date-interval-showcase:build"
+            "browserTarget": "ng-date-interval-showcase:build"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ng-i18n-date-interval-showcase/src/test.ts",
-            "polyfills": "projects/ng-i18n-date-interval-showcase/src/polyfills.ts",
-            "tsConfig": "projects/ng-i18n-date-interval-showcase/tsconfig.spec.json",
-            "karmaConfig": "projects/ng-i18n-date-interval-showcase/karma.conf.js",
+            "main": "projects/ng-date-interval-showcase/src/test.ts",
+            "polyfills": "projects/ng-date-interval-showcase/src/polyfills.ts",
+            "tsConfig": "projects/ng-date-interval-showcase/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-date-interval-showcase/karma.conf.js",
             "assets": [
-              "projects/ng-i18n-date-interval-showcase/src/favicon.ico",
-              "projects/ng-i18n-date-interval-showcase/src/assets"
+              "projects/ng-date-interval-showcase/src/favicon.ico",
+              "projects/ng-date-interval-showcase/src/assets"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "projects/ng-i18n-date-interval-showcase/src/styles.css"
+              "projects/ng-date-interval-showcase/src/styles.css"
             ],
             "scripts": []
           }
@@ -140,9 +140,9 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/ng-i18n-date-interval-showcase/tsconfig.app.json",
-              "projects/ng-i18n-date-interval-showcase/tsconfig.spec.json",
-              "projects/ng-i18n-date-interval-showcase/e2e/tsconfig.json"
+              "projects/ng-date-interval-showcase/tsconfig.app.json",
+              "projects/ng-date-interval-showcase/tsconfig.spec.json",
+              "projects/ng-date-interval-showcase/e2e/tsconfig.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -152,12 +152,12 @@
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "projects/ng-i18n-date-interval-showcase/e2e/protractor.conf.js",
-            "devServerTarget": "ng-i18n-date-interval-showcase:serve"
+            "protractorConfig": "projects/ng-date-interval-showcase/e2e/protractor.conf.js",
+            "devServerTarget": "ng-date-interval-showcase:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "ng-i18n-date-interval-showcase:serve:production"
+              "devServerTarget": "ng-date-interval-showcase:serve:production"
             }
           }
         }
@@ -167,5 +167,5 @@
   "cli": {
     "analytics": false
   },
-  "defaultProject": "ng-i18n-date-interval"
+  "defaultProject": "ng-date-interval"
 }

@@ -14,18 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ng-i18n-date-interval-showcase'`, () => {
+  it(`should have as title 'ng-date-interval-showcase'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng-i18n-date-interval-showcase');
+    expect(app.title).toEqual('ng-date-interval-showcase');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain(
-      'ng-i18n-date-interval-showcase app is running!'
-    );
+    expect(compiled.querySelector('.content span').textContent).toContain('ng-date-interval-showcase app is running!');
   });
 });

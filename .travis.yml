@@ -28,7 +28,7 @@ jobs:
       provider: pages:git
       token: $GH_TOKEN
       edge: true
-      local_dir: dist/ng-i18n-date-interval-showcase
+      local_dir: dist/ng-date-interval-showcase
     if: branch = master
   - stage: build & publish lib
     script:
