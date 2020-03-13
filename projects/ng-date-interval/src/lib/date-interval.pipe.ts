@@ -35,9 +35,13 @@ export class DateIntervalPipe implements PipeTransform {
 
     // If the specified format omits the days, but the interval is within
     // the same month and year, return the formatted end date only
-    if (this.isSameYear && this.isSameMonth && !this.showDay) return endDate;
+    if (this.isSameYear && this.isSameMonth && !this.showDay) {
+      return endDate;
+    }
 
-    if (!startDate && !endDate) return '';
+    if (!startDate && !endDate) {
+      return '';
+    }
 
     return this.interpolate(this.sentence, { startDate, endDate });
   }
