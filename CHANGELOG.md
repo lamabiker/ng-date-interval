@@ -1,3 +1,17 @@
+# [2.0.0](https://github.com/lamabiker/ng-date-interval/compare/v1.2.0...v2.0.0) (2020-03-16)
+
+
+### Features
+
+* remove direction option ([8eaa232](https://github.com/lamabiker/ng-date-interval/commit/8eaa2329243b2a44b1f8bc4228993925463e693c))
+* remove direction option (linter update) ([c81d1a1](https://github.com/lamabiker/ng-date-interval/commit/c81d1a106106d3b2b48e0a8cc519d6fc880e6b13))
+
+
+### BREAKING CHANGES
+
+* confining the input to a single type is cleaner
+* confining the input to a single type is cleaner
+
 # [1.2.0](https://github.com/lamabiker/ng-date-interval/compare/v1.1.1...v1.2.0) (2020-03-13)
 
 
