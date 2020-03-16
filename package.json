@@ -3,7 +3,7 @@
   "version": "1.2.0",
   "author": "Liam Baker (@lamabiker)",
   "license": "MIT",
-  "description": "Displaying date interval sentences with Angular, i.e 'From 02 March 2020 to 06 April 2020'",
+  "description": "Displaying date interval sentences with Angular, i.e From March to April 2020, Since June 16, 2021",
   "scripts": {
     "adjust-version:lib": "rjp projects/ng-date-interval/package.json version $VERSION",
     "adjust-version:main": "rjp package.json version $VERSION",
