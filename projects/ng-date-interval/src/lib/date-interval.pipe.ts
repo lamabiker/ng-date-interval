@@ -16,7 +16,9 @@ export class DateIntervalPipe implements PipeTransform {
   constructor(@Inject(LOCALE_ID) private locale: string) {}
 
   transform(input: DatesArray, format: string = defautDateFormat, locale: string = this.locale): string {
-    if (!input) return '';
+    if (!input) {
+      return '';
+    }
 
     // Set class properties
     this.format = format;
@@ -112,8 +114,12 @@ export class DateIntervalPipe implements PipeTransform {
   private get sentence(): string {
     let type: DateOutlook = 'default';
 
-    if (!this.normalizedInput[0]) type = 'backward';
-    if (!this.normalizedInput[1]) type = 'forward';
+    if (!this.normalizedInput[0]) {
+      type = 'backward';
+    }
+    if (!this.normalizedInput[1]) {
+      type = 'forward';
+    }
 
     return sentences[this.locale.substring(0, 2)][type]; // ex: sentences.en.default
   }
