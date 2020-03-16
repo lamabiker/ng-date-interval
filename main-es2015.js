@@ -74,18 +74,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const defautDateFormat = 'mediumDate';
-const defaultDateOutlook = 'forward';
 class DateIntervalPipe {
     constructor(locale) {
         this.locale = locale;
     }
-    transform(input, singleDateOutlook = defaultDateOutlook, format = defautDateFormat, locale = this.locale) {
+    transform(input, format = defautDateFormat, locale = this.locale) {
+        if (!input) {
+            return '';
+        }
         // Set class properties
-        this.singleDateOutlook = singleDateOutlook;
         this.format = format;
         this.locale = locale;
-        // Get array of dates
-        this.normalizedInput = this.normalizeInput(input);
+        // Make sure the input isn't longer than 2 elements
+        this.normalizedInput = input.slice(0, 2);
         const [startDate, endDate] = this.normalizedInput.map(this.formatDates.bind(this));
         // If the specified format omits the days, but the interval is within
         // the same month and year, return the formatted end date only
@@ -110,20 +111,6 @@ class DateIntervalPipe {
             return Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["formatDate"])(item, format, this.locale);
         }
         return Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["formatDate"])(item, this.format, this.locale);
-    }
-    normalizeInput(input) {
-        // If this input isn't an array, make it so
-        let inputArr = Array.isArray(input) ? input : [input];
-        // Filter out null values
-        inputArr = inputArr.filter(i => i);
-        if (inputArr.length === 1) {
-            inputArr.push(null); // [date, null]
-            if (this.singleDateOutlook === 'backward') {
-                inputArr.unshift(inputArr.pop()); // [null, date]
-            }
-        }
-        // Make sure the input isn't longer than 2 elements
-        return inputArr.slice(0, 2);
     }
     interpolate(str, args) {
         for (const arg of Object.keys(args)) {
@@ -163,8 +150,11 @@ class DateIntervalPipe {
     }
     get sentence() {
         let type = 'default';
-        if (this.normalizedInput.some(el => !el)) {
-            type = this.singleDateOutlook;
+        if (!this.normalizedInput[0]) {
+            type = 'backward';
+        }
+        if (!this.normalizedInput[1]) {
+            type = 'forward';
         }
         return _langs__WEBPACK_IMPORTED_MODULE_2__["default"][this.locale.substring(0, 2)][type]; // ex: sentences.en.default
     }
@@ -229,7 +219,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const datesStr = `{
-  single: new Date(),
+  single: [null, new Date()],
+  single_forward: [new Date(), null],
   multiple: ['2001-01-01', '2002-12-12'],
   sameYear: ['2001-01-01', '2001-03-06'],
   sameMonth: ['2001-01-01', '2001-01-06'],
@@ -239,12 +230,13 @@ class AppComponent {
         this.title = 'ng-date-interval-showcase';
         // Test subjects
         this.dates = {
-            single: new Date(),
+            single: [null, new Date()],
+            single_forward: [new Date(), null],
             multiple: ['2001-01-01', '2002-12-12'],
             sameYear: ['2001-01-01', '2001-03-06'],
             sameMonth: ['2001-01-01', '2001-01-06']
         };
-        this.api = '{{ value_expression | dateInterval [ : singleDateOutlook [ : format [ : locale ] ] ] }}';
+        this.api = '{{ value_expression | dateInterval [ : format [ : locale ] ] ] }}';
         // String demos
         this.demos = {
             dates: datesStr,
@@ -252,18 +244,18 @@ class AppComponent {
             multiple: '{{dates.multiple | dateInterval}}',
             sameYear: '{{dates.sameYear | dateInterval}}',
             sameMonth: '{{dates.sameMonth | dateInterval}}',
-            single_options: `{{dates.single | dateInterval:'backward'}}`,
+            single_forward: `{{dates.single_forward | dateInterval}}`,
             localized: {
-                fr_simple: `{{dates.multiple | dateInterval:'forward':'mediumDate':'fr-FR'}}`,
-                fr_sameMonth: `{{dates.sameMonth | dateInterval:'forward':'mediumDate':'fr-FR'}}`,
-                ru_simple: `{{dates.multiple | dateInterval:'forward':'mediumDate':'ru-RU'}}`,
-                ru_dateFormat: `{{dates.multiple | dateInterval:'forward':'dd MMMM y':'ru-RU'}}`
+                fr_simple: `{{dates.multiple | dateInterval:'mediumDate':'fr-FR'}}`,
+                fr_sameMonth: `{{dates.sameMonth | dateInterval:'mediumDate':'fr-FR'}}`,
+                ru_simple: `{{dates.multiple | dateInterval:'mediumDate':'ru-RU'}}`,
+                ru_dateFormat: `{{dates.multiple | dateInterval:'dd MMMM y':'ru-RU'}}`
             }
         };
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 96, vars: 51, consts: [[1, "main-wrapper"], [1, "example-card"], [3, "highlight"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 96, vars: 46, consts: [[1, "main-wrapper"], [1, "example-card"], [3, "highlight"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h1");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "code");
@@ -399,37 +391,37 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](30, 20, ctx.dates.single));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.single_options);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.single_forward);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](38, 22, ctx.dates.single, "backward"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](38, 22, ctx.dates.single_forward));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.multiple);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](46, 25, ctx.dates.multiple));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](46, 24, ctx.dates.multiple));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.sameYear);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](54, 27, ctx.dates.sameYear));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](54, 26, ctx.dates.sameYear));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.sameMonth);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](62, 29, ctx.dates.sameMonth));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](62, 28, ctx.dates.sameMonth));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.localized.fr_simple);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind4"](70, 31, ctx.dates.multiple, "forward", "mediumDate", "fr-FR"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](70, 30, ctx.dates.multiple, "mediumDate", "fr-FR"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.localized.fr_sameMonth);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind4"](78, 36, ctx.dates.sameMonth, "forward", "mediumDate", "fr-FR"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](78, 34, ctx.dates.sameMonth, "mediumDate", "fr-FR"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.localized.ru_simple);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind4"](86, 41, ctx.dates.multiple, "forward", "mediumDate", "ru-RU"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](86, 38, ctx.dates.multiple, "mediumDate", "ru-RU"));
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.localized.ru_dateFormat);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind4"](94, 46, ctx.dates.multiple, "forward", "dd MMMM y", "ru-RU"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](94, 42, ctx.dates.multiple, "dd MMMM y", "ru-RU"));
     } }, directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardContent"], ngx_highlightjs__WEBPACK_IMPORTED_MODULE_2__["Highlight"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_3__["MatDivider"]], pipes: [_ng_date_interval_src_lib_date_interval_pipe__WEBPACK_IMPORTED_MODULE_4__["DateIntervalPipe"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwcm9qZWN0cy9uZy1kYXRlLWludGVydmFsLXNob3djYXNlL3NyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MifQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],

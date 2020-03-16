@@ -154,7 +154,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     "../ng-date-interval/src/langs/index.ts");
 
     var defautDateFormat = 'mediumDate';
-    var defaultDateOutlook = 'forward';
 
     var DateIntervalPipe =
     /*#__PURE__*/
@@ -168,15 +167,18 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _createClass(DateIntervalPipe, [{
         key: "transform",
         value: function transform(input) {
-          var singleDateOutlook = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : defaultDateOutlook;
-          var format = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : defautDateFormat;
-          var locale = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : this.locale;
-          // Set class properties
-          this.singleDateOutlook = singleDateOutlook;
-          this.format = format;
-          this.locale = locale; // Get array of dates
+          var format = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : defautDateFormat;
+          var locale = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : this.locale;
 
-          this.normalizedInput = this.normalizeInput(input);
+          if (!input) {
+            return '';
+          } // Set class properties
+
+
+          this.format = format;
+          this.locale = locale; // Make sure the input isn't longer than 2 elements
+
+          this.normalizedInput = input.slice(0, 2);
 
           var _this$normalizedInput = this.normalizedInput.map(this.formatDates.bind(this)),
               _this$normalizedInput2 = _slicedToArray(_this$normalizedInput, 2),
@@ -217,27 +219,6 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           }
 
           return Object(_angular_common__WEBPACK_IMPORTED_MODULE_1__["formatDate"])(item, this.format, this.locale);
-        }
-      }, {
-        key: "normalizeInput",
-        value: function normalizeInput(input) {
-          // If this input isn't an array, make it so
-          var inputArr = Array.isArray(input) ? input : [input]; // Filter out null values
-
-          inputArr = inputArr.filter(function (i) {
-            return i;
-          });
-
-          if (inputArr.length === 1) {
-            inputArr.push(null); // [date, null]
-
-            if (this.singleDateOutlook === 'backward') {
-              inputArr.unshift(inputArr.pop()); // [null, date]
-            }
-          } // Make sure the input isn't longer than 2 elements
-
-
-          return inputArr.slice(0, 2);
         }
       }, {
         key: "interpolate",
@@ -290,10 +271,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         get: function get() {
           var type = 'default';
 
-          if (this.normalizedInput.some(function (el) {
-            return !el;
-          })) {
-            type = this.singleDateOutlook;
+          if (!this.normalizedInput[0]) {
+            type = 'backward';
+          }
+
+          if (!this.normalizedInput[1]) {
+            type = 'forward';
           }
 
           return _langs__WEBPACK_IMPORTED_MODULE_2__["default"][this.locale.substring(0, 2)][type]; // ex: sentences.en.default
@@ -414,7 +397,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /*! ../../../ng-date-interval/src/lib/date-interval.pipe */
     "../ng-date-interval/src/lib/date-interval.pipe.ts");
 
-    var datesStr = "{\n  single: new Date(),\n  multiple: ['2001-01-01', '2002-12-12'],\n  sameYear: ['2001-01-01', '2001-03-06'],\n  sameMonth: ['2001-01-01', '2001-01-06'],\n};";
+    var datesStr = "{\n  single: [null, new Date()],\n  single_forward: [new Date(), null],\n  multiple: ['2001-01-01', '2002-12-12'],\n  sameYear: ['2001-01-01', '2001-03-06'],\n  sameMonth: ['2001-01-01', '2001-01-06'],\n};";
 
     var AppComponent = function AppComponent() {
       _classCallCheck(this, AppComponent);
@@ -422,12 +405,13 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       this.title = 'ng-date-interval-showcase'; // Test subjects
 
       this.dates = {
-        single: new Date(),
+        single: [null, new Date()],
+        single_forward: [new Date(), null],
         multiple: ['2001-01-01', '2002-12-12'],
         sameYear: ['2001-01-01', '2001-03-06'],
         sameMonth: ['2001-01-01', '2001-01-06']
       };
-      this.api = '{{ value_expression | dateInterval [ : singleDateOutlook [ : format [ : locale ] ] ] }}'; // String demos
+      this.api = '{{ value_expression | dateInterval [ : format [ : locale ] ] ] }}'; // String demos
 
       this.demos = {
         dates: datesStr,
@@ -435,12 +419,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         multiple: '{{dates.multiple | dateInterval}}',
         sameYear: '{{dates.sameYear | dateInterval}}',
         sameMonth: '{{dates.sameMonth | dateInterval}}',
-        single_options: "{{dates.single | dateInterval:'backward'}}",
+        single_forward: "{{dates.single_forward | dateInterval}}",
         localized: {
-          fr_simple: "{{dates.multiple | dateInterval:'forward':'mediumDate':'fr-FR'}}",
-          fr_sameMonth: "{{dates.sameMonth | dateInterval:'forward':'mediumDate':'fr-FR'}}",
-          ru_simple: "{{dates.multiple | dateInterval:'forward':'mediumDate':'ru-RU'}}",
-          ru_dateFormat: "{{dates.multiple | dateInterval:'forward':'dd MMMM y':'ru-RU'}}"
+          fr_simple: "{{dates.multiple | dateInterval:'mediumDate':'fr-FR'}}",
+          fr_sameMonth: "{{dates.sameMonth | dateInterval:'mediumDate':'fr-FR'}}",
+          ru_simple: "{{dates.multiple | dateInterval:'mediumDate':'ru-RU'}}",
+          ru_dateFormat: "{{dates.multiple | dateInterval:'dd MMMM y':'ru-RU'}}"
         }
       };
     };
@@ -453,7 +437,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       type: AppComponent,
       selectors: [["app-root"]],
       decls: 96,
-      vars: 51,
+      vars: 46,
       consts: [[1, "main-wrapper"], [1, "example-card"], [3, "highlight"]],
       template: function AppComponent_Template(rf, ctx) {
         if (rf & 1) {
@@ -727,11 +711,11 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.single_options);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("highlight", ctx.demos.single_forward);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](38, 22, ctx.dates.single, "backward"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](38, 22, ctx.dates.single_forward));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
 
@@ -739,7 +723,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](46, 25, ctx.dates.multiple));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](46, 24, ctx.dates.multiple));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
 
@@ -747,7 +731,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](54, 27, ctx.dates.sameYear));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](54, 26, ctx.dates.sameYear));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
 
@@ -755,7 +739,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](62, 29, ctx.dates.sameMonth));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](62, 28, ctx.dates.sameMonth));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
 
@@ -763,7 +747,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind4"](70, 31, ctx.dates.multiple, "forward", "mediumDate", "fr-FR"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](70, 30, ctx.dates.multiple, "mediumDate", "fr-FR"));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
 
@@ -771,7 +755,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind4"](78, 36, ctx.dates.sameMonth, "forward", "mediumDate", "fr-FR"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](78, 34, ctx.dates.sameMonth, "mediumDate", "fr-FR"));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
 
@@ -779,7 +763,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind4"](86, 41, ctx.dates.multiple, "forward", "mediumDate", "ru-RU"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](86, 38, ctx.dates.multiple, "mediumDate", "ru-RU"));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
 
@@ -787,7 +771,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind4"](94, 46, ctx.dates.multiple, "forward", "dd MMMM y", "ru-RU"));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind3"](94, 42, ctx.dates.multiple, "dd MMMM y", "ru-RU"));
         }
       },
       directives: [_angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_1__["MatCardContent"], ngx_highlightjs__WEBPACK_IMPORTED_MODULE_2__["Highlight"], _angular_material_divider__WEBPACK_IMPORTED_MODULE_3__["MatDivider"]],
