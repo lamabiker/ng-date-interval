@@ -1,35 +1,29 @@
 import { Pipe, PipeTransform, LOCALE_ID, Inject, Input } from '@angular/core';
-import { ValidInput, InputDatesArray, DateOutlook, LocaleDateStringOptions } from '../types/types';
+import { DatesArray, DateOutlook } from '../types/types';
 import { formatDate } from '@angular/common';
 import sentences from '../langs';
 
 const defautDateFormat = 'mediumDate';
-const defaultDateOutlook = 'forward';
 
 @Pipe({
   name: 'dateInterval'
 })
 export class DateIntervalPipe implements PipeTransform {
   // These are set lower down
-  private singleDateOutlook: Readonly<DateOutlook>;
   private format: Readonly<string>;
-  private normalizedInput: InputDatesArray;
+  private normalizedInput: DatesArray;
 
   constructor(@Inject(LOCALE_ID) private locale: string) {}
 
-  transform(
-    input: ValidInput,
-    singleDateOutlook: DateOutlook = defaultDateOutlook,
-    format: string = defautDateFormat,
-    locale: string = this.locale
-  ): string {
+  transform(input: DatesArray, format: string = defautDateFormat, locale: string = this.locale): string {
+    if (!input) return '';
+
     // Set class properties
-    this.singleDateOutlook = singleDateOutlook;
     this.format = format;
     this.locale = locale;
 
-    // Get array of dates
-    this.normalizedInput = this.normalizeInput(input);
+    // Make sure the input isn't longer than 2 elements
+    this.normalizedInput = input.slice(0, 2);
 
     const [startDate, endDate] = this.normalizedInput.map(this.formatDates.bind(this));
 
@@ -64,25 +58,6 @@ export class DateIntervalPipe implements PipeTransform {
     }
 
     return formatDate(item, this.format, this.locale);
-  }
-
-  private normalizeInput(input: Readonly<ValidInput>): InputDatesArray {
-    // If this input isn't an array, make it so
-    let inputArr = Array.isArray(input) ? input : [input];
-
-    // Filter out null values
-    inputArr = inputArr.filter(i => i);
-
-    if (inputArr.length === 1) {
-      inputArr.push(null); // [date, null]
-
-      if (this.singleDateOutlook === 'backward') {
-        inputArr.unshift(inputArr.pop()); // [null, date]
-      }
-    }
-
-    // Make sure the input isn't longer than 2 elements
-    return inputArr.slice(0, 2);
   }
 
   private interpolate(str: string, args: { [key: string]: string }): string {
@@ -135,11 +110,10 @@ export class DateIntervalPipe implements PipeTransform {
   }
 
   private get sentence(): string {
-    let type = 'default';
+    let type: DateOutlook = 'default';
 
-    if (this.normalizedInput.some(el => !el)) {
-      type = this.singleDateOutlook;
-    }
+    if (!this.normalizedInput[0]) type = 'backward';
+    if (!this.normalizedInput[1]) type = 'forward';
 
     return sentences[this.locale.substring(0, 2)][type]; // ex: sentences.en.default
   }

@@ -57,12 +57,10 @@ date2 = new Date('2020-03-13');
 ## API
 
 ```
-{{ value_expression | dateInterval [ : singleDateOutlook [ : format [ : locale ] ] ] }}
+{{ value_expression | dateInterval [ : format [ : locale ] ] ] }}
 ```
 
 **value_expression** _string_ | _Date_ | _Array<string | date>_ : the input date(s). Can be a date-like string or a Date instance or an array of them. If the array contains more than 2 dates, it will fallback to the first one in the array.
-
-**singleDateOutlook** _string_ 'backward' | 'forward' (default _'forward'_) : in the case of a single date, defines whether that date is a start or an end date (_i.e_ `Until <date>` or `Since <date>`)
 
 **format** _string_ (default _'mediumDate'_): a date format string as used in Angular's [`formatDate`](https://angular.io/api/common/DatePipe#pre-defined-format-options) method. If the format doesn't display the day, but the month and year are the same, it will only display the end date.
 

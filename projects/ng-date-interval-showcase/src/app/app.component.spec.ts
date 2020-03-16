@@ -1,10 +1,18 @@
 import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { DateIntervalPipe } from '../../../ng-date-interval/src/lib/date-interval.pipe';
+
+import localeFr from '@angular/common/locales/fr';
+import localeRu from '@angular/common/locales/ru';
+import { registerLocaleData } from '@angular/common';
+
+registerLocaleData(localeFr, 'fr-FR');
+registerLocaleData(localeRu, 'ru-RU');
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [AppComponent]
+      declarations: [AppComponent, DateIntervalPipe]
     }).compileComponents();
   }));
 
@@ -24,6 +32,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('ng-date-interval-showcase app is running!');
+    expect(compiled.querySelector('h1').textContent).toContain('dateInterval pipe');
   });
 });

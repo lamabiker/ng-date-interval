@@ -20,27 +20,15 @@ describe('DateIntervalPipe', () => {
     expect(result).toEqual('From May 6, 2019 to Mar 6, 2020');
   });
 
-  it('should take a single date in an array', () => {
-    const dates = [new Date('2019-05-06')];
-    const result = sut.transform(dates);
-    expect(result).toEqual('Since May 6, 2019');
-  });
-
-  it('should take a single date', () => {
-    const dates = new Date('2019-05-06');
-    const result = sut.transform(dates);
-    expect(result).toEqual('Since May 6, 2019');
-  });
-
   it('should take an array with a date and a null value', () => {
     const dates = [new Date('2019-05-06'), null];
     const result = sut.transform(dates);
     expect(result).toEqual('Since May 6, 2019');
   });
 
-  it('should take an array with a date, a null value and a backward outlook', () => {
-    const dates = [new Date('2019-05-06'), null];
-    const result = sut.transform(dates, 'backward');
+  it('should take an array with a null value, a date and print a backward outlook', () => {
+    const dates = [null, new Date('2019-05-06')];
+    const result = sut.transform(dates);
     expect(result).toEqual('Until May 6, 2019');
   });
 
@@ -63,18 +51,11 @@ describe('DateIntervalPipe', () => {
     expect(result2).toEqual('Since May 6, 2019');
   });
 
-  it('should take a single date and accept backward direction option', () => {
-    const dates = [new Date('2019-05-06')];
-
-    const result1 = sut.transform(dates, 'backward');
-    expect(result1).toEqual('Until May 6, 2019');
-  });
-
   it('should handle locale when specified', () => {
-    const dates = [new Date('2019-05-06')];
+    const dates = [new Date('2019-05-06'), new Date('2020-05-06')];
     const format = 'mediumDate';
-    const result = sut.transform(dates, 'backward', format, 'fr-FR');
-    expect(result).toEqual(`Jusqu'au 6 mai 2019`);
+    const result = sut.transform(dates, format, 'fr-FR');
+    expect(result).toEqual(`Du 6 mai 2019 au 6 mai 2020`);
   });
 
   it('should handle same year', () => {
@@ -97,19 +78,19 @@ describe('DateIntervalPipe', () => {
 
   it('should handle same year with specified format (no days)', () => {
     const dates = [new Date('2019-05-06'), new Date('2019-06-06')];
-    const result = sut.transform(dates, 'forward', 'MMM y');
+    const result = sut.transform(dates, 'MMM y');
     expect(result).toEqual(`From May to Jun 2019`);
   });
 
   it('should handle same year with specified format (leading zero days)', () => {
     const dates = [new Date('2019-05-06'), new Date('2019-06-06')];
-    const result = sut.transform(dates, 'forward', 'dd MMM y');
+    const result = sut.transform(dates, 'dd MMM y');
     expect(result).toEqual(`From 06 May to 06 Jun 2019`);
   });
 
   it('should handle same year and same month with specified format (no days)', () => {
     const dates = [new Date('2019-05-06'), new Date('2019-05-12')];
-    const result = sut.transform(dates, 'forward', 'MMM y');
+    const result = sut.transform(dates, 'MMM y');
     expect(result).toEqual(`May 2019`);
   });
 });
