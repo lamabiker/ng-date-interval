@@ -1,6 +1,6 @@
 # NgDateInterval
 
-[![codecov](https://codecov.io/gh/lamabiker/ng-i18n-date-interval/branch/master/graph/badge.svg)](https://codecov.io/gh/lamabiker/ng-i18n-date-interval) 
+[![codecov](https://codecov.io/gh/lamabiker/ng-i18n-date-interval/branch/master/graph/badge.svg)](https://codecov.io/gh/lamabiker/ng-i18n-date-interval)
 [![Build Status](https://travis-ci.org/lamabiker/ng-date-interval.svg?branch=master)](https://travis-ci.org/lamabiker/ng-date-interval)
 
 This Angular library provides a **pipe** that formats date intervals, given two dates. It does NOT display the time past between the two dates, rather it displays them in a more readable way.
@@ -22,20 +22,18 @@ npm install ng-date-interval
 ```
 
 Import the module:
+
 ```ts
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { NgDateIntervalModule } from 'ng-date-interval';
 
-
 @NgModule({
   declarations: [],
-  imports: [
-    NgDateIntervalModule
-  ]
+  imports: [NgDateIntervalModule]
 })
-export class YourModule { }
+export class YourModule {}
 ```
 
 ## Basic usage
@@ -47,6 +45,7 @@ date1 = new Date('2020-03-12');
 date2 = new Date('2020-03-13');
 ...
 ```
+
 ```html
 <!-- Component html -->
 {{ [date1, date2] | dateInterval }}
@@ -71,7 +70,7 @@ date2 = new Date('2020-03-13');
 Feel free to fork/fire up Pull Requests! Before you do though, make sure it's:
 
 - passing tests: `ng test`
-- covered by tests: `npm run lib:test-coverage`
+- covered by tests: `npm run test:lib-coverage`
 - passing the linter: `ng lint`
 
 ## Issues
@@ -82,6 +81,6 @@ Anything missing/wrong? Please [submit an issue](https://github.com/lamabiker/ng
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-***
+---
 
 > This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
