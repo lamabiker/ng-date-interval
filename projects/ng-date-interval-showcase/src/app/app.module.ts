@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-import { DateIntervalPipe } from '../../../ng-date-interval/src/lib/date-interval.pipe';
+import { NgDateIntervalModule } from 'projects/ng-date-interval/src/public-api';
 
 import { AppComponent } from './app.component';
 import localeFr from '@angular/common/locales/fr';
@@ -16,8 +15,15 @@ registerLocaleData(localeFr, 'fr-FR');
 registerLocaleData(localeRu, 'ru-RU');
 
 @NgModule({
-  declarations: [AppComponent, DateIntervalPipe],
-  imports: [BrowserModule, NoopAnimationsModule, MatCardModule, HighlightModule, MatDividerModule],
+  declarations: [AppComponent],
+  imports: [
+    BrowserModule,
+    NoopAnimationsModule,
+    NgDateIntervalModule,
+    MatCardModule,
+    HighlightModule,
+    MatDividerModule
+  ],
   providers: [
     {
       provide: HIGHLIGHT_OPTIONS,

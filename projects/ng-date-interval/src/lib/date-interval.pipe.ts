@@ -3,7 +3,7 @@ import { DatesArray, DateOutlook } from '../types/types';
 import { formatDate } from '@angular/common';
 import sentences from '../langs';
 
-const defautDateFormat = 'mediumDate';
+const defaultDateFormat = 'mediumDate';
 
 @Pipe({
   name: 'dateInterval'
@@ -15,7 +15,7 @@ export class DateIntervalPipe implements PipeTransform {
 
   constructor(@Inject(LOCALE_ID) private locale: string) {}
 
-  transform(input: DatesArray, format: string = defautDateFormat, locale: string = this.locale): string {
+  transform(input: DatesArray, format: string = defaultDateFormat, locale: string = this.locale): string {
     if (!input) {
       return '';
     }
