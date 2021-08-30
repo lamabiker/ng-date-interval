@@ -6,8 +6,7 @@
   "description": "Displaying date interval sentences with Angular, i.e From March to April 2020, Since June 16, 2021",
   "peerDependencies": {
     "@angular/common": "^9.0.3",
-    "@angular/core": "^9.0.3",
-    "tslib": "^1.10.0"
+    "@angular/core": "^9.0.3"
   },
   "repository": {
     "type": "git",
@@ -17,6 +16,9 @@
     "url": "https://github.com/lamabiker/ng-date-interval/issues"
   },
   "homepage": "https://lamabiker.github.io/ng-date-interval/",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
   "keywords": [
     "angular",
     "javascript",
