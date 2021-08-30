@@ -1,3 +1,10 @@
+# [2.1.1](https://github.com/lamabiker/ng-date-interval/compare/v2.1.0...v2.1.1) (2021-08-30)
+
+### Features
+
+- updated `@commitlint/cli` to `13.1.0`.
+- updated `@commitlint/config-conventional` to `13.1.0`.
+
 # [2.1.0](https://github.com/lamabiker/ng-date-interval/compare/v2.0.0...v2.1.0) (2021-08-30)
 
 ### Features
