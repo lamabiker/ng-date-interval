@@ -1,6 +1,6 @@
 {
   "name": "ng-date-interval",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "Liam Baker (@lamabiker)",
   "license": "MIT",
   "description": "Displaying date interval sentences with Angular, i.e From March to April 2020, Since June 16, 2021",
