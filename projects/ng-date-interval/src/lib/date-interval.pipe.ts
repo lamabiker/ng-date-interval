@@ -27,7 +27,7 @@ export class DateIntervalPipe implements PipeTransform {
     // Make sure the input isn't longer than 2 elements
     this.normalizedInput = input.slice(0, 2);
 
-    const [startDate, endDate] = this.normalizedInput.map(this.formatDates.bind(this));
+    const [startDate, endDate] = this.normalizedInput.map<string>(this.formatDates.bind(this));
 
     // If the specified format omits the days, but the interval is within
     // the same month and year, return the formatted end date only
@@ -42,7 +42,7 @@ export class DateIntervalPipe implements PipeTransform {
     return this.interpolate(this.sentence, { startDate, endDate });
   }
 
-  private formatDates(item: Date | string, index: number): string {
+  private formatDates(item: Date | string, index: number): string | null {
     if (!item) {
       return null;
     }
