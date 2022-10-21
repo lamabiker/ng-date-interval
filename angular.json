@@ -146,6 +146,5 @@
   },
   "cli": {
     "analytics": false
-  },
-  "defaultProject": "ng-date-interval"
+  }
 }
