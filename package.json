@@ -60,6 +60,11 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.6",
+    "@angular-eslint/builder": "14.1.2",
+    "@angular-eslint/eslint-plugin": "14.1.2",
+    "@angular-eslint/eslint-plugin-template": "14.1.2",
+    "@angular-eslint/schematics": "14.1.2",
+    "@angular-eslint/template-parser": "14.1.2",
     "@angular/cli": "^14.2.6",
     "@angular/compiler-cli": "^14.2.7",
     "@angular/language-service": "^14.2.7",
@@ -71,9 +76,11 @@
     "@types/jasmine": "~3.6.0",
     "@types/jasminewd2": "^2.0.10",
     "@types/node": "^12.20.21",
+    "@typescript-eslint/eslint-plugin": "5.37.0",
+    "@typescript-eslint/parser": "5.37.0",
     "codecov": "^3.8.3",
-    "codelyzer": "^6.0.0",
     "copyfiles": "^2.4.1",
+    "eslint": "^8.23.1",
     "husky": "^4.3.8",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
@@ -89,7 +96,6 @@
     "replace-json-property": "^1.6.3",
     "semantic-release": "^19.0.3",
     "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
     "typescript": "^4.6.4"
   },
   "repository": {

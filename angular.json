@@ -28,6 +28,15 @@
             "tsConfig": "projects/ng-date-interval/tsconfig.spec.json",
             "karmaConfig": "projects/ng-date-interval/karma.conf.js"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/ng-date-interval/**/*.ts",
+              "projects/ng-date-interval/**/*.html"
+            ]
+          }
         }
       }
     },
@@ -140,11 +149,23 @@
               "devServerTarget": "ng-date-interval-showcase:serve:production"
             }
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/ng-date-interval-showcase/**/*.ts",
+              "projects/ng-date-interval-showcase/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": false,
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
