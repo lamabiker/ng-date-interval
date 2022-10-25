@@ -1,3 +1,9 @@
+# [2.2.0](https://github.com/lamabiker/ng-date-interval/compare/v2.1.1...v2.2.0) (2022-10-25)
+
+### Features
+
+- updated `Angular` to `14`.
+
 # [2.1.1](https://github.com/lamabiker/ng-date-interval/compare/v2.1.0...v2.1.1) (2021-08-30)
 
 ### Features

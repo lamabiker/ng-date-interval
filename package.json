@@ -1,6 +1,6 @@
 {
   "name": "ng-date-interval",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "author": "Liam Baker (@lamabiker)",
   "license": "MIT",
   "description": "Displaying date interval sentences with Angular, i.e From March to April 2020, Since June 16, 2021",
@@ -10,6 +10,7 @@
     "adjust-version": "npm run adjust-version:main && npm run adjust-version:lib",
     "build:demo": "ng build ng-date-interval-showcase --base-href='https://lamabiker.github.io/ng-date-interval/'",
     "build:lib": "npm run copy:readme && ng build ng-date-interval --configuration production",
+    "build-lib": "ng build ng-date-interval --configuration production",
     "build": "npm run build:lib && npm run build:demo",
     "copy:readme": "copyfiles ./README.md ./dist/ng-date-interval",
     "e2e": "ng e2e",
