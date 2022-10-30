@@ -136,7 +136,7 @@
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "-es2015.js";
+/******/ 			return "" + chunkId + "-es2020.js";
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -328,4 +328,4 @@
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=runtime-es2015.js.map
+//# sourceMappingURL=runtime-es2020.js.map

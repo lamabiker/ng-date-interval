@@ -594,4 +594,4 @@ module.exports = JSON.parse('{"default":"С {startDate} до {endDate}","forward
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main-es2015.js.map
+//# sourceMappingURL=main-es2020.js.map
